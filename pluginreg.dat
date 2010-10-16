@@ -1,0 +1,273 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version:0.08:$
+
+[PLUGINS]
+/usr/lib/Adobe/Acrobat7.0/Browser/intellinux/nppdf.so:$
+:$
+1168026995000:1:7:$
+The Adobe Reader plugin is used to enable viewing of PDF and FDF files from within the browser.:$
+Adobe Reader 7.0:$
+5
+0:application/pdf:Portable Document Format:pdf:$
+1:application/vnd.fdf:Acrobat Forms Data Format:fdf:$
+2:application/vnd.adobe.xfdf:XML Version of Acrobat Forms Data Format:xfdf:$
+3:application/vnd.adobe.xdp+xml:Acrobat XML Data Package:xdp:$
+4:application/vnd.adobe.xfd+xml:Adobe FormFlow99 Data File:xfd:$
+/usr/lib/firefox/plugins/libflashplayer.so:$
+:$
+1190439876000:1:7:$
+Shockwave Flash 9.0 r48:$
+Shockwave Flash:$
+2
+0:application/x-shockwave-flash:Shockwave Flash:swf:$
+1:application/futuresplash:FutureSplash Player:spl:$
+/usr/lib/classpath/libgcjwebplugin.so:$
+:$
+1200183413000:1:5:$
+The GCJ Web Browser Plugin executes Java applets.:$
+GCJ Web Browser Plugin 0.96.1:$
+29
+0:application/x-java-vm:GCJ:class,jar:$
+1:application/x-java-applet:GCJ:class,jar:$
+2:application/x-java-applet;version=1.1:GCJ:class,jar:$
+3:application/x-java-applet;version=1.1.1:GCJ:class,jar:$
+4:application/x-java-applet;version=1.1.2:GCJ:class,jar:$
+5:application/x-java-applet;version=1.1.3:GCJ:class,jar:$
+6:application/x-java-applet;version=1.2:GCJ:class,jar:$
+7:application/x-java-applet;version=1.2.1:GCJ:class,jar:$
+8:application/x-java-applet;version=1.2.2:GCJ:class,jar:$
+9:application/x-java-applet;version=1.3:GCJ:class,jar:$
+10:application/x-java-applet;version=1.3.1:GCJ:class,jar:$
+11:application/x-java-applet;version=1.4:GCJ:class,jar:$
+12:application/x-java-applet;version=1.4.1:GCJ:class,jar:$
+13:application/x-java-applet;version=1.4.2:GCJ:class,jar:$
+14:application/x-java-applet;jpi-version=1.4.2_01:GCJ:class,jar:$
+15:application/x-java-bean:GCJ:class,jar:$
+16:application/x-java-bean;version=1.1:GCJ:class,jar:$
+17:application/x-java-bean;version=1.1.1:GCJ:class,jar:$
+18:application/x-java-bean;version=1.1.2:GCJ:class,jar:$
+19:application/x-java-bean;version=1.1.3:GCJ:class,jar:$
+20:application/x-java-bean;version=1.2:GCJ:class,jar:$
+21:application/x-java-bean;version=1.2.1:GCJ:class,jar:$
+22:application/x-java-bean;version=1.2.2:GCJ:class,jar:$
+23:application/x-java-bean;version=1.3:GCJ:class,jar:$
+24:application/x-java-bean;version=1.3.1:GCJ:class,jar:$
+25:application/x-java-bean;version=1.4:GCJ:class,jar:$
+26:application/x-java-bean;version=1.4.1:GCJ:class,jar:$
+27:application/x-java-bean;version=1.4.2:GCJ:class,jar:$
+28:application/x-java-bean;jpi-version=1.4.2_01:GCJ:class,jar:$
+/usr/lib/flashplugin-nonfree/libflashplayer.so:$
+:$
+1216620755000:1:7:$
+Shockwave Flash 9.0 r124:$
+Shockwave Flash:$
+2
+0:application/x-shockwave-flash:Shockwave Flash:swf:$
+1:application/futuresplash:FutureSplash Player:spl:$
+/usr/lib/mozilla/plugins/mplayerplug-in.so:$
+:$
+1216976246000:1:5:$
+<a href="http://mplayerplug-in.sourceforge.net/">mplayerplug-in</a> 3.55<br><br>Video Player Plug-in for QuickTime, RealPlayer and Windows Media Player streams using <a href="http://mplayerhq.hu">MPlayer</a> <br>JavaScript Enabled and Using GTK2 Widgets<br>:$
+mplayerplug-in 3.55:$
+28
+0:video/mpeg:MPEG:mpg,mpeg:$
+1:audio/mpeg:MPEG:mpg,mpeg:$
+2:video/x-mpeg:MPEG:mpg,mpeg:$
+3:video/x-mpeg2:MPEG2:mpv2,mp2ve:$
+4:audio/mpeg:MPEG:mpg,mpeg:$
+5:audio/x-mpeg:MPEG:mpg,mpeg:$
+6:audio/mpeg2:MPEG audio:mp2:$
+7:audio/x-mpeg2:MPEG audio:mp2:$
+8:video/mp4:MPEG 4 Video:mp4:$
+9:video/3gpp:MPEG 4 Video:mp4,3gp:$
+10:audio/mpeg3:MPEG audio:mp3:$
+11:audio/x-mpeg3:MPEG audio:mp3:$
+12:audio/x-mpegurl:MPEG url:m3u:$
+13:audio/mp3:MPEG audio:mp3:$
+14:application/x-ogg:Ogg Vorbis Media:ogg:$
+15:audio/ogg:Ogg Vorbis Audio:ogg:$
+16:audio/x-ogg:Ogg Vorbis Audio:ogg:$
+17:application/ogg:Ogg Vorbis / Ogg Theora:ogg:$
+18:audio/flac:FLAC Audio:flac:$
+19:audio/x-flac:FLAC Audio:flac:$
+20:video/fli:FLI animation:fli,flc:$
+21:video/x-fli:FLI animation:fli,flc:$
+22:video/x-flv:Flash Video:flv:$
+23:video/vnd.vivo:VivoActive:viv,vivo:$
+24:application/x-nsv-vp3-mp3:Nullsoft Streaming Video:nsv:$
+25:audio/x-mod:Soundtracker:mod:$
+26:audio/basic:Basic Audio File:au,snd:$
+27:audio/x-basic:Basic Audio File:au,snd:$
+/usr/lib/mozilla/plugins/mplayerplug-in-wmp.so:$
+:$
+1216976246000:1:7:$
+<a href="http://mplayerplug-in.sourceforge.net/">mplayerplug-in</a> 3.55<br><br>Video Player Plug-in for QuickTime, RealPlayer and Windows Media Player streams using <a href="http://mplayerhq.hu">MPlayer</a> <br>JavaScript Enabled and Using GTK2 Widgets<br>:$
+Windows Media Player Plug-in:$
+18
+0:application/asx:Media Files:*:$
+1:video/x-ms-asf-plugin:Media Files:*:$
+2:video/x-msvideo:AVI:avi,*:$
+3:video/msvideo:AVI:avi,*:$
+4:application/x-mplayer2:Media Files:*:$
+5:application/x-ms-wmv:Microsoft WMV video:wmv,*:$
+6:video/x-ms-asf:Media Files:asf,asx,*:$
+7:video/x-ms-wm:Media Files:wm,*:$
+8:video/x-ms-wmv:Microsoft WMV video:wmv,*:$
+9:audio/x-ms-wmv:Windows Media:wmv,*:$
+10:video/x-ms-wmp:Windows Media:wmp,*:$
+11:application/x-ms-wmp:Windows Media:wmp,*:$
+12:video/x-ms-wvx:Windows Media:wvx,*:$
+13:audio/x-ms-wax:Windows Media:wax,*:$
+14:audio/x-ms-wma:Windows Media:wma,*:$
+15:application/x-drm-v2:Windows Media:asx,*:$
+16:audio/wav:Microsoft wave file:wav,*:$
+17:audio/x-wav:Microsoft wave file:wav,*:$
+/usr/lib/mozilla/plugins/mplayerplug-in-rm.so:$
+:$
+1216976246000:1:5:$
+<a href="http://mplayerplug-in.sourceforge.net/">mplayerplug-in</a> 3.55<br><br>Video Player Plug-in for QuickTime, RealPlayer and Windows Media Player streams using <a href="http://mplayerhq.hu">MPlayer</a> <br>JavaScript Enabled and Using GTK2 Widgets<br>:$
+RealPlayer 9:$
+7
+0:audio/x-pn-realaudio:RealAudio:ram,rm:$
+1:application/vnd.rn-realmedia:RealMedia:rm:$
+2:application/vnd.rn-realaudio:RealAudio:ra,ram:$
+3:video/vnd.rn-realvideo:RealVideo:rv:$
+4:audio/x-realaudio:RealAudio:ra:$
+5:audio/x-pn-realaudio-plugin:RealAudio:rpm:$
+6:application/smil:SMIL:smil:$
+/usr/lib/mozilla/plugins/mplayerplug-in-qt.so:$
+:$
+1216976246000:1:5:$
+<a href="http://mplayerplug-in.sourceforge.net/">mplayerplug-in</a> 3.55<br><br>Video Player Plug-in for QuickTime, RealPlayer and Windows Media Player streams using <a href="http://mplayerhq.hu">MPlayer</a> <br>JavaScript Enabled and Using GTK2 Widgets<br>:$
+QuickTime Plug-in 7.4.5:$
+7
+0:video/quicktime:Quicktime:mov:$
+1:video/x-quicktime:Quicktime:mov:$
+2:image/x-quicktime:Quicktime:mov:$
+3:video/quicktime:Quicktime:mp4:$
+4:video/quicktime:Quicktime - Session Description Protocol:sdp:$
+5:application/x-quicktimeplayer:Quicktime:mov:$
+6:application/smil:SMIL:smil:$
+/usr/lib/mozilla/plugins/mplayerplug-in-dvx.so:$
+:$
+1216976246000:1:5:$
+<a href="http://mplayerplug-in.sourceforge.net/">mplayerplug-in</a> 3.55<br><br>Video Player Plug-in for QuickTime, RealPlayer and Windows Media Player streams using <a href="http://mplayerhq.hu">MPlayer</a> <br>JavaScript Enabled and Using GTK2 Widgets<br>:$
+DivX Browser Plug-In:$
+2
+0:video/divx:DivX Media Format:divx:$
+1:video/vnd.divx:DivX Media Format:divx:$
+/usr/lib/jvm/java-6-sun-1.6.0.07/jre/plugin/i386/ns7/libjavaplugin_oji.so:$
+:$
+1213088242000:1:5:$
+Java(TM) Plug-in 1.6.0_07:$
+Java(TM) Plug-in 1.6.0_07-b06:$
+33
+0:application/x-java-vm:Java::$
+1:application/x-java-applet:Java::$
+2:application/x-java-applet;version=1.1:Java::$
+3:application/x-java-applet;version=1.1.1:Java::$
+4:application/x-java-applet;version=1.1.2:Java::$
+5:application/x-java-applet;version=1.1.3:Java::$
+6:application/x-java-applet;version=1.2:Java::$
+7:application/x-java-applet;version=1.2.1:Java::$
+8:application/x-java-applet;version=1.2.2:Java::$
+9:application/x-java-applet;version=1.3:Java::$
+10:application/x-java-applet;version=1.3.1:Java::$
+11:application/x-java-applet;version=1.4:Java::$
+12:application/x-java-applet;version=1.4.1:Java::$
+13:application/x-java-applet;version=1.4.2:Java::$
+14:application/x-java-applet;version=1.5:Java::$
+15:application/x-java-applet;version=1.6:Java::$
+16:application/x-java-applet;jpi-version=1.6.0_07:Java::$
+17:application/x-java-bean:Java::$
+18:application/x-java-bean;version=1.1:Java::$
+19:application/x-java-bean;version=1.1.1:Java::$
+20:application/x-java-bean;version=1.1.2:Java::$
+21:application/x-java-bean;version=1.1.3:Java::$
+22:application/x-java-bean;version=1.2:Java::$
+23:application/x-java-bean;version=1.2.1:Java::$
+24:application/x-java-bean;version=1.2.2:Java::$
+25:application/x-java-bean;version=1.3:Java::$
+26:application/x-java-bean;version=1.3.1:Java::$
+27:application/x-java-bean;version=1.4:Java::$
+28:application/x-java-bean;version=1.4.1:Java::$
+29:application/x-java-bean;version=1.4.2:Java::$
+30:application/x-java-bean;version=1.5:Java::$
+31:application/x-java-bean;version=1.6:Java::$
+32:application/x-java-bean;jpi-version=1.6.0_07:Java::$
+/usr/java/jre1.5.0_10/plugin/i386/ns7/libjavaplugin_oji.so:$
+:$
+1163117232000:1:13:$
+Java(TM) Plug-in 1.5.0_10:$
+Java(TM) Plug-in 1.5.0_10-b03:$
+31
+0:application/x-java-vm:Java::$
+1:application/x-java-applet:Java::$
+2:application/x-java-applet;version=1.1:Java::$
+3:application/x-java-applet;version=1.1.1:Java::$
+4:application/x-java-applet;version=1.1.2:Java::$
+5:application/x-java-applet;version=1.1.3:Java::$
+6:application/x-java-applet;version=1.2:Java::$
+7:application/x-java-applet;version=1.2.1:Java::$
+8:application/x-java-applet;version=1.2.2:Java::$
+9:application/x-java-applet;version=1.3:Java::$
+10:application/x-java-applet;version=1.3.1:Java::$
+11:application/x-java-applet;version=1.4:Java::$
+12:application/x-java-applet;version=1.4.1:Java::$
+13:application/x-java-applet;version=1.4.2:Java::$
+14:application/x-java-applet;version=1.5:Java::$
+15:application/x-java-applet;jpi-version=1.5.0_10:Java::$
+16:application/x-java-bean:Java::$
+17:application/x-java-bean;version=1.1:Java::$
+18:application/x-java-bean;version=1.1.1:Java::$
+19:application/x-java-bean;version=1.1.2:Java::$
+20:application/x-java-bean;version=1.1.3:Java::$
+21:application/x-java-bean;version=1.2:Java::$
+22:application/x-java-bean;version=1.2.1:Java::$
+23:application/x-java-bean;version=1.2.2:Java::$
+24:application/x-java-bean;version=1.3:Java::$
+25:application/x-java-bean;version=1.3.1:Java::$
+26:application/x-java-bean;version=1.4:Java::$
+27:application/x-java-bean;version=1.4.1:Java::$
+28:application/x-java-bean;version=1.4.2:Java::$
+29:application/x-java-bean;version=1.5:Java::$
+30:application/x-java-bean;jpi-version=1.5.0_10:Java::$
+/usr/lib/jvm/java-1.5.0-sun-1.5.0.08/jre/plugin/i386/ns7/libjavaplugin_oji.so:$
+:$
+1152642949000:1:13:$
+Java(TM) Plug-in 1.5.0_10:$
+Java(TM) Plug-in 1.5.0_10-b03:$
+31
+0:application/x-java-vm:Java::$
+1:application/x-java-applet:Java::$
+2:application/x-java-applet;version=1.1:Java::$
+3:application/x-java-applet;version=1.1.1:Java::$
+4:application/x-java-applet;version=1.1.2:Java::$
+5:application/x-java-applet;version=1.1.3:Java::$
+6:application/x-java-applet;version=1.2:Java::$
+7:application/x-java-applet;version=1.2.1:Java::$
+8:application/x-java-applet;version=1.2.2:Java::$
+9:application/x-java-applet;version=1.3:Java::$
+10:application/x-java-applet;version=1.3.1:Java::$
+11:application/x-java-applet;version=1.4:Java::$
+12:application/x-java-applet;version=1.4.1:Java::$
+13:application/x-java-applet;version=1.4.2:Java::$
+14:application/x-java-applet;version=1.5:Java::$
+15:application/x-java-applet;jpi-version=1.5.0_10:Java::$
+16:application/x-java-bean:Java::$
+17:application/x-java-bean;version=1.1:Java::$
+18:application/x-java-bean;version=1.1.1:Java::$
+19:application/x-java-bean;version=1.1.2:Java::$
+20:application/x-java-bean;version=1.1.3:Java::$
+21:application/x-java-bean;version=1.2:Java::$
+22:application/x-java-bean;version=1.2.1:Java::$
+23:application/x-java-bean;version=1.2.2:Java::$
+24:application/x-java-bean;version=1.3:Java::$
+25:application/x-java-bean;version=1.3.1:Java::$
+26:application/x-java-bean;version=1.4:Java::$
+27:application/x-java-bean;version=1.4.1:Java::$
+28:application/x-java-bean;version=1.4.2:Java::$
+29:application/x-java-bean;version=1.5:Java::$
+30:application/x-java-bean;jpi-version=1.5.0_10:Java::$
