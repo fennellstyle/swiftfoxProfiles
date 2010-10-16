@@ -13978,3 +13978,152 @@ JDownloader response:
 
 Starting cleanup
 Cleanup done
+*** FlashGot 1.2.2.1 started at Sat, 16 Oct 2010 16:01:38 GMT ***
+Per-session init started
+Running /tmp/flashgot.swiftfox/flashgot.fgt  -- blocking
+Native execution time 29
+Aria|KO
+/usr/bin/nt
+Downloader 4 X (nt)|OK
+/usr/bin/d4x
+Downloader 4 X|OK
+/usr/bin/gwget
+GNOME Gwget|OK
+KDE KGet|KO
+wxDownload Fast|KO
+Axel|KO
+/usr/bin/curl
+cURL|OK
+FatRat|KO
+Prozilla|KO
+/usr/bin/wget
+Wget|OK
+Uget|KO
+Aria 2|KO
+Steadyflow|KO
+
+Warning: download manager wxDownload Fast not found
+Warning: download manager Uget not found
+Warning: download manager TrueDownloader not found
+Warning: download manager Thunder (Old) not found
+Warning: download manager Thunder not found
+Warning: download manager Steadyflow not found
+Warning: download manager Star Downloader not found
+Warning: download manager Speed Download Lite not found
+Warning: download manager Speed Download not found
+Warning: download manager ReGet not found
+Warning: download manager Prozilla not found
+Warning: download manager Orbit not found
+Warning: download manager NetAnts not found
+Warning: download manager Net Transport 2 not found
+Warning: download manager Net Transport not found
+Warning: download manager Mass Downloader not found
+Warning: download manager LeechGet 2002 not found
+Warning: download manager LeechGet not found
+Warning: download manager Leech not found
+Warning: download manager KDE KGet not found
+Warning: download manager JDownloader not found
+Warning: download manager Internet Download Manager not found
+Warning: download manager Internet Download Accelerator not found
+Warning: download manager InstantGet not found
+Warning: download manager iGetter Win not found
+Warning: download manager iGetter not found
+Warning: download manager HiDownload not found
+Warning: download manager GigaGet not found
+Warning: download manager GetRight not found
+Warning: download manager FreshDownload not found
+Warning: download manager Free Download Manager not found
+Warning: download manager Folx not found
+Warning: download manager FlashGet 2.x not found
+Warning: download manager FlashGet 2 not found
+Warning: download manager FlashGet not found
+Warning: download manager FatRat not found
+Warning: download manager DTA (Turbo) not found
+Warning: download manager DTA not found
+Warning: download manager Download Master not found
+Warning: download manager Download Accelerator Plus not found
+Warning: download manager BitComet not found
+Warning: download manager Axel not found
+Warning: download manager Aria 2 not found
+Warning: download manager Aria not found
+Per-session init done in 72ms
+JDownloader response:
+0
+
+Starting cleanup
+Cleanup done
+*** FlashGot 1.2.2.1 started at Sat, 16 Oct 2010 16:01:53 GMT ***
+Per-session init started
+Running /tmp/flashgot.swiftfox/flashgot.fgt  -- blocking
+Native execution time 31
+Aria|KO
+/usr/bin/nt
+Downloader 4 X (nt)|OK
+/usr/bin/d4x
+Downloader 4 X|OK
+/usr/bin/gwget
+GNOME Gwget|OK
+KDE KGet|KO
+wxDownload Fast|KO
+Axel|KO
+/usr/bin/curl
+cURL|OK
+FatRat|KO
+Prozilla|KO
+/usr/bin/wget
+Wget|OK
+Uget|KO
+Aria 2|KO
+Steadyflow|KO
+
+Warning: download manager wxDownload Fast not found
+Warning: download manager Uget not found
+Warning: download manager TrueDownloader not found
+Warning: download manager Thunder (Old) not found
+Warning: download manager Thunder not found
+Warning: download manager Steadyflow not found
+Warning: download manager Star Downloader not found
+Warning: download manager Speed Download Lite not found
+Warning: download manager Speed Download not found
+Warning: download manager ReGet not found
+Warning: download manager Prozilla not found
+Warning: download manager Orbit not found
+Warning: download manager NetAnts not found
+Warning: download manager Net Transport 2 not found
+Warning: download manager Net Transport not found
+Warning: download manager Mass Downloader not found
+Warning: download manager LeechGet 2002 not found
+Warning: download manager LeechGet not found
+Warning: download manager Leech not found
+Warning: download manager KDE KGet not found
+Warning: download manager JDownloader not found
+Warning: download manager Internet Download Manager not found
+Warning: download manager Internet Download Accelerator not found
+Warning: download manager InstantGet not found
+Warning: download manager iGetter Win not found
+Warning: download manager iGetter not found
+Warning: download manager HiDownload not found
+Warning: download manager GigaGet not found
+Warning: download manager GetRight not found
+Warning: download manager FreshDownload not found
+Warning: download manager Free Download Manager not found
+Warning: download manager Folx not found
+Warning: download manager FlashGet 2.x not found
+Warning: download manager FlashGet 2 not found
+Warning: download manager FlashGet not found
+Warning: download manager FatRat not found
+Warning: download manager DTA (Turbo) not found
+Warning: download manager DTA not found
+Warning: download manager Download Master not found
+Warning: download manager Download Accelerator Plus not found
+Warning: download manager BitComet not found
+Warning: download manager Axel not found
+Warning: download manager Aria 2 not found
+Warning: download manager Aria not found
+Per-session init done in 75ms
+JDownloader response:
+0
+
+Starting cleanup
+Can't remove /tmp/flashgot.swiftfox, maybe still in use: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsILocalFile.remove]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: file:///home/sean/.mozilla/firefox/swiftfox/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/components/flashgotService.js :: anonymous :: line 1154"  data: no]
+Cleanup done

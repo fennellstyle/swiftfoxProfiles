@@ -370,7 +370,7 @@ user_pref("keyword.URL", "http://www.google.com/search?sourceid=navclient&hl=en&
 user_pref("longfocus.updatenotifier.first-time", false);
 user_pref("metrics.client-id", "ipfEfjm1Cb27tng+YHQvWQ==");
 user_pref("metrics.event-count", 0);
-user_pref("metrics.last-session-id", 233);
+user_pref("metrics.last-session-id", 235);
 user_pref("metrics.upload.enable", true);
 user_pref("metrics.upload.next-ping", 1287300854);
 user_pref("network.cookie.prefsMigrated", true);
