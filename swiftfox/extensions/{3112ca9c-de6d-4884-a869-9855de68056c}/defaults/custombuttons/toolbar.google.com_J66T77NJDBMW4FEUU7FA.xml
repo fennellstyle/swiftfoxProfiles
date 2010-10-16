@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<custombuttons xmlns="http://toolbar.google.com/custombuttons/">
+
+  <button>
+
+    <title>Gmail</title>
+    <title locale="da">Gmail</title>
+    <title locale="de">Google Mail</title>
+    <title locale="en-GB">Google Mail</title>
+    <title locale="es">Gmail</title>
+    <title locale="fi">Gmail</title>
+    <title locale="fr">Gmail</title>
+    <title locale="it">Gmail</title>
+    <title locale="ja">Gmail</title>
+    <title locale="ko">Gmail</title>
+    <title locale="nl">Gmail</title>
+    <title locale="no">Gmail</title>
+    <title locale="pt-BR">Gmail</title>
+    <title locale="pt-PT">Gmail</title>
+    <title locale="ru">Gmail</title>
+    <title locale="sv">Gmail</title>
+    <title locale="zh-CN">Gmail</title>
+    <title locale="zh-TW">Gmail</title>
+    <title locale="ar">Gmail</title>
+    <title locale="bg">Gmail</title>
+    <title locale="ca">Gmail</title>
+    <title locale="cs">Gmail</title>
+    <title locale="el">Gmail</title>
+    <title locale="et">Gmail</title>
+    <title locale="hi">Gmail</title>
+    <title locale="hr">Gmail</title>
+    <title locale="hu">Gmail</title>
+    <title locale="id">Gmail</title>
+    <title locale="is">Gmail</title>
+    <title locale="iw">Gmail</title>
+    <title locale="lt">„Gmail“</title>
+    <title locale="lv">Gmail</title>
+    <title locale="pl">Gmail</title>
+    <title locale="ro">Gmail</title>
+    <title locale="sk">Gmail</title>
+    <title locale="sl">Gmail</title>
+    <title locale="sr">Gmail е-пошта</title>
+    <title locale="th">Gmail</title>
+    <title locale="tl">Gmail</title>
+    <title locale="tr">Gmail</title>
+    <title locale="uk">Gmail</title>
+    <title locale="ur">Gmail</title>
+    <title locale="vi">Gmail</title>
+
+    <description>Gmail</description>
+    <description locale="da">Gmail</description>
+    <description locale="de">Google Mail</description>
+    <description locale="en-GB">Google Mail</description>
+    <description locale="es">Gmail</description>
+    <description locale="fi">Gmail</description>
+    <description locale="fr">Gmail</description>
+    <description locale="it">Gmail</description>
+    <description locale="ja">Gmail</description>
+    <description locale="ko">Gmail</description>
+    <description locale="nl">Gmail</description>
+    <description locale="no">Gmail</description>
+    <description locale="pt-BR">Gmail</description>
+    <description locale="pt-PT">Gmail</description>
+    <description locale="ru">Gmail</description>
+    <description locale="sv">Gmail</description>
+    <description locale="zh-CN">Gmail</description>
+    <description locale="zh-TW">Gmail</description>
+    <description locale="ar">Gmail</description>
+    <description locale="bg">Gmail</description>
+    <description locale="ca">Gmail</description>
+    <description locale="cs">Gmail</description>
+    <description locale="el">Gmail</description>
+    <description locale="et">Gmail</description>
+    <description locale="hi">Gmail</description>
+    <description locale="hr">Gmail</description>
+    <description locale="hu">Gmail</description>
+    <description locale="id">Gmail</description>
+    <description locale="is">Gmail</description>
+    <description locale="iw">Gmail</description>
+    <description locale="lt">„Gmail“</description>
+    <description locale="lv">Gmail</description>
+    <description locale="pl">Gmail</description>
+    <description locale="ro">Gmail</description>
+    <description locale="sk">Gmail</description>
+    <description locale="sl">Gmail</description>
+    <description locale="sr">Gmail е-пошта</description>
+    <description locale="th">Gmail</description>
+    <description locale="tl">Gmail</description>
+    <description locale="tr">Gmail</description>
+    <description locale="uk">Gmail</description>
+    <description locale="ur">Gmail</description>
+    <description locale="vi">Gmail</description>
+
+    <search>http://mail.google.com/mail/?search=query&amp;view=tl&amp;start=0&amp;init=1&amp;fs=1&amp;q={query}&amp;source=navclient-ff</search>
+
+    <site>http://mail.google.com/?source=navclient-ff</site>
+
+    <feed refresh-onclick="true" google-service="true">https://mail.google.com/mail?atom_browser_auth&amp;hl={locale}&amp;source=navclient-ff</feed>
+
+    <update>http://toolbar.google.com/buttons/defs/mail.google.com.xml</update>
+    
+    <icon type="image/x-icon" mode="base64">
+AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAADg42v84ONr/p6f5/6en+f+np/n/p6f5/6en+f+np/n/p6f5/6en
++f+np/n/p6f5/6en+f+np/n/ODja/zg42v84ONr/ODja/+Li////////////////////////////
+////////////////////////////4uL//zg42v84ONr/ODja/zg42v+np/n/4uL/////////////
+////////////////////////////////4uL//6en+f84ONr/ODja/zg42v84ONr/4uL//6en+f/i
+4v////////////+BgfL/gYHy////////////4uL//6en+f/i4v//ODja/zg42v84ONr/ODja////
+///i4v//p6f5/7a2//+BgfL/Wlrp/1pa6f+BgfL/trb//6en+f/i4v///////zg42v84ONr/ODja
+/zg42v///////////7a2//+BgfL/Wlrp/zg42v84ONr/Wlrp/4GB8v+2tv////////////84ONr/
+ODja/zg42v84ONr///////////+BgfL/Wlrp/zg42v+2tv//trb//zg42v9aWun/gYHy////////
+////ODja/zg42v84ONr/ODja//////+BgfL/Wlrp/zg42v+2tv////////////+2tv//ODja/1pa
+6f+BgfL//////zg42v84ONr/ODja/zg42v+BgfL/Wlrp/zg42v+2tv//////////////////////
+/7a2//84ONr/Wlrp/4GB8v84ONr/ODja/zg42v84ONr/ODja/zg42v+2tv//////////////////
+////////////////trb//zg42v84ONr/ODja/zg42v84ONr/ODja/zg42v+BgfL/p6f5/6en+f+n
+p/n/p6f5/6en+f+np/n/p6f5/6en+f+BgfL/ODja/zg42v84ONr/AAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAA//8AAP//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//
+AAD//wAA//8AAA==
+    </icon>
+
+    <feed-icon type="image/x-icon" mode="base64">
+AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAODja/zg42v+np/n/p6f5/6en+f+np/n/p6f5/6en+f+np/n/p6f5/6en+f+n
+p/n/p6f5/6en+f84ONr/ODja/zg42v84ONr/4uL/////////////////////////////////////
+///////////////////i4v//ODja/zg42v84ONr/ODja/6en+f/i4v//////////////////////
+///////////////////////i4v//p6f5/zg42v84ONr/ODja/zg42v/i4v//p6f5/+Li////////
+//////////////////////////+8vPb/XV3k/+Li//84ONr/ODja/zg42v84ONr//////+Li//9d
+XeT/jIzy/9fX+v/9/f7/9/f9/+Li/P+Cgu7/UFDg/8/P+v//////ODja/zg42v84ONr/ODja////
+////////qKj6/1BQ4v9TU+D/4uL5/+bm+v9XV+H/WFjk/7a2/////////////zg42v84ONr/ODja
+/zg42v///////////4GB8v+Kiu7/76WY//+ff///n3//76WY/4qK7v+BgfL///////////84ONr/
+ODja/zg42v84ONr//////4GB8v/znIn/suv+/7Lr//+47P//uOz//7Lr//+y6/7/5JqX/4GB8v//
+////ODja/zg42v84ONr/ODja/4GB8v+Kiu7//59//7Lr///U0tL/1MnF/9TJxf/U0tL/suv///+f
+f/+Kiu7/gYHy/zg42v84ONr/ODja/zg42v84ONr/9/f9//+ff/+y6///suv//7Lr//+y6///suv/
+/7Lr////n3//+vr+/01N3v84ONr/ODja/zg42v84ONr/6+v7////////o4X//59///+ff///n3//
+/59///+ff///n3///6OF///////w8Pz/ODja/zg42v84ONocODjajTg42uLx8fv5//////////v/
+///y////8v////L////y////+//////6+v3/ODja4jg42o04ONocAAAAAAAAAAA4ONocWVngzFlZ
+4Mz///////////////////////////T0+/xycuTRWVngzDg42hwAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAA4ONo4ODja4ra28dv//////////7Cw79Q4ONriODjaOAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAA4ONpxODjaqjg42qo4ONpxAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAA//8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAD
+AADwDwAA/D8AAA==
+    </feed-icon>
+
+    <legacy>Gmail</legacy>
+
+    <feed-description>You have new gmail</feed-description>
+    <feed-description locale="da">Du har ny Gmail</feed-description>
+    <feed-description locale="de">Sie haben neue Google Mail-Nachrichten</feed-description>
+    <feed-description locale="en-GB">You have new Google Mail</feed-description>
+    <feed-description locale="es">Tienes nuevos mensajes de Gmail.</feed-description>
+    <feed-description locale="fi">Sinulle on uutta Gmail-sähköpostia.</feed-description>
+    <feed-description locale="fr">Vous avez un nouveau message Gmail.</feed-description>
+    <feed-description locale="it">Nuovi messaggi gmail per te</feed-description>
+    <feed-description locale="ja">新規 Gmail があります</feed-description>
+    <feed-description locale="ko">Gmail에 새로운 메일이 도착했습니다.</feed-description>
+    <feed-description locale="nl">U heeft nieuwe Gmail</feed-description>
+    <feed-description locale="no">Du har ny gmail</feed-description>
+    <feed-description locale="pt-BR">Você tem um novo Gmail.</feed-description>
+    <feed-description locale="pt-PT">Você tem um novo Gmail.</feed-description>
+    <feed-description locale="ru">У Вас новое сообщение Gmail</feed-description>
+    <feed-description locale="sv">Du har fått Gmail</feed-description>
+    <feed-description locale="zh-CN">您拥有新 Gmail</feed-description>
+    <feed-description locale="zh-TW">您有新的 Gmail</feed-description>
+    <feed-description locale="ar">لديك رسالة gmail جديدة</feed-description>
+    <feed-description locale="bg">Имате нов gmail</feed-description>
+    <feed-description locale="ca">Teniu un nou correu electrònic de Gmail</feed-description>
+    <feed-description locale="cs">Máte nový gmail</feed-description>
+    <feed-description locale="el">Έχετε νέο μήνυμα gmail</feed-description>
+    <feed-description locale="et">Teile on uus Gmaili kiri</feed-description>
+    <feed-description locale="hi">आपको नया Gmail मिला है</feed-description>
+    <feed-description locale="hr">Primili ste novu gmail poruku</feed-description>
+    <feed-description locale="hu">Új gmailje érkezett</feed-description>
+    <feed-description locale="id">Anda memiliki gmail baru</feed-description>
+    <feed-description locale="is">Þú hefur fengið nýjan póst í Gmail</feed-description>
+    <feed-description locale="iw">קיבלת הודעה חדשה ב-Gmail</feed-description>
+    <feed-description locale="lt">Gavote naują „gmail“ laišką</feed-description>
+    <feed-description locale="lv">Jums ir jauns gmail e-pasts</feed-description>
+    <feed-description locale="pl">Masz nową wiadomość Gmail</feed-description>
+    <feed-description locale="ro">Aveţi mesaje noi gmail</feed-description>
+    <feed-description locale="sk">Máte poštu Gmail</feed-description>
+    <feed-description locale="sl">Čaka vas nova g-pošta</feed-description>
+    <feed-description locale="sr">Имате нову gmail поруку</feed-description>
+    <feed-description locale="th">คุณมี gmail ใหม่</feed-description>
+    <feed-description locale="tl">Mayroon kang bagong gmail</feed-description>
+    <feed-description locale="tr">Yeni Gmail postanız var</feed-description>
+    <feed-description locale="uk">Ви отримали нове повідомлення Gmail</feed-description>
+    <feed-description locale="ur">آپ کے پاس نیا gmail ہے</feed-description>
+    <feed-description locale="vi">Bạn có gmail mới</feed-description>
+
+  </button>
+
+</custombuttons>

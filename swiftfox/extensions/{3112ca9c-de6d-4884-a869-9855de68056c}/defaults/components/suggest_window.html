@@ -1,0 +1,113 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<style type="text/css">
+body {
+  font-family:Tahoma,Helvetica,Verdana,Arial,sans-serif;
+  font-size:0.6875em;
+  cursor:default;
+}
+
+table {
+  border-collapse:collapse;
+}
+
+table td {
+  padding:0;
+  border:0px solid black;
+}
+
+#suggestlist {
+  position:absolute;
+  top:0px;
+  left:0px;
+  overflow:hidden;
+}
+
+div.iconSpacer {
+  width:20px;
+}
+
+div.separator {
+  border-bottom:solid 1px #c0c0c0;
+  width:100%;
+  margin:0 0 0 18px;
+}
+
+table.suggest {
+  background:transparent none repeat scroll 0 0;
+  font-size:1em;
+  line-height:1.9em;
+  margin:0;
+  position:absolute;
+  z-index:99;
+  padding:0;
+  table-layout:fixed;
+}
+
+td.label {
+  text-align:right;
+  color:#c0c0c0;
+  line-height:150%;
+}
+
+span.label {
+  text-align:right;
+  color:#c0c0c0;
+  white-space:nowrap;
+}
+
+td.navLink {
+  color:#74af62;
+}
+
+td.iconInVerticalView {
+  padding-left:2px;
+}
+
+td.titleInVerticalView {
+  text-overflow:ellipsis;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+tr.onSelect {
+  background:#3366cc none repeat scroll 0 0;
+  color:white;
+}
+</style>
+
+<script src="json_comp.js" type="text/javascript"
+    language="javascript"></script>
+<script src="html-sanitizer-minified.js" type="text/javascript"
+    language="javascript"></script>
+<script type="text/javascript" language='javascript'>
+var l=true,m=null,n=false,o,p,q={};q[5]=2;q[6]=1;q[8]=2;p=q;var r=new RegExp("^[\\s\\u1100-\\u11FF\\u3040-\\u30FF\\u3130-\\u318F\\u31F0-\\u31FF\\u3400-\\u4DBF\\u4E00-\\u9FFF\\uAC00-\\uD7A3\\uF900-\\uFAFF\\uFF65-\\uFFDC]+$"),s,t={};t[-2]={b:0,f:"OfferBookmark",g:"SuggestUseBookmark"};t[5]={b:0,f:"OfferNavigation",g:"SuggestUseNavigation"};t[6]={b:0,f:"OfferCalculator",g:"SuggestUseCalculator"};t[-1]={b:0,f:"OfferHistory",g:"SuggestUseHistory"};t[0]={b:0,f:"OfferSuggestion",g:"SuggestUseSuggest"};
+t[8]={b:0,f:"OfferAd",g:"SuggestUseAd"};s=t;
+var u=m,v=m,w=-1,x="",y=n,z="Bookmarks",B="History",C=0,D=[],E=m,F=function(){return"complete/search?q=%s&client=tbrs"},H=function(a){return"complete/search?q=%s&client=tbrs&hl="+a},K=function(){o=window.gToolbar||window.external;I(".gac_c","text-align:left;padding-left:5px;padding-right:5px;padding-bottom:1px;font-family:Tahoma;font-size:1em;overflow:hidden;white-space:nowrap");var a="background:#d5e2ff";I(".gac_b td.gac_c",a);I(".gac_b",a);I(".gac_a td.gac_f","background:#fff8dd");I(".gac_p","padding:0px 4px 2px 5px");
+I(".gac_u","padding:0px 0 1px 0;line-height:1.17em");I(".gac_t","width:100%;font-family:Tahoma;font-size:1em");I(".gac_m","font-family:Tahoma;font-size:1em;cursor:default;line-height:1.45em;z-index:99;background:white;position:absolute;margin:0;width:100%");I(".gac_s","height:3px;row-height:1px;font-size:1px");I(".gac_st","font-size:1em;color:#ccc;text-align:right;padding-right:4px");I(".gac_n","padding-top:1px;padding-bottom:1px");I(".gac_h","color:green");I(".gac_i","padding:0 3px;color:grey;text-align:left;white-space:nowrap;vertical-align:top;font-size:0.9em");
+I("A:link","color:blue;");I("A:visited","color:blue;");J();a=220;var b=85,c=35;if("initWindow"in o)o.initWindow(document.getElementById("suggestList"),a,b,c);else{var g=198,d=g,e=324;g=g;var f=0;o.setWindowSize(a,d,e,g,b,c,f)}},ba=function(a){if(a==38||a==40){y=l;return aa(a==40)}if(a==13&&w!=-1){if(w!=-1){a=L();y?a.onmouseup():O(escape(x))}return l}return n},ca=function(){return o},J=function(){var a=document.getElementById("suggestList");if(a){var b=document.body.clientWidth,c=document.body.clientHeight;
+a.style.width=b;a.style.height=c}},da=function(a,b,c){z=a;B=c},ia=function(a,b,c){for(var g in s)s[g].b=0;C=0;D=[];g=document.createElement("table");g.cellSpacing=g.cellPadding="0";g.className="gac_m";u=g;var d;d=a;x="";if(!d||!d.length)d=m;else{d=jsonParse(d);if(d.length<2)d=m;else{x=d[0];d=d[1]}}if((!a||!a.length)&&(!c||!c.length)&&b&&b.length){if(b&&b.length){var e=jsonParse(b);if(e&&e.length){s[-1].b++;a=e.length;for(c=0;c<a;c++){d=e[c].toLowerCase();b=P(n);b.type=-1;b.d=C++ +"h";b.className=
+"gac_a";b.e=d;d=Q(d);R(b);var f=document.createElement("td");f.className="gac_c";f.innerHTML=c==0?S(d,B):d;b.appendChild(f)}}}}else{x.length>2&&ea(c);var h=d;a=11-D.length;c=m;if(b&&b.length)c=jsonParse(b);if(!c&&!h)e=m;else{b=[];d=[];var j=h&&h.length;f=[];if(j){for(f=h.concat([]);a&&f[0]&&(e=f[0][1])&&(e==5||e==8||e==6);){b.push(f[0]);f.splice(0,1);a-=p[e];if(e==6)break}for(h=0;j=f[h];){e=j[1];if(e==8){a-=p[8];d.push(j);f.splice(h,1)}else h++}}if(c){e=0;j=[];h=0;for(var k=f.length;h<k;h++)j[fa(T(f[h][0])).toLowerCase()]=
+h;h=0;k=c.length;for(var i;a&&h<k&&(e<3||f.length<a);h++){i=T(c[h]).toLowerCase();b.push([ga(i),-1]);e++;a--;if((i=j[i])!=m)f[i].h=l}}for(h=0;(j=f[h++])&&a>0;)if(!j.h){b.push(j);a--}for(h=0;e=d[h++];)b.push(e);e=b}if(e&&e.length){u.rows.length&&ha();for(a=0;b=e[a];a++){c=b[1];if(c==5){b=b;d=P(n);R(d,"http://www.google.com"+b[3][0]);d.type=5;d.d=C++;d.className="gac_a";d.e=x;f=document.createElement("td");f.className="gac_c gac_n";h=b[3][1];if(h.length>48)h=h.substring(0,48)+"...";h=U(Q(h));j=U(Q(b[0].replace(/HTTPS?:\/\//gi,
+"")),"gac_h");f.style.lineHeight="1.17em";f.innerHTML='<a class="q" href="'+b[3][0]+'" onclick="void(0)">'+h+"</a><br>"+j;d.appendChild(f)}else if(c==8){d=b;b=a==0;V();h=d[3];d=P(n);R(d,"http://www.google.com"+h[1]);d.type=8;d.d=C++;d.className="gac_a";d.e=x;f=document.createElement("td");f.className="gac_f gac_p";j=U(Q(h[0]),"gac_h");k=Q(h[3]);i=h[4]?" "+Q(h[4]):"";h=['<table cellpadding=0 cellspacing=0 border=0 class="gac_t"><tr><td><table cellpadding=0 cellspacing=0 border=0 class="gac_t"><tr><td class="gac_t"><a class="q" href="http://',
+h[0],'" onclick="void(0)">',U(Q(h[2])),'</a></td><td class="gac_i">Sponsored&nbsp;Link</td></tr></table></td></tr><tr><td class="gac_u">',j,"&nbsp; &nbsp;",k,i,"</td></tr></table>"];f.innerHTML=h.join("");d.appendChild(f);b&&V()}else if(c==9)continue;else{b=b;f=c;d=P(n);R(d);d.type=f;d.d=C++ +(f==-1?"h":"");d.className="gac_a";f=document.createElement("td");f.className="gac_c";h=Q(b[0]);f.innerHTML=(b[1]==6?"= ":"")+h;d.e=f.innerText?f.innerText:f.textContent;r.test(h)&&(f.style.paddingTop="2px");
+d.appendChild(f)}s[c].b++}}}if(e=document.getElementById("suggestList")){e.innerHTML="";e.style.paddingTop="3px";e.appendChild(g);e.scrollTop=0}v=g.rows;w=-1},ea=function(a){if(a&&a.length){a=jsonParse(a);if(!(!a||a.length<1)){s[-2].b++;for(var b=0,c,g=a.length;b<g;b++){c=a[b][1];for(var d=0,e=0;e<b;e++)if(c==D[e]){d=1;break}if(!d){d=P(n);d.type=-2;d.d=C++;d.className="gac_a";d.e=o.getQuery();R(d,c);e=document.createElement("td");e.className="gac_c";e.style.paddingBottom="1px";e.innerHTML=b==0?S(a[b][0],
+z):a[b][0];d.appendChild(e);D.push(c)}}}}},R=function(a,b){a.onmouseup=b?ja(b):ka;a.onmouseover=la},aa=function(a){var b=v;if(!b||!b.length)return n;var c=L();if(c)c.className="gac_a";c=w+(a?1:-1);var g=b.length;if(c==g||c==-1){w=-1;return n}if(c>g||c<0)c=a?0:g-1;for(w=-1;c>-1&&c<g;){if(!b.item(c).j){w=c;break}c+=a?1:-1}if(w==-1)return n;w=c;c=L();c.className="gac_b";c.scrollIntoView(n);o.putQuery(c.e,c.d+"",unescape(x));return l},W=function(){var a=L();for(var b in s){var c=s[b];if(c.b){for(var g=
+0;g<c.b;g++)o.usageIncrementCount(c.f);a.type==b&&o.usageIncrementCount(c.g)}}o.usageIncrementCount("SuggestUse")},ja=function(a){return function(){o.nav(a);W();o.usageIncrementCount("SuggestUseResult");return n}},ka=function(){O(escape(L().e))},la=function(){y=n;var a=L();if(a)a.className="gac_a";this.className="gac_b";w=this.rowIndex},O=function(a){var b=L().d+"";o.search(unescape(a),b,unescape(x));W();o.usageIncrementCount("SuggestUseQuery")},I=function(a,b){if(!E){var c=document.createElement("style");
+document.getElementsByTagName("head")[0].appendChild(c);if((c=document.styleSheets)&&c.length)E=c[c.length-1]}if(E)if(typeof E.addRule=="object")E.addRule(a,b);else{a=a+" {"+b+"}";E.insertRule(a,E.cssRules.length)}},P=function(a){var b=u.insertRow(-1);b.j=a;return b},U=function(a,b){return(b?'<span class="'+b+'">':"")+ma(a,x)+(b?"</span>":"")},S=function(a,b){a=['<table cellpadding=0 cellspacing=0 border=0 class="gac_t" style="width:100%"><tr><td style="width:100%">',a,'</td><td style="padding:0 3px;text-align:right;vertical-align:top;color:#999"><sup style="white-space:nowrap">',
+b,"</sup></td></tr></table>"];return a.join("")},L=function(){var a=w;if(a==-1)return m;return v.item(a)},fa=function(a){return a.replace(/<[\/]?(B|b)>/ig,"")},ha=function(){var a=P(l);a=a.insertCell(0);a.style.height="3px";a.style.fontSize="1px";a=P(l);a=a.insertCell(0);a.className="gac_s";a.style.borderTop="1px solid #ccc"},V=function(){P(l).insertCell(0).className="gac_s"},ga=function(a){var b=x.toLowerCase(),c=a.indexOf(b);if(c==0)return b+"<b>"+a.substring(b.length)+"</b>";if(c==-1)return"<b>"+
+a+"</b>";return"<b>"+a.substring(0,c)+"</b>"+b+"<b>"+a.substring(c+b.length)+"</b>"},T=function(a){if(a)return a.replace(/^\s+/,"").replace(/\s+$/,"").replace(/\s+/g," ");return""},Q=function(a){a=html_sanitize(a,function(b){if(/^https?:\/\//.test(b))return b},function(){return m});return a.replace(/<a /g,'<a target="_blank" ')},X=m,ma=function(a,b){if(!a||!a.length||!b||!b.length)return a;b=Y(b,l,n,l);if(b.length<1)return a;b=na(a,b);for(var c=0,g="",d=0,e;d<b.length;d++){e=b[d];g+=a.substring(c,
+e.a)+"<b>"+a.substring(e.a,e.c+1)+"</b>";c=e.c+1}return g+a.substring(c)},Y=function(a,b,c,g){if(!a||a.length<1)return[];var d=/\s$/.test(a),e=[];a=T(a.toLowerCase());var f={};a=a.split(/\s/);for(var h=0,j;j=a[h++];)if(!f[j]){f[j]=1;if(h<a.length||d||b){var k;if(k=j){for(var i="",G=n,A=0,M=void 0,N=void 0;A<k.length;A++){M=k.charAt(A);N=Z(M);i+=N?" ":M;G|=N}k=G?T(i).replace(/\s{2,}/g," "):i}else k="";e.push({value:j,i:k});if(k!=j){c&&oa(k,e,g);g&&pa(j,e)}}}return e},Z=function(a){var b=X;if(!b){b=
+X={};for(var c=0;c<8;c++)b["._-/;\"'\\".charAt(c)]=1}return b[a]===1},oa=function(a,b,c){a=Y(a,l,l,c);if(a.length>1){c=0;for(var g;c<a.length;c++){g=a[c];b.push({value:g.value,i:g.i})}}},pa=function(a,b){var c="";if(a){for(var g=a.length-1;g>-1&&Z(a.charAt(g--)););g++;for(var d=0,e;d<g;d++){e=a.charAt(d);if(!Z(e))break}for(;d<=g;)c+=a.charAt(d++)}c.length&&b.push({value:c,i:c})},na=function(a,b){for(var c=[],g=a.toLowerCase(),d=0;d<b.length;d++)for(var e=b[d].value,f=-1;(f=g.indexOf(e,++f))>-1;)c.push({a:f,
+c:f+e.length-1});c=c.sort(function(G,A){return G.a-A.a});d=0;for(g=c.length;d<g;d++){b=c[d];f=a.charAt(b.a-1);e=f==" ";f=Z(f);var h=Z(a.charAt(b.a)),j=b.a==0,k=n;if(d>0){for(var i=d;i>0&&$(c[--i]););if(i>-1){i=c[i];if(i.c==b.a-1){i=a.substring(i.a,i.c+1);k=a.substring(b.a,b.c+1);k=i!=k}}}if(!j&&!e&&!f&&!h&&!k)b.h=l}a=[];for(d=0;d<c.length;d++){b=c[d];if(!$(b)){if(a.length)for(i=0;i<a.length;i++){g=a[i];!$(g)&&qa(b,g)&&ra(b,g)}a.push(b)}}c=[];for(d=0;d<a.length;d++){b=a[d];$(b)||c.push(b)}return c},
+$=function(a){return a.h!==undefined},qa=function(a,b){a=a.c+1<b.a||b.c+1<a.a;return!a},ra=function(a,b){a.a=Math.min(a.a,b.a);a.c=Math.max(a.c,b.c);b.h=l};window.setLabelStrings=da;window.getSuggestQueryPath=F;window.getSuggestQueryPathForLanguage=H;window.onBodyLoad=K;window.updateSuggestResult=ia;window.onWindowResize=J;window.onKeyDown=ba;window.getToolbar=ca;
+</script>
+</head>
+
+<body onload="onBodyLoad()" onresize="onWindowResize()"
+    onselectstart="return false;" scroll="no">
+  <div id="suggestList">
+  </div>
+</body>
+</html>

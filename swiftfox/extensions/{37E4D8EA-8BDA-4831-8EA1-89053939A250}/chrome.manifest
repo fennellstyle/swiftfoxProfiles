@@ -1,0 +1,44 @@
+
+overlay	chrome://browser/content/browser.xul	chrome://pdfdownload/content/pdfDownload-Overlay.xul
+content	pdfdownload	jar:chrome/pdfdownload.jar!/content/pdfdownload/
+style	chrome://global/content/customizeToolbar.xul	chrome://pdfdownload/skin/pdfdownload.css
+
+skin	pdfdownload	classic/1.0	jar:chrome/pdfdownload.jar!/skin/classic/pdfdownload/
+
+locale	pdfdownload	en-US	jar:chrome/pdfdownload.jar!/locale/en-US/pdfdownload/
+
+locale	pdfdownload	da-DK	jar:chrome/pdfdownload.jar!/locale/da-DK/pdfdownload/
+
+locale	pdfdownload	de-DE	jar:chrome/pdfdownload.jar!/locale/de-DE/pdfdownload/
+
+locale	pdfdownload	el-GR	jar:chrome/pdfdownload.jar!/locale/el-GR/pdfdownload/
+
+locale	pdfdownload	es-AR	jar:chrome/pdfdownload.jar!/locale/es-AR/pdfdownload/
+
+locale	pdfdownload	es-ES	jar:chrome/pdfdownload.jar!/locale/es-ES/pdfdownload/
+
+locale	pdfdownload	fr-FR	jar:chrome/pdfdownload.jar!/locale/fr-FR/pdfdownload/
+
+locale	pdfdownload	fy-NL	jar:chrome/pdfdownload.jar!/locale/fy-NL/pdfdownload/
+
+locale	pdfdownload	hu-HU	jar:chrome/pdfdownload.jar!/locale/hu-HU/pdfdownload/
+
+locale	pdfdownload	it-IT	jar:chrome/pdfdownload.jar!/locale/it-IT/pdfdownload/
+
+locale	pdfdownload	ja-JP	jar:chrome/pdfdownload.jar!/locale/ja-JP/pdfdownload/
+
+locale	pdfdownload	ko-KR	jar:chrome/pdfdownload.jar!/locale/ko-KR/pdfdownload/
+
+locale	pdfdownload	nl-NL	jar:chrome/pdfdownload.jar!/locale/nl-NL/pdfdownload/
+
+locale	pdfdownload	pl-PL	jar:chrome/pdfdownload.jar!/locale/pl-PL/pdfdownload/
+
+locale	pdfdownload	pt-BR	jar:chrome/pdfdownload.jar!/locale/pt-BR/pdfdownload/
+
+locale	pdfdownload	ro-RO	jar:chrome/pdfdownload.jar!/locale/ro-RO/pdfdownload/
+
+locale	pdfdownload	sk-SK	jar:chrome/pdfdownload.jar!/locale/sk-SK/pdfdownload/
+
+locale	pdfdownload	zh-CN	jar:chrome/pdfdownload.jar!/locale/zh-CN/pdfdownload/
+
+locale	pdfdownload	zh-TW	jar:chrome/pdfdownload.jar!/locale/zh-TW/pdfdownload/

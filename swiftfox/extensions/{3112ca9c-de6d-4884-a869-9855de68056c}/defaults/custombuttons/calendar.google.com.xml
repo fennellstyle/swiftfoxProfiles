@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<custombuttons xmlns="http://toolbar.google.com/custombuttons/">
+  <button>
+    <title>Google Calendar</title>
+    <title locale="ar">تقويم Google</title>
+    <title locale="bg">Google Календар</title>
+    <title locale="ca">Google Calendar</title>
+    <title locale="cs">Kalendář Google</title>
+    <title locale="da">Google Kalender</title>
+    <title locale="de">Google Kalender</title>
+    <title locale="el">Ημερολόγιο Google</title>
+    <title locale="en-GB">Google Calendar</title>
+    <title locale="es">Google Calendar</title>
+    <title locale="et">Google'i kalender</title>
+    <title locale="fi">Google-kalenteri</title>
+    <title locale="fil">Google Calendar</title>
+    <title locale="fr">Google Agenda</title>
+    <title locale="hi">Google कैलेंडर</title>
+    <title locale="hr">Google kalendar</title>
+    <title locale="hu">Google Naptár</title>
+    <title locale="id">Kalender Google</title>
+    <title locale="is">Google Dagatal</title>
+    <title locale="it">Google Calendar</title>
+    <title locale="iw">לוח השנה של Google</title>
+    <title locale="ja">Google カレンダー</title>
+    <title locale="ko">Google 캘린더</title>
+    <title locale="lt">„Google“ kalendorius</title>
+    <title locale="lv">Google Kalendārs</title>
+    <title locale="nl">Google Agenda</title>
+    <title locale="no">Google Kalender</title>
+    <title locale="pl">Kalendarz Google</title>
+    <title locale="pt-BR">Google Agenda</title>
+    <title locale="pt-PT">Calendário Google</title>
+    <title locale="ro">Google Calendar</title>
+    <title locale="ru">Календарь Google</title>
+    <title locale="sk">Kalendár Google</title>
+    <title locale="sl">Google Koledar</title>
+    <title locale="sr">Google календар</title>
+    <title locale="sv">Google Kalender</title>
+    <title locale="th">Google Calendar</title>
+    <title locale="tr">Google Takvim</title>
+    <title locale="uk">Календар Google</title>
+    <title locale="vi">Lịch Google</title>
+    <title locale="zh-CN">Google 日历</title>
+    <title locale="zh-TW">Google 日曆</title>
+    <description>Search Google Calendar</description>
+    <description locale="ar">البحث في تقويم Google</description>
+    <description locale="bg">Търсете в Google Календар</description>
+    <description locale="ca">Cerca a Google Calendar</description>
+    <description locale="cs">Hledat ve službě Kalendář Google</description>
+    <description locale="da">Søg i Google Kalender</description>
+    <description locale="de">Google Kalender durchsuchen</description>
+    <description locale="el">Αναζήτηση Ημερολογίου Google</description>
+    <description locale="en-GB">Search Google Calendar</description>
+    <description locale="es">Buscar en Google Calendar</description>
+    <description locale="et">Otsi Google Calendar'ist</description>
+    <description locale="fi">Google-kalenterihaku</description>
+    <description locale="fil">Hanapan ang Google Calendar</description>
+    <description locale="fr">Rechercher dans Google Agenda</description>
+    <description locale="hi">Google कैलेंडर खोजें</description>
+    <description locale="hr">Pretraži Google kalendar</description>
+    <description locale="hu">Keresés a Google Naptárban</description>
+    <description locale="id">Telusuri Kalender Google</description>
+    <description locale="is">Leita í Google Dagatali</description>
+    <description locale="it">Cerca in Google Calendar</description>
+    <description locale="iw">חפש ב-Google Calendar</description>
+    <description locale="ja">Google カレンダーを検索</description>
+    <description locale="ko">Google 캘린더 검색</description>
+    <description locale="lt">Ieškoti „Google“ kalendoriuje</description>
+    <description locale="lv">Meklēt Google Kalendārā</description>
+    <description locale="nl">Zoeken in Google Agenda</description>
+    <description locale="no">Søk i Google Kalender</description>
+    <description locale="pl">Wyszukaj w Kalendarzu Google</description>
+    <description locale="pt-BR">Pesquisar no Google Agenda</description>
+    <description locale="pt-PT">Pesquisar no Calendário Google</description>
+    <description locale="ro">Căutaţi în Google Calendar</description>
+    <description locale="ru">Поиск в Календаре Google</description>
+    <description locale="sk">Vyhľadať v službe Kalendár Google</description>
+    <description locale="sl">Išči v Google Koledarju</description>
+    <description locale="sr">Претражи Google календар</description>
+    <description locale="sv">Sök i Google Kalender</description>
+    <description locale="th">ค้นหาโดย Google Calendar</description>
+    <description locale="tr">Google Takvim'de ara</description>
+    <description locale="uk">Пошук у Календарі Google</description>
+    <description locale="vi">Tìm kiếm trên Lịch Google</description>
+    <description locale="zh-CN">搜索 Google 日历</description>
+    <description locale="zh-TW">搜尋「Google 日曆」</description>
+    <site>http://calendar.google.com/calendar?hl={locale}{sourceid}</site>
+    <search>http://calendar.google.com/calendar?hl={locale}{aq}{sourceid}{rlz}&amp;ie=UTF-8&amp;q={query}</search>
+    <send>http://calendar.google.com/calendar?hl={locale}&amp;ie=UTF-8{sourceid}{rlz}&amp;action=TEMPLATE&amp;q={selection}</send>
+    <feed refresh-onclick="true" google-service="true" refresh-interval="86400">http://calendar.google.com/calendar/feeds/default/private/basic?hl={locale}{sourceid}{rlz}&amp;toolbar=true&amp;max-results=10</feed>
+    <update>http://toolbar.google.com/buttons/defs/calendar.google.com.xml</update>
+    <version>200905140000</version>
+    <icon type="image/x-icon" mode="base64">
+AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAA
+AAAAAAD/////////////////////////////////////////////////////////////////////
+////////////////ZGhp/2Roaf9kaGn/ZGhp/2Roaf9kaGn/ZGhp/2Roaf9kaGn/ZGhp/2Roaf9k
+aGn/ZGhp/2Roaf9kaGn//////2dsa//97+X//e/k//3v5f/97+X//e/l//3v5f/97+X//e/l//3v
+5f/97+X//e/l//3v5f/97+X/Z2xr//////9scG///fDn/83EuP/NxLj/zcS4/83EuP/NxLj/zcS4
+/83EuP/NxLj/zcS4//3w5//98Of//fDn/2xwbv//////cXZz//3z6v/NxLj///7+/83EuP///v7/
+zcS4///+/v/NxLj///7+/83EuP/98+r//fPq//3z6v9ydXP//////3d7d//+9O//zcS4/83EuP/N
+xLj/zcS4/83EuP/NxLj/iYLP/zQy7v80Mu7/iYLP/83EuP/+9O//d3t2//////9/gnr//vfz/83E
+uP///v7/zcS4///+/v/NxLj///7+/zQy7v/Av/7/mpPJ/0BA///NxLj//vfz/3+Cev//////hoiA
+///59//NxLj/zcS4/83EuP/NxLj/zcS4/83EuP80Mu7/mpPJ/5qTyf80Mu7/zcS4///59/+FiID/
+/////42Phf///Pv///37///8+////Pv///z7/83EuP///v7/iYLP/0BA//80Mu7/qqn+/83EuP//
+/Pv/jI+F//////+Ulor///39///+/v///f3///39///9/f/NxLj/zcS4/83EuP/NxLj/zcS4/83E
+uP/NxLj///39/5SWif//////mp2P///9/f///f3///39///9/f///f3///39///9/f///f3///39
+///9/f///f3///39///9/f+bnY///////6Kkk//5ewj/+XsI//l7CP/5ewj/+XsI//l7CP/5ewj/
++XsI//l7CP/5ewj/+XsI//l7CP/5ewj/oqOT//////+oqZf/5H4L//TLbv/0zG3//6QL//TNbf/y
+gQf/8oEH//KBB//ygQf/8oEH//KBB//ygQf/63sK/6iql///////rbCc//TAa//0wGv/9MBr//TA
+a//0wGv/9MBr//TAa//0wGv/9MBr//TAa//0wGv/9MBr//TAa/+tr5z///////////+ys5//srSf
+/7K0nv+ys57/sbSe/7Kznv+xtJ//srOf/7Kznv+xs57/sbOf/7G0n/+xtJ//////////////////
+////////////////////////////////////////////////////////////////////////////
+////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAA==
+    </icon>
+  </button>
+</custombuttons>

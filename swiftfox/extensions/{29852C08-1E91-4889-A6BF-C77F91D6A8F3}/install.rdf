@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+	<Description about="urn:mozilla:install-manifest"
+		em:id="{29852C08-1E91-4889-A6BF-C77F91D6A8F3}"
+		em:name="LittleFox"
+		em:version="1.8.66"
+		em:type="4"
+		em:skinnable="true"
+		em:internalName="littlefox"
+		em:creator="Alfred Kayser (alfredkayser@gmail.com)"
+		em:contributor="art.gnome.org"
+		em:homepageURL="https://addons.mozilla.org/en-US/firefox/addon/307/developers"
+		em:contributionURL="https://addons.mozilla.org/en-US/firefox/addon/307/contribute/"
+		em:contributionAmount="4.99"
+		em:description="LittleFox, designed for optimal screen usage, leaving lots of room for browsing. Based on icons from art.gnome.org. Includes support for DOM inspector, downloadstatusbar, quicknote, offline, googlebar, tabsidebar, Stylish, AdBlockPlus, DataManager, Flagfox, Forecast Weather, Hide Caption, ViewAbout, TabMixPlus, AllInOneSidebar and StumbleUpon">
+		<em:targetApplication>
+			<Description em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}" em:minVersion="2.0" em:maxVersion="4.0b8pre"/>
+		</em:targetApplication>
+	</Description>
+</RDF>

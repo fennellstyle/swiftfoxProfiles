@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NS1="http://downloadhelper.net/1.0#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Seq RDF:about="rdf:#$yuFwo2">
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf:#$yuFwo2"
+                   NS1:action="1"
+                   NS1:infile="flv"
+                   NS1:insite=""
+                   NS1:outformat="avi/-f avi -sameq"
+                   NS1:outdir=""
+                   NS1:label="Convert flv files from ALL to AVI in DEFAULT" />
+  <RDF:Seq RDF:about="urn:root">
+    <RDF:li RDF:resource="rdf:#$yuFwo2"/>
+  </RDF:Seq>
+</RDF:RDF>

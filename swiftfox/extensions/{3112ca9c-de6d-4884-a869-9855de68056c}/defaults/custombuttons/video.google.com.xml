@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<custombuttons xmlns="http://toolbar.google.com/custombuttons/">
+  <button>
+    <title>Google Video</title>
+    <title locale="ar">فيديو Google‏</title>
+    <title locale="bg">Google Video</title>
+    <title locale="ca">Google Video</title>
+    <title locale="cs">Google Video</title>
+    <title locale="da">Google Video</title>
+    <title locale="de">Google Video</title>
+    <title locale="el">Βίντεο Google</title>
+    <title locale="en-GB">Google Video</title>
+    <title locale="es">Google Video</title>
+    <title locale="et">Google Video</title>
+    <title locale="fi">Google Video &amp;#8209;videohaku</title>
+    <title locale="fil">Google Video</title>
+    <title locale="fr">Google Video</title>
+    <title locale="hi">Google Video</title>
+    <title locale="hr">Google Video</title>
+    <title locale="hu">Google video</title>
+    <title locale="id">Google Video</title>
+    <title locale="is">Google Myndskeið</title>
+    <title locale="it">Google Video</title>
+    <title locale="iw">Google Video</title>
+    <title locale="ja">Google Video</title>
+    <title locale="ko">Google 비디오</title>
+    <title locale="lt">„Google Video“</title>
+    <title locale="lv">Google video</title>
+    <title locale="nl">Google Video</title>
+    <title locale="no">Google Video</title>
+    <title locale="pl">Google Video</title>
+    <title locale="pt-BR">Google Video</title>
+    <title locale="pt-PT">Google Video</title>
+    <title locale="ro">Google Video</title>
+    <title locale="ru">Google Video</title>
+    <title locale="sk">Google Video</title>
+    <title locale="sl">Google Video</title>
+    <title locale="sr">Google видео</title>
+    <title locale="sv">Google Video</title>
+    <title locale="th">Google Video</title>
+    <title locale="tr">Google Video</title>
+    <title locale="uk">Google Відео</title>
+    <title locale="vi">Google Video</title>
+    <title locale="zh-CN">Google 视频</title>
+    <title locale="zh-TW">Google 影片</title>
+    <description>Search Google Video and See Most Popular Videos</description>
+    <description locale="ar">بحث في فيديو Google ومشاهدة أشهر مقاطع الفيديو</description>
+    <description locale="bg">Търсете с Google Video и гледайте най-популярните видеоклипове</description>
+    <description locale="ca">Cerqueu a Google Video i mireu el vídeos més populars</description>
+    <description locale="cs">Prohledávejte službu Google Video a ousťte si nejoblíbenější videa</description>
+    <description locale="da">Søg i Google Video, og se de mest populære videoer</description>
+    <description locale="de">Google Video durchsuchen und die beliebtesten Videos anzeigen</description>
+    <description locale="el">Αναζήτηση στα Βίντεο Google και εμφάνιση των δημοφιλέστερων βίντεο</description>
+    <description locale="en-GB">Search Google Video and See Most Popular Videos</description>
+    <description locale="es">Busca en Google Video y accede a los vídeos de más éxito.</description>
+    <description locale="et">Otsi Google Videost ja vaata kõige populaarsemaid videoid</description>
+    <description locale="fi">Hae Google Videosta ja näe suosituimmat videot</description>
+    <description locale="fil">Maghanap sa Google Video at Panoorin ang Mga Pinakapatok na Video</description>
+    <description locale="fr">Rechercher et visionner les vidéos les plus regardées sur Google Video</description>
+    <description locale="hi">Google Video खोजें और सबसे लोकप्रिय वीडियो देखें.</description>
+    <description locale="hr">Pretraži Google Video i prikaži najpopularnije videozapise</description>
+    <description locale="hu">Keresés a Google Videóban, és a legnépszerűbb videók megtekintése</description>
+    <description locale="id">Cari Google Video dan Lihat Video Terpopuler</description>
+    <description locale="is">Leita í Google Myndskeiðum og skoða vinsælustu myndskeiðin</description>
+    <description locale="it">Cerca in Google Video e visualizza i video più visti</description>
+    <description locale="iw">חפש ב-Google Video וצפה בסרטי וידאו פופולריים ביותר</description>
+    <description locale="ja">Google Video で検索して、もっとも人気のある動画を表示</description>
+    <description locale="ko">Google 비디오에서 동영상을 검색하고 인기 동영상을 봅니다.</description>
+    <description locale="lt">Ieškoti „Google Video“ ir peržiūrėti populiariausius vaizdo įrašus</description>
+    <description locale="lv">Meklēt Google video un skatīt vispopulārākos videoklipus</description>
+    <description locale="nl">Zoeken in Google Video en de populairste video's bekijken</description>
+    <description locale="no">Søk i Google-video og se de mest populære videoene</description>
+    <description locale="pl">Przeszukaj serwis Google Video i zobacz najpopularniejsze filmy</description>
+    <description locale="pt-BR">Pesquisar no Google Video e assistir aos vídeos mais populares</description>
+    <description locale="pt-PT">Pesquisar no Google Video e ver os vídeos mais populares</description>
+    <description locale="ro">Căutaţi în Google Video şi vedeţi cele mai cunoscute clipuri</description>
+    <description locale="ru">Выполняйте поиск в Google Video и смотрите самые популярные видеосюжеты</description>
+    <description locale="sk">Vyhľadať Google video a zobraziť najčastejšie prezerané videá</description>
+    <description locale="sl">Na spletnem mestu Google Video si lahko ogledate priljubljene video posnetke</description>
+    <description locale="sr">Претражите Google видео и погледајте најпопуларније видео снимке</description>
+    <description locale="sv">Sök i Google Video och se de populäraste videoklippen</description>
+    <description locale="th">ค้นหา Google Video และดูวิดีโอที่ได้รับความนิยมสูงสุด</description>
+    <description locale="tr">Google Video'da Arama Yapın ve En Popüler Videolara Bakın</description>
+    <description locale="uk">Пошук найпопулярніших відеокліпів у "Google Відео"</description>
+    <description locale="vi">Tìm kiếm Google Video và xem các Video được Ưa chuộng Nhất</description>
+    <description locale="zh-CN">搜索 Google 视频并观看热门视频</description>
+    <description locale="zh-TW">搜尋 Google 影片並觀看最熱門的影片</description>
+    <site>http://video.google.{domain}/?hl={locale}{sourceid}</site>
+    <search>http://video.google.{domain}/videosearch?hl={locale}{aq}{sourceid}{rlz}&amp;ie=UTF-8&amp;q={query}</search>
+    <feed refresh-interval="3600">http://toolbar.google.{domain}/buttons/feeds/video/?num=10</feed>
+    <update>http://toolbar.google.com/buttons/defs/video.google.com.xml</update>
+    <version>200807010000</version>    
+    <icon mode="base64">
+AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAlZKKRpWSio2VkorHlZKK8JWSivCVkorHlZKKjZWSikYAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAACVkooglZKKjJWSivO9vLf/1NHN/9fQzf/Wz8r/2NTQ/8jFwf+W
+k4vzlZKKjJWSiiAAAAAAAAAAAAAAAACVkooglZKKo5qfnP+YhHn/c11M/3VdTP+QfG3/o5KG/6mZ
+jf+djYD/pZWJ/6Odlf+VkoqjlZKKIAAAAAAAAAAAlZKKjHmeov9SZV7/YUEu/4pxZP/Vz83/////
+////////////+vr7/413aP9yWUj/qKSd/5WSiowAAAAAlZKKRpWSi/NSeHf/P1FI/2WJif/U3d7/
+3tzd/8vLzP/Iycn/6Orq//////+UgHP/bVVD/8C/vP+VkorzlZKKRpWSio1ij6D/T2hp/0qDi/9M
+4f//lbvE/7y0sv/l5+j/5eXn/7W4uP/Ew8T/hG5g/2FLO/+yran/tLCn/5WSio2VkorHZouf/154
+gv8tp+X/Nr/7/726tf/e2tf/eHFf/3hxX//b29n/sbK0/46Bd/+KdGH/pYxo/8euf/+VkorHlZKK
+8F95r/9TbKf/DWX//0l+0///9+X/eHFf/wAAAAAAAAAAeHFf/+vw9/+/tKP/48eX/9y6gv/Xtnz/
+lZKK8JWSivBsbrn/Ulm8/w8m/v9UX8T///ro/3hxX/8AAAAAAAAAAHlxYP/u8P7/u5p0/+GpaP/g
+sXz/37uN/5WSivCVkorHvLS1/7ixs//GxM7/zMvH/7e3tP/a2NX/eHFf/3hxX//e2tr/uLe9/1yh
+Xv9dkzT/i4co/6mGOP+VkorHlZKKjbayqv/SzcL/2djP/+fn5P/ExMT/srKz/+Tl5v/m5ej/urS4
+/4m1o/9QzIz/PLpy/y6wX/9immX/lZKKjZWSikaVkorz3NvZ/+Hg3//u7u7/+/r6/+Tl5f/Hx8f/
+yMfI/9jW1v+u1Mb/fs6t/2PUoP9VwYT/lJKK85WSikYAAAAAlZKKjLOyrP/u7uv/9/X1//f4+P/6
++vr//v7+///////39Pf/19bX/5eajP9/v6D/hKuV/5WSiowAAAAAAAAAAJWSiiCVkoqjuLax//Dw
+7//39/j/9fX3//X19f/5+fn/8O3t/8i+uv+rm5P/lZWL/5WSiqOVkoogAAAAAAAAAAAAAAAAlZKK
+IJWSioyWk4vzyMbC/+Xi4P/u7e3/6OXi/87Kxf+xq6T/lZKK85WSioyVkoogAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAlZKKRpWSio2VkorHlZKK8JWSivCVkorHlZKKjZWSikYAAAAAAAAAAAAAAAAA
+AAAA8A8AAMADAACAAQAAgAEAAAAAAAAAAAAAAAAAAAGAAAABgAAAAAAAAAAAAAAAAAAAgAEAAIAB
+AADAAwAA8A8AAA==
+    </icon>
+  </button>
+</custombuttons>

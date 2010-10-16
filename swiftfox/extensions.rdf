@@ -1,0 +1,902 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NS1="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="rdf:#$lWHVy"
+                   NS1:id="{86c18b42-e466-45a9-ae7a-9b95ba6f5640}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="1.8+" />
+  <RDF:Description RDF:about="rdf:#$UyFy12"
+                   NS1:locale="ja"
+                   NS1:name="Adblock Plus"
+                   NS1:description="広告は過去の遺物です！"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$gzFy12"
+                   NS1:id="songbird@songbirdnest.com"
+                   NS1:minVersion="1.4.0"
+                   NS1:maxVersion="1.9.0a" />
+  <RDF:Description RDF:about="rdf:#$czFy12"
+                   NS1:locale="zh-TW"
+                   NS1:name="Adblock Plus"
+                   NS1:description="廣告已成過去式！"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$0zFy12"
+                   NS1:locale="pt-PT"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Publicidade... já era!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$FyFy12"
+                   NS1:locale="en-GB"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Ads were yesterday!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$AINWW3"
+                   NS1:id="songbird@songbirdnest.com"
+                   NS1:minVersion="1.4.1"
+                   NS1:maxVersion="1.6a" />
+  <RDF:Description RDF:about="rdf:#$Ig9TI"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.0"
+                   NS1:maxVersion="3.7a1pre" />
+  <RDF:Description RDF:about="rdf:#$nRzrB3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.5"
+                   NS1:maxVersion="3.6.*" />
+  <RDF:Description RDF:about="rdf:#$SKq7d2"
+                   NS1:id="songbird@songbirdnest.com"
+                   NS1:minVersion="0.4"
+                   NS1:maxVersion="1.7" />
+  <RDF:Description RDF:about="urn:mozilla:item:{972ce4c6-7e08-4474-a285-3208198ce6fd}"
+                   NS1:installLocation="app-global"
+                   NS1:version="3.6.10"
+                   NS1:internalName="classic/1.0"
+                   NS1:locked="true"
+                   NS1:appManaged="true"
+                   NS1:name="Default"
+                   NS1:description="The default theme."
+                   NS1:creator="Mozilla"
+                   NS1:contributor="Mozilla Contributors">
+    <NS1:type NC:parseType="Integer">4</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$69HVO2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$RyFy12"
+                   NS1:locale="id"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Iklan telah berlalu!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="urn:mozilla:item:{37E4D8EA-8BDA-4831-8EA1-89053939A250}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="3.0.0.1"
+                   NS1:optionsURL="chrome://pdfdownload/content/options.xul"
+                   NS1:aboutURL="chrome://pdfdownload/content/about.xul"
+                   NS1:iconURL="chrome://pdfdownload/skin/pdfdownload_32.png"
+                   NS1:name="PDF Download"
+                   NS1:description="Allows you to choose what to do with a PDF file: download it, view it with an external viewer or view it as HTML."
+                   NS1:creator="Nitro PDF, Inc."
+                   NS1:homepageURL="http://www.pdfdownload.org">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$ji9TI"/>
+    <NS1:targetApplication RDF:resource="rdf:#$ki9TI"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$OyFy12"
+                   NS1:locale="hr"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Oglasi su prošlost!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$kWHVy"
+                   NS1:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="2.1a1pre" />
+  <RDF:Description RDF:about="rdf:#$DyFy12"
+                   NS1:locale="de"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Werbung war gestern!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$4zFy12"
+                   NS1:locale="sl"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Oglasi so preteklost!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$bzFy12"
+                   NS1:locale="zh-CN"
+                   NS1:name="Adblock Plus"
+                   NS1:description="广告已成往事！"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$DHNWW3"
+                   NS1:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   NS1:minVersion="0.4"
+                   NS1:maxVersion="2.0.*" />
+  <RDF:Description RDF:about="rdf:#$+yFy12"
+                   NS1:locale="pt-BR"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Propaganda indesejada é coisa do passado!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$PyFy12"
+                   NS1:locale="hu"
+                   NS1:name="Adblock Plus"
+                   NS1:description="A reklám a múlté!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$CyFy12"
+                   NS1:locale="da"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Reklamer er fortid!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="urn:mozilla:item:{29852C08-1E91-4889-A6BF-C77F91D6A8F3}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="1.8.66"
+                   NS1:internalName="littlefox"
+                   NS1:name="LittleFox"
+                   NS1:description="LittleFox, designed for optimal screen usage, leaving lots of room for browsing. Based on icons from art.gnome.org. Includes support for DOM inspector, downloadstatusbar, quicknote, offline, googlebar, tabsidebar, Stylish, AdBlockPlus, DataManager, Flagfox, Forecast Weather, Hide Caption, ViewAbout, TabMixPlus, AllInOneSidebar and StumbleUpon"
+                   NS1:creator="Alfred Kayser (alfredkayser@gmail.com)"
+                   NS1:homepageURL="https://addons.mozilla.org/en-US/firefox/addon/307/developers"
+                   NS1:contributor="art.gnome.org">
+    <NS1:type NC:parseType="Integer">4</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$950Zc"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$LyFy12"
+                   NS1:locale="fy-NL"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Fan no ôf gjin reklames mear!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$DJBAy1"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.5.0.1"
+                   NS1:maxVersion="4.1.0.1" />
+  <RDF:Description RDF:about="rdf:#$2zFy12"
+                   NS1:locale="ru"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Скажи &quot;нет&quot; рекламе!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$NyFy12"
+                   NS1:locale="he"
+                   NS1:name="Adblock Plus"
+                   NS1:description="הפרסומות שייכות לעבר!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="urn:mozilla:item:foxyproxy@eric.h.jung"
+                   NS1:installLocation="app-profile"
+                   NS1:version="2.22.1"
+                   NS1:optionsURL="chrome://foxyproxy/content/options.xul"
+                   NS1:aboutURL="chrome://foxyproxy/content/about.xul"
+                   NS1:iconURL="chrome://foxyproxy/content/images/foxyproxy-nocopy.gif"
+                   NS1:name="FoxyProxy Standard"
+                   NS1:description="Premier proxy management for Firefox"
+                   NS1:creator="LeahScape, Inc."
+                   NS1:homepageURL="http://getfoxyproxy.org">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$SKq7d2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$TKq7d2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$UKq7d2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$VKq7d2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$WKq7d2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$9zFy12"
+                   NS1:locale="uk"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Скажи «НІ» рекламі!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="urn:mozilla:item:{a7c6cf7f-112c-4500-a7ea-39801a327e5f}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="1.0.9"
+                   NS1:optionsURL="chrome://fireftp/content/preferences.xul"
+                   NS1:iconURL="chrome://fireftp/skin/icons/logo32.png"
+                   NS1:name="FireFTP"
+                   NS1:description="FTP client for Mozilla Firefox."
+                   NS1:creator="Mime Čuvalo"
+                   NS1:homepageURL="http://fireftp.mozdev.org">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:contributor>Devin Pohly</NS1:contributor>
+    <NS1:contributor>Scott Bentley</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$nRzrB3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$BINWW3"
+                   NS1:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   NS1:minVersion="2.0"
+                   NS1:maxVersion="2.0.*" />
+  <RDF:Description RDF:about="rdf:#$.yFy12"
+                   NS1:locale="pl"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Powiedz NIE! reklamom"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$ByFy12"
+                   NS1:locale="cs"
+                   NS1:name="Adblock Plus"
+                   NS1:description="A reklamy jsou minulostí!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$yINWW3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.0"
+                   NS1:maxVersion="4.0b8pre" />
+  <RDF:Description RDF:about="rdf:#$bg9TI"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="3.6.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:{95f24680-9e31-11da-a746-0800200c9a66}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="0.1.5.5"
+                   NS1:optionsURL="chrome://updatenotifier/content/options.xul"
+                   NS1:iconURL="chrome://updatenotifier/skin/un-icon.png"
+                   NS1:name="Update Notifier"
+                   NS1:description="Notifies you when updates are available for your extensions and themes."
+                   NS1:creator="Todd Long &lt;longfocus@gmail.com&gt;"
+                   NS1:homepageURL="http://www.longfocus.com/firefox/updatenotifier">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$bg9TI"/>
+    <NS1:targetApplication RDF:resource="rdf:#$cg9TI"/>
+    <NS1:targetApplication RDF:resource="rdf:#$dg9TI"/>
+    <NS1:targetApplication RDF:resource="rdf:#$eg9TI"/>
+    <NS1:targetApplication RDF:resource="rdf:#$fg9TI"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:moveplayer@movenetworks.com"
+                   NS1:installLocation="app-profile"
+                   NS1:version="1.0.0.07075003"
+                   NS1:name="Move Media Player"
+                   NS1:description="Media Player"
+                   NS1:creator="MoveNetworks"
+                   NS1:homepageURL="http://www.movenetworks.com/">
+    <NS1:type NC:parseType="Integer">16</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$DJBAy1"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$cg9TI"
+                   NS1:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="2.5.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:{19503e42-ca3c-4c27-b1e2-9cdb2170ee34}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="1.2.2.1"
+                   NS1:optionsURL="chrome://flashgot/content/flashgotOptions.xul"
+                   NS1:aboutURL="chrome://flashgot/content/about.xul"
+                   NS1:iconURL="chrome://flashgot/skin/icon32.png"
+                   NS1:name="FlashGot"
+                   NS1:description="Enables Firefox, Mozilla Suite, Netscape and Thunderbird to handle single and massive (&quot;all&quot; and &quot;selection&quot;) downloads using the most popular external download managers for Windows, Mac OS X, Linux and FreeBSD (dozens currently supported, see Extension's Home Page for details). FlashGot offers also a Build Gallery functionality which helps to synthetize full media galleries in one page, from serial contents originally scattered on several pages, for easy and fast &quot;download all&quot;."
+                   NS1:creator="Giorgio Maone"
+                   NS1:homepageURL="http://flashgot.net">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:contributor>Ahmad Zhafir (Malay translation)</NS1:contributor>
+    <NS1:contributor>Alexander "Hawksthorne" Kirilov and Kalin Takev  (Bulgarian translation)</NS1:contributor>
+    <NS1:contributor>Drive DRKA (Belarusian translation)</NS1:contributor>
+    <NS1:contributor>Anthony L. Bryan and Darius Liktorius (Metalink support)</NS1:contributor>
+    <NS1:contributor>Artek Działek, Bartosz Piec and Piotr Konieczny (Polish translation)</NS1:contributor>
+    <NS1:contributor>Axel Zechner (KGet support)</NS1:contributor>
+    <NS1:contributor>Bálint Farkas and Henriett Peller (Hungarian translation)</NS1:contributor>
+    <NS1:contributor>Basem Narmok (Arabic translation)</NS1:contributor>
+    <NS1:contributor>Baurzhan Muftakhidinov (Kazakh translation)</NS1:contributor>
+    <NS1:contributor>Bayarsaikhan Enkhtaivan (Mongolian translation)</NS1:contributor>
+    <NS1:contributor>BDNT (Indonesian translation)</NS1:contributor>
+    <NS1:contributor>Besmir Godole (Albanian translation)</NS1:contributor>
+    <NS1:contributor>Bigbigbomb, Blackdire, Charlie Chen and George C. Tsoi (Simplified Chinese translation)</NS1:contributor>
+    <NS1:contributor>Cola99 (Traditional Chinese translation)</NS1:contributor>
+    <NS1:contributor>Diogo Mafra, Raryel Costa Souza and Marcelo Ghelman (Portuguese translation)</NS1:contributor>
+    <NS1:contributor>Duriel (Simplified Chinese translation)</NS1:contributor>
+    <NS1:contributor>Emilio Malaman, Tulio Padilha and Pesty (Portuguese translation)</NS1:contributor>
+    <NS1:contributor>Engin Yazılan (Turkish translation)</NS1:contributor>
+    <NS1:contributor>Frantisek Augusztin(KGet support)</NS1:contributor>
+    <NS1:contributor>Frackounet and Yann Bill (French translation)</NS1:contributor>
+    <NS1:contributor>Gaspar Alomar Trías (Catalan translation)</NS1:contributor>
+    <NS1:contributor>Gomyoung Kim (Korean translation)</NS1:contributor>
+    <NS1:contributor>Greener(Traditional Chinese translation)</NS1:contributor>
+    <NS1:contributor>Hadakadenkyu (Japanese translation)</NS1:contributor>
+    <NS1:contributor>HU Tian-Lei (Thunder hints)</NS1:contributor>
+    <NS1:contributor>iLogik (Romanian translation)</NS1:contributor>
+    <NS1:contributor>Jacques Letellier, Yann Bill and Calimero988 (French translation)</NS1:contributor>
+    <NS1:contributor>Jan Janssen (Gwget support)</NS1:contributor>
+    <NS1:contributor>Jarol and Nameless (Spanish translation)</NS1:contributor>
+    <NS1:contributor>Jonathan Avraham (Hebrew translation)</NS1:contributor>
+    <NS1:contributor>Jouko Saarinen (Finnish translation)</NS1:contributor>
+    <NS1:contributor>Jure Osredkar and Miles (Slovenian translation)</NS1:contributor>
+    <NS1:contributor>Kesisidis  Dimitrios and Rookie (Greek translation)</NS1:contributor>
+    <NS1:contributor>Krcko (Croatian translation)</NS1:contributor>
+    <NS1:contributor>Kostas Papadimas (Greek translation)</NS1:contributor>
+    <NS1:contributor>Leon Odendaal (Afrikaans translation)</NS1:contributor>
+    <NS1:contributor>Tomas Kordik (Czech translation)</NS1:contributor>
+    <NS1:contributor>Leif Larsson (Swedish translation)</NS1:contributor>
+    <NS1:contributor>Levent Karakas (Turkish translation)</NS1:contributor>
+    <NS1:contributor>Lois Lamas (Galician translation)</NS1:contributor>
+    <NS1:contributor>Luca Pedrazzi (Italian translation)</NS1:contributor>
+    <NS1:contributor>Max Velasques (wxDownload Fast support)</NS1:contributor>
+    <NS1:contributor>M. Agras and Urko (Spanish translation)</NS1:contributor>
+    <NS1:contributor>Marius Navickas (Lithuanian translation)</NS1:contributor>
+    <NS1:contributor>Martin Joné (Norwegian Bokmål translation)</NS1:contributor>
+    <NS1:contributor>Martin Harder (Danish translation)</NS1:contributor>
+    <NS1:contributor>Michal Duda (Czech translation)</NS1:contributor>
+    <NS1:contributor>Mohsen Qorbani (Persian translation)</NS1:contributor>
+    <NS1:contributor>Ömer Fadıl USTA (Turkish translation)</NS1:contributor>
+    <NS1:contributor>Patipat Susumpow (Thai translation)</NS1:contributor>
+    <NS1:contributor>Pshadow (Traditional Chinese translation)</NS1:contributor>
+    <NS1:contributor>Ragnaar (Russian translation)</NS1:contributor>
+    <NS1:contributor>ReinekeFux and Thomas Weber (German translation)</NS1:contributor>
+    <NS1:contributor>Robert Setiadi (Indonesian translation)</NS1:contributor>
+    <NS1:contributor>Raryel Costa Souza- Brazil (Portuguese/Brazil translation)</NS1:contributor>
+    <NS1:contributor>Sergey Khoruzhin (Ukrainian translation)</NS1:contributor>
+    <NS1:contributor>Steven Hemelaere and Alf (Dutch translation)</NS1:contributor>
+    <NS1:contributor>Unghost (Russian translation)</NS1:contributor>
+    <NS1:contributor>Wladow (Slovak translation)</NS1:contributor>
+    <NS1:contributor>Љубиша Радовановић (Serbian translation)</NS1:contributor>
+    <NS1:contributor>YuanHongYe (new Thunder support)</NS1:contributor>
+    <NS1:contributor>Zhang Ji (BitComet support)</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$wHNWW3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$xHNWW3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$yHNWW3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$zHNWW3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$AHNWW3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$BHNWW3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$CHNWW3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$DHNWW3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$3zFy12"
+                   NS1:locale="sk"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Reklamy sú minulosťou!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$6zFy12"
+                   NS1:locale="sv-SE"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Säg farväl till all reklam!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$ZyFy12"
+                   NS1:locale="nl"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Reclames behoren tot het verleden!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$MyFy12"
+                   NS1:locale="gl"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Os anuncios son cousa do pasado!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$AyFy12"
+                   NS1:locale="ca"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Els anuncis eren ahir"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$dzFy12"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.0.12"
+                   NS1:maxVersion="4.0b8pre" />
+  <RDF:Description RDF:about="rdf:#$yyFy12"
+                   NS1:locale="ar"
+                   NS1:name="Adblock Plus"
+                   NS1:description="الإعلانات أصبحت من الأمس!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="urn:mozilla:item:{AE93811A-5C9A-4d34-8462-F7B864FC4696}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="3.73"
+                   NS1:optionsURL="chrome://stumbleupon/content/preferenceDialog.xul"
+                   NS1:iconURL="chrome://stumbleupon/skin/logo32.png"
+                   NS1:name="StumbleUpon"
+                   NS1:description="StumbleUpon Toolbar"
+                   NS1:creator="StumbleUpon"
+                   NS1:homepageURL="http://www.stumbleupon.com/">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:contributor>Geoff Smith</NS1:contributor>
+    <NS1:contributor>Garrett Camp</NS1:contributor>
+    <NS1:contributor>Joe Walp</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$jWHVy"/>
+    <NS1:targetApplication RDF:resource="rdf:#$kWHVy"/>
+    <NS1:targetApplication RDF:resource="rdf:#$lWHVy"/>
+    <NS1:targetApplication RDF:resource="rdf:#$mWHVy"/>
+    <NS1:targetApplication RDF:resource="rdf:#$nWHVy"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$kzFy12"
+                   NS1:id="{a23983c0-fd0e-11dc-95ff-0800200c9a66}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="1.1.*" />
+  <RDF:Description RDF:about="rdf:#$8zFy12"
+                   NS1:locale="tr"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Reklamlar geçmişte kaldı!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$ki9TI"
+                   NS1:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   NS1:minVersion="0.2"
+                   NS1:maxVersion="3.5.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:sendtophone@martinezdelizarrondo.com"
+                   NS1:installLocation="app-profile"
+                   NS1:version="1.1.1"
+                   NS1:optionsURL="chrome://sendtophone/content/options.xul"
+                   NS1:iconURL="chrome://sendtophone/skin/icon.png"
+                   NS1:name="Fox To Phone"
+                   NS1:description="Send links to your Android 2.2 phone using the new C2DM service. Based on the ChromeToPhone extension."
+                   NS1:creator="Alfonso &amp; Patrick"
+                   NS1:homepageURL="http://www.foxtophone.com">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:contributor>BabelZilla translators:</NS1:contributor>
+    <NS1:contributor>markh van BabelZilla.org (Dutch)</NS1:contributor>
+    <NS1:contributor>Goofy (French)</NS1:contributor>
+    <NS1:contributor>Emanuel S. (German)</NS1:contributor>
+    <NS1:contributor>ДакСРБИЈА (Serbian)</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$CVHVy"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:firegestures@xuldev.org"
+                   NS1:installLocation="app-profile"
+                   NS1:version="1.5.7"
+                   NS1:optionsURL="chrome://firegestures/content/prefs.xul"
+                   NS1:iconURL="chrome://firegestures/skin/icon.png"
+                   NS1:name="FireGestures"
+                   NS1:description="Executes various commands with mouse gestures."
+                   NS1:creator="Gomita"
+                   NS1:homepageURL="http://www.xuldev.org/firegestures/"
+                   NS1:contributor="tsukkee (testing with Mac OS X)">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:translator>Quicksilver tears (ru-RU)</NS1:translator>
+    <NS1:translator>myahoo (fr-FR)</NS1:translator>
+    <NS1:translator>Cye3s (zh-CN)</NS1:translator>
+    <NS1:translator>teo, Wacław Jacek (pl-PL)</NS1:translator>
+    <NS1:translator>josesun, Nelson (zh-TW)</NS1:translator>
+    <NS1:translator>Indigo (it-IT)</NS1:translator>
+    <NS1:translator>PAB (de-DE)</NS1:translator>
+    <NS1:translator>Alberto Eidh (pt-BR)</NS1:translator>
+    <NS1:translator>villepyry (fi-FI)</NS1:translator>
+    <NS1:translator>wtspout (ko-KR)</NS1:translator>
+    <NS1:translator>MartinZubek (cs-CZ)</NS1:translator>
+    <NS1:translator>gandhi2 (nb-NO)</NS1:translator>
+    <NS1:translator>kami (hu-HU)</NS1:translator>
+    <NS1:translator>headshrinker (sk-SK)</NS1:translator>
+    <NS1:translator>efecan (tr-TR)</NS1:translator>
+    <NS1:translator>DakSrbija (sr-RS)</NS1:translator>
+    <NS1:translator>loveleeyoungae (vi-VN)</NS1:translator>
+    <NS1:translator>odliam (es-AR)</NS1:translator>
+    <NS1:translator>chuzo (es-ES)</NS1:translator>
+    <NS1:translator>x10firefox (ro-RO)</NS1:translator>
+    <NS1:targetApplication RDF:resource="rdf:#$hceAm"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:ubufox@ubuntu.com"
+                   NS1:installLocation="app-system-share"
+                   NS1:version="0.9rc2"
+                   NS1:iconURL="chrome://ubufox/content/ubuntulogo32.png"
+                   NS1:name="Ubuntu Firefox Modifications"
+                   NS1:description="Ubuntu configuration defaults and apt support for firefox extensions/plugins."
+                   NS1:creator="Canonical Ltd.">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:contributor>Alexander Sack &lt;asac@ubuntu.com&gt;</NS1:contributor>
+    <NS1:contributor>Sasa Bodiroza &lt;jazzva@gmail.com&gt;</NS1:contributor>
+    <NS1:contributor>Daniel Abramov &lt;ex@vingrad.ru&gt;</NS1:contributor>
+    <NS1:contributor>Arzhel Younsi &lt;xionox@gmail.com&gt;</NS1:contributor>
+    <NS1:contributor>Saïvann Carignan &lt;oxmosys@gmail.com&gt;</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$U0+Xv3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$dg9TI"
+                   NS1:id="songbird@songbirdnest.com"
+                   NS1:minVersion="0.5"
+                   NS1:maxVersion="1.2.*" />
+  <RDF:Description RDF:about="rdf:#$XyFy12"
+                   NS1:locale="mn"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Сурталчилгаа бол өчигдөр байлаа!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$zyFy12"
+                   NS1:locale="bg"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Рекламите бяха вчера!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$oUFSt2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.0"
+                   NS1:maxVersion="4.0b8pre" />
+  <RDF:Description RDF:about="rdf:#$WKq7d2"
+                   NS1:id="{3550f703-e582-4d05-9a08-453d09bdfdc6}"
+                   NS1:minVersion="3.0a1pre"
+                   NS1:maxVersion="3.2a1pre" />
+  <RDF:Description RDF:about="rdf:#$hceAm"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.0"
+                   NS1:maxVersion="3.6.*" />
+  <RDF:Description RDF:about="rdf:#$jzFy12"
+                   NS1:id="prism@developer.mozilla.org"
+                   NS1:minVersion="1.0b1"
+                   NS1:maxVersion="1.0.*" />
+  <RDF:Description RDF:about="rdf:#$ji9TI"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="4.0b8pre" />
+  <RDF:Description RDF:about="rdf:#$7zFy12"
+                   NS1:locale="th"
+                   NS1:name="Adblock Plus"
+                   NS1:description="ลาก่อนพวกโฆษณา!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$GyFy12"
+                   NS1:locale="en-US"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Ads were yesterday!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$YyFy12"
+                   NS1:locale="ms-MY"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Iklan semalam!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$FFMl9"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0"
+                   NS1:maxVersion="3.*" />
+  <RDF:Description RDF:about="rdf:#$U0+Xv3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="3.7.*" />
+  <RDF:Description RDF:about="rdf:#$WyFy12"
+                   NS1:locale="ko"
+                   NS1:name="Adblock Plus"
+                   NS1:description="광고, 이제 안녕!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$KyFy12"
+                   NS1:locale="fr"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Les publicités, c'est du passé !"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$azFy12"
+                   NS1:locale="vi"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Quảng cáo đã là dĩ vãng!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="urn:mozilla:item:{3112ca9c-de6d-4884-a869-9855de68056c}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="7.1.20100830L"
+                   NS1:updateURL="https://tools.google.com/firefox/update?guid=%ITEM_ID%&amp;version=%ITEM_VERSION%&amp;application=%APP_ID%&amp;appversion=%APP_VERSION%&amp;dist=google"
+                   NS1:optionsURL="chrome://google-toolbar/content/options.xul"
+                   NS1:aboutURL="chrome://google-toolbar/content/about.xul"
+                   NS1:iconURL="chrome://google-toolbar/skin/icon.png"
+                   NS1:name="Google Toolbar for Firefox"
+                   NS1:description="Take the power of Google with you anywhere on the Web!"
+                   NS1:creator="Google Inc."
+                   NS1:homepageURL="http://www.google.com/">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$FFMl9"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$CVHVy"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.5"
+                   NS1:maxVersion="4.0b8pre" />
+  <RDF:Description RDF:about="rdf:#$hzFy12"
+                   NS1:id="{aa5ca914-c309-495d-91cf-3141bbb04115}"
+                   NS1:minVersion="0.2"
+                   NS1:maxVersion="0.3" />
+  <RDF:Description RDF:about="rdf:#$wHNWW3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="4.0b8pre" />
+  <RDF:Description RDF:about="rdf:#$zINWW3"
+                   NS1:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   NS1:minVersion="0.4"
+                   NS1:maxVersion="2.5.*" />
+  <RDF:Description RDF:about="rdf:#$izFy12"
+                   NS1:id="{a79fe89b-6662-4ff4-8e88-09950ad4dfde}"
+                   NS1:minVersion="0.1"
+                   NS1:maxVersion="100.0" />
+  <RDF:Seq RDF:about="urn:mozilla:item:root">
+    <RDF:li RDF:resource="urn:mozilla:item:{097d3191-e6fa-4728-9826-b533d755359d}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{972ce4c6-7e08-4474-a285-3208198ce6fd}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{a7c6cf7f-112c-4500-a7ea-39801a327e5f}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{0538E3E3-7E9B-4d49-8831-A227C80A7AD3}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{29852C08-1E91-4889-A6BF-C77F91D6A8F3}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:moveplayer@movenetworks.com"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{AE93811A-5C9A-4d34-8462-F7B864FC4696}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{95f24680-9e31-11da-a746-0800200c9a66}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:firegestures@xuldev.org"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{19503e42-ca3c-4c27-b1e2-9cdb2170ee34}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{37E4D8EA-8BDA-4831-8EA1-89053939A250}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{b9db16a4-6edc-47ec-a1f4-b86292ed211d}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:ubufox@ubuntu.com"/>
+    <RDF:li RDF:resource="urn:mozilla:item:sendtophone@martinezdelizarrondo.com"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{3112ca9c-de6d-4884-a869-9855de68056c}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:foxyproxy@eric.h.jung"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:item:{097d3191-e6fa-4728-9826-b533d755359d}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="0.7.11"
+                   NS1:optionsURL="chrome://aios/content/prefs/prefs.xul"
+                   NS1:aboutURL="chrome://aios/content/about.xul"
+                   NS1:iconURL="chrome://aios/skin/images/icon.png"
+                   NS1:name="All-in-One Sidebar"
+                   NS1:description="Sidebar control with award-winning user experience!"
+                   NS1:creator="Ingo Wennemaring"
+                   NS1:homepageURL="http://firefox.exxile.net/aios">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$Ig9TI"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$QyFy12"
+                   NS1:locale="hy-AM"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Գովազդները երեկ էին!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$yHNWW3"
+                   NS1:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="2.1b2" />
+  <RDF:Description RDF:about="rdf:#$zHNWW3"
+                   NS1:id="{3550f703-e582-4d05-9a08-453d09bdfdc6}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="3.3a1pre" />
+  <RDF:Description RDF:about="rdf:#$jWHVy"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="4.0b6pre" />
+  <RDF:Description RDF:about="urn:mozilla:item:{0538E3E3-7E9B-4d49-8831-A227C80A7AD3}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="2.0.2"
+                   NS1:optionsURL="chrome://forecastfox/content/options.xul"
+                   NS1:iconURL="chrome://forecastfox/skin/images/logo32.png"
+                   NS1:name="Forecastfox Weather"
+                   NS1:description="Display international weather forecasts from AccuWeather.com in an easily readable format."
+                   NS1:creator="Jon Stritar"
+                   NS1:homepageURL="http://getforecastfox.com/"
+                   NS1:translator="www.BabelZilla.org">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:contributor>Jon Stritar</NS1:contributor>
+    <NS1:contributor>Richard Klein</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$oUFSt2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$pUFSt2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$VyFy12"
+                   NS1:locale="kk-KZ"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Жарнамаға жол жоқ!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$JyFy12"
+                   NS1:locale="fi"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Mainokset ovat menneisyyttä!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$VKq7d2"
+                   NS1:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   NS1:minVersion="2.0a"
+                   NS1:maxVersion="2.1b1" />
+  <RDF:Description RDF:about="rdf:#$fzFy12"
+                   NS1:id="{3550f703-e582-4d05-9a08-453d09bdfdc6}"
+                   NS1:minVersion="3.0"
+                   NS1:maxVersion="3.2a1pre" />
+  <RDF:Description RDF:about="rdf:#$5zFy12"
+                   NS1:locale="sr"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Рекламе су прошлост!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$AHNWW3"
+                   NS1:id="dlm@emusic.com"
+                   NS1:minVersion="1.0a4"
+                   NS1:maxVersion="1.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$xHNWW3"
+                   NS1:id="{86c18b42-e466-45a9-ae7a-9b95ba6f5640}"
+                   NS1:minVersion="1.7"
+                   NS1:maxVersion="1.8+" />
+  <RDF:Description RDF:about="rdf:#$eg9TI"
+                   NS1:id="{718e30fb-e89b-41dd-9da7-e25a45638b28}"
+                   NS1:minVersion="0.3"
+                   NS1:maxVersion="0.9" />
+  <RDF:Description RDF:about="rdf:#$nWHVy"
+                   NS1:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   NS1:minVersion="0.4"
+                   NS1:maxVersion="2.*" />
+  <RDF:Description RDF:about="rdf:#$BHNWW3"
+                   NS1:id="toolkit@mozilla.org"
+                   NS1:minVersion="1.9a3"
+                   NS1:maxVersion="1.9.*" />
+  <RDF:Description RDF:about="rdf:#$TyFy12"
+                   NS1:locale="it"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Permette di dire 'no' alla pubblicità presente nelle pagine web!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$IyFy12"
+                   NS1:locale="es-ES"
+                   NS1:name="Adblock Plus"
+                   NS1:description="La publicidad es cosa del ayer"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="urn:mozilla:item:{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="1.2.2"
+                   NS1:optionsURL="chrome://adblockplus/content/ui/settings.xul"
+                   NS1:aboutURL="chrome://adblockplus/content/ui/about.xul"
+                   NS1:iconURL="chrome://adblockplus/skin/adblockplus.png"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Ads were yesterday!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:localized RDF:resource="rdf:#$yyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$zyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$AyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$ByFy12"/>
+    <NS1:localized RDF:resource="rdf:#$CyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$DyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$EyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$FyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$GyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$HyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$IyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$JyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$KyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$LyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$MyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$NyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$OyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$PyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$QyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$RyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$SyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$TyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$UyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$VyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$WyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$XyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$YyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$ZyFy12"/>
+    <NS1:localized RDF:resource="rdf:#$.yFy12"/>
+    <NS1:localized RDF:resource="rdf:#$+yFy12"/>
+    <NS1:localized RDF:resource="rdf:#$0zFy12"/>
+    <NS1:localized RDF:resource="rdf:#$1zFy12"/>
+    <NS1:localized RDF:resource="rdf:#$2zFy12"/>
+    <NS1:localized RDF:resource="rdf:#$3zFy12"/>
+    <NS1:localized RDF:resource="rdf:#$4zFy12"/>
+    <NS1:localized RDF:resource="rdf:#$5zFy12"/>
+    <NS1:localized RDF:resource="rdf:#$6zFy12"/>
+    <NS1:localized RDF:resource="rdf:#$7zFy12"/>
+    <NS1:localized RDF:resource="rdf:#$8zFy12"/>
+    <NS1:localized RDF:resource="rdf:#$9zFy12"/>
+    <NS1:localized RDF:resource="rdf:#$azFy12"/>
+    <NS1:localized RDF:resource="rdf:#$bzFy12"/>
+    <NS1:localized RDF:resource="rdf:#$czFy12"/>
+    <NS1:translator>Ahmet Serkan Tıratacı</NS1:translator>
+    <NS1:translator>Dagobert_78</NS1:translator>
+    <NS1:translator>Hrvoje Majer</NS1:translator>
+    <NS1:translator>Jakub Tománek</NS1:translator>
+    <NS1:translator>Joni Heinonen</NS1:translator>
+    <NS1:translator>Jose Sun</NS1:translator>
+    <NS1:translator>Ján Kendi (Jacen)</NS1:translator>
+    <NS1:translator>KNTRO</NS1:translator>
+    <NS1:translator>Ken</NS1:translator>
+    <NS1:translator>Kristján Bjarni Guðmundsson</NS1:translator>
+    <NS1:translator>Leonid</NS1:translator>
+    <NS1:translator>Leszek(teo)Życzkowski</NS1:translator>
+    <NS1:translator>Luana Di Muzio</NS1:translator>
+    <NS1:translator>Manuel Meixide</NS1:translator>
+    <NS1:translator>Mark Tyndall</NS1:translator>
+    <NS1:translator>Martin Srebotnjak</NS1:translator>
+    <NS1:translator>Mikes Kaszmán István</NS1:translator>
+    <NS1:translator>Nguyễn Mạnh Hùng</NS1:translator>
+    <NS1:translator>Premier</NS1:translator>
+    <NS1:translator>Raul Pimentel</NS1:translator>
+    <NS1:translator>Schuzak</NS1:translator>
+    <NS1:translator>SiiiE</NS1:translator>
+    <NS1:translator>Urko</NS1:translator>
+    <NS1:translator>Wim Benes</NS1:translator>
+    <NS1:translator>Wladimir Palant</NS1:translator>
+    <NS1:translator>blackdire</NS1:translator>
+    <NS1:translator>catcat</NS1:translator>
+    <NS1:translator>el_libre www.catmidia.cat</NS1:translator>
+    <NS1:translator>jojaba</NS1:translator>
+    <NS1:translator>kapetance</NS1:translator>
+    <NS1:translator>markh</NS1:translator>
+    <NS1:translator>maybee</NS1:translator>
+    <NS1:translator>pirlouy</NS1:translator>
+    <NS1:translator>pitdicker</NS1:translator>
+    <NS1:translator>rookie</NS1:translator>
+    <NS1:translator>sushizang</NS1:translator>
+    <NS1:translator>Бауржан Муфтахидинов</NS1:translator>
+    <NS1:translator>Владимир Палант</NS1:translator>
+    <NS1:translator>ДакСРБИЈА</NS1:translator>
+    <NS1:translator>Ивайло Йовчев (s0urce)</NS1:translator>
+    <NS1:translator>Тимофій Бабич</NS1:translator>
+    <NS1:translator>Էդուարդ Բաբայան (edo248)</NS1:translator>
+    <NS1:translator>مؤيد مارديني</NS1:translator>
+    <NS1:contributor>Nickolay Ponomarev</NS1:contributor>
+    <NS1:contributor>Fabrice Desré</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$dzFy12"/>
+    <NS1:targetApplication RDF:resource="rdf:#$ezFy12"/>
+    <NS1:targetApplication RDF:resource="rdf:#$fzFy12"/>
+    <NS1:targetApplication RDF:resource="rdf:#$gzFy12"/>
+    <NS1:targetApplication RDF:resource="rdf:#$hzFy12"/>
+    <NS1:targetApplication RDF:resource="rdf:#$izFy12"/>
+    <NS1:targetApplication RDF:resource="rdf:#$jzFy12"/>
+    <NS1:targetApplication RDF:resource="rdf:#$kzFy12"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$fg9TI"
+                   NS1:id="{3550f703-e582-4d05-9a08-453d09bdfdc6}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="3.0b2" />
+  <RDF:Description RDF:about="rdf:#$UKq7d2"
+                   NS1:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   NS1:minVersion="0.7"
+                   NS1:maxVersion="2.0.*" />
+  <RDF:Description RDF:about="rdf:#$ezFy12"
+                   NS1:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   NS1:minVersion="2.0"
+                   NS1:maxVersion="2.1b1" />
+  <RDF:Description RDF:about="rdf:#$mWHVy"
+                   NS1:id="{3db10fab-e461-4c80-8b97-957ad5f8ea47}"
+                   NS1:minVersion="8.0"
+                   NS1:maxVersion="9.0" />
+  <RDF:Description RDF:about="rdf:#$950Zc"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0"
+                   NS1:maxVersion="4.0b8pre" />
+  <RDF:Description RDF:about="rdf:#$69HVO2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.6.10"
+                   NS1:maxVersion="3.6.10" />
+  <RDF:Description RDF:about="rdf:#$EyFy12"
+                   NS1:locale="el"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Αφήστε τις διαφημίσεις στο χθες!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$TKq7d2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.1b3"
+                   NS1:maxVersion="4.0b4" />
+  <RDF:Description RDF:about="rdf:#$1zFy12"
+                   NS1:locale="ro"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Elimină publicitatea din paginile web."
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$SyFy12"
+                   NS1:locale="is"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Auglýsingar eru hluti af fortíðinni!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$HyFy12"
+                   NS1:locale="es-AR"
+                   NS1:name="Adblock Plus"
+                   NS1:description="¡La publicidad es cosa del pasado!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$pUFSt2"
+                   NS1:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   NS1:minVersion="2.1a1"
+                   NS1:maxVersion="2.1b1" />
+  <RDF:Description RDF:about="rdf:#$CHNWW3"
+                   NS1:id="songbird@songbirdnest.com"
+                   NS1:minVersion="0.7"
+                   NS1:maxVersion="1.2.0" />
+  <RDF:Description RDF:about="urn:mozilla:item:{b9db16a4-6edc-47ec-a1f4-b86292ed211d}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="4.8.1"
+                   NS1:optionsURL="chrome://dwhelper/content/preferences-new.xul"
+                   NS1:iconURL="chrome://dwhelper/skin/logo-32x32.png"
+                   NS1:name="DownloadHelper"
+                   NS1:description="Download videos and images from many sites"
+                   NS1:creator="Michel Gutierrez"
+                   NS1:homepageURL="http://www.downloadhelper.net">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$yINWW3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$zINWW3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$AINWW3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$BINWW3"/>
+  </RDF:Description>
+</RDF:RDF>

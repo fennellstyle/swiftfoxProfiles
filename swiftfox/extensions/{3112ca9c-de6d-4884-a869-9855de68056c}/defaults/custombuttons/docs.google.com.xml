@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<custombuttons xmlns="http://toolbar.google.com/custombuttons/">
+  <button>
+    <title>Google Documents</title>
+    <title locale="ar">مستندات Google</title>
+    <title locale="bg">Google Документи</title>
+    <title locale="ca">Documents de Google</title>
+    <title locale="cs">Dokumenty Google</title>
+    <title locale="da">Google Dokumenter</title>
+    <title locale="de">Google Text &amp; Tabellen</title>
+    <title locale="el">Έγγραφα Google</title>
+    <title locale="en-GB">Google Docs</title>
+    <title locale="es">Google Docs</title>
+    <title locale="et">Google Documents</title>
+    <title locale="fi">Google-dokumentit</title>
+    <title locale="fil">Mga Dokumento sa Google</title>
+    <title locale="fr">Google Documents</title>
+    <title locale="hi">Google दस्तावेज़</title>
+    <title locale="hr">Google dokumenti</title>
+    <title locale="hu">Google Dokumentumok</title>
+    <title locale="id">Google Docs</title>
+    <title locale="is">Google Skjalavinnsla</title>
+    <title locale="it">Google Documenti</title>
+    <title locale="iw">Google Documents</title>
+    <title locale="ja">Google ドキュメント</title>
+    <title locale="ko">Google 문서도구</title>
+    <title locale="lt">„Google“ dokumentai</title>
+    <title locale="lv">Google Dokumenti</title>
+    <title locale="nl">Google Documenten</title>
+    <title locale="no">Google Dokumenter</title>
+    <title locale="pl">Dokumenty Google</title>
+    <title locale="pt-BR">Google Documentos</title>
+    <title locale="pt-PT">Documentos do Google</title>
+    <title locale="ro">Documente Google</title>
+    <title locale="ru">Документы Google</title>
+    <title locale="sk">Dokumenty Google</title>
+    <title locale="sl">Google Dokumenti</title>
+    <title locale="sr">Google документи</title>
+    <title locale="sv">Google Dokument</title>
+    <title locale="th">Google Documents</title>
+    <title locale="tr">Google Dokümanlar</title>
+    <title locale="uk">Документи Google</title>
+    <title locale="vi">Google Documents</title>
+    <title locale="zh-CN">文档</title>
+    <title locale="zh-TW">Google 文件</title>
+    <description>Search my Google Documents</description>
+    <description locale="ar">البحث في مستندات Google الخاصة بي</description>
+    <description locale="bg">Търсете в своите файлове в Google Документи</description>
+    <description locale="ca">Cerqueu als meus documents de Google</description>
+    <description locale="cs">Prohledat mé Dokumenty Google</description>
+    <description locale="da">Søg i mine Google-dokumenter</description>
+    <description locale="de">Google Text &amp; Tabellen durchsuchen</description>
+    <description locale="el">Αναζήτηση των Εγγράφων Google</description>
+    <description locale="en-GB">Search my Google Documents</description>
+    <description locale="es">Buscar en Google Docs</description>
+    <description locale="et">Google Documentsi otsing</description>
+    <description locale="fi">Tee haku Google-dokumenteistasi</description>
+    <description locale="fil">Hanapin ang aking Mga Dokumento sa Google</description>
+    <description locale="fr">Rechercher dans Google Documents</description>
+    <description locale="hi">मेरे Google दस्तावेज़ खोजें</description>
+    <description locale="hr">Pretraži moje Google dokumente</description>
+    <description locale="hu">Saját Google Dokumentumok keresése</description>
+    <description locale="id">Cari di Google Docs saya</description>
+    <description locale="is">Leita í Google skjalamöppunni minni</description>
+    <description locale="it">Cerca in Google Documenti</description>
+    <description locale="iw">חפש ב-Google Documents שלי</description>
+    <description locale="ja">Google ドキュメントを検索</description>
+    <description locale="ko">Google 문서를 검색합니다.</description>
+    <description locale="lt">Ieškoti mano „Google“ dokumentuose</description>
+    <description locale="lv">Meklēt manos Google Dokumentos</description>
+    <description locale="nl">Mijn Google-documenten doorzoeken</description>
+    <description locale="no">Søk i Google-dokumentene</description>
+    <description locale="pl">Wyszukaj w aplikacji Dokumenty Google</description>
+    <description locale="pt-BR">Pesquisar meus Google Documentos</description>
+    <description locale="pt-PT">Pesquisar nos meus Documentos do Google</description>
+    <description locale="ro">Căutaţi în Documentele mele Google</description>
+    <description locale="ru">Поиск по моим Документам Google</description>
+    <description locale="sk">Vyhľadávať vo svojich Dokumentoch Google</description>
+    <description locale="sl">Išči v mojih Google Dokumentih</description>
+    <description locale="sr">Претражи моје Google документе</description>
+    <description locale="sv">Sök i mina Google-dokument</description>
+    <description locale="th">ค้นหา Google Documents ของฉัน</description>
+    <description locale="tr">Google Dokümanlarımı Ara</description>
+    <description locale="uk">Шукати Документи Google</description>
+    <description locale="vi">Tìm kiếm Google Documents</description>
+    <description locale="zh-CN">搜索我的 Google 文档</description>
+    <description locale="zh-TW">搜尋「Google 文件」</description>
+    <site>http://docs.google.com/?hl={locale}{sourceid}</site>
+    <search>http://docs.google.com/?hl={locale}{aq}{sourceid}{rlz}&amp;ie=UTF-8&amp;q={query}</search>
+    <update>http://toolbar.google.com/buttons/defs/docs.google.com.xml</update>
+    <version>200807010000</version>    
+    <icon mode="base64">
+AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAA/Pz/PV1dX/z8/P98/Pz+PPz8/QAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAA/Pz9AXl5e/9zc3P+NjY7/gYGB/1NTU/8/Pz/vPz8/rz8/P2A/
+Pz8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPz8/v6Wlpv/R0dH/vMLR/7i6wP+SkpL/tbW2/46O
+jv9jY2P/R0dH/z8/P88/Pz+APz8/IAAAAAAAAAAAPz8/QFRUVP/Nzc7/yM7d/7/P9//B0fr/wMvm
+/+Tk5P/T09T/nJyc/7u7vP+dnZ7/YWFh/0VFRf8/Pz8wAAAAAD8/P5+Xl5f/y8vM/8zY9/+/zvf/
+wdD5/6u1zv/+/v7//v7+//j4+P/v7+//3Nzc/6SkpP+BgYL/Pz8/zz8/PyBJSUr/xcXF/83Q2P+s
+vOT/jZ3F/5Ggyf+wtsX/wsLC/3p6ev+SkpL/+Pj4/+7u7//MzM3/39/g/0tLS/8/Pz+fL014/8nJ
+yf/P2fL/vs73/8HR+f+ls9n/19fX/2BgYP9zfYX/QWZ8/3l5ef+9vb7/2NjZ/7u7vP8/Pz/vSkpK
+71qAuv+hscv/sL/o/4ubw/+Tosv/nqe+//39/f8/Pz//PsDx/wGIx/8vU2n/g4OD/7Kysv94eHn/
+Pz8/70hMUv93mc//fJ7Y/7fG7/+8y/T/n6/X/8XHzP/ExMT/YGBg/xWiwv8CmNr/CH+//1VVVf/c
+3N3/Wlpa/z8/P1A/Pz/vjKnY/3u28f8jb9H/XIbT/4SYv//5+fn/+vr7/7q6uv83Ulf/Abv1/wKL
+yv8gZpL/V1dX/z8/P+8AAAAAPz8/n2yCkv8EmPP/AJ7//wKP9P8HdNv/GWvI/1eGxv9iga//UmaC
+/yCKn/8Bn+P/BIPB/ztESv8/Pz+AAAAAAD8/PxA/Pz+fPz8//ytie/8YgLf/CI/n/wCP//8Ahv//
+AX76/wdy4/8zUGP/CbPh/wGOzf8Ybp//Pz8/vwAAAAAAAAAAAAAAAD8/PxA/Pz9gPz8/nz8/P983
+SVf/K1Z7/yBgn/8YZ7f/I1uT/ytue/8Cre7/AYfG/y9Tav8/Pz9gAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAPz8/ID8/P0A/Pz+APz8/gD8/P78/Pz/vEKjM/xyMvv9kgI//Pz8/7wAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPz8/QERERP96gZz/dYGy/z8/P/8AAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/Pz+fTVFi/z8/P+8/
+Pz9Q4P8AAMAPAADAAQAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAQAAwAAAAPwA
+AAD/4AAA//AAAA==
+    </icon>
+  </button>
+</custombuttons>

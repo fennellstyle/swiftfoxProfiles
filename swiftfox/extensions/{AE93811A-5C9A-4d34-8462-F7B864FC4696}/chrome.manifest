@@ -1,0 +1,16 @@
+
+overlay	chrome://navigator/content/navigator.xul	chrome://stumbleupon/content/stumbleuponOverlay.xul
+overlay	chrome://browser/content/browser.xul	chrome://stumbleupon/content/stumbleuponOverlay.xul
+content	stumbleupon	jar:chrome/stumbleupon.jar!/content/
+content	stumbleupon	jar:chrome/stumbleupon.jar!/content/ contentaccessible=yes
+
+skin	stumbleupon	classic/1.0	jar:chrome/stumbleupon.jar!/content/skin/
+style	chrome://browser/content/browser.xul	chrome://stumbleupon/skin/stumbleuponOverlay.css
+style	chrome://global/content/customizeToolbar.xul	chrome://stumbleupon/skin/stumbleuponOverlay.css
+
+locale	stumbleupon	en-US	jar:chrome/stumbleupon.jar!/locale/en-US/
+
+locale	stumbleupon	fr-FR	jar:chrome/stumbleupon.jar!/locale/fr-FR/
+component {b97c288d-917d-4d26-bd24-3adf14f5aea3} jar:chrome/stumbleupon.jar!/components/stumbleuponService.js
+contract @stumbleupon.com/stumbleupon-service;1 {b97c288d-917d-4d26-bd24-3adf14f5aea3}
+category profile-after-change StumbleUponService @stumbleupon.com/stumbleupon-service;1

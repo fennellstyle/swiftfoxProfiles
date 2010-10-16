@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<custombuttons xmlns="http://toolbar.google.com/custombuttons/">
+  <button>
+    <title>orkut</title>
+    <title locale="ar">orkut</title>
+    <title locale="bg">orkut</title>
+    <title locale="ca">orkut</title>
+    <title locale="cs">orkut</title>
+    <title locale="da">orkut</title>
+    <title locale="de">orkut</title>
+    <title locale="el">orkut</title>
+    <title locale="en-GB">orkut</title>
+    <title locale="es">orkut</title>
+    <title locale="et">orkut</title>
+    <title locale="fi">orkut</title>
+    <title locale="fil">orkut</title>
+    <title locale="fr">orkut</title>
+    <title locale="hi">orkut</title>
+    <title locale="hr">orkut</title>
+    <title locale="hu">orkut</title>
+    <title locale="id">orkut</title>
+    <title locale="is">orkut</title>
+    <title locale="it">orkut</title>
+    <title locale="iw">orkut</title>
+    <title locale="ja">orkut</title>
+    <title locale="ko">orkut</title>
+    <title locale="lt">„orkut“</title>
+    <title locale="lv">orkut</title>
+    <title locale="nl">orkut</title>
+    <title locale="no">orkut</title>
+    <title locale="pl">orkut</title>
+    <title locale="pt-BR">orkut</title>
+    <title locale="pt-PT">orkut</title>
+    <title locale="ro">orkut</title>
+    <title locale="ru">orkut</title>
+    <title locale="sk">orkut</title>
+    <title locale="sl">orkut</title>
+    <title locale="sr">orkut</title>
+    <title locale="sv">orkut</title>
+    <title locale="th">orkut</title>
+    <title locale="tr">orkut</title>
+    <title locale="uk">orkut</title>
+    <title locale="vi">orkut</title>
+    <title locale="zh-CN">orkut</title>
+    <title locale="zh-TW">orkut</title>
+    <description>Search orkut</description>
+    <description locale="ar">بحث orkut</description>
+    <description locale="bg">Търсете в orkut</description>
+    <description locale="ca">Cerca a orkut</description>
+    <description locale="cs">Hledat ve službě orkut</description>
+    <description locale="da">Søg i orkut</description>
+    <description locale="de">orkut durchsuchen</description>
+    <description locale="el">Αναζήτηση orkut</description>
+    <description locale="en-GB">Search orkut</description>
+    <description locale="es">Buscar en orkut</description>
+    <description locale="et">Otsi orkutist</description>
+    <description locale="fi">orkut-haku</description>
+    <description locale="fil">Hanapan ang orkut</description>
+    <description locale="fr">Rechercher dans orkut</description>
+    <description locale="hi">orkut खोजें</description>
+    <description locale="hr">Pretraži orkut</description>
+    <description locale="hu">Keresés az orkutban</description>
+    <description locale="id">Telusuri orkut</description>
+    <description locale="is">Leita í orkut</description>
+    <description locale="it">Cerca in orkut</description>
+    <description locale="iw">חפש ב-orkut</description>
+    <description locale="ja">orkut を検索</description>
+    <description locale="ko">orkut 검색</description>
+    <description locale="lt">Ieškoti „orkut“</description>
+    <description locale="lv">Meklēt pakalpojumā orkut</description>
+    <description locale="nl">Zoeken in orkut</description>
+    <description locale="no">Søk i orkut</description>
+    <description locale="pl">Wyszukaj w orkut</description>
+    <description locale="pt-BR">Pesquisar no orkut</description>
+    <description locale="pt-PT">Pesquisar no orkut</description>
+    <description locale="ro">Căutaţi în orkut</description>
+    <description locale="ru">Поиск в orkut</description>
+    <description locale="sk">Vyhľadať v službe orkut</description>
+    <description locale="sl">Išči v storitvi orkut</description>
+    <description locale="sr">Претражи orkut</description>
+    <description locale="sv">Sök i orkut</description>
+    <description locale="th">ค้นหาโดย orkut</description>
+    <description locale="tr">orkut'ta ara</description>
+    <description locale="uk">Пошук orkut</description>
+    <description locale="vi">Tìm kiếm trên orkut</description>
+    <description locale="zh-CN">搜索 orkut</description>
+    <description locale="zh-TW">搜尋 orkut</description>
+    <site>http://www.orkut.com/?hl={locale}{sourceid}</site>
+    <search>http://www.orkut.com/UniversalSearch.aspx?hl={locale}{aq}{sourceid}{rlz}&amp;ie=UTF-8&amp;q={query}</search>
+    <update>http://toolbar.google.com/buttons/defs/orkut.com.xml</update>
+    <version>200807010000</version>        
+    <icon mode="base64">
+AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAA
+AAAAAAD/////////////////////////////////////////////////////////////////////
+//////////////////////////////////////r1/P/Ql+T/rkzQ/58qx/+eKMf/pz7M/8R93f/x
+4ff//////////////////////////////////////+7a9f+nPcz/nijG/8F32//ar+r/3rjs/8uM
+4f+lOcv/nSfG/9uv6v////////////////////////////Lk9/+jM8j/s1jT//To+f//////////
+/////////////P/9/8iG3/+ZIcT/3bTr//////////////////////+/c9r/q0fN//v2/P//////
+////////////////////////////////xoHe/6Atx//27Pr//////+3t7f9eXl7/QEBA/7Krs/+S
+kZH/uLi4//Dv7/9XV1f/VVVV/8bFxf+bmpr/PDw8/4eAiP+2YtP/amNt/8XFxf9paWn/enp6/8PD
+w/8fHx//ZWVl/6SkpP/q6ur/AAAA/4GBgf/j4+P/JSUl/8vLy/8yMjL/enl6/05OTv/z8/P/TU1N
+/8C/v//+/v7/Ly8v/1hYWP+ampr/6ejo/wEBAf/R0dH/z87O/0lJSf//////Xl5e/0xMTP+Hh4f/
+/////7a1tf8fHx//ODg4/1JSUv/Ix8f/Hx8f/35+fv8NDQ3/KSkp/7Oysv9JSUn//////15eXv9M
+TEz/Kioq/39/f///////0brX/6Bts//9/P3//////+Tk5P/FxMT/Ly8v/9PS0v/Y19f/1NTU////
+///a2dn/gYGB/2ZmZv/T0tL//////+zW9P+aIMX/5cXw////////////6+vr/zIyMv//////////
+////////////+vX8/7Vo0P/dwub/////////////////tVzU/6xIz//7+P3////////////9/Pz/
+/////////////////////8aB3v+gLcf/9+36//////////////////Lk+P+jM8n/s1jT//To+f//
+/////////////////////P/9/8mH4P+bIcT/3bTr////////////////////////////7tr1/6c9
+zP+eKMb/wXbb/9uw6v/fuu3/yozg/6Y6zP+dJ8b/2q3p////////////////////////////////
+///////69fz/z5bj/65M0P+fKsf/nSfG/6g+zP/DfNz/8eH3////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAA==    
+    </icon>
+    <legacy>orkut</legacy>
+  </button>
+</custombuttons>

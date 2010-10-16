@@ -1,0 +1,2488 @@
+/*
+ * jQuery JavaScript Library v1.3.2
+ * http://jquery.com/
+ *
+ * Copyright (c) 2009 John Resig
+ * Dual licensed under the MIT and GPL licenses.
+ * http://docs.jquery.com/License
+ *
+ * Date: 2009-02-19 17:34:21 -0500 (Thu, 19 Feb 2009)
+ * Revision: 6246
+ */
+(function(){var l=this,g,y=l.jQuery,p=l.$,o=l.jQuery=l.$=function(E,F){return new o.fn.init(E,F)},D=/^[^<]*(<(.|\s)+>)[^>]*$|^#([\w-]+)$/,f=/^.[^:#\[\.,]*$/;o.fn=o.prototype={init:function(E,H){E=E||document;if(E.nodeType){this[0]=E;this.length=1;this.context=E;return this}if(typeof E==="string"){var G=D.exec(E);if(G&&(G[1]||!H)){if(G[1]){E=o.clean([G[1]],H)}else{var I=document.getElementById(G[3]);if(I&&I.id!=G[3]){return o().find(E)}var F=o(I||[]);F.context=document;F.selector=E;return F}}else{return o(H).find(E)}}else{if(o.isFunction(E)){return o(document).ready(E)}}if(E.selector&&E.context){this.selector=E.selector;this.context=E.context}return this.setArray(o.isArray(E)?E:o.makeArray(E))},selector:"",jquery:"1.3.2",size:function(){return this.length},get:function(E){return E===g?Array.prototype.slice.call(this):this[E]},pushStack:function(F,H,E){var G=o(F);G.prevObject=this;G.context=this.context;if(H==="find"){G.selector=this.selector+(this.selector?" ":"")+E}else{if(H){G.selector=this.selector+"."+H+"("+E+")"}}return G},setArray:function(E){this.length=0;Array.prototype.push.apply(this,E);return this},each:function(F,E){return o.each(this,F,E)},index:function(E){return o.inArray(E&&E.jquery?E[0]:E,this)},attr:function(F,H,G){var E=F;if(typeof F==="string"){if(H===g){return this[0]&&o[G||"attr"](this[0],F)}else{E={};E[F]=H}}return this.each(function(I){for(F in E){o.attr(G?this.style:this,F,o.prop(this,E[F],G,I,F))}})},css:function(E,F){if((E=="width"||E=="height")&&parseFloat(F)<0){F=g}return this.attr(E,F,"curCSS")},text:function(F){if(typeof F!=="object"&&F!=null){return this.empty().append((this[0]&&this[0].ownerDocument||document).createTextNode(F))}var E="";o.each(F||this,function(){o.each(this.childNodes,function(){if(this.nodeType!=8){E+=this.nodeType!=1?this.nodeValue:o.fn.text([this])}})});return E},wrapAll:function(E){if(this[0]){var F=o(E,this[0].ownerDocument).clone();if(this[0].parentNode){F.insertBefore(this[0])}F.map(function(){var G=this;while(G.firstChild){G=G.firstChild}return G}).append(this)}return this},wrapInner:function(E){return this.each(function(){o(this).contents().wrapAll(E)})},wrap:function(E){return this.each(function(){o(this).wrapAll(E)})},append:function(){return this.domManip(arguments,true,function(E){if(this.nodeType==1){this.appendChild(E)}})},prepend:function(){return this.domManip(arguments,true,function(E){if(this.nodeType==1){this.insertBefore(E,this.firstChild)}})},before:function(){return this.domManip(arguments,false,function(E){this.parentNode.insertBefore(E,this)})},after:function(){return this.domManip(arguments,false,function(E){this.parentNode.insertBefore(E,this.nextSibling)})},end:function(){return this.prevObject||o([])},push:[].push,sort:[].sort,splice:[].splice,find:function(E){if(this.length===1){var F=this.pushStack([],"find",E);F.length=0;o.find(E,this[0],F);return F}else{return this.pushStack(o.unique(o.map(this,function(G){return o.find(E,G)})),"find",E)}},clone:function(G){var E=this.map(function(){if(!o.support.noCloneEvent&&!o.isXMLDoc(this)){var I=this.outerHTML;if(!I){var J=this.ownerDocument.createElement("div");J.appendChild(this.cloneNode(true));I=J.innerHTML}return o.clean([I.replace(/ jQuery\d+="(?:\d+|null)"/g,"").replace(/^\s*/,"")])[0]}else{return this.cloneNode(true)}});if(G===true){var H=this.find("*").andSelf(),F=0;E.find("*").andSelf().each(function(){if(this.nodeName!==H[F].nodeName){return}var I=o.data(H[F],"events");for(var K in I){for(var J in I[K]){o.event.add(this,K,I[K][J],I[K][J].data)}}F++})}return E},filter:function(E){return this.pushStack(o.isFunction(E)&&o.grep(this,function(G,F){return E.call(G,F)})||o.multiFilter(E,o.grep(this,function(F){return F.nodeType===1})),"filter",E)},closest:function(E){var G=o.expr.match.POS.test(E)?o(E):null,F=0;return this.map(function(){var H=this;while(H&&H.ownerDocument){if(G?G.index(H)>-1:o(H).is(E)){o.data(H,"closest",F);return H}H=H.parentNode;F++}})},not:function(E){if(typeof E==="string"){if(f.test(E)){return this.pushStack(o.multiFilter(E,this,true),"not",E)}else{E=o.multiFilter(E,this)}}var F=E.length&&E[E.length-1]!==g&&!E.nodeType;return this.filter(function(){return F?o.inArray(this,E)<0:this!=E})},add:function(E){return this.pushStack(o.unique(o.merge(this.get(),typeof E==="string"?o(E):o.makeArray(E))))},is:function(E){return !!E&&o.multiFilter(E,this).length>0},hasClass:function(E){return !!E&&this.is("."+E)},val:function(K){if(K===g){var E=this[0];if(E){if(o.nodeName(E,"option")){return(E.attributes.value||{}).specified?E.value:E.text}if(o.nodeName(E,"select")){var I=E.selectedIndex,L=[],M=E.options,H=E.type=="select-one";if(I<0){return null}for(var F=H?I:0,J=H?I+1:M.length;F<J;F++){var G=M[F];if(G.selected){K=o(G).val();if(H){return K}L.push(K)}}return L}return(E.value||"").replace(/\r/g,"")}return g}if(typeof K==="number"){K+=""}return this.each(function(){if(this.nodeType!=1){return}if(o.isArray(K)&&/radio|checkbox/.test(this.type)){this.checked=(o.inArray(this.value,K)>=0||o.inArray(this.name,K)>=0)}else{if(o.nodeName(this,"select")){var N=o.makeArray(K);o("option",this).each(function(){this.selected=(o.inArray(this.value,N)>=0||o.inArray(this.text,N)>=0)});if(!N.length){this.selectedIndex=-1}}else{this.value=K}}})},html:function(E){return E===g?(this[0]?this[0].innerHTML.replace(/ jQuery\d+="(?:\d+|null)"/g,""):null):this.empty().append(E)},replaceWith:function(E){return this.after(E).remove()},eq:function(E){return this.slice(E,+E+1)},slice:function(){return this.pushStack(Array.prototype.slice.apply(this,arguments),"slice",Array.prototype.slice.call(arguments).join(","))},map:function(E){return this.pushStack(o.map(this,function(G,F){return E.call(G,F,G)}))},andSelf:function(){return this.add(this.prevObject)},domManip:function(J,M,L){if(this[0]){var I=(this[0].ownerDocument||this[0]).createDocumentFragment(),F=o.clean(J,(this[0].ownerDocument||this[0]),I),H=I.firstChild;if(H){for(var G=0,E=this.length;G<E;G++){L.call(K(this[G],H),this.length>1||G>0?I.cloneNode(true):I)}}if(F){o.each(F,z)}}return this;function K(N,O){return M&&o.nodeName(N,"table")&&o.nodeName(O,"tr")?(N.getElementsByTagName("tbody")[0]||N.appendChild(N.ownerDocument.createElement("tbody"))):N}}};o.fn.init.prototype=o.fn;function z(E,F){if(F.src){o.ajax({url:F.src,async:false,dataType:"script"})}else{o.globalEval(F.text||F.textContent||F.innerHTML||"")}if(F.parentNode){F.parentNode.removeChild(F)}}function e(){return +new Date}o.extend=o.fn.extend=function(){var J=arguments[0]||{},H=1,I=arguments.length,E=false,G;if(typeof J==="boolean"){E=J;J=arguments[1]||{};H=2}if(typeof J!=="object"&&!o.isFunction(J)){J={}}if(I==H){J=this;--H}for(;H<I;H++){if((G=arguments[H])!=null){for(var F in G){var K=J[F],L=G[F];if(J===L){continue}if(E&&L&&typeof L==="object"&&!L.nodeType){J[F]=o.extend(E,K||(L.length!=null?[]:{}),L)}else{if(L!==g){J[F]=L}}}}}return J};var b=/z-?index|font-?weight|opacity|zoom|line-?height/i,q=document.defaultView||{},s=Object.prototype.toString;o.extend({noConflict:function(E){l.$=p;if(E){l.jQuery=y}return o},isFunction:function(E){return s.call(E)==="[object Function]"},isArray:function(E){return s.call(E)==="[object Array]"},isXMLDoc:function(E){return E.nodeType===9&&E.documentElement.nodeName!=="HTML"||!!E.ownerDocument&&o.isXMLDoc(E.ownerDocument)},globalEval:function(G){if(G&&/\S/.test(G)){var F=document.getElementsByTagName("head")[0]||document.documentElement,E=document.createElement("script");E.type="text/javascript";if(o.support.scriptEval){E.appendChild(document.createTextNode(G))}else{E.text=G}F.insertBefore(E,F.firstChild);F.removeChild(E)}},nodeName:function(F,E){return F.nodeName&&F.nodeName.toUpperCase()==E.toUpperCase()},each:function(G,K,F){var E,H=0,I=G.length;if(F){if(I===g){for(E in G){if(K.apply(G[E],F)===false){break}}}else{for(;H<I;){if(K.apply(G[H++],F)===false){break}}}}else{if(I===g){for(E in G){if(K.call(G[E],E,G[E])===false){break}}}else{for(var J=G[0];H<I&&K.call(J,H,J)!==false;J=G[++H]){}}}return G},prop:function(H,I,G,F,E){if(o.isFunction(I)){I=I.call(H,F)}return typeof I==="number"&&G=="curCSS"&&!b.test(E)?I+"px":I},className:{add:function(E,F){o.each((F||"").split(/\s+/),function(G,H){if(E.nodeType==1&&!o.className.has(E.className,H)){E.className+=(E.className?" ":"")+H}})},remove:function(E,F){if(E.nodeType==1){E.className=F!==g?o.grep(E.className.split(/\s+/),function(G){return !o.className.has(F,G)}).join(" "):""}},has:function(F,E){return F&&o.inArray(E,(F.className||F).toString().split(/\s+/))>-1}},swap:function(H,G,I){var E={};for(var F in G){E[F]=H.style[F];H.style[F]=G[F]}I.call(H);for(var F in G){H.style[F]=E[F]}},css:function(H,F,J,E){if(F=="width"||F=="height"){var L,G={position:"absolute",visibility:"hidden",display:"block"},K=F=="width"?["Left","Right"]:["Top","Bottom"];function I(){L=F=="width"?H.offsetWidth:H.offsetHeight;if(E==="border"){return}o.each(K,function(){if(!E){L-=parseFloat(o.curCSS(H,"padding"+this,true))||0}if(E==="margin"){L+=parseFloat(o.curCSS(H,"margin"+this,true))||0}else{L-=parseFloat(o.curCSS(H,"border"+this+"Width",true))||0}})}if(H.offsetWidth!==0){I()}else{o.swap(H,G,I)}return Math.max(0,Math.round(L))}return o.curCSS(H,F,J)},curCSS:function(I,F,G){var L,E=I.style;if(F=="opacity"&&!o.support.opacity){L=o.attr(E,"opacity");return L==""?"1":L}if(F.match(/float/i)){F=w}if(!G&&E&&E[F]){L=E[F]}else{if(q.getComputedStyle){if(F.match(/float/i)){F="float"}F=F.replace(/([A-Z])/g,"-$1").toLowerCase();var M=q.getComputedStyle(I,null);if(M){L=M.getPropertyValue(F)}if(F=="opacity"&&L==""){L="1"}}else{if(I.currentStyle){var J=F.replace(/\-(\w)/g,function(N,O){return O.toUpperCase()});L=I.currentStyle[F]||I.currentStyle[J];if(!/^\d+(px)?$/i.test(L)&&/^\d/.test(L)){var H=E.left,K=I.runtimeStyle.left;I.runtimeStyle.left=I.currentStyle.left;E.left=L||0;L=E.pixelLeft+"px";E.left=H;I.runtimeStyle.left=K}}}}return L},clean:function(F,K,I){K=K||document;if(typeof K.createElement==="undefined"){K=K.ownerDocument||K[0]&&K[0].ownerDocument||document}if(!I&&F.length===1&&typeof F[0]==="string"){var H=/^<(\w+)\s*\/?>$/.exec(F[0]);if(H){return[K.createElement(H[1])]}}var G=[],E=[],L=K.createElement("div");o.each(F,function(P,S){if(typeof S==="number"){S+=""}if(!S){return}if(typeof S==="string"){S=S.replace(/(<(\w+)[^>]*?)\/>/g,function(U,V,T){return T.match(/^(abbr|br|col|img|input|link|meta|param|hr|area|embed)$/i)?U:V+"></"+T+">"});var O=S.replace(/^\s+/,"").substring(0,10).toLowerCase();var Q=!O.indexOf("<opt")&&[1,"<select multiple='multiple'>","</select>"]||!O.indexOf("<leg")&&[1,"<fieldset>","</fieldset>"]||O.match(/^<(thead|tbody|tfoot|colg|cap)/)&&[1,"<table>","</table>"]||!O.indexOf("<tr")&&[2,"<table><tbody>","</tbody></table>"]||(!O.indexOf("<td")||!O.indexOf("<th"))&&[3,"<table><tbody><tr>","</tr></tbody></table>"]||!O.indexOf("<col")&&[2,"<table><tbody></tbody><colgroup>","</colgroup></table>"]||!o.support.htmlSerialize&&[1,"div<div>","</div>"]||[0,"",""];L.innerHTML=Q[1]+S+Q[2];while(Q[0]--){L=L.lastChild}if(!o.support.tbody){var R=/<tbody/i.test(S),N=!O.indexOf("<table")&&!R?L.firstChild&&L.firstChild.childNodes:Q[1]=="<table>"&&!R?L.childNodes:[];for(var M=N.length-1;M>=0;--M){if(o.nodeName(N[M],"tbody")&&!N[M].childNodes.length){N[M].parentNode.removeChild(N[M])}}}if(!o.support.leadingWhitespace&&/^\s/.test(S)){L.insertBefore(K.createTextNode(S.match(/^\s*/)[0]),L.firstChild)}S=o.makeArray(L.childNodes)}if(S.nodeType){G.push(S)}else{G=o.merge(G,S)}});if(I){for(var J=0;G[J];J++){if(o.nodeName(G[J],"script")&&(!G[J].type||G[J].type.toLowerCase()==="text/javascript")){E.push(G[J].parentNode?G[J].parentNode.removeChild(G[J]):G[J])}else{if(G[J].nodeType===1){G.splice.apply(G,[J+1,0].concat(o.makeArray(G[J].getElementsByTagName("script"))))}I.appendChild(G[J])}}return E}return G},attr:function(J,G,K){if(!J||J.nodeType==3||J.nodeType==8){return g}var H=!o.isXMLDoc(J),L=K!==g;G=H&&o.props[G]||G;if(J.tagName){var F=/href|src|style/.test(G);if(G=="selected"&&J.parentNode){J.parentNode.selectedIndex}if(G in J&&H&&!F){if(L){if(G=="type"&&o.nodeName(J,"input")&&J.parentNode){throw"type property can't be changed"}J[G]=K}if(o.nodeName(J,"form")&&J.getAttributeNode(G)){return J.getAttributeNode(G).nodeValue}if(G=="tabIndex"){var I=J.getAttributeNode("tabIndex");return I&&I.specified?I.value:J.nodeName.match(/(button|input|object|select|textarea)/i)?0:J.nodeName.match(/^(a|area)$/i)&&J.href?0:g}return J[G]}if(!o.support.style&&H&&G=="style"){return o.attr(J.style,"cssText",K)}if(L){J.setAttribute(G,""+K)}var E=!o.support.hrefNormalized&&H&&F?J.getAttribute(G,2):J.getAttribute(G);return E===null?g:E}if(!o.support.opacity&&G=="opacity"){if(L){J.zoom=1;J.filter=(J.filter||"").replace(/alpha\([^)]*\)/,"")+(parseInt(K)+""=="NaN"?"":"alpha(opacity="+K*100+")")}return J.filter&&J.filter.indexOf("opacity=")>=0?(parseFloat(J.filter.match(/opacity=([^)]*)/)[1])/100)+"":""}G=G.replace(/-([a-z])/ig,function(M,N){return N.toUpperCase()});if(L){J[G]=K}return J[G]},trim:function(E){return(E||"").replace(/^\s+|\s+$/g,"")},makeArray:function(G){var E=[];if(G!=null){var F=G.length;if(F==null||typeof G==="string"||o.isFunction(G)||G.setInterval){E[0]=G}else{while(F){E[--F]=G[F]}}}return E},inArray:function(G,H){for(var E=0,F=H.length;E<F;E++){if(H[E]===G){return E}}return -1},merge:function(H,E){var F=0,G,I=H.length;if(!o.support.getAll){while((G=E[F++])!=null){if(G.nodeType!=8){H[I++]=G}}}else{while((G=E[F++])!=null){H[I++]=G}}return H},unique:function(K){var F=[],E={};try{for(var G=0,H=K.length;G<H;G++){var J=o.data(K[G]);if(!E[J]){E[J]=true;F.push(K[G])}}}catch(I){F=K}return F},grep:function(F,J,E){var G=[];for(var H=0,I=F.length;H<I;H++){if(!E!=!J(F[H],H)){G.push(F[H])}}return G},map:function(E,J){var F=[];for(var G=0,H=E.length;G<H;G++){var I=J(E[G],G);if(I!=null){F[F.length]=I}}return F.concat.apply([],F)}});var C=navigator.userAgent.toLowerCase();o.browser={version:(C.match(/.+(?:rv|it|ra|ie)[\/: ]([\d.]+)/)||[0,"0"])[1],safari:/webkit/.test(C),opera:/opera/.test(C),msie:/msie/.test(C)&&!/opera/.test(C),mozilla:/mozilla/.test(C)&&!/(compatible|webkit)/.test(C)};o.each({parent:function(E){return E.parentNode},parents:function(E){return o.dir(E,"parentNode")},next:function(E){return o.nth(E,2,"nextSibling")},prev:function(E){return o.nth(E,2,"previousSibling")},nextAll:function(E){return o.dir(E,"nextSibling")},prevAll:function(E){return o.dir(E,"previousSibling")},siblings:function(E){return o.sibling(E.parentNode.firstChild,E)},children:function(E){return o.sibling(E.firstChild)},contents:function(E){return o.nodeName(E,"iframe")?E.contentDocument||E.contentWindow.document:o.makeArray(E.childNodes)}},function(E,F){o.fn[E]=function(G){var H=o.map(this,F);if(G&&typeof G=="string"){H=o.multiFilter(G,H)}return this.pushStack(o.unique(H),E,G)}});o.each({appendTo:"append",prependTo:"prepend",insertBefore:"before",insertAfter:"after",replaceAll:"replaceWith"},function(E,F){o.fn[E]=function(G){var J=[],L=o(G);for(var K=0,H=L.length;K<H;K++){var I=(K>0?this.clone(true):this).get();o.fn[F].apply(o(L[K]),I);J=J.concat(I)}return this.pushStack(J,E,G)}});o.each({removeAttr:function(E){o.attr(this,E,"");if(this.nodeType==1){this.removeAttribute(E)}},addClass:function(E){o.className.add(this,E)},removeClass:function(E){o.className.remove(this,E)},toggleClass:function(F,E){if(typeof E!=="boolean"){E=!o.className.has(this,F)}o.className[E?"add":"remove"](this,F)},remove:function(E){if(!E||o.filter(E,[this]).length){o("*",this).add([this]).each(function(){o.event.remove(this);o.removeData(this)});if(this.parentNode){this.parentNode.removeChild(this)}}},empty:function(){o(this).children().remove();while(this.firstChild){this.removeChild(this.firstChild)}}},function(E,F){o.fn[E]=function(){return this.each(F,arguments)}});function j(E,F){return E[0]&&parseInt(o.curCSS(E[0],F,true),10)||0}var h="jQuery"+e(),v=0,A={};o.extend({cache:{},data:function(F,E,G){F=F==l?A:F;var H=F[h];if(!H){H=F[h]=++v}if(E&&!o.cache[H]){o.cache[H]={}}if(G!==g){o.cache[H][E]=G}return E?o.cache[H][E]:H},removeData:function(F,E){F=F==l?A:F;var H=F[h];if(E){if(o.cache[H]){delete o.cache[H][E];E="";for(E in o.cache[H]){break}if(!E){o.removeData(F)}}}else{try{delete F[h]}catch(G){if(F.removeAttribute){F.removeAttribute(h)}}delete o.cache[H]}},queue:function(F,E,H){if(F){E=(E||"fx")+"queue";var G=o.data(F,E);if(!G||o.isArray(H)){G=o.data(F,E,o.makeArray(H))}else{if(H){G.push(H)}}}return G},dequeue:function(H,G){var E=o.queue(H,G),F=E.shift();if(!G||G==="fx"){F=E[0]}if(F!==g){F.call(H)}}});o.fn.extend({data:function(E,G){var H=E.split(".");H[1]=H[1]?"."+H[1]:"";if(G===g){var F=this.triggerHandler("getData"+H[1]+"!",[H[0]]);if(F===g&&this.length){F=o.data(this[0],E)}return F===g&&H[1]?this.data(H[0]):F}else{return this.trigger("setData"+H[1]+"!",[H[0],G]).each(function(){o.data(this,E,G)})}},removeData:function(E){return this.each(function(){o.removeData(this,E)})},queue:function(E,F){if(typeof E!=="string"){F=E;E="fx"}if(F===g){return o.queue(this[0],E)}return this.each(function(){var G=o.queue(this,E,F);if(E=="fx"&&G.length==1){G[0].call(this)}})},dequeue:function(E){return this.each(function(){o.dequeue(this,E)})}});
+/*
+ * Sizzle CSS Selector Engine - v0.9.3
+ *  Copyright 2009, The Dojo Foundation
+ *  Released under the MIT, BSD, and GPL Licenses.
+ *  More information: http://sizzlejs.com/
+ */
+(function(){var R=/((?:\((?:\([^()]+\)|[^()]+)+\)|\[(?:\[[^[\]]*\]|['"][^'"]*['"]|[^[\]'"]+)+\]|\\.|[^ >+~,(\[\\]+)+|[>+~])(\s*,\s*)?/g,L=0,H=Object.prototype.toString;var F=function(Y,U,ab,ac){ab=ab||[];U=U||document;if(U.nodeType!==1&&U.nodeType!==9){return[]}if(!Y||typeof Y!=="string"){return ab}var Z=[],W,af,ai,T,ad,V,X=true;R.lastIndex=0;while((W=R.exec(Y))!==null){Z.push(W[1]);if(W[2]){V=RegExp.rightContext;break}}if(Z.length>1&&M.exec(Y)){if(Z.length===2&&I.relative[Z[0]]){af=J(Z[0]+Z[1],U)}else{af=I.relative[Z[0]]?[U]:F(Z.shift(),U);while(Z.length){Y=Z.shift();if(I.relative[Y]){Y+=Z.shift()}af=J(Y,af)}}}else{var ae=ac?{expr:Z.pop(),set:E(ac)}:F.find(Z.pop(),Z.length===1&&U.parentNode?U.parentNode:U,Q(U));af=F.filter(ae.expr,ae.set);if(Z.length>0){ai=E(af)}else{X=false}while(Z.length){var ah=Z.pop(),ag=ah;if(!I.relative[ah]){ah=""}else{ag=Z.pop()}if(ag==null){ag=U}I.relative[ah](ai,ag,Q(U))}}if(!ai){ai=af}if(!ai){throw"Syntax error, unrecognized expression: "+(ah||Y)}if(H.call(ai)==="[object Array]"){if(!X){ab.push.apply(ab,ai)}else{if(U.nodeType===1){for(var aa=0;ai[aa]!=null;aa++){if(ai[aa]&&(ai[aa]===true||ai[aa].nodeType===1&&K(U,ai[aa]))){ab.push(af[aa])}}}else{for(var aa=0;ai[aa]!=null;aa++){if(ai[aa]&&ai[aa].nodeType===1){ab.push(af[aa])}}}}}else{E(ai,ab)}if(V){F(V,U,ab,ac);if(G){hasDuplicate=false;ab.sort(G);if(hasDuplicate){for(var aa=1;aa<ab.length;aa++){if(ab[aa]===ab[aa-1]){ab.splice(aa--,1)}}}}}return ab};F.matches=function(T,U){return F(T,null,null,U)};F.find=function(aa,T,ab){var Z,X;if(!aa){return[]}for(var W=0,V=I.order.length;W<V;W++){var Y=I.order[W],X;if((X=I.match[Y].exec(aa))){var U=RegExp.leftContext;if(U.substr(U.length-1)!=="\\"){X[1]=(X[1]||"").replace(/\\/g,"");Z=I.find[Y](X,T,ab);if(Z!=null){aa=aa.replace(I.match[Y],"");break}}}}if(!Z){Z=T.getElementsByTagName("*")}return{set:Z,expr:aa}};F.filter=function(ad,ac,ag,W){var V=ad,ai=[],aa=ac,Y,T,Z=ac&&ac[0]&&Q(ac[0]);while(ad&&ac.length){for(var ab in I.filter){if((Y=I.match[ab].exec(ad))!=null){var U=I.filter[ab],ah,af;T=false;if(aa==ai){ai=[]}if(I.preFilter[ab]){Y=I.preFilter[ab](Y,aa,ag,ai,W,Z);if(!Y){T=ah=true}else{if(Y===true){continue}}}if(Y){for(var X=0;(af=aa[X])!=null;X++){if(af){ah=U(af,Y,X,aa);var ae=W^!!ah;if(ag&&ah!=null){if(ae){T=true}else{aa[X]=false}}else{if(ae){ai.push(af);T=true}}}}}if(ah!==g){if(!ag){aa=ai}ad=ad.replace(I.match[ab],"");if(!T){return[]}break}}}if(ad==V){if(T==null){throw"Syntax error, unrecognized expression: "+ad}else{break}}V=ad}return aa};var I=F.selectors={order:["ID","NAME","TAG"],match:{ID:/#((?:[\w\u00c0-\uFFFF_-]|\\.)+)/,CLASS:/\.((?:[\w\u00c0-\uFFFF_-]|\\.)+)/,NAME:/\[name=['"]*((?:[\w\u00c0-\uFFFF_-]|\\.)+)['"]*\]/,ATTR:/\[\s*((?:[\w\u00c0-\uFFFF_-]|\\.)+)\s*(?:(\S?=)\s*(['"]*)(.*?)\3|)\s*\]/,TAG:/^((?:[\w\u00c0-\uFFFF\*_-]|\\.)+)/,CHILD:/:(only|nth|last|first)-child(?:\((even|odd|[\dn+-]*)\))?/,POS:/:(nth|eq|gt|lt|first|last|even|odd)(?:\((\d*)\))?(?=[^-]|$)/,PSEUDO:/:((?:[\w\u00c0-\uFFFF_-]|\\.)+)(?:\((['"]*)((?:\([^\)]+\)|[^\2\(\)]*)+)\2\))?/},attrMap:{"class":"className","for":"htmlFor"},attrHandle:{href:function(T){return T.getAttribute("href")}},relative:{"+":function(aa,T,Z){var X=typeof T==="string",ab=X&&!/\W/.test(T),Y=X&&!ab;if(ab&&!Z){T=T.toUpperCase()}for(var W=0,V=aa.length,U;W<V;W++){if((U=aa[W])){while((U=U.previousSibling)&&U.nodeType!==1){}aa[W]=Y||U&&U.nodeName===T?U||false:U===T}}if(Y){F.filter(T,aa,true)}},">":function(Z,U,aa){var X=typeof U==="string";if(X&&!/\W/.test(U)){U=aa?U:U.toUpperCase();for(var V=0,T=Z.length;V<T;V++){var Y=Z[V];if(Y){var W=Y.parentNode;Z[V]=W.nodeName===U?W:false}}}else{for(var V=0,T=Z.length;V<T;V++){var Y=Z[V];if(Y){Z[V]=X?Y.parentNode:Y.parentNode===U}}if(X){F.filter(U,Z,true)}}},"":function(W,U,Y){var V=L++,T=S;if(!U.match(/\W/)){var X=U=Y?U:U.toUpperCase();T=P}T("parentNode",U,V,W,X,Y)},"~":function(W,U,Y){var V=L++,T=S;if(typeof U==="string"&&!U.match(/\W/)){var X=U=Y?U:U.toUpperCase();T=P}T("previousSibling",U,V,W,X,Y)}},find:{ID:function(U,V,W){if(typeof V.getElementById!=="undefined"&&!W){var T=V.getElementById(U[1]);return T?[T]:[]}},NAME:function(V,Y,Z){if(typeof Y.getElementsByName!=="undefined"){var U=[],X=Y.getElementsByName(V[1]);for(var W=0,T=X.length;W<T;W++){if(X[W].getAttribute("name")===V[1]){U.push(X[W])}}return U.length===0?null:U}},TAG:function(T,U){return U.getElementsByTagName(T[1])}},preFilter:{CLASS:function(W,U,V,T,Z,aa){W=" "+W[1].replace(/\\/g,"")+" ";if(aa){return W}for(var X=0,Y;(Y=U[X])!=null;X++){if(Y){if(Z^(Y.className&&(" "+Y.className+" ").indexOf(W)>=0)){if(!V){T.push(Y)}}else{if(V){U[X]=false}}}}return false},ID:function(T){return T[1].replace(/\\/g,"")},TAG:function(U,T){for(var V=0;T[V]===false;V++){}return T[V]&&Q(T[V])?U[1]:U[1].toUpperCase()},CHILD:function(T){if(T[1]=="nth"){var U=/(-?)(\d*)n((?:\+|-)?\d*)/.exec(T[2]=="even"&&"2n"||T[2]=="odd"&&"2n+1"||!/\D/.test(T[2])&&"0n+"+T[2]||T[2]);T[2]=(U[1]+(U[2]||1))-0;T[3]=U[3]-0}T[0]=L++;return T},ATTR:function(X,U,V,T,Y,Z){var W=X[1].replace(/\\/g,"");if(!Z&&I.attrMap[W]){X[1]=I.attrMap[W]}if(X[2]==="~="){X[4]=" "+X[4]+" "}return X},PSEUDO:function(X,U,V,T,Y){if(X[1]==="not"){if(X[3].match(R).length>1||/^\w/.test(X[3])){X[3]=F(X[3],null,null,U)}else{var W=F.filter(X[3],U,V,true^Y);if(!V){T.push.apply(T,W)}return false}}else{if(I.match.POS.test(X[0])||I.match.CHILD.test(X[0])){return true}}return X},POS:function(T){T.unshift(true);return T}},filters:{enabled:function(T){return T.disabled===false&&T.type!=="hidden"},disabled:function(T){return T.disabled===true},checked:function(T){return T.checked===true},selected:function(T){T.parentNode.selectedIndex;return T.selected===true},parent:function(T){return !!T.firstChild},empty:function(T){return !T.firstChild},has:function(V,U,T){return !!F(T[3],V).length},header:function(T){return/h\d/i.test(T.nodeName)},text:function(T){return"text"===T.type},radio:function(T){return"radio"===T.type},checkbox:function(T){return"checkbox"===T.type},file:function(T){return"file"===T.type},password:function(T){return"password"===T.type},submit:function(T){return"submit"===T.type},image:function(T){return"image"===T.type},reset:function(T){return"reset"===T.type},button:function(T){return"button"===T.type||T.nodeName.toUpperCase()==="BUTTON"},input:function(T){return/input|select|textarea|button/i.test(T.nodeName)}},setFilters:{first:function(U,T){return T===0},last:function(V,U,T,W){return U===W.length-1},even:function(U,T){return T%2===0},odd:function(U,T){return T%2===1},lt:function(V,U,T){return U<T[3]-0},gt:function(V,U,T){return U>T[3]-0},nth:function(V,U,T){return T[3]-0==U},eq:function(V,U,T){return T[3]-0==U}},filter:{PSEUDO:function(Z,V,W,aa){var U=V[1],X=I.filters[U];if(X){return X(Z,W,V,aa)}else{if(U==="contains"){return(Z.textContent||Z.innerText||"").indexOf(V[3])>=0}else{if(U==="not"){var Y=V[3];for(var W=0,T=Y.length;W<T;W++){if(Y[W]===Z){return false}}return true}}}},CHILD:function(T,W){var Z=W[1],U=T;switch(Z){case"only":case"first":while(U=U.previousSibling){if(U.nodeType===1){return false}}if(Z=="first"){return true}U=T;case"last":while(U=U.nextSibling){if(U.nodeType===1){return false}}return true;case"nth":var V=W[2],ac=W[3];if(V==1&&ac==0){return true}var Y=W[0],ab=T.parentNode;if(ab&&(ab.sizcache!==Y||!T.nodeIndex)){var X=0;for(U=ab.firstChild;U;U=U.nextSibling){if(U.nodeType===1){U.nodeIndex=++X}}ab.sizcache=Y}var aa=T.nodeIndex-ac;if(V==0){return aa==0}else{return(aa%V==0&&aa/V>=0)}}},ID:function(U,T){return U.nodeType===1&&U.getAttribute("id")===T},TAG:function(U,T){return(T==="*"&&U.nodeType===1)||U.nodeName===T},CLASS:function(U,T){return(" "+(U.className||U.getAttribute("class"))+" ").indexOf(T)>-1},ATTR:function(Y,W){var V=W[1],T=I.attrHandle[V]?I.attrHandle[V](Y):Y[V]!=null?Y[V]:Y.getAttribute(V),Z=T+"",X=W[2],U=W[4];return T==null?X==="!=":X==="="?Z===U:X==="*="?Z.indexOf(U)>=0:X==="~="?(" "+Z+" ").indexOf(U)>=0:!U?Z&&T!==false:X==="!="?Z!=U:X==="^="?Z.indexOf(U)===0:X==="$="?Z.substr(Z.length-U.length)===U:X==="|="?Z===U||Z.substr(0,U.length+1)===U+"-":false},POS:function(X,U,V,Y){var T=U[2],W=I.setFilters[T];if(W){return W(X,V,U,Y)}}}};var M=I.match.POS;for(var O in I.match){I.match[O]=RegExp(I.match[O].source+/(?![^\[]*\])(?![^\(]*\))/.source)}var E=function(U,T){U=Array.prototype.slice.call(U);if(T){T.push.apply(T,U);return T}return U};try{Array.prototype.slice.call(document.documentElement.childNodes)}catch(N){E=function(X,W){var U=W||[];if(H.call(X)==="[object Array]"){Array.prototype.push.apply(U,X)}else{if(typeof X.length==="number"){for(var V=0,T=X.length;V<T;V++){U.push(X[V])}}else{for(var V=0;X[V];V++){U.push(X[V])}}}return U}}var G;if(document.documentElement.compareDocumentPosition){G=function(U,T){var V=U.compareDocumentPosition(T)&4?-1:U===T?0:1;if(V===0){hasDuplicate=true}return V}}else{if("sourceIndex" in document.documentElement){G=function(U,T){var V=U.sourceIndex-T.sourceIndex;if(V===0){hasDuplicate=true}return V}}else{if(document.createRange){G=function(W,U){var V=W.ownerDocument.createRange(),T=U.ownerDocument.createRange();V.selectNode(W);V.collapse(true);T.selectNode(U);T.collapse(true);var X=V.compareBoundaryPoints(Range.START_TO_END,T);if(X===0){hasDuplicate=true}return X}}}}(function(){var U=document.createElement("form"),V="script"+(new Date).getTime();U.innerHTML="<input name='"+V+"'/>";var T=document.documentElement;T.insertBefore(U,T.firstChild);if(!!document.getElementById(V)){I.find.ID=function(X,Y,Z){if(typeof Y.getElementById!=="undefined"&&!Z){var W=Y.getElementById(X[1]);return W?W.id===X[1]||typeof W.getAttributeNode!=="undefined"&&W.getAttributeNode("id").nodeValue===X[1]?[W]:g:[]}};I.filter.ID=function(Y,W){var X=typeof Y.getAttributeNode!=="undefined"&&Y.getAttributeNode("id");return Y.nodeType===1&&X&&X.nodeValue===W}}T.removeChild(U)})();(function(){var T=document.createElement("div");T.appendChild(document.createComment(""));if(T.getElementsByTagName("*").length>0){I.find.TAG=function(U,Y){var X=Y.getElementsByTagName(U[1]);if(U[1]==="*"){var W=[];for(var V=0;X[V];V++){if(X[V].nodeType===1){W.push(X[V])}}X=W}return X}}T.innerHTML="<a href='#'></a>";if(T.firstChild&&typeof T.firstChild.getAttribute!=="undefined"&&T.firstChild.getAttribute("href")!=="#"){I.attrHandle.href=function(U){return U.getAttribute("href",2)}}})();if(document.querySelectorAll){(function(){var T=F,U=document.createElement("div");U.innerHTML="<p class='TEST'></p>";if(U.querySelectorAll&&U.querySelectorAll(".TEST").length===0){return}F=function(Y,X,V,W){X=X||document;if(!W&&X.nodeType===9&&!Q(X)){try{return E(X.querySelectorAll(Y),V)}catch(Z){}}return T(Y,X,V,W)};F.find=T.find;F.filter=T.filter;F.selectors=T.selectors;F.matches=T.matches})()}if(document.getElementsByClassName&&document.documentElement.getElementsByClassName){(function(){var T=document.createElement("div");T.innerHTML="<div class='test e'></div><div class='test'></div>";if(T.getElementsByClassName("e").length===0){return}T.lastChild.className="e";if(T.getElementsByClassName("e").length===1){return}I.order.splice(1,0,"CLASS");I.find.CLASS=function(U,V,W){if(typeof V.getElementsByClassName!=="undefined"&&!W){return V.getElementsByClassName(U[1])}}})()}function P(U,Z,Y,ad,aa,ac){var ab=U=="previousSibling"&&!ac;for(var W=0,V=ad.length;W<V;W++){var T=ad[W];if(T){if(ab&&T.nodeType===1){T.sizcache=Y;T.sizset=W}T=T[U];var X=false;while(T){if(T.sizcache===Y){X=ad[T.sizset];break}if(T.nodeType===1&&!ac){T.sizcache=Y;T.sizset=W}if(T.nodeName===Z){X=T;break}T=T[U]}ad[W]=X}}}function S(U,Z,Y,ad,aa,ac){var ab=U=="previousSibling"&&!ac;for(var W=0,V=ad.length;W<V;W++){var T=ad[W];if(T){if(ab&&T.nodeType===1){T.sizcache=Y;T.sizset=W}T=T[U];var X=false;while(T){if(T.sizcache===Y){X=ad[T.sizset];break}if(T.nodeType===1){if(!ac){T.sizcache=Y;T.sizset=W}if(typeof Z!=="string"){if(T===Z){X=true;break}}else{if(F.filter(Z,[T]).length>0){X=T;break}}}T=T[U]}ad[W]=X}}}var K=document.compareDocumentPosition?function(U,T){return U.compareDocumentPosition(T)&16}:function(U,T){return U!==T&&(U.contains?U.contains(T):true)};var Q=function(T){return T.nodeType===9&&T.documentElement.nodeName!=="HTML"||!!T.ownerDocument&&Q(T.ownerDocument)};var J=function(T,aa){var W=[],X="",Y,V=aa.nodeType?[aa]:aa;while((Y=I.match.PSEUDO.exec(T))){X+=Y[0];T=T.replace(I.match.PSEUDO,"")}T=I.relative[T]?T+"*":T;for(var Z=0,U=V.length;Z<U;Z++){F(T,V[Z],W)}return F.filter(X,W)};o.find=F;o.filter=F.filter;o.expr=F.selectors;o.expr[":"]=o.expr.filters;F.selectors.filters.hidden=function(T){return T.offsetWidth===0||T.offsetHeight===0};F.selectors.filters.visible=function(T){return T.offsetWidth>0||T.offsetHeight>0};F.selectors.filters.animated=function(T){return o.grep(o.timers,function(U){return T===U.elem}).length};o.multiFilter=function(V,T,U){if(U){V=":not("+V+")"}return F.matches(V,T)};o.dir=function(V,U){var T=[],W=V[U];while(W&&W!=document){if(W.nodeType==1){T.push(W)}W=W[U]}return T};o.nth=function(X,T,V,W){T=T||1;var U=0;for(;X;X=X[V]){if(X.nodeType==1&&++U==T){break}}return X};o.sibling=function(V,U){var T=[];for(;V;V=V.nextSibling){if(V.nodeType==1&&V!=U){T.push(V)}}return T};return;l.Sizzle=F})();o.event={add:function(I,F,H,K){if(I.nodeType==3||I.nodeType==8){return}if(I.setInterval&&I!=l){I=l}if(!H.guid){H.guid=this.guid++}if(K!==g){var G=H;H=this.proxy(G);H.data=K}var E=o.data(I,"events")||o.data(I,"events",{}),J=o.data(I,"handle")||o.data(I,"handle",function(){return typeof o!=="undefined"&&!o.event.triggered?o.event.handle.apply(arguments.callee.elem,arguments):g});J.elem=I;o.each(F.split(/\s+/),function(M,N){var O=N.split(".");N=O.shift();H.type=O.slice().sort().join(".");var L=E[N];if(o.event.specialAll[N]){o.event.specialAll[N].setup.call(I,K,O)}if(!L){L=E[N]={};if(!o.event.special[N]||o.event.special[N].setup.call(I,K,O)===false){if(I.addEventListener){I.addEventListener(N,J,false)}else{if(I.attachEvent){I.attachEvent("on"+N,J)}}}}L[H.guid]=H;o.event.global[N]=true});I=null},guid:1,global:{},remove:function(K,H,J){if(K.nodeType==3||K.nodeType==8){return}var G=o.data(K,"events"),F,E;if(G){if(H===g||(typeof H==="string"&&H.charAt(0)==".")){for(var I in G){this.remove(K,I+(H||""))}}else{if(H.type){J=H.handler;H=H.type}o.each(H.split(/\s+/),function(M,O){var Q=O.split(".");O=Q.shift();var N=RegExp("(^|\\.)"+Q.slice().sort().join(".*\\.")+"(\\.|$)");if(G[O]){if(J){delete G[O][J.guid]}else{for(var P in G[O]){if(N.test(G[O][P].type)){delete G[O][P]}}}if(o.event.specialAll[O]){o.event.specialAll[O].teardown.call(K,Q)}for(F in G[O]){break}if(!F){if(!o.event.special[O]||o.event.special[O].teardown.call(K,Q)===false){if(K.removeEventListener){K.removeEventListener(O,o.data(K,"handle"),false)}else{if(K.detachEvent){K.detachEvent("on"+O,o.data(K,"handle"))}}}F=null;delete G[O]}}})}for(F in G){break}if(!F){var L=o.data(K,"handle");if(L){L.elem=null}o.removeData(K,"events");o.removeData(K,"handle")}}},trigger:function(I,K,H,E){var G=I.type||I;if(!E){I=typeof I==="object"?I[h]?I:o.extend(o.Event(G),I):o.Event(G);if(G.indexOf("!")>=0){I.type=G=G.slice(0,-1);I.exclusive=true}if(!H){I.stopPropagation();if(this.global[G]){o.each(o.cache,function(){if(this.events&&this.events[G]){o.event.trigger(I,K,this.handle.elem)}})}}if(!H||H.nodeType==3||H.nodeType==8){return g}I.result=g;I.target=H;K=o.makeArray(K);K.unshift(I)}I.currentTarget=H;var J=o.data(H,"handle");if(J){J.apply(H,K)}if((!H[G]||(o.nodeName(H,"a")&&G=="click"))&&H["on"+G]&&H["on"+G].apply(H,K)===false){I.result=false}if(!E&&H[G]&&!I.isDefaultPrevented()&&!(o.nodeName(H,"a")&&G=="click")){this.triggered=true;try{H[G]()}catch(L){}}this.triggered=false;if(!I.isPropagationStopped()){var F=H.parentNode||H.ownerDocument;if(F){o.event.trigger(I,K,F,true)}}},handle:function(K){var J,E;K=arguments[0]=o.event.fix(K||l.event);K.currentTarget=this;var L=K.type.split(".");K.type=L.shift();J=!L.length&&!K.exclusive;var I=RegExp("(^|\\.)"+L.slice().sort().join(".*\\.")+"(\\.|$)");E=(o.data(this,"events")||{})[K.type];for(var G in E){var H=E[G];if(J||I.test(H.type)){K.handler=H;K.data=H.data;var F=H.apply(this,arguments);if(F!==g){K.result=F;if(F===false){K.preventDefault();K.stopPropagation()}}if(K.isImmediatePropagationStopped()){break}}}},props:"altKey attrChange attrName bubbles button cancelable charCode clientX clientY ctrlKey currentTarget data detail eventPhase fromElement handler keyCode metaKey newValue originalTarget pageX pageY prevValue relatedNode relatedTarget screenX screenY shiftKey srcElement target toElement view wheelDelta which".split(" "),fix:function(H){if(H[h]){return H}var F=H;H=o.Event(F);for(var G=this.props.length,J;G;){J=this.props[--G];H[J]=F[J]}if(!H.target){H.target=H.srcElement||document}if(H.target.nodeType==3){H.target=H.target.parentNode}if(!H.relatedTarget&&H.fromElement){H.relatedTarget=H.fromElement==H.target?H.toElement:H.fromElement}if(H.pageX==null&&H.clientX!=null){var I=document.documentElement,E=document.body;H.pageX=H.clientX+(I&&I.scrollLeft||E&&E.scrollLeft||0)-(I.clientLeft||0);H.pageY=H.clientY+(I&&I.scrollTop||E&&E.scrollTop||0)-(I.clientTop||0)}if(!H.which&&((H.charCode||H.charCode===0)?H.charCode:H.keyCode)){H.which=H.charCode||H.keyCode}if(!H.metaKey&&H.ctrlKey){H.metaKey=H.ctrlKey}if(!H.which&&H.button){H.which=(H.button&1?1:(H.button&2?3:(H.button&4?2:0)))}return H},proxy:function(F,E){E=E||function(){return F.apply(this,arguments)};E.guid=F.guid=F.guid||E.guid||this.guid++;return E},special:{ready:{setup:B,teardown:function(){}}},specialAll:{live:{setup:function(E,F){o.event.add(this,F[0],c)},teardown:function(G){if(G.length){var E=0,F=RegExp("(^|\\.)"+G[0]+"(\\.|$)");o.each((o.data(this,"events").live||{}),function(){if(F.test(this.type)){E++}});if(E<1){o.event.remove(this,G[0],c)}}}}}};o.Event=function(E){if(!this.preventDefault){return new o.Event(E)}if(E&&E.type){this.originalEvent=E;this.type=E.type}else{this.type=E}this.timeStamp=e();this[h]=true};function k(){return false}function u(){return true}o.Event.prototype={preventDefault:function(){this.isDefaultPrevented=u;var E=this.originalEvent;if(!E){return}if(E.preventDefault){E.preventDefault()}E.returnValue=false},stopPropagation:function(){this.isPropagationStopped=u;var E=this.originalEvent;if(!E){return}if(E.stopPropagation){E.stopPropagation()}E.cancelBubble=true},stopImmediatePropagation:function(){this.isImmediatePropagationStopped=u;this.stopPropagation()},isDefaultPrevented:k,isPropagationStopped:k,isImmediatePropagationStopped:k};var a=function(F){var E=F.relatedTarget;while(E&&E!=this){try{E=E.parentNode}catch(G){E=this}}if(E!=this){F.type=F.data;o.event.handle.apply(this,arguments)}};o.each({mouseover:"mouseenter",mouseout:"mouseleave"},function(F,E){o.event.special[E]={setup:function(){o.event.add(this,F,a,E)},teardown:function(){o.event.remove(this,F,a)}}});o.fn.extend({bind:function(F,G,E){return F=="unload"?this.one(F,G,E):this.each(function(){o.event.add(this,F,E||G,E&&G)})},one:function(G,H,F){var E=o.event.proxy(F||H,function(I){o(this).unbind(I,E);return(F||H).apply(this,arguments)});return this.each(function(){o.event.add(this,G,E,F&&H)})},unbind:function(F,E){return this.each(function(){o.event.remove(this,F,E)})},trigger:function(E,F){return this.each(function(){o.event.trigger(E,F,this)})},triggerHandler:function(E,G){if(this[0]){var F=o.Event(E);F.preventDefault();F.stopPropagation();o.event.trigger(F,G,this[0]);return F.result}},toggle:function(G){var E=arguments,F=1;while(F<E.length){o.event.proxy(G,E[F++])}return this.click(o.event.proxy(G,function(H){this.lastToggle=(this.lastToggle||0)%F;H.preventDefault();return E[this.lastToggle++].apply(this,arguments)||false}))},hover:function(E,F){return this.mouseenter(E).mouseleave(F)},ready:function(E){B();if(o.isReady){E.call(document,o)}else{o.readyList.push(E)}return this},live:function(G,F){var E=o.event.proxy(F);E.guid+=this.selector+G;o(document).bind(i(G,this.selector),this.selector,E);return this},die:function(F,E){o(document).unbind(i(F,this.selector),E?{guid:E.guid+this.selector+F}:null);return this}});function c(H){var E=RegExp("(^|\\.)"+H.type+"(\\.|$)"),G=true,F=[];o.each(o.data(this,"events").live||[],function(I,J){if(E.test(J.type)){var K=o(H.target).closest(J.data)[0];if(K){F.push({elem:K,fn:J})}}});F.sort(function(J,I){return o.data(J.elem,"closest")-o.data(I.elem,"closest")});o.each(F,function(){if(this.fn.call(this.elem,H,this.fn.data)===false){return(G=false)}});return G}function i(F,E){return["live",F,E.replace(/\./g,"`").replace(/ /g,"|")].join(".")}o.extend({isReady:false,readyList:[],ready:function(){if(!o.isReady){o.isReady=true;if(o.readyList){o.each(o.readyList,function(){this.call(document,o)});o.readyList=null}o(document).triggerHandler("ready")}}});var x=false;function B(){if(x){return}x=true;if(document.addEventListener){document.addEventListener("DOMContentLoaded",function(){document.removeEventListener("DOMContentLoaded",arguments.callee,false);o.ready()},false)}else{if(document.attachEvent){document.attachEvent("onreadystatechange",function(){if(document.readyState==="complete"){document.detachEvent("onreadystatechange",arguments.callee);o.ready()}});if(document.documentElement.doScroll&&l==l.top){(function(){if(o.isReady){return}try{document.documentElement.doScroll("left")}catch(E){setTimeout(arguments.callee,0);return}o.ready()})()}}}o.event.add(l,"load",o.ready)}o.each(("blur,focus,load,resize,scroll,unload,click,dblclick,mousedown,mouseup,mousemove,mouseover,mouseout,mouseenter,mouseleave,change,select,submit,keydown,keypress,keyup,error").split(","),function(F,E){o.fn[E]=function(G){return G?this.bind(E,G):this.trigger(E)}});o(l).bind("unload",function(){for(var E in o.cache){if(E!=1&&o.cache[E].handle){o.event.remove(o.cache[E].handle.elem)}}});(function(){o.support={};var F=document.documentElement,G=document.createElement("script"),K=document.createElement("div"),J="script"+(new Date).getTime();K.style.display="none";K.innerHTML='   <link/><table></table><a href="/a" style="color:red;float:left;opacity:.5;">a</a><select><option>text</option></select><object><param/></object>';var H=K.getElementsByTagName("*"),E=K.getElementsByTagName("a")[0];if(!H||!H.length||!E){return}o.support={leadingWhitespace:K.firstChild.nodeType==3,tbody:!K.getElementsByTagName("tbody").length,objectAll:!!K.getElementsByTagName("object")[0].getElementsByTagName("*").length,htmlSerialize:!!K.getElementsByTagName("link").length,style:/red/.test(E.getAttribute("style")),hrefNormalized:E.getAttribute("href")==="/a",opacity:E.style.opacity==="0.5",cssFloat:!!E.style.cssFloat,scriptEval:false,noCloneEvent:true,boxModel:null};G.type="text/javascript";try{G.appendChild(document.createTextNode("window."+J+"=1;"))}catch(I){}F.insertBefore(G,F.firstChild);if(l[J]){o.support.scriptEval=true;delete l[J]}F.removeChild(G);if(K.attachEvent&&K.fireEvent){K.attachEvent("onclick",function(){o.support.noCloneEvent=false;K.detachEvent("onclick",arguments.callee)});K.cloneNode(true).fireEvent("onclick")}o(function(){var L=document.createElement("div");L.style.width=L.style.paddingLeft="1px";document.body.appendChild(L);o.boxModel=o.support.boxModel=L.offsetWidth===2;document.body.removeChild(L).style.display="none"})})();var w=o.support.cssFloat?"cssFloat":"styleFloat";o.props={"for":"htmlFor","class":"className","float":w,cssFloat:w,styleFloat:w,readonly:"readOnly",maxlength:"maxLength",cellspacing:"cellSpacing",rowspan:"rowSpan",tabindex:"tabIndex"};o.fn.extend({_load:o.fn.load,load:function(G,J,K){if(typeof G!=="string"){return this._load(G)}var I=G.indexOf(" ");if(I>=0){var E=G.slice(I,G.length);G=G.slice(0,I)}var H="GET";if(J){if(o.isFunction(J)){K=J;J=null}else{if(typeof J==="object"){J=o.param(J);H="POST"}}}var F=this;o.ajax({url:G,type:H,dataType:"html",data:J,complete:function(M,L){if(L=="success"||L=="notmodified"){F.html(E?o("<div/>").append(M.responseText.replace(/<script(.|\s)*?\/script>/g,"")).find(E):M.responseText)}if(K){F.each(K,[M.responseText,L,M])}}});return this},serialize:function(){return o.param(this.serializeArray())},serializeArray:function(){return this.map(function(){return this.elements?o.makeArray(this.elements):this}).filter(function(){return this.name&&!this.disabled&&(this.checked||/select|textarea/i.test(this.nodeName)||/text|hidden|password|search/i.test(this.type))}).map(function(E,F){var G=o(this).val();return G==null?null:o.isArray(G)?o.map(G,function(I,H){return{name:F.name,value:I}}):{name:F.name,value:G}}).get()}});o.each("ajaxStart,ajaxStop,ajaxComplete,ajaxError,ajaxSuccess,ajaxSend".split(","),function(E,F){o.fn[F]=function(G){return this.bind(F,G)}});var r=e();o.extend({get:function(E,G,H,F){if(o.isFunction(G)){H=G;G=null}return o.ajax({type:"GET",url:E,data:G,success:H,dataType:F})},getScript:function(E,F){return o.get(E,null,F,"script")},getJSON:function(E,F,G){return o.get(E,F,G,"json")},post:function(E,G,H,F){if(o.isFunction(G)){H=G;G={}}return o.ajax({type:"POST",url:E,data:G,success:H,dataType:F})},ajaxSetup:function(E){o.extend(o.ajaxSettings,E)},ajaxSettings:{url:location.href,global:true,type:"GET",contentType:"application/x-www-form-urlencoded",processData:true,async:true,xhr:function(){return l.ActiveXObject?new ActiveXObject("Microsoft.XMLHTTP"):new XMLHttpRequest()},accepts:{xml:"application/xml, text/xml",html:"text/html",script:"text/javascript, application/javascript",json:"application/json, text/javascript",text:"text/plain",_default:"*/*"}},lastModified:{},ajax:function(M){M=o.extend(true,M,o.extend(true,{},o.ajaxSettings,M));var W,F=/=\?(&|$)/g,R,V,G=M.type.toUpperCase();if(M.data&&M.processData&&typeof M.data!=="string"){M.data=o.param(M.data)}if(M.dataType=="jsonp"){if(G=="GET"){if(!M.url.match(F)){M.url+=(M.url.match(/\?/)?"&":"?")+(M.jsonp||"callback")+"=?"}}else{if(!M.data||!M.data.match(F)){M.data=(M.data?M.data+"&":"")+(M.jsonp||"callback")+"=?"}}M.dataType="json"}if(M.dataType=="json"&&(M.data&&M.data.match(F)||M.url.match(F))){W="jsonp"+r++;if(M.data){M.data=(M.data+"").replace(F,"="+W+"$1")}M.url=M.url.replace(F,"="+W+"$1");M.dataType="script";l[W]=function(X){V=X;I();L();l[W]=g;try{delete l[W]}catch(Y){}if(H){H.removeChild(T)}}}if(M.dataType=="script"&&M.cache==null){M.cache=false}if(M.cache===false&&G=="GET"){var E=e();var U=M.url.replace(/(\?|&)_=.*?(&|$)/,"$1_="+E+"$2");M.url=U+((U==M.url)?(M.url.match(/\?/)?"&":"?")+"_="+E:"")}if(M.data&&G=="GET"){M.url+=(M.url.match(/\?/)?"&":"?")+M.data;M.data=null}if(M.global&&!o.active++){o.event.trigger("ajaxStart")}var Q=/^(\w+:)?\/\/([^\/?#]+)/.exec(M.url);if(M.dataType=="script"&&G=="GET"&&Q&&(Q[1]&&Q[1]!=location.protocol||Q[2]!=location.host)){var H=document.getElementsByTagName("head")[0];var T=document.createElement("script");T.src=M.url;if(M.scriptCharset){T.charset=M.scriptCharset}if(!W){var O=false;T.onload=T.onreadystatechange=function(){if(!O&&(!this.readyState||this.readyState=="loaded"||this.readyState=="complete")){O=true;I();L();T.onload=T.onreadystatechange=null;H.removeChild(T)}}}H.appendChild(T);return g}var K=false;var J=M.xhr();if(M.username){J.open(G,M.url,M.async,M.username,M.password)}else{J.open(G,M.url,M.async)}try{if(M.data){J.setRequestHeader("Content-Type",M.contentType)}if(M.ifModified){J.setRequestHeader("If-Modified-Since",o.lastModified[M.url]||"Thu, 01 Jan 1970 00:00:00 GMT")}J.setRequestHeader("X-Requested-With","XMLHttpRequest");J.setRequestHeader("Accept",M.dataType&&M.accepts[M.dataType]?M.accepts[M.dataType]+", */*":M.accepts._default)}catch(S){}if(M.beforeSend&&M.beforeSend(J,M)===false){if(M.global&&!--o.active){o.event.trigger("ajaxStop")}J.abort();return false}if(M.global){o.event.trigger("ajaxSend",[J,M])}var N=function(X){if(J.readyState==0){if(P){clearInterval(P);P=null;if(M.global&&!--o.active){o.event.trigger("ajaxStop")}}}else{if(!K&&J&&(J.readyState==4||X=="timeout")){K=true;if(P){clearInterval(P);P=null}R=X=="timeout"?"timeout":!o.httpSuccess(J)?"error":M.ifModified&&o.httpNotModified(J,M.url)?"notmodified":"success";if(R=="success"){try{V=o.httpData(J,M.dataType,M)}catch(Z){R="parsererror"}}if(R=="success"){var Y;try{Y=J.getResponseHeader("Last-Modified")}catch(Z){}if(M.ifModified&&Y){o.lastModified[M.url]=Y}if(!W){I()}}else{o.handleError(M,J,R)}L();if(X){J.abort()}if(M.async){J=null}}}};if(M.async){var P=setInterval(N,13);if(M.timeout>0){setTimeout(function(){if(J&&!K){N("timeout")}},M.timeout)}}try{J.send(M.data)}catch(S){o.handleError(M,J,null,S)}if(!M.async){N()}function I(){if(M.success){M.success(V,R)}if(M.global){o.event.trigger("ajaxSuccess",[J,M])}}function L(){if(M.complete){M.complete(J,R)}if(M.global){o.event.trigger("ajaxComplete",[J,M])}if(M.global&&!--o.active){o.event.trigger("ajaxStop")}}return J},handleError:function(F,H,E,G){if(F.error){F.error(H,E,G)}if(F.global){o.event.trigger("ajaxError",[H,F,G])}},active:0,httpSuccess:function(F){try{return !F.status&&location.protocol=="file:"||(F.status>=200&&F.status<300)||F.status==304||F.status==1223}catch(E){}return false},httpNotModified:function(G,E){try{var H=G.getResponseHeader("Last-Modified");return G.status==304||H==o.lastModified[E]}catch(F){}return false},httpData:function(J,H,G){var F=J.getResponseHeader("content-type"),E=H=="xml"||!H&&F&&F.indexOf("xml")>=0,I=E?J.responseXML:J.responseText;if(E&&I.documentElement.tagName=="parsererror"){throw"parsererror"}if(G&&G.dataFilter){I=G.dataFilter(I,H)}if(typeof I==="string"){if(H=="script"){o.globalEval(I)}if(H=="json"){I=l["eval"]("("+I+")")}}return I},param:function(E){var G=[];function H(I,J){G[G.length]=encodeURIComponent(I)+"="+encodeURIComponent(J)}if(o.isArray(E)||E.jquery){o.each(E,function(){H(this.name,this.value)})}else{for(var F in E){if(o.isArray(E[F])){o.each(E[F],function(){H(F,this)})}else{H(F,o.isFunction(E[F])?E[F]():E[F])}}}return G.join("&").replace(/%20/g,"+")}});var m={},n,d=[["height","marginTop","marginBottom","paddingTop","paddingBottom"],["width","marginLeft","marginRight","paddingLeft","paddingRight"],["opacity"]];function t(F,E){var G={};o.each(d.concat.apply([],d.slice(0,E)),function(){G[this]=F});return G}o.fn.extend({show:function(J,L){if(J){return this.animate(t("show",3),J,L)}else{for(var H=0,F=this.length;H<F;H++){var E=o.data(this[H],"olddisplay");this[H].style.display=E||"";if(o.css(this[H],"display")==="none"){var G=this[H].tagName,K;if(m[G]){K=m[G]}else{var I=o("<"+G+" />").appendTo("body");K=I.css("display");if(K==="none"){K="block"}I.remove();m[G]=K}o.data(this[H],"olddisplay",K)}}for(var H=0,F=this.length;H<F;H++){this[H].style.display=o.data(this[H],"olddisplay")||""}return this}},hide:function(H,I){if(H){return this.animate(t("hide",3),H,I)}else{for(var G=0,F=this.length;G<F;G++){var E=o.data(this[G],"olddisplay");if(!E&&E!=="none"){o.data(this[G],"olddisplay",o.css(this[G],"display"))}}for(var G=0,F=this.length;G<F;G++){this[G].style.display="none"}return this}},_toggle:o.fn.toggle,toggle:function(G,F){var E=typeof G==="boolean";return o.isFunction(G)&&o.isFunction(F)?this._toggle.apply(this,arguments):G==null||E?this.each(function(){var H=E?G:o(this).is(":hidden");o(this)[H?"show":"hide"]()}):this.animate(t("toggle",3),G,F)},fadeTo:function(E,G,F){return this.animate({opacity:G},E,F)},animate:function(I,F,H,G){var E=o.speed(F,H,G);return this[E.queue===false?"each":"queue"](function(){var K=o.extend({},E),M,L=this.nodeType==1&&o(this).is(":hidden"),J=this;for(M in I){if(I[M]=="hide"&&L||I[M]=="show"&&!L){return K.complete.call(this)}if((M=="height"||M=="width")&&this.style){K.display=o.css(this,"display");K.overflow=this.style.overflow}}if(K.overflow!=null){this.style.overflow="hidden"}K.curAnim=o.extend({},I);o.each(I,function(O,S){var R=new o.fx(J,K,O);if(/toggle|show|hide/.test(S)){R[S=="toggle"?L?"show":"hide":S](I)}else{var Q=S.toString().match(/^([+-]=)?([\d+-.]+)(.*)$/),T=R.cur(true)||0;if(Q){var N=parseFloat(Q[2]),P=Q[3]||"px";if(P!="px"){J.style[O]=(N||1)+P;T=((N||1)/R.cur(true))*T;J.style[O]=T+P}if(Q[1]){N=((Q[1]=="-="?-1:1)*N)+T}R.custom(T,N,P)}else{R.custom(T,S,"")}}});return true})},stop:function(F,E){var G=o.timers;if(F){this.queue([])}this.each(function(){for(var H=G.length-1;H>=0;H--){if(G[H].elem==this){if(E){G[H](true)}G.splice(H,1)}}});if(!E){this.dequeue()}return this}});o.each({slideDown:t("show",1),slideUp:t("hide",1),slideToggle:t("toggle",1),fadeIn:{opacity:"show"},fadeOut:{opacity:"hide"}},function(E,F){o.fn[E]=function(G,H){return this.animate(F,G,H)}});o.extend({speed:function(G,H,F){var E=typeof G==="object"?G:{complete:F||!F&&H||o.isFunction(G)&&G,duration:G,easing:F&&H||H&&!o.isFunction(H)&&H};E.duration=o.fx.off?0:typeof E.duration==="number"?E.duration:o.fx.speeds[E.duration]||o.fx.speeds._default;E.old=E.complete;E.complete=function(){if(E.queue!==false){o(this).dequeue()}if(o.isFunction(E.old)){E.old.call(this)}};return E},easing:{linear:function(G,H,E,F){return E+F*G},swing:function(G,H,E,F){return((-Math.cos(G*Math.PI)/2)+0.5)*F+E}},timers:[],fx:function(F,E,G){this.options=E;this.elem=F;this.prop=G;if(!E.orig){E.orig={}}}});o.fx.prototype={update:function(){if(this.options.step){this.options.step.call(this.elem,this.now,this)}(o.fx.step[this.prop]||o.fx.step._default)(this);if((this.prop=="height"||this.prop=="width")&&this.elem.style){this.elem.style.display="block"}},cur:function(F){if(this.elem[this.prop]!=null&&(!this.elem.style||this.elem.style[this.prop]==null)){return this.elem[this.prop]}var E=parseFloat(o.css(this.elem,this.prop,F));return E&&E>-10000?E:parseFloat(o.curCSS(this.elem,this.prop))||0},custom:function(I,H,G){this.startTime=e();this.start=I;this.end=H;this.unit=G||this.unit||"px";this.now=this.start;this.pos=this.state=0;var E=this;function F(J){return E.step(J)}F.elem=this.elem;if(F()&&o.timers.push(F)&&!n){n=setInterval(function(){var K=o.timers;for(var J=0;J<K.length;J++){if(!K[J]()){K.splice(J--,1)}}if(!K.length){clearInterval(n);n=g}},13)}},show:function(){this.options.orig[this.prop]=o.attr(this.elem.style,this.prop);this.options.show=true;this.custom(this.prop=="width"||this.prop=="height"?1:0,this.cur());o(this.elem).show()},hide:function(){this.options.orig[this.prop]=o.attr(this.elem.style,this.prop);this.options.hide=true;this.custom(this.cur(),0)},step:function(H){var G=e();if(H||G>=this.options.duration+this.startTime){this.now=this.end;this.pos=this.state=1;this.update();this.options.curAnim[this.prop]=true;var E=true;for(var F in this.options.curAnim){if(this.options.curAnim[F]!==true){E=false}}if(E){if(this.options.display!=null){this.elem.style.overflow=this.options.overflow;this.elem.style.display=this.options.display;if(o.css(this.elem,"display")=="none"){this.elem.style.display="block"}}if(this.options.hide){o(this.elem).hide()}if(this.options.hide||this.options.show){for(var I in this.options.curAnim){o.attr(this.elem.style,I,this.options.orig[I])}}this.options.complete.call(this.elem)}return false}else{var J=G-this.startTime;this.state=J/this.options.duration;this.pos=o.easing[this.options.easing||(o.easing.swing?"swing":"linear")](this.state,J,0,1,this.options.duration);this.now=this.start+((this.end-this.start)*this.pos);this.update()}return true}};o.extend(o.fx,{speeds:{slow:600,fast:200,_default:400},step:{opacity:function(E){o.attr(E.elem.style,"opacity",E.now)},_default:function(E){if(E.elem.style&&E.elem.style[E.prop]!=null){E.elem.style[E.prop]=E.now+E.unit}else{E.elem[E.prop]=E.now}}}});if(document.documentElement.getBoundingClientRect){o.fn.offset=function(){if(!this[0]){return{top:0,left:0}}if(this[0]===this[0].ownerDocument.body){return o.offset.bodyOffset(this[0])}var G=this[0].getBoundingClientRect(),J=this[0].ownerDocument,F=J.body,E=J.documentElement,L=E.clientTop||F.clientTop||0,K=E.clientLeft||F.clientLeft||0,I=G.top+(self.pageYOffset||o.boxModel&&E.scrollTop||F.scrollTop)-L,H=G.left+(self.pageXOffset||o.boxModel&&E.scrollLeft||F.scrollLeft)-K;return{top:I,left:H}}}else{o.fn.offset=function(){if(!this[0]){return{top:0,left:0}}if(this[0]===this[0].ownerDocument.body){return o.offset.bodyOffset(this[0])}o.offset.initialized||o.offset.initialize();var J=this[0],G=J.offsetParent,F=J,O=J.ownerDocument,M,H=O.documentElement,K=O.body,L=O.defaultView,E=L.getComputedStyle(J,null),N=J.offsetTop,I=J.offsetLeft;while((J=J.parentNode)&&J!==K&&J!==H){M=L.getComputedStyle(J,null);N-=J.scrollTop,I-=J.scrollLeft;if(J===G){N+=J.offsetTop,I+=J.offsetLeft;if(o.offset.doesNotAddBorder&&!(o.offset.doesAddBorderForTableAndCells&&/^t(able|d|h)$/i.test(J.tagName))){N+=parseInt(M.borderTopWidth,10)||0,I+=parseInt(M.borderLeftWidth,10)||0}F=G,G=J.offsetParent}if(o.offset.subtractsBorderForOverflowNotVisible&&M.overflow!=="visible"){N+=parseInt(M.borderTopWidth,10)||0,I+=parseInt(M.borderLeftWidth,10)||0}E=M}if(E.position==="relative"||E.position==="static"){N+=K.offsetTop,I+=K.offsetLeft}if(E.position==="fixed"){N+=Math.max(H.scrollTop,K.scrollTop),I+=Math.max(H.scrollLeft,K.scrollLeft)}return{top:N,left:I}}}o.offset={initialize:function(){if(this.initialized){return}var L=document.body,F=document.createElement("div"),H,G,N,I,M,E,J=L.style.marginTop,K='<div style="position:absolute;top:0;left:0;margin:0;border:5px solid #000;padding:0;width:1px;height:1px;"><div></div></div><table style="position:absolute;top:0;left:0;margin:0;border:5px solid #000;padding:0;width:1px;height:1px;" cellpadding="0" cellspacing="0"><tr><td></td></tr></table>';M={position:"absolute",top:0,left:0,margin:0,border:0,width:"1px",height:"1px",visibility:"hidden"};for(E in M){F.style[E]=M[E]}F.innerHTML=K;L.insertBefore(F,L.firstChild);H=F.firstChild,G=H.firstChild,I=H.nextSibling.firstChild.firstChild;this.doesNotAddBorder=(G.offsetTop!==5);this.doesAddBorderForTableAndCells=(I.offsetTop===5);H.style.overflow="hidden",H.style.position="relative";this.subtractsBorderForOverflowNotVisible=(G.offsetTop===-5);L.style.marginTop="1px";this.doesNotIncludeMarginInBodyOffset=(L.offsetTop===0);L.style.marginTop=J;L.removeChild(F);this.initialized=true},bodyOffset:function(E){o.offset.initialized||o.offset.initialize();var G=E.offsetTop,F=E.offsetLeft;if(o.offset.doesNotIncludeMarginInBodyOffset){G+=parseInt(o.curCSS(E,"marginTop",true),10)||0,F+=parseInt(o.curCSS(E,"marginLeft",true),10)||0}return{top:G,left:F}}};o.fn.extend({position:function(){var I=0,H=0,F;if(this[0]){var G=this.offsetParent(),J=this.offset(),E=/^body|html$/i.test(G[0].tagName)?{top:0,left:0}:G.offset();J.top-=j(this,"marginTop");J.left-=j(this,"marginLeft");E.top+=j(G,"borderTopWidth");E.left+=j(G,"borderLeftWidth");F={top:J.top-E.top,left:J.left-E.left}}return F},offsetParent:function(){var E=this[0].offsetParent||document.body;while(E&&(!/^body|html$/i.test(E.tagName)&&o.css(E,"position")=="static")){E=E.offsetParent}return o(E)}});o.each(["Left","Top"],function(F,E){var G="scroll"+E;o.fn[G]=function(H){if(!this[0]){return null}return H!==g?this.each(function(){this==l||this==document?l.scrollTo(!F?H:o(l).scrollLeft(),F?H:o(l).scrollTop()):this[G]=H}):this[0]==l||this[0]==document?self[F?"pageYOffset":"pageXOffset"]||o.boxModel&&document.documentElement[G]||document.body[G]:this[0][G]}});o.each(["Height","Width"],function(I,G){var E=I?"Left":"Top",H=I?"Right":"Bottom",F=G.toLowerCase();o.fn["inner"+G]=function(){return this[0]?o.css(this[0],F,false,"padding"):null};o.fn["outer"+G]=function(K){return this[0]?o.css(this[0],F,false,K?"margin":"border"):null};var J=G.toLowerCase();o.fn[J]=function(K){return this[0]==l?document.compatMode=="CSS1Compat"&&document.documentElement["client"+G]||document.body["client"+G]:this[0]==document?Math.max(document.documentElement["client"+G],document.body["scroll"+G],document.documentElement["scroll"+G],document.body["offset"+G],document.documentElement["offset"+G]):K===g?(this.length?o.css(this[0],J):null):this.css(J,typeof K==="string"?K:K+"px")}})})();
+
+/**
+ * SyntaxHighlighter
+ * http://alexgorbatchev.com/
+ *
+ * SyntaxHighlighter is donationware. If you are using it, please donate.
+ * http://alexgorbatchev.com/wiki/SyntaxHighlighter:Donate
+ *
+ * @version
+ * 2.1.364 (October 15 2009)
+ * 
+ * @copyright
+ * Copyright (C) 2004-2009 Alex Gorbatchev.
+ *
+ * @license
+ * This file is part of SyntaxHighlighter.
+ * 
+ * SyntaxHighlighter is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * SyntaxHighlighter is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with SyntaxHighlighter.  If not, see <http://www.gnu.org/copyleft/lesser.html>.
+ */
+//
+// Begin anonymous function. This is used to contain local scope variables without polutting global scope.
+//
+if (!window.SyntaxHighlighter) var SyntaxHighlighter = function() { 
+
+// Shortcut object which will be assigned to the SyntaxHighlighter variable.
+// This is a shorthand for local reference in order to avoid long namespace 
+// references to SyntaxHighlighter.whatever...
+var sh = {
+	defaults : {
+		/** Additional CSS class names to be added to highlighter elements. */
+		'class-name' : '',
+		
+		/** First line number. */
+		'first-line' : 1,
+		
+		/**
+		 * Pads line numbers. Possible values are:
+		 *
+		 *   false - don't pad line numbers.
+		 *   true  - automaticaly pad numbers with minimum required number of leading zeroes.
+		 *   [int] - length up to which pad line numbers.
+		 */
+		'pad-line-numbers' : true,
+		
+		/** Lines to highlight. */
+		'highlight' : null,
+		
+		/** Enables or disables smart tabs. */
+		'smart-tabs' : true,
+		
+		/** Gets or sets tab size. */
+		'tab-size' : 4,
+		
+		/** Enables or disables gutter. */
+		'gutter' : true,
+		
+		/** Enables or disables toolbar. */
+		'toolbar' : true,
+		
+		/** Forces code view to be collapsed. */
+		'collapse' : false,
+		
+		/** Enables or disables automatic links. */
+		'auto-links' : true,
+		
+		/** Gets or sets light mode. Equavalent to turning off gutter and toolbar. */
+		'light' : false,
+		
+		/** Enables or disables automatic line wrapping. */
+		'wrap-lines' : true,
+		
+		'html-script' : false
+	},
+	
+	config : {
+		/** Enables use of <SCRIPT type="syntaxhighlighter" /> tags. */
+		useScriptTags : true,
+		
+		/** Path to the copy to clipboard SWF file. */
+		clipboardSwf : null,
+
+		/** Width of an item in the toolbar. */
+		toolbarItemWidth : 16,
+
+		/** Height of an item in the toolbar. */
+		toolbarItemHeight : 16,
+		
+		/** Blogger mode flag. */
+		bloggerMode : false,
+		
+		stripBrs : false,
+		
+		/** Name of the tag that SyntaxHighlighter will automatically look for. */
+		tagName : 'pre',
+		
+		strings : {
+			expandSource : 'show source',
+			viewSource : 'view source',
+			copyToClipboard : 'copy to clipboard',
+			copyToClipboardConfirmation : 'The code is in your clipboard now',
+			print : 'print',
+			help : '?',
+			alert: 'SyntaxHighlighter\n\n',
+			noBrush : 'Can\'t find brush for: ',
+			brushNotHtmlScript : 'Brush wasn\'t configured for html-script option: ',
+			
+			// this is populated by the build script
+			aboutDialog : '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>About SyntaxHighlighter</title></head><body style="font-family:Geneva,Arial,Helvetica,sans-serif;background-color:#fff;color:#000;font-size:1em;text-align:center;"><div style="text-align:center;margin-top:3em;"><div style="font-size:xx-large;">SyntaxHighlighter</div><div style="font-size:.75em;margin-bottom:4em;"><div>version 2.1.364 (October 15 2009)</div><div><a href="http://alexgorbatchev.com" target="_blank" style="color:#0099FF;text-decoration:none;">http://alexgorbatchev.com</a></div><div>If you like this script, please <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2930402" style="color:#0099FF;text-decoration:none;">donate</a> to keep development active!</div></div><div>JavaScript code syntax highlighter.</div><div>Copyright 2004-2009 Alex Gorbatchev.</div></div></body></html>'
+		},
+
+		/** If true, output will show HTML produces instead. */
+		debug : false
+	},
+	
+	/** Internal 'global' variables. */
+	vars : {
+		discoveredBrushes : null,
+		spaceWidth : null,
+		printFrame : null,
+		highlighters : {}
+	},
+	
+	/** This object is populated by user included external brush files. */
+	brushes : {},
+
+	/** Common regular expressions. */
+	regexLib : {
+		multiLineCComments			: /\/\*[\s\S]*?\*\//gm,
+		singleLineCComments			: /\/\/.*$/gm,
+		singleLinePerlComments		: /#.*$/gm,
+		doubleQuotedString			: /"([^\\"\n]|\\.)*"/g,
+		singleQuotedString			: /'([^\\'\n]|\\.)*'/g,
+		multiLineDoubleQuotedString	: /"([^\\"]|\\.)*"/g,
+		multiLineSingleQuotedString	: /'([^\\']|\\.)*'/g,
+		xmlComments					: /(&lt;|<)!--[\s\S]*?--(&gt;|>)/gm,
+		url							: /&lt;\w+:\/\/[\w-.\/?%&=@:;]*&gt;|\w+:\/\/[\w-.\/?%&=@:;]*/g,
+		
+		/** <?= ?> tags. */
+		phpScriptTags 				: { left: /(&lt;|<)\?=?/g, right: /\?(&gt;|>)/g },
+		
+		/** <%= %> tags. */
+		aspScriptTags				: { left: /(&lt;|<)%=?/g, right: /%(&gt;|>)/g },
+		
+		/** <script></script> tags. */
+		scriptScriptTags			: { left: /(&lt;|<)\s*script.*?(&gt;|>)/gi, right: /(&lt;|<)\/\s*script\s*(&gt;|>)/gi }
+	},
+
+	toolbar : {
+		/**
+		 * Creates new toolbar for a highlighter.
+		 * @param {Highlighter} highlighter    Target highlighter.
+		 */
+		create : function(highlighter)
+		{
+			var div = document.createElement('DIV'),
+				items = sh.toolbar.items
+				;
+			
+			div.className = 'toolbar';
+			
+			for (var name in items) 
+			{
+				var constructor = items[name],
+					command = new constructor(highlighter),
+					element = command.create()
+					;
+				
+				highlighter.toolbarCommands[name] = command;
+				
+				if (element == null)
+					continue;
+					
+				if (typeof(element) == 'string')
+					element = sh.toolbar.createButton(element, highlighter.id, name);
+				
+				element.className += 'item ' + name;
+				div.appendChild(element);
+			}
+			
+			return div;
+		},
+		
+		/**
+		 * Create a standard anchor button for the toolbar.
+		 * @param {String} label			Label text to display.
+		 * @param {String} highlighterId	Highlighter ID that this button would belong to.
+		 * @param {String} commandName		Command name that would be executed.
+		 * @return {Element}				Returns an 'A' element.
+		 */
+		createButton : function(label, highlighterId, commandName)
+		{
+			var a = document.createElement('a'),
+				style = a.style,
+				config = sh.config,
+				width = config.toolbarItemWidth,
+				height = config.toolbarItemHeight
+				;
+			
+			a.href = '#' + commandName;
+			a.title = label;
+			a.highlighterId = highlighterId;
+			a.commandName = commandName;
+			a.innerHTML = label;
+			
+			if (isNaN(width) == false)
+				style.width = width + 'px';
+
+			if (isNaN(height) == false)
+				style.height = height + 'px';
+			
+			a.onclick = function(e)
+			{
+				try
+				{
+					sh.toolbar.executeCommand(
+						this, 
+						e || window.event,
+						this.highlighterId, 
+						this.commandName
+					);
+				}
+				catch(e)
+				{
+					sh.utils.alert(e.message);
+				}
+				
+				return false;
+			};
+			
+			return a;
+		},
+		
+		/**
+		 * Executes a toolbar command.
+		 * @param {Element}		sender  		Sender element.
+		 * @param {MouseEvent}	event			Original mouse event object.
+		 * @param {String}		highlighterId	Highlighter DIV element ID.
+		 * @param {String}		commandName		Name of the command to execute.
+		 * @return {Object} Passes out return value from command execution.
+		 */
+		executeCommand : function(sender, event, highlighterId, commandName, args)
+		{
+			var highlighter = sh.vars.highlighters[highlighterId], 
+				command
+				;
+
+			if (highlighter == null || (command = highlighter.toolbarCommands[commandName]) == null) 
+				return null;
+
+			return command.execute(sender, event, args);
+		},
+		
+		/** Collection of toolbar items. */
+		items : {
+			expandSource : function(highlighter)
+			{
+				this.create = function()
+				{
+					if (highlighter.getParam('collapse') != true)
+						return;
+					
+					return sh.config.strings.expandSource;
+				};
+			
+				this.execute = function(sender, event, args)
+				{
+					var div = highlighter.div;
+					
+					sender.parentNode.removeChild(sender);
+					div.className = div.className.replace('collapsed', '');
+				};
+			},
+		
+			/** 
+			 * Command to open a new window and display the original unformatted source code inside.
+			 */
+			viewSource : function(highlighter)
+			{
+				this.create = function()
+				{
+					return sh.config.strings.viewSource;
+				};
+				
+				this.execute = function(sender, event, args)
+				{
+					var code = sh.utils.fixInputString(highlighter.originalCode).replace(/</g, '&lt;'),
+						wnd = sh.utils.popup('', '_blank', 750, 400, 'location=0, resizable=1, menubar=0, scrollbars=1')
+						;
+					
+					code = sh.utils.unindent(code);
+					
+					wnd.document.write('<pre>' + code + '</pre>');
+					wnd.document.close();
+				};
+			},
+			
+			/**
+			 * Command to copy the original source code in to the clipboard.
+			 * Uses Flash method if <code>clipboardSwf</code> is configured.
+			 */
+			copyToClipboard : function(highlighter)
+			{
+				var flashDiv, flashSwf,
+					highlighterId = highlighter.id
+					;
+				
+				this.create = function()
+				{
+					var config = sh.config;
+					
+					// disable functionality if running locally
+					if (config.clipboardSwf == null)
+						return null;
+
+					function params(list)
+					{
+						var result = '';
+						
+						for (var name in list)
+							result += "<param name='" + name + "' value='" + list[name] + "'/>";
+							
+						return result;
+					};
+					
+					function attributes(list)
+					{
+						var result = '';
+						
+						for (var name in list)
+							result += " " + name + "='" + list[name] + "'";
+							
+						return result;
+					};
+					
+					var args1 = {
+							width				: config.toolbarItemWidth,
+							height				: config.toolbarItemHeight,
+							id					: highlighterId + '_clipboard',
+							type				: 'application/x-shockwave-flash',
+							title				: sh.config.strings.copyToClipboard
+						},
+						
+						// these arguments are used in IE's <param /> collection
+						args2 = {
+							allowScriptAccess	: 'always',
+							wmode				: 'transparent',
+							flashVars			: 'highlighterId=' + highlighterId,
+							menu				: 'false'
+						},
+						swf = config.clipboardSwf,
+						html
+					;
+
+					if (/msie/i.test(navigator.userAgent))
+					{
+						html = '<object'
+							+ attributes({
+								classid : 'clsid:d27cdb6e-ae6d-11cf-96b8-444553540000',
+								codebase : 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0'
+							})
+							+ attributes(args1)
+							+ '>'
+							+ params(args2)
+							+ params({ movie : swf })
+							+ '</object>'
+						;
+					}
+					else
+					{
+						html = '<embed'
+							+ attributes(args1)
+							+ attributes(args2)
+							+ attributes({ src : swf })
+							+ '/>'
+						;
+					}
+
+					flashDiv = document.createElement('div');
+					flashDiv.innerHTML = html;
+					
+					return flashDiv;
+				};
+				
+				this.execute = function(sender, event, args)
+				{
+					var command = args.command;
+
+					switch (command)
+					{
+						case 'get':
+							var code = sh.utils.unindent(
+								sh.utils.fixInputString(highlighter.originalCode)
+									.replace(/&lt;/g, '<')
+									.replace(/&gt;/g, '>')
+									.replace(/&amp;/g, '&')
+								);
+
+							if(window.clipboardData)
+								// will fall through to the confirmation because there isn't a break
+								window.clipboardData.setData('text', code);
+							else
+								return sh.utils.unindent(code);
+							
+						case 'ok':
+							sh.utils.alert(sh.config.strings.copyToClipboardConfirmation);
+							break;
+							
+						case 'error':
+							sh.utils.alert(args.message);
+							break;
+					}
+				};
+			},
+			
+			/** Command to print the colored source code. */
+			printSource : function(highlighter)
+			{
+				this.create = function()
+				{
+					return sh.config.strings.print;
+				};
+				
+				this.execute = function(sender, event, args)
+				{
+					var iframe = document.createElement('IFRAME'),
+						doc = null
+						;
+					
+					// make sure there is never more than one hidden iframe created by SH
+					if (sh.vars.printFrame != null)
+						document.body.removeChild(sh.vars.printFrame);
+					
+					sh.vars.printFrame = iframe;
+					
+					// this hides the iframe
+					iframe.style.cssText = 'position:absolute;width:0px;height:0px;left:-500px;top:-500px;';
+				
+					document.body.appendChild(iframe);
+					doc = iframe.contentWindow.document;
+					
+					copyStyles(doc, window.document);
+					doc.write('<div class="' + highlighter.div.className.replace('collapsed', '') + ' printing">' + highlighter.div.innerHTML + '</div>');
+					doc.close();
+					
+					iframe.contentWindow.focus();
+					iframe.contentWindow.print();
+					
+					function copyStyles(destDoc, sourceDoc)
+					{
+						var links = sourceDoc.getElementsByTagName('link');
+					
+						for(var i = 0; i < links.length; i++)
+							if(links[i].rel.toLowerCase() == 'stylesheet' && /shCore\.css$/.test(links[i].href))
+								destDoc.write('<link type="text/css" rel="stylesheet" href="' + links[i].href + '"></link>');
+					};
+				};
+			},
+
+			/** Command to display the about dialog window. */
+			about : function(highlighter)
+			{
+				this.create = function()
+				{	
+					return sh.config.strings.help;
+				};
+
+				this.execute = function(sender, event)
+				{	
+					var wnd = sh.utils.popup('', '_blank', 500, 250, 'scrollbars=0'),
+						doc = wnd.document
+						;
+					
+					doc.write(sh.config.strings.aboutDialog);
+					doc.close();
+					wnd.focus();
+				};
+			}
+		}
+	},
+
+	utils : {
+		/**
+		 * Finds an index of element in the array.
+		 * @ignore
+		 * @param {Object} searchElement
+		 * @param {Number} fromIndex
+		 * @return {Number} Returns index of element if found; -1 otherwise.
+		 */
+		indexOf : function(array, searchElement, fromIndex)
+		{
+			fromIndex = Math.max(fromIndex || 0, 0);
+
+			for (var i = fromIndex; i < array.length; i++)
+				if(array[i] == searchElement)
+					return i;
+
+			return -1;
+		},
+		
+		/**
+		 * Generates a unique element ID.
+		 */
+		guid : function(prefix)
+		{
+			return prefix + Math.round(Math.random() * 1000000).toString();
+		},
+		
+		/**
+		 * Merges two objects. Values from obj2 override values in obj1.
+		 * Function is NOT recursive and works only for one dimensional objects.
+		 * @param {Object} obj1 First object.
+		 * @param {Object} obj2 Second object.
+		 * @return {Object} Returns combination of both objects.
+		 */
+		merge: function(obj1, obj2)
+		{
+			var result = {}, name;
+
+			for (name in obj1) 
+				result[name] = obj1[name];
+			
+			for (name in obj2) 
+				result[name] = obj2[name];
+				
+			return result;
+		},
+		
+		/**
+		 * Attempts to convert string to boolean.
+		 * @param {String} value Input string.
+		 * @return {Boolean} Returns true if input was "true", false if input was "false" and value otherwise.
+		 */
+		toBoolean: function(value)
+		{
+			switch (value)
+			{
+				case "true":
+					return true;
+					
+				case "false":
+					return false;
+			}
+			
+			return value;
+		},
+		
+		/**
+		 * Opens up a centered popup window.
+		 * @param {String} url		URL to open in the window.
+		 * @param {String} name		Popup name.
+		 * @param {int} width		Popup width.
+		 * @param {int} height		Popup height.
+		 * @param {String} options	window.open() options.
+		 * @return {Window}			Returns window instance.
+		 */
+		popup: function(url, name, width, height, options)
+		{
+			var x = (screen.width - width) / 2,
+				y = (screen.height - height) / 2
+				;
+				
+			options +=	', left=' + x + 
+						', top=' + y +
+						', width=' + width +
+						', height=' + height
+				;
+			options = options.replace(/^,/, '');
+
+			var win = window.open(url, name, options);
+			win.focus();
+			return win;
+		},
+		
+		/**
+		 * Adds event handler to the target object.
+		 * @param {Object} obj		Target object.
+		 * @param {String} type		Name of the event.
+		 * @param {Function} func	Handling function.
+		 */
+		addEvent: function(obj, type, func)
+		{
+			if (obj.attachEvent) 
+			{
+				obj['e' + type + func] = func;
+				obj[type + func] = function()
+				{
+					obj['e' + type + func](window.event);
+				}
+				obj.attachEvent('on' + type, obj[type + func]);
+			}
+			else 
+			{
+				obj.addEventListener(type, func, false);
+			}
+		},
+		
+		/**
+		 * Displays an alert.
+		 * @param {String} str String to display.
+		 */
+		alert: function(str)
+		{
+			alert(sh.config.strings.alert + str)
+		},
+		
+		/**
+		 * Finds a brush by its alias.
+		 *
+		 * @param {String} alias	Brush alias.
+		 * @param {Boolean} alert	Suppresses the alert if false.
+		 * @return {Brush}			Returns bursh constructor if found, null otherwise.
+		 */
+		findBrush: function(alias, alert)
+		{
+			var brushes = sh.vars.discoveredBrushes,
+				result = null
+				;
+			
+			if (brushes == null) 
+			{
+				brushes = {};
+				
+				// Find all brushes
+				for (var brush in sh.brushes) 
+				{
+					var aliases = sh.brushes[brush].aliases;
+					
+					if (aliases == null) 
+						continue;
+					
+					// keep the brush name
+					sh.brushes[brush].name = brush.toLowerCase();
+					
+					for (var i = 0; i < aliases.length; i++) 
+						brushes[aliases[i]] = brush;
+				}
+				
+				sh.vars.discoveredBrushes = brushes;
+			}
+			
+			result = sh.brushes[brushes[alias]];
+
+			if (result == null && alert != false)
+				sh.utils.alert(sh.config.strings.noBrush + alias);
+			
+			return result;
+		},
+		
+		/**
+		 * Executes a callback on each line and replaces each line with result from the callback.
+		 * @param {Object} str			Input string.
+		 * @param {Object} callback		Callback function taking one string argument and returning a string.
+		 */
+		eachLine: function(str, callback)
+		{
+			var lines = str.split('\n');
+			
+			for (var i = 0; i < lines.length; i++)
+				lines[i] = callback(lines[i]);
+				
+			return lines.join('\n');
+		},
+		
+		/**
+		 * This is a special trim which only removes first and last empty lines
+		 * and doesn't affect valid leading space on the first line.
+		 * 
+		 * @param {String} str   Input string
+		 * @return {String}      Returns string without empty first and last lines.
+		 */
+		trimFirstAndLastLines: function(str)
+		{
+			return str.replace(/^[ ]*[\n]+|[\n]*[ ]*$/g, '');
+		},
+		
+		/**
+		 * Parses key/value pairs into hash object.
+		 * 
+		 * Understands the following formats:
+		 * - name: word;
+		 * - name: [word, word];
+		 * - name: "string";
+		 * - name: 'string';
+		 * 
+		 * For example:
+		 *   name1: value; name2: [value, value]; name3: 'value'
+		 *   
+		 * @param {String} str    Input string.
+		 * @return {Object}       Returns deserialized object.
+		 */
+		parseParams: function(str)
+		{
+			var match, 
+				result = {},
+				arrayRegex = new XRegExp("^\\[(?<values>(.*?))\\]$"),
+				regex = new XRegExp(
+					"(?<name>[\\w-]+)" +
+					"\\s*:\\s*" +
+					"(?<value>" +
+						"[\\w-%#]+|" +		// word
+						"\\[.*?\\]|" +		// [] array
+						'".*?"|' +			// "" string
+						"'.*?'" +			// '' string
+					")\\s*;?",
+					"g"
+				)
+				;
+
+			while ((match = regex.exec(str)) != null) 
+			{
+				var value = match.value
+					.replace(/^['"]|['"]$/g, '') // strip quotes from end of strings
+					;
+				
+				// try to parse array value
+				if (value != null && arrayRegex.test(value))
+				{
+					var m = arrayRegex.exec(value);
+					value = m.values.length > 0 ? m.values.split(/\s*,\s*/) : [];
+				}
+				
+				result[match.name] = value;
+			}
+			
+			return result;
+		},
+	
+		/**
+		 * Wraps each line of the string into <code/> tag with given style applied to it.
+		 * 
+		 * @param {String} str   Input string.
+		 * @param {String} css   Style name to apply to the string.
+		 * @return {String}      Returns input string with each line surrounded by <span/> tag.
+		 */
+		decorate: function(str, css)
+		{
+			if (str == null || str.length == 0 || str == '\n') 
+				return str;
+	
+			str = str.replace(/</g, '&lt;');
+	
+			// Replace two or more sequential spaces with &nbsp; leaving last space untouched.
+			str = str.replace(/ {2,}/g, function(m)
+			{
+				var spaces = '';
+				
+				for (var i = 0; i < m.length - 1; i++)
+					spaces += '&nbsp;';
+				
+				return spaces + ' ';
+			});
+
+			// Split each line and apply <span class="...">...</span> to them so that
+			// leading spaces aren't included.
+			if (css != null) 
+				str = sh.utils.eachLine(str, function(line)
+				{
+					if (line.length == 0) 
+						return '';
+					
+					var spaces = '';
+					
+					line = line.replace(/^(&nbsp;| )+/, function(s)
+					{
+						spaces = s;
+						return '';
+					});
+					
+					if (line.length == 0) 
+						return spaces;
+					
+					return spaces + '<code class="' + css + '">' + line + '</code>';
+				});
+
+			return str;
+		},
+	
+		/**
+		 * Pads number with zeros until it's length is the same as given length.
+		 * 
+		 * @param {Number} number	Number to pad.
+		 * @param {Number} length	Max string length with.
+		 * @return {String}			Returns a string padded with proper amount of '0'.
+		 */
+		padNumber : function(number, length)
+		{
+			var result = number.toString();
+			
+			while (result.length < length)
+				result = '0' + result;
+			
+			return result;
+		},
+		
+		/**
+		 * Measures width of a single space character.
+		 * @return {Number} Returns width of a single space character.
+		 */
+		measureSpace : function()
+		{
+			var container = document.createElement('div'),
+				span,
+				result = 0,
+				body = document.body,
+				id = sh.utils.guid('measureSpace'),
+				
+				// variable names will be compressed, so it's better than a plain string
+				divOpen = '<div class="',
+				closeDiv = '</div>',
+				closeSpan = '</span>'
+				;
+
+			// we have to duplicate highlighter nested structure in order to get an acurate space measurment
+			container.innerHTML = 
+				divOpen + 'syntaxhighlighter">' 
+					+ divOpen + 'lines">' 
+						+ divOpen + 'line">' 
+							+ divOpen + 'content'
+								+ '"><span class="block"><span id="' + id + '">&nbsp;' + closeSpan + closeSpan
+							+ closeDiv 
+						+ closeDiv 
+					+ closeDiv 
+				+ closeDiv
+				;
+			
+			body.appendChild(container);
+			span = document.getElementById(id);
+			
+			if (/opera/i.test(navigator.userAgent))
+			{
+				var style = window.getComputedStyle(span, null);
+				result = parseInt(style.getPropertyValue("width"));
+			}
+			else
+			{
+				result = span.offsetWidth;
+			}
+
+			body.removeChild(container);
+
+			return result;
+		},
+		
+		/**
+		 * Replaces tabs with spaces.
+		 * 
+		 * @param {String} code		Source code.
+		 * @param {Number} tabSize	Size of the tab.
+		 * @return {String}			Returns code with all tabs replaces by spaces.
+		 */
+		processTabs : function(code, tabSize)
+		{
+			var tab = '';
+			
+			for (var i = 0; i < tabSize; i++)
+				tab += ' ';
+
+			return code.replace(/\t/g, tab);
+		},
+		
+		/**
+		 * Replaces tabs with smart spaces.
+		 * 
+		 * @param {String} code    Code to fix the tabs in.
+		 * @param {Number} tabSize Number of spaces in a column.
+		 * @return {String}        Returns code with all tabs replaces with roper amount of spaces.
+		 */
+		processSmartTabs : function(code, tabSize)
+		{
+			var lines = code.split('\n'),
+				tab = '\t',
+				spaces = ''
+				;
+			
+			// Create a string with 1000 spaces to copy spaces from... 
+			// It's assumed that there would be no indentation longer than that.
+			for (var i = 0; i < 50; i++) 
+				spaces += '                    '; // 20 spaces * 50
+					
+			// This function inserts specified amount of spaces in the string
+			// where a tab is while removing that given tab.
+			function insertSpaces(line, pos, count)
+			{
+				return line.substr(0, pos)
+					+ spaces.substr(0, count)
+					+ line.substr(pos + 1, line.length) // pos + 1 will get rid of the tab
+					;
+			};
+	
+			// Go through all the lines and do the 'smart tabs' magic.
+			code = sh.utils.eachLine(code, function(line)
+			{
+				if (line.indexOf(tab) == -1) 
+					return line;
+				
+				var pos = 0;
+				
+				while ((pos = line.indexOf(tab)) != -1) 
+				{
+					// This is pretty much all there is to the 'smart tabs' logic.
+					// Based on the position within the line and size of a tab,
+					// calculate the amount of spaces we need to insert.
+					var spaces = tabSize - pos % tabSize;
+					line = insertSpaces(line, pos, spaces);
+				}
+				
+				return line;
+			});
+			
+			return code;
+		},
+		
+		/**
+		 * Performs various string fixes based on configuration.
+		 */
+		fixInputString : function(str)
+		{
+			var br = /<br\s*\/?>|&lt;br\s*\/?&gt;/gi;
+			
+			if (sh.config.bloggerMode == true)
+				str = str.replace(br, '\n');
+
+			if (sh.config.stripBrs == true)
+				str = str.replace(br, '');
+				
+			return str;
+		},
+		
+		/**
+		 * Removes all white space at the begining and end of a string.
+		 * 
+		 * @param {String} str   String to trim.
+		 * @return {String}      Returns string without leading and following white space characters.
+		 */
+		trim: function(str)
+		{
+			return str.replace(/^\s+|\s+$/g, '');
+		},
+		
+		/**
+		 * Unindents a block of text by the lowest common indent amount.
+		 * @param {String} str   Text to unindent.
+		 * @return {String}      Returns unindented text block.
+		 */
+		unindent: function(str)
+		{
+			var lines = sh.utils.fixInputString(str).split('\n'),
+				indents = new Array(),
+				regex = /^\s*/,
+				min = 1000
+				;
+			
+			// go through every line and check for common number of indents
+			for (var i = 0; i < lines.length && min > 0; i++) 
+			{
+				var line = lines[i];
+				
+				if (sh.utils.trim(line).length == 0) 
+					continue;
+				
+				var matches = regex.exec(line);
+				
+				// In the event that just one line doesn't have leading white space
+				// we can't unindent anything, so bail completely.
+				if (matches == null) 
+					return str;
+					
+				min = Math.min(matches[0].length, min);
+			}
+			
+			// trim minimum common number of white space from the begining of every line
+			if (min > 0) 
+				for (var i = 0; i < lines.length; i++) 
+					lines[i] = lines[i].substr(min);
+			
+			return lines.join('\n');
+		},
+	
+		/**
+		 * Callback method for Array.sort() which sorts matches by
+		 * index position and then by length.
+		 * 
+		 * @param {Match} m1	Left object.
+		 * @param {Match} m2    Right object.
+		 * @return {Number}     Returns -1, 0 or -1 as a comparison result.
+		 */
+		matchesSortCallback: function(m1, m2)
+		{
+			// sort matches by index first
+			if(m1.index < m2.index)
+				return -1;
+			else if(m1.index > m2.index)
+				return 1;
+			else
+			{
+				// if index is the same, sort by length
+				if(m1.length < m2.length)
+					return -1;
+				else if(m1.length > m2.length)
+					return 1;
+			}
+			
+			return 0;
+		},
+	
+		/**
+		 * Executes given regular expression on provided code and returns all
+		 * matches that are found.
+		 * 
+		 * @param {String} code    Code to execute regular expression on.
+		 * @param {Object} regex   Regular expression item info from <code>regexList</code> collection.
+		 * @return {Array}         Returns a list of Match objects.
+		 */ 
+		getMatches: function(code, regexInfo)
+		{
+			function defaultAdd(match, regexInfo)
+			{
+				return [new sh.Match(match[0], match.index, regexInfo.css)];
+			};
+			
+			var index = 0,
+				match = null,
+				result = [],
+				func = regexInfo.func ? regexInfo.func : defaultAdd
+				;
+			
+			while((match = regexInfo.regex.exec(code)) != null)
+				result = result.concat(func(match, regexInfo));
+				
+			return result;
+		},
+		
+		processUrls: function(code)
+		{
+			var lt = '&lt;',
+				gt = '&gt;'
+				;
+			
+			return code.replace(sh.regexLib.url, function(m)
+			{
+				var suffix = '', prefix = '';
+				
+				// We include &lt; and &gt; in the URL for the common cases like <http://google.com>
+				// The problem is that they get transformed into &lt;http://google.com&gt;
+				// Where as &gt; easily looks like part of the URL string.
+				
+				if (m.indexOf(lt) == 0)
+				{
+					prefix = lt;
+					m = m.substring(lt.length);
+				}
+
+				if (m.indexOf(gt) == m.length - gt.length)
+				{
+					m = m.substring(0, m.length - gt.length);
+					suffix = gt;
+				}
+				
+				return prefix + '<a href="' + m + '">' + m + '</a>' + suffix;
+			});
+		},
+		
+		/**
+		 * Finds all <SCRIPT TYPE="syntaxhighlighter" /> elements.
+		 * @return {Array} Returns array of all found SyntaxHighlighter tags.
+		 */
+		getSyntaxHighlighterScriptTags: function()
+		{
+			var tags = document.getElementsByTagName('script'),
+				result = []
+				;
+			
+			for (var i = 0; i < tags.length; i++)
+				if (tags[i].type == 'syntaxhighlighter')
+					result.push(tags[i]);
+					
+			return result;
+		},
+		
+		/**
+		 * Strips <![CDATA[]]> from <SCRIPT /> content because it should be used
+		 * there in most cases for XHTML compliance.
+		 * @param {String} original	Input code.
+		 * @return {String} Returns code without leading <![CDATA[]]> tags.
+		 */
+		stripCData: function(original)
+		{
+			var left = '<![CDATA[',
+				right = ']]>',
+				// for some reason IE inserts some leading blanks here
+				copy = sh.utils.trim(original),
+				changed = false
+				;
+			
+			if (copy.indexOf(left) == 0)
+			{
+				copy = copy.substring(left.length);
+				changed = true;
+			}
+			
+			if (copy.indexOf(right) == copy.length - right.length)
+			{
+				copy = copy.substring(0, copy.length - right.length);
+				changed = true;
+			}
+			
+			return changed ? copy : original;
+		}
+	}, // end of utils
+	
+	/**
+	 * Shorthand to highlight all elements on the page that are marked as 
+	 * SyntaxHighlighter source code.
+	 * 
+	 * @param {Object} globalParams		Optional parameters which override element's 
+	 * 									parameters. Only used if element is specified.
+	 * 
+	 * @param {Object} element	Optional element to highlight. If none is
+	 * 							provided, all elements in the current document 
+	 * 							are highlighted.
+	 */ 
+	highlight : function(globalParams, element)
+	{
+		function toArray(source)
+		{
+			var result = [];
+			
+			for (var i = 0; i < source.length; i++) 
+				result.push(source[i]);
+				
+			return result;
+		};
+		
+		var elements = element ? [element] : toArray(document.getElementsByTagName(sh.config.tagName)), 
+			propertyName = 'innerHTML', 
+			highlighter = null,
+			conf = sh.config
+			;
+
+		// support for <SCRIPT TYPE="syntaxhighlighter" /> feature
+		if (conf.useScriptTags)
+			elements = elements.concat(sh.utils.getSyntaxHighlighterScriptTags());
+
+		if (elements.length === 0) 
+			return;
+	
+		for (var i = 0; i < elements.length; i++) 
+		{
+			var target = elements[i], 
+				params = sh.utils.parseParams(target.className),
+				brushName,
+				code,
+				result
+				;
+
+			// local params take precedence over globals
+			params = sh.utils.merge(globalParams, params);
+			brushName = params['brush'];
+
+			if (brushName == null)
+				continue;
+
+			// Instantiate a brush
+			if (params['html-script'] == 'true' || sh.defaults['html-script'] == true) 
+			{
+				highlighter = new sh.HtmlScript(brushName);
+				brushName = 'htmlscript';
+			}
+			else
+			{
+				var brush = sh.utils.findBrush(brushName);
+				
+				if (brush)
+				{
+					brushName = brush.name;
+					highlighter = new brush();
+				}
+				else
+				{
+					continue;
+				}
+			}
+			
+			code = target[propertyName];
+			
+			// remove CDATA from <SCRIPT/> tags if it's present
+			if (conf.useScriptTags)
+				code = sh.utils.stripCData(code);
+			
+			params['brush-name'] = brushName;
+			highlighter.highlight(code, params);
+			
+			result = highlighter.div;
+			
+			if (sh.config.debug) 
+			{
+				result = document.createElement('textarea');
+				result.value = highlighter.div.innerHTML;
+				result.style.width = '70em';
+				result.style.height = '30em';
+			}
+			
+			target.parentNode.replaceChild(result, target);
+		}
+	},
+
+	/**
+	 * Main entry point for the SyntaxHighlighter.
+	 * @param {Object} params Optional params to apply to all highlighted elements.
+	 */
+	all : function(params)
+	{
+		sh.utils.addEvent(
+			window,
+			'load',
+			function() { sh.highlight(params); }
+		);
+	}
+}; // end of sh
+
+/**
+ * Match object.
+ */
+sh.Match = function(value, index, css)
+{
+	this.value = value;
+	this.index = index;
+	this.length = value.length;
+	this.css = css;
+	this.brushName = null;
+};
+
+sh.Match.prototype.toString = function()
+{
+	return this.value;
+};
+
+/**
+ * Simulates HTML code with a scripting language embedded.
+ * 
+ * @param {String} scriptBrushName Brush name of the scripting language.
+ */
+sh.HtmlScript = function(scriptBrushName)
+{
+	var brushClass = sh.utils.findBrush(scriptBrushName),
+		scriptBrush,
+		xmlBrush = new sh.brushes.Xml(),
+		bracketsRegex = null
+		;
+
+	if (brushClass == null)
+		return;
+	
+	scriptBrush = new brushClass();
+	this.xmlBrush = xmlBrush;
+	
+	if (scriptBrush.htmlScript == null)
+	{
+		sh.utils.alert(sh.config.strings.brushNotHtmlScript + scriptBrushName);
+		return;
+	}
+	
+	xmlBrush.regexList.push(
+		{ regex: scriptBrush.htmlScript.code, func: process }
+	);
+	
+	function offsetMatches(matches, offset)
+	{
+		for (var j = 0; j < matches.length; j++) 
+			matches[j].index += offset;
+	}
+	
+	function process(match, info)
+	{
+		var code = match.code,
+			matches = [],
+			regexList = scriptBrush.regexList,
+			offset = match.index + match.left.length,
+			htmlScript = scriptBrush.htmlScript,
+			result
+			;
+
+		// add all matches from the code
+		for (var i = 0; i < regexList.length; i++)
+		{
+			result = sh.utils.getMatches(code, regexList[i]);
+			offsetMatches(result, offset);
+			matches = matches.concat(result);
+		}
+		
+		// add left script bracket
+		if (htmlScript.left != null && match.left != null)
+		{
+			result = sh.utils.getMatches(match.left, htmlScript.left);
+			offsetMatches(result, match.index);
+			matches = matches.concat(result);
+		}
+		
+		// add right script bracket
+		if (htmlScript.right != null && match.right != null)
+		{
+			result = sh.utils.getMatches(match.right, htmlScript.right);
+			offsetMatches(result, match.index + match[0].lastIndexOf(match.right));
+			matches = matches.concat(result);
+		}
+		
+		for (var j = 0; j < matches.length; j++)
+			matches[j].brushName = brushClass.name;
+
+		return matches;
+	}
+};
+
+sh.HtmlScript.prototype.highlight = function(code, params)
+{
+	this.xmlBrush.highlight(code, params);
+	this.div = this.xmlBrush.div;
+}
+
+/**
+ * Main Highlither class.
+ * @constructor
+ */
+sh.Highlighter = function()
+{
+};
+
+sh.Highlighter.prototype = {
+	/**
+	 * Returns value of the parameter passed to the highlighter.
+	 * @param {String} name				Name of the parameter.
+	 * @param {Object} defaultValue		Default value.
+	 * @return {Object}					Returns found value or default value otherwise.
+	 */
+	getParam : function(name, defaultValue)
+	{
+		var result = this.params[name];
+		return sh.utils.toBoolean(result == null ? defaultValue : result);
+	},
+	
+	/**
+	 * Shortcut to document.createElement().
+	 * @param {String} name		Name of the element to create (DIV, A, etc).
+	 * @return {HTMLElement}	Returns new HTML element.
+	 */
+	create: function(name)
+	{
+		return document.createElement(name);
+	},
+	
+	/**
+	 * Applies all regular expression to the code and stores all found
+	 * matches in the `this.matches` array.
+	 * @param {Array} regexList		List of regular expressions.
+	 * @param {String} code			Source code.
+	 * @return {Array}				Returns list of matches.
+	 */
+	findMatches: function(regexList, code)
+	{
+		var result = [];
+		
+		if (regexList != null)
+			for (var i = 0; i < regexList.length; i++) 
+				// BUG: length returns len+1 for array if methods added to prototype chain (oising@gmail.com)
+				if (typeof (regexList[i]) == "object")
+					result = result.concat(sh.utils.getMatches(code, regexList[i]));
+		
+		// sort the matches
+		return result.sort(sh.utils.matchesSortCallback);
+	},
+	
+	/**
+	 * Checks to see if any of the matches are inside of other matches. 
+	 * This process would get rid of highligted strings inside comments, 
+	 * keywords inside strings and so on.
+	 */
+	removeNestedMatches: function()
+	{
+		var matches = this.matches;
+		
+		// Optimized by Jose Prado (http://joseprado.com)
+		for (var i = 0; i < matches.length; i++) 
+		{ 
+			if (matches[i] === null)
+				continue;
+			
+			var itemI = matches[i],
+				itemIEndPos = itemI.index + itemI.length
+				;
+			
+			for (var j = i + 1; j < matches.length && matches[i] !== null; j++) 
+			{
+				var itemJ = matches[j];
+				
+				if (itemJ === null) 
+					continue;
+				else if (itemJ.index > itemIEndPos) 
+					break;
+				else if (itemJ.index == itemI.index && itemJ.length > itemI.length)
+					this.matches[i] = null;
+				else if (itemJ.index >= itemI.index && itemJ.index < itemIEndPos) 
+					this.matches[j] = null;
+			}
+		}
+	},
+	
+	/**
+	 * Splits block of text into individual DIV lines.
+	 * @param {String} code     Code to highlight.
+	 * @return {String}         Returns highlighted code in HTML form.
+	 */
+	createDisplayLines : function(code)
+	{
+		var lines = code.split(/\n/g),
+			firstLine = parseInt(this.getParam('first-line')),
+			padLength = this.getParam('pad-line-numbers'),
+			highlightedLines = this.getParam('highlight', []),
+			hasGutter = this.getParam('gutter')
+			;
+		
+		code = '';
+		
+		if (padLength == true)
+			padLength = (firstLine + lines.length - 1).toString().length;
+		else if (isNaN(padLength) == true)
+			padLength = 0;
+
+		for (var i = 0; i < lines.length; i++)
+		{
+			var line = lines[i],
+				indent = /^(&nbsp;|\s)+/.exec(line),
+				lineClass = 'alt' + (i % 2 == 0 ? 1 : 2),
+				lineNumber = sh.utils.padNumber(firstLine + i, padLength),
+				highlighted = sh.utils.indexOf(highlightedLines, (firstLine + i).toString()) != -1,
+				spaces = null
+				;
+
+			if (indent != null)
+			{
+				spaces = indent[0].toString();
+				line = line.substr(spaces.length);
+			}
+
+			line = sh.utils.trim(line);
+			
+			if (line.length == 0)
+				line = '&nbsp;';
+			
+			if (highlighted)
+				lineClass += ' highlighted';
+			
+			code += 
+				'<div class="line ' + lineClass + '">'
+					+ '<table>'
+						+ '<tr>'
+							+ (hasGutter ? '<td class="number"><code>' + lineNumber + '</code></td>' : '')
+							+ '<td class="content">'
+								+ (spaces != null ? '<code class="spaces">' + spaces.replace(' ', '&nbsp;') + '</code>' : '')
+								+ line
+							+ '</td>'
+						+ '</tr>'
+					+ '</table>'
+				+ '</div>'
+				;
+		}
+		
+		return code;
+	},
+	
+	/**
+	 * Finds all matches in the source code.
+	 * @param {String} code		Source code to process matches in.
+	 * @param {Array} matches	Discovered regex matches.
+	 * @return {String} Returns formatted HTML with processed mathes.
+	 */
+	processMatches: function(code, matches)
+	{
+		var pos = 0, 
+			result = '',
+			decorate = sh.utils.decorate, // make an alias to save some bytes
+			brushName = this.getParam('brush-name', '')
+			;
+		
+		function getBrushNameCss(match)
+		{
+			var result = match ? (match.brushName || brushName) : brushName;
+			return result ? result + ' ' : '';
+		};
+		
+		// Finally, go through the final list of matches and pull the all
+		// together adding everything in between that isn't a match.
+		for (var i = 0; i < matches.length; i++) 
+		{
+			var match = matches[i],
+				matchBrushName
+				;
+			
+			if (match === null || match.length === 0) 
+				continue;
+			
+			matchBrushName = getBrushNameCss(match);
+			
+			result += decorate(code.substr(pos, match.index - pos), matchBrushName + 'plain')
+					+ decorate(match.value, matchBrushName + match.css)
+					;
+
+			pos = match.index + match.length;
+		}
+
+		// don't forget to add whatever's remaining in the string
+		result += decorate(code.substr(pos), getBrushNameCss() + 'plain');
+
+		return result;
+	},
+	
+	/**
+	 * Highlights the code and returns complete HTML.
+	 * @param {String} code     Code to highlight.
+	 * @param {Object} params   Parameters object.
+	 */
+	highlight: function(code, params)
+	{
+		// using variables for shortcuts because JS compressor will shorten local variable names
+		var conf = sh.config,
+			vars = sh.vars,
+			div,
+			divClassName,
+			tabSize,
+			important = 'important'
+			;
+
+		this.params = {};
+		this.div = null;
+		this.lines = null;
+		this.code = null;
+		this.bar = null;
+		this.toolbarCommands = {};
+		this.id = sh.utils.guid('highlighter_');
+
+		// register this instance in the highlighters list
+		vars.highlighters[this.id] = this;
+
+		if (code === null) 
+			code = '';
+		
+		// local params take precedence over defaults
+		this.params = sh.utils.merge(sh.defaults, params || {});
+
+		// process light mode
+		if (this.getParam('light') == true)
+			this.params.toolbar = this.params.gutter = false;
+		
+		this.div = div = this.create('DIV');
+		this.lines = this.create('DIV');
+		this.lines.className = 'lines';
+
+		className = 'syntaxhighlighter';
+		div.id = this.id;
+		
+		// make collapsed
+		if (this.getParam('collapse'))
+			className += ' collapsed';
+		
+		// disable gutter
+		if (this.getParam('gutter') == false)
+			className += ' nogutter';
+		
+		// disable line wrapping
+		if (this.getParam('wrap-lines') == false)
+		 	this.lines.className += ' no-wrap';
+
+		// add custom user style name
+		className += ' ' + this.getParam('class-name');
+		
+		// add brush alias to the class name for custom CSS
+		className += ' ' + this.getParam('brush-name');
+		
+		div.className = className;
+		
+		this.originalCode = code;
+		this.code = sh.utils.trimFirstAndLastLines(code)
+			.replace(/\r/g, ' ') // IE lets these buggers through
+			;
+		
+		tabSize = this.getParam('tab-size');
+		
+		// replace tabs with spaces
+		this.code = this.getParam('smart-tabs') == true
+			? sh.utils.processSmartTabs(this.code, tabSize)
+			: sh.utils.processTabs(this.code, tabSize)
+			;
+
+		this.code = sh.utils.unindent(this.code);
+
+		// add controls toolbar
+		if (this.getParam('toolbar')) 
+		{
+			this.bar = this.create('DIV');
+			this.bar.className = 'bar';
+			this.bar.appendChild(sh.toolbar.create(this));
+			div.appendChild(this.bar);
+			
+			// set up toolbar rollover
+			var bar = this.bar;
+			function hide() { bar.className = bar.className.replace('show', ''); }
+			div.onmouseover = function() { hide(); bar.className += ' show'; };
+			div.onmouseout = function() { hide(); }
+		}
+		
+		div.appendChild(this.lines);
+	
+		this.matches = this.findMatches(this.regexList, this.code);
+		this.removeNestedMatches();
+		
+		code = this.processMatches(this.code, this.matches);
+		
+		// finally, split all lines so that they wrap well
+		code = this.createDisplayLines(sh.utils.trim(code));
+		
+		// finally, process the links
+		if (this.getParam('auto-links'))
+			code = sh.utils.processUrls(code);
+
+		this.lines.innerHTML = code;
+	},
+	
+	/**
+	 * Converts space separated list of keywords into a regular expression string.
+	 * @param {String} str    Space separated keywords.
+	 * @return {String}       Returns regular expression string.
+	 */	
+	getKeywords: function(str)
+	{
+		str = str
+			.replace(/^\s+|\s+$/g, '')
+			.replace(/\s+/g, '|')
+			;
+		
+		return '\\b(?:' + str + ')\\b';
+	},
+	
+	/**
+	 * Makes a brush compatible with the `html-script` functionality.
+	 * @param {Object} regexGroup Object containing `left` and `right` regular expressions.
+	 */
+	forHtmlScript: function(regexGroup)
+	{
+		this.htmlScript = {
+			left : { regex: regexGroup.left, css: 'script' },
+			right : { regex: regexGroup.right, css: 'script' },
+			code : new XRegExp(
+				"(?<left>" + regexGroup.left.source + ")" +
+				"(?<code>.*?)" +
+				"(?<right>" + regexGroup.right.source + ")",
+				"sgi"
+				)
+		};
+	}
+}; // end of Highlighter
+
+return sh;
+}(); // end of anonymous function
+
+
+/**
+ * XRegExp 0.6.1
+ * (c) 2007-2008 Steven Levithan
+ * <http://stevenlevithan.com/regex/xregexp/>
+ * MIT License
+ * 
+ * provides an augmented, cross-browser implementation of regular expressions
+ * including support for additional modifiers and syntax. several convenience
+ * methods and a recursive-construct parser are also included.
+ */
+
+// prevent running twice, which would break references to native globals
+if (!window.XRegExp) {
+// anonymous function to avoid global variables
+(function () {
+// copy various native globals for reference. can't use the name ``native``
+// because it's a reserved JavaScript keyword.
+var real = {
+        exec:    RegExp.prototype.exec,
+        match:   String.prototype.match,
+        replace: String.prototype.replace,
+        split:   String.prototype.split
+    },
+    /* regex syntax parsing with support for all the necessary cross-
+       browser and context issues (escapings, character classes, etc.) */
+    lib = {
+        part:       /(?:[^\\([#\s.]+|\\(?!k<[\w$]+>|[pP]{[^}]+})[\S\s]?|\((?=\?(?!#|<[\w$]+>)))+|(\()(?:\?(?:(#)[^)]*\)|<([$\w]+)>))?|\\(?:k<([\w$]+)>|[pP]{([^}]+)})|(\[\^?)|([\S\s])/g,
+        replaceVar: /(?:[^$]+|\$(?![1-9$&`']|{[$\w]+}))+|\$(?:([1-9]\d*|[$&`'])|{([$\w]+)})/g,
+        extended:   /^(?:\s+|#.*)+/,
+        quantifier: /^(?:[?*+]|{\d+(?:,\d*)?})/,
+        classLeft:  /&&\[\^?/g,
+        classRight: /]/g
+    },
+    indexOf = function (array, item, from) {
+        for (var i = from || 0; i < array.length; i++)
+            if (array[i] === item) return i;
+        return -1;
+    },
+    brokenExecUndef = /()??/.exec("")[1] !== undefined,
+    plugins = {};
+
+/**
+ * Accepts a pattern and flags, returns a new, extended RegExp object.
+ * differs from a native regex in that additional flags and syntax are
+ * supported and browser inconsistencies are ameliorated.
+ * @ignore
+ */
+XRegExp = function (pattern, flags) {
+    if (pattern instanceof RegExp) {
+        if (flags !== undefined)
+            throw TypeError("can't supply flags when constructing one RegExp from another");
+        return pattern.addFlags(); // new copy
+    }
+
+    var flags           = flags || "",
+        singleline      = flags.indexOf("s") > -1,
+        extended        = flags.indexOf("x") > -1,
+        hasNamedCapture = false,
+        captureNames    = [],
+        output          = [],
+        part            = lib.part,
+        match, cc, len, index, regex;
+
+    part.lastIndex = 0; // in case the last XRegExp compilation threw an error (unbalanced character class)
+
+    while (match = real.exec.call(part, pattern)) {
+        // comment pattern. this check must come before the capturing group check,
+        // because both match[1] and match[2] will be non-empty.
+        if (match[2]) {
+            // keep tokens separated unless the following token is a quantifier
+            if (!lib.quantifier.test(pattern.slice(part.lastIndex)))
+                output.push("(?:)");
+        // capturing group
+        } else if (match[1]) {
+            captureNames.push(match[3] || null);
+            if (match[3])
+                hasNamedCapture = true;
+            output.push("(");
+        // named backreference
+        } else if (match[4]) {
+            index = indexOf(captureNames, match[4]);
+            // keep backreferences separate from subsequent literal numbers
+            // preserve backreferences to named groups that are undefined at this point as literal strings
+            output.push(index > -1 ?
+                "\\" + (index + 1) + (isNaN(pattern.charAt(part.lastIndex)) ? "" : "(?:)") :
+                match[0]
+            );
+        // unicode element (requires plugin)
+        } else if (match[5]) {
+            output.push(plugins.unicode ?
+                plugins.unicode.get(match[5], match[0].charAt(1) === "P") :
+                match[0]
+            );
+        // character class opening delimiter ("[" or "[^")
+        // (non-native unicode elements are not supported within character classes)
+        } else if (match[6]) {
+            if (pattern.charAt(part.lastIndex) === "]") {
+                // for cross-browser compatibility with ECMA-262 v3 behavior,
+                // convert [] to (?!) and [^] to [\S\s].
+                output.push(match[6] === "[" ? "(?!)" : "[\\S\\s]");
+                part.lastIndex++;
+            } else {
+                // parse the character class with support for inner escapes and
+                // ES4's infinitely nesting intersection syntax ([&&[^&&[]]]).
+                cc = XRegExp.matchRecursive("&&" + pattern.slice(match.index), lib.classLeft, lib.classRight, "", {escapeChar: "\\"})[0];
+                output.push(match[6] + cc + "]");
+                part.lastIndex += cc.length + 1;
+            }
+        // dot ("."), pound sign ("#"), or whitespace character
+        } else if (match[7]) {
+            if (singleline && match[7] === ".") {
+                output.push("[\\S\\s]");
+            } else if (extended && lib.extended.test(match[7])) {
+                len = real.exec.call(lib.extended, pattern.slice(part.lastIndex - 1))[0].length;
+                // keep tokens separated unless the following token is a quantifier
+                if (!lib.quantifier.test(pattern.slice(part.lastIndex - 1 + len)))
+                    output.push("(?:)");
+                part.lastIndex += len - 1;
+            } else {
+                output.push(match[7]);
+            }
+        } else {
+            output.push(match[0]);
+        }
+    }
+
+    regex = RegExp(output.join(""), real.replace.call(flags, /[sx]+/g, ""));
+    regex._x = {
+        source:       pattern,
+        captureNames: hasNamedCapture ? captureNames : null
+    };
+    return regex;
+};
+
+/**
+ * Barebones plugin support for now (intentionally undocumented)
+ * @ignore
+ * @param {Object} name
+ * @param {Object} o
+ */
+XRegExp.addPlugin = function (name, o) {
+    plugins[name] = o;
+};
+
+/**
+ * Adds named capture support, with values returned as ``result.name``.
+ * 
+ * Also fixes two cross-browser issues, following the ECMA-262 v3 spec:
+ *  - captured values for non-participating capturing groups should be returned
+ *    as ``undefined``, rather than the empty string.
+ *  - the regex's ``lastIndex`` should not be incremented after zero-length
+ *    matches.
+ * @ignore
+ */
+RegExp.prototype.exec = function (str) {
+    var match = real.exec.call(this, str),
+        name, i, r2;
+    if (match) {
+        // fix browsers whose exec methods don't consistently return
+        // undefined for non-participating capturing groups
+        if (brokenExecUndef && match.length > 1) {
+            // r2 doesn't need /g or /y, but they shouldn't hurt
+            r2 = new RegExp("^" + this.source + "$(?!\\s)", this.getNativeFlags());
+            real.replace.call(match[0], r2, function () {
+                for (i = 1; i < arguments.length - 2; i++) {
+                    if (arguments[i] === undefined) match[i] = undefined;
+                }
+            });
+        }
+        // attach named capture properties
+        if (this._x && this._x.captureNames) {
+            for (i = 1; i < match.length; i++) {
+                name = this._x.captureNames[i - 1];
+                if (name) match[name] = match[i];
+            }
+        }
+        // fix browsers that increment lastIndex after zero-length matches
+        if (this.global && this.lastIndex > (match.index + match[0].length))
+            this.lastIndex--;
+    }
+    return match;
+};
+})(); // end anonymous function
+} // end if(!window.XRegExp)
+
+/**
+ * intentionally undocumented
+ * @ignore
+ */
+RegExp.prototype.getNativeFlags = function () {
+    return (this.global     ? "g" : "") +
+           (this.ignoreCase ? "i" : "") +
+           (this.multiline  ? "m" : "") +
+           (this.extended   ? "x" : "") +
+           (this.sticky     ? "y" : "");
+};
+
+/**
+ * Accepts flags; returns a new XRegExp object generated by recompiling
+ * the regex with the additional flags (may include non-native flags).
+ * The original regex object is not altered.
+ * @ignore
+ */
+RegExp.prototype.addFlags = function (flags) {
+    var regex = new XRegExp(this.source, (flags || "") + this.getNativeFlags());
+    if (this._x) {
+        regex._x = {
+            source:       this._x.source,
+            captureNames: this._x.captureNames ? this._x.captureNames.slice(0) : null
+        };
+    }
+    return regex;
+};
+
+/**
+ * Accepts a context object and string; returns the result of calling
+ * ``exec`` with the provided string. the context is ignored but is
+ * accepted for congruity with ``Function.prototype.call``.
+ * @ignore
+ */
+RegExp.prototype.call = function (context, str) {
+    return this.exec(str);
+};
+
+/**
+ * Accepts a context object and arguments array; returns the result of
+ * calling ``exec`` with the first value in the arguments array. the context
+ * is ignored but is accepted for congruity with ``Function.prototype.apply``.
+ * @ignore
+ */
+RegExp.prototype.apply = function (context, args) {
+    return this.exec(args[0]);
+};
+
+/**
+ * Accepts a pattern and flags; returns an XRegExp object. if the pattern
+ * and flag combination has previously been cached, the cached copy is
+ * returned, otherwise the new object is cached.
+ * @ignore
+ */
+XRegExp.cache = function (pattern, flags) {
+    var key = "/" + pattern + "/" + (flags || "");
+    return XRegExp.cache[key] || (XRegExp.cache[key] = new XRegExp(pattern, flags));
+};
+
+/**
+ * Accepts a string; returns the string with regex metacharacters escaped.
+ * the returned string can safely be used within a regex to match a literal
+ * string. escaped characters are [, ], {, }, (, ), -, *, +, ?, ., \, ^, $,
+ * |, #, [comma], and whitespace.
+ * @ignore
+ */
+XRegExp.escape = function (str) {
+    return str.replace(/[-[\]{}()*+?.\\^$|,#\s]/g, "\\$&");
+};
+
+/**
+ * Accepts a string to search, left and right delimiters as regex pattern
+ * strings, optional regex flags (may include non-native s, x, and y flags),
+ * and an options object which allows setting an escape character and changing
+ * the return format from an array of matches to a two-dimensional array of
+ * string parts with extended position data. returns an array of matches
+ * (optionally with extended data), allowing nested instances of left and right
+ * delimiters. use the g flag to return all matches, otherwise only the first
+ * is returned. if delimiters are unbalanced within the subject data, an error
+ * is thrown.
+ * 
+ * This function admittedly pushes the boundaries of what can be accomplished
+ * sensibly without a "real" parser. however, by doing so it provides flexible
+ * and powerful recursive parsing capabilities with minimal code weight.
+ * 
+ * Warning: the ``escapeChar`` option is considered experimental and might be
+ * changed or removed in future versions of XRegExp.
+ * 
+ * unsupported features:
+ *  - backreferences within delimiter patterns when using ``escapeChar``.
+ *  - although providing delimiters as regex objects adds the minor feature of
+ *    independent delimiter flags, it introduces other limitations and is only
+ *    intended to be done by the ``XRegExp`` constructor (which can't call
+ *    itself while building a regex).
+ * 
+ * @ignore
+ */
+XRegExp.matchRecursive = function (str, left, right, flags, options) {
+    var options      = options || {},
+        escapeChar   = options.escapeChar,
+        vN           = options.valueNames,
+        flags        = flags || "",
+        global       = flags.indexOf("g") > -1,
+        ignoreCase   = flags.indexOf("i") > -1,
+        multiline    = flags.indexOf("m") > -1,
+        sticky       = flags.indexOf("y") > -1,
+        /* sticky mode has its own handling in this function, which means you
+           can use flag "y" even in browsers which don't support it natively */
+        flags        = flags.replace(/y/g, ""),
+        left         = left  instanceof RegExp ? (left.global  ? left  : left.addFlags("g"))  : new XRegExp(left,  "g" + flags),
+        right        = right instanceof RegExp ? (right.global ? right : right.addFlags("g")) : new XRegExp(right, "g" + flags),
+        output       = [],
+        openTokens   = 0,
+        delimStart   = 0,
+        delimEnd     = 0,
+        lastOuterEnd = 0,
+        outerStart, innerStart, leftMatch, rightMatch, escaped, esc;
+
+    if (escapeChar) {
+        if (escapeChar.length > 1) throw SyntaxError("can't supply more than one escape character");
+        if (multiline)             throw TypeError("can't supply escape character when using the multiline flag");
+        escaped = XRegExp.escape(escapeChar);
+        /* Escape pattern modifiers:
+            /g - not needed here
+            /i - included
+            /m - **unsupported**, throws error
+            /s - handled by XRegExp when delimiters are provided as strings
+            /x - handled by XRegExp when delimiters are provided as strings
+            /y - not needed here; supported by other handling in this function
+        */
+        esc = new RegExp(
+            "^(?:" + escaped + "[\\S\\s]|(?:(?!" + left.source + "|" + right.source + ")[^" + escaped + "])+)+",
+            ignoreCase ? "i" : ""
+        );
+    }
+
+    while (true) {
+        /* advance the starting search position to the end of the last delimiter match.
+           a couple special cases are also covered:
+            - if using an escape character, advance to the next delimiter's starting position,
+              skipping any escaped characters
+            - first time through, reset lastIndex in case delimiters were provided as regexes
+        */
+        left.lastIndex = right.lastIndex = delimEnd +
+            (escapeChar ? (esc.exec(str.slice(delimEnd)) || [""])[0].length : 0);
+
+        leftMatch  = left.exec(str);
+        rightMatch = right.exec(str);
+
+        // only keep the result which matched earlier in the string
+        if (leftMatch && rightMatch) {
+            if (leftMatch.index <= rightMatch.index)
+                 rightMatch = null;
+            else leftMatch  = null;
+        }
+
+        /* paths*:
+        leftMatch | rightMatch | openTokens | result
+        1         | 0          | 1          | ...
+        1         | 0          | 0          | ...
+        0         | 1          | 1          | ...
+        0         | 1          | 0          | throw
+        0         | 0          | 1          | throw
+        0         | 0          | 0          | break
+        * - does not include the sticky mode special case
+          - the loop ends after the first completed match if not in global mode
+        */
+
+        if (leftMatch || rightMatch) {
+            delimStart = (leftMatch || rightMatch).index;
+            delimEnd   = (leftMatch ? left : right).lastIndex;
+        } else if (!openTokens) {
+            break;
+        }
+
+        if (sticky && !openTokens && delimStart > lastOuterEnd)
+            break;
+
+        if (leftMatch) {
+            if (!openTokens++) {
+                outerStart = delimStart;
+                innerStart = delimEnd;
+            }
+        } else if (rightMatch && openTokens) {
+            if (!--openTokens) {
+                if (vN) {
+                    if (vN[0] && outerStart > lastOuterEnd)
+                               output.push([vN[0], str.slice(lastOuterEnd, outerStart), lastOuterEnd, outerStart]);
+                    if (vN[1]) output.push([vN[1], str.slice(outerStart,   innerStart), outerStart,   innerStart]);
+                    if (vN[2]) output.push([vN[2], str.slice(innerStart,   delimStart), innerStart,   delimStart]);
+                    if (vN[3]) output.push([vN[3], str.slice(delimStart,   delimEnd),   delimStart,   delimEnd]);
+                } else {
+                    output.push(str.slice(innerStart, delimStart));
+                }
+                lastOuterEnd = delimEnd;
+                if (!global)
+                    break;
+            }
+        } else {
+            // reset lastIndex in case delimiters were provided as regexes
+            left.lastIndex = right.lastIndex = 0;
+            throw Error("subject data contains unbalanced delimiters");
+        }
+
+        // if the delimiter matched an empty string, advance delimEnd to avoid an infinite loop
+        if (delimStart === delimEnd)
+            delimEnd++;
+    }
+
+    if (global && !sticky && vN && vN[0] && str.length > lastOuterEnd)
+        output.push([vN[0], str.slice(lastOuterEnd), lastOuterEnd, str.length]);
+
+    // reset lastIndex in case delimiters were provided as regexes
+    left.lastIndex = right.lastIndex = 0;
+
+    return output;
+};
+
+
+/**
+ * SyntaxHighlighter
+ * http://alexgorbatchev.com/
+ *
+ * SyntaxHighlighter is donationware. If you are using it, please donate.
+ * http://alexgorbatchev.com/wiki/SyntaxHighlighter:Donate
+ *
+ * @version
+ * 2.1.364 (October 15 2009)
+ * 
+ * @copyright
+ * Copyright (C) 2004-2009 Alex Gorbatchev.
+ *
+ * @license
+ * This file is part of SyntaxHighlighter.
+ * 
+ * SyntaxHighlighter is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * SyntaxHighlighter is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with SyntaxHighlighter.  If not, see <http://www.gnu.org/copyleft/lesser.html>.
+ */
+SyntaxHighlighter.brushes.JScript = function()
+{
+	var keywords =	'break case catch continue ' +
+					'default delete do else false  ' +
+					'for function if in instanceof ' +
+					'new null return super switch ' +
+					'this throw true try typeof var while with'
+					;
+
+	this.regexList = [
+		{ regex: SyntaxHighlighter.regexLib.singleLineCComments,	css: 'comments' },			// one line comments
+		{ regex: SyntaxHighlighter.regexLib.multiLineCComments,		css: 'comments' },			// multiline comments
+		{ regex: SyntaxHighlighter.regexLib.doubleQuotedString,		css: 'string' },			// double quoted strings
+		{ regex: SyntaxHighlighter.regexLib.singleQuotedString,		css: 'string' },			// single quoted strings
+		{ regex: /\s*#.*/gm,										css: 'preprocessor' },		// preprocessor tags like #region and #endregion
+		{ regex: new RegExp(this.getKeywords(keywords), 'gm'),		css: 'keyword' }			// keywords
+		];
+	
+	this.forHtmlScript(SyntaxHighlighter.regexLib.scriptScriptTags);
+};
+
+SyntaxHighlighter.brushes.JScript.prototype	= new SyntaxHighlighter.Highlighter();
+SyntaxHighlighter.brushes.JScript.aliases	= ['js', 'jscript', 'javascript'];
+
+
+/**
+ * SyntaxHighlighter
+ * http://alexgorbatchev.com/
+ *
+ * SyntaxHighlighter is donationware. If you are using it, please donate.
+ * http://alexgorbatchev.com/wiki/SyntaxHighlighter:Donate
+ *
+ * @version
+ * 2.1.364 (October 15 2009)
+ * 
+ * @copyright
+ * Copyright (C) 2004-2009 Alex Gorbatchev.
+ *
+ * @license
+ * This file is part of SyntaxHighlighter.
+ * 
+ * SyntaxHighlighter is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * SyntaxHighlighter is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with SyntaxHighlighter.  If not, see <http://www.gnu.org/copyleft/lesser.html>.
+ */
+SyntaxHighlighter.brushes.Vimscript = function()
+{
+	var keywords =	'abc abclear argdo argu argument bel belowright ' +
+					'bN bNext breakd breakdel buffer caddb caddbuffer cb cbuffer ' +
+					'cex cexpr cg cgetfile checkt checktime cnew cnewer col ' +
+					'colder con continue cq cquit delc delcommand diffoff diffu ' +
+					'diffupdate dr drop echom echomsg em emenu endt endtry ' +
+					'exu exusage fin find foldc foldclose fu function ha ' +
+					'hardcopy helpt helptags if is isearch ju jumps kee ' +
+					'keepmarks lan language lc lcd lefta leftabove lgetb lgetbuffer ' +
+					'lgrepa lgrepadd lla llast lmapc lmapclear lnf lnfile loc ' +
+					'lockmarks lpf lpfile ltag mak make menut menutranslate ' +
+					'mkvie mkview mzf mzfile next nu number opt options ' +
+					'perld perldo pp ppop Print promptr promptrepl ptj ptjump ' +
+					'ptp ptprevious pw pwd quit redi redir reg registers ' +
+					'rew rewind rubyd rubydo sal sall sba sball sbn ' +
+					'sbnext sb sbuffer setf setfiletype sfir sfirst sim simalt ' +
+					'sm smap sn snext snor snoremap so source spellr ' +
+					'spellrepall spr sprevious star startinsert stopi stopinsert sunmenu tabe ' +
+					'tabedit tabm tabmove tabo tabonly ta tag tclf tclfile ' +
+					'tj tjump tn tnext tr trewind tu tunmenu undol ' +
+					'undolist verb verbose vim vimgrep vmapc vmapclear wh while ' +
+					'win winsize wq wv wviminfo xm xmap XMLent xnoremenu ' +
+					'abo aboveleft arge argedit as ascii bf bfirst bo ' +
+					'botright breakl breaklist buffers cad caddexpr cc cf cfile ' +
+					'change cla clast cn cnext colo colorscheme cope copen ' +
+					'cr crewind delete diffpatch dig digraphs ds dsearch echon ' +
+					'emenu endw endwhile file fini finish folddoc folddoclosed go ' +
+					'goto help hid hide ij ijump isp isplit laddb ' +
+					'laddbuffer la last lch lchdir lex lexpr lgete lgetexpr ' +
+					'lh lhelpgrep lli llist lnew lnewer lNf lNfile lockv ' +
+					'lockvar lp lprevious lv lvimgrep ma mark mk mkexrc ' +
+					'mkv mkvimrc mz mzscheme Next omapc omapclear pc pclose ' +
+					'po pop pre preserve profd profdel ps psearch ptl ' +
+					'ptlast ptr ptrewind pyf pyfile quita quitall red redo ' +
+					'res resize ri right rubyf rubyfile san sandbox sbf ' +
+					'sbfirst sbN sbNext scripte scriptencoding setg setglobal sh shell ' +
+					'sla slast smapc smapclear sN sNext snoreme spelld spelldump ' +
+					'spellu spellundo sre srewind startr startreplace sts stselect sus ' +
+					'suspend tab tabf tabfind tabnew tabp tabprevious tags te ' +
+					'tearoff tl tlast tN tNext try una unabbreviate unh ' +
+					'unhide ve version vimgrepa vimgrepadd vne vnew winc wincmd ' +
+					'wn wnext wqa wqall xmapc xmapclear XMLns xunme al ' +
+					'all argg argglobal bad badd bl blast bp bprevious ' +
+					'br brewind bun bunload caddf caddfile ccl cclose cfir ' +
+					'cfirst changes cl clist cN cNext comc comclear co ' +
+					'copy cuna cunabbrev delf delfunction diffpu diffput di display ' +
+					'dsp dsplit edit endfo endfor ene enew files fir ' +
+					'first foldd folddoopen gr grep helpf helpfind his history ' +
+					'il ilist iuna iunabbrev keepalt lad laddexpr later lcl ' +
+					'lclose lf lfile lg lgetfile list lmak lmake lne ' +
+					'lnext ln lnoremap lol lolder lr lrewind lvimgrepa lvimgrepadd ' +
+					'marks mks mksession mod mode nbkey nmapc nmapclear on ' +
+					'only ped pedit popu prev previous prof profile pta ' +
+					'ptag ptn ptnext pts ptselect py python read redr ' +
+					'redraw ret retab rightb rightbelow ru runtime sa sargument ' +
+					'sbl sblast sbp sbprevious scrip scriptnames setl setlocal sign ' +
+					'sl sleep sme sni sniff snoremenu spe spellgood spellw ' +
+					'spellwrong sta stag stj stjump sun sunhide sv sview ' +
+					'tabc tabclose tabfir tabfirst tabn tabnext tabr tabrewind tc ' +
+					'tcl tf tfirst tm to topleft ts tselect undo ' +
+					'unlo unlockvar vert vertical vi visual vs vsplit windo ' +
+					'wN wNext write xa xall xme xn xnoremap xunmenu ' +
+					'arga argadd argl arglocal ba ball bm bmodified brea ' +
+					'break bro browse bw bwipeout cal call cd cgetb ' +
+					'cgetbuffer chd chdir clo close cnf cnfile comp compiler ' +
+					'cpf cpfile cw cwindow delm delmarks diffsplit dj djump ' +
+					'earlier el else endf endfunction ex filetype fix fixdel ' +
+					'foldo foldopen grepa grepadd helpg helpgrep iabc iabclear imapc ' +
+					'imapclear join keepj keepjumps laddf laddfile lb lbuffer le ' +
+					'left lfir lfirst lgr lgrep ll lm lmap lN ' +
+					'lNext lo loadview lop lopen ls lw lwindow mat ' +
+					'match maca macaction macm macmenu mksp mkspell move new ' +
+					'noh nohlsearch open pe perl popu popup print promptf ' +
+					'promptfind ptf ptfirst ptN ptNext pu put qa qall ' +
+					'rec recover redraws redrawstatus retu return rub ruby rv ' +
+					'rviminfo sav saveas sbm sbmodified sbr sbrewind se set ' +
+					'sf sfind sil silent sm smagic smenu sno snomagic ' +
+					'sor sort spelli spellinfo sp split startg startgreplace st ' +
+					'stop sunme syncbind tabd tabdo tabl tablast tabN tabNext ' +
+					'tabs tcld tcldo th throw tm tmenu tp tprevious ' +
+					'tu undoj undojoin up update vie view viu viusage ' +
+					'wa wall winp winpos wp wprevious ws wsverb xit ' +
+					'xmenu xnoreme yank argd argdelete ar args bd bdelete ' +
+					'bn bnext breaka breakadd bufdo cabc cabclear cat catch ' +
+					'ce center cgete cgetexpr che checkpath cmapc cmapclear cNf ' +
+					'cNfile conf confirm cp cprevious debugg debuggreedy diffg diffget ' +
+					'diffthis dl dlist echoe echoerr elsei elseif en endif ' +
+					'exi exit fina finally fo fold for ' +
+					'echohl';
+					// additional miscelanious keywords, 
+
+	var options = 'acd ambiwidth arabicshape autowriteall backupdir bdlay binary ' +
+					'breakat bufhidden cdpath cin cinwords columns completeopt cpo cscopetagorder ' +
+					'csverb deco dictionary directory ed encoding errorfile exrc fdls ' +
+					'fencs fileformats fmr foldlevel foldtext fsync gfs gtl guioptions ' +
+					'hf hk hlsearch imak ims indentexpr is isp keywordprg ' +
+					'lazyredraw lispwords ls makeef maxmapdepth mfd mmd modified mousemodel ' +
+					'msm numberwidth operatorfunc pastetoggle pexpr pmbfn printexpr pt readonly ' +
+					'rightleft rtp sb scroll sect sessionoptions shellpipe shellxquote showbreak ' +
+					'shq slm smd spc spf sr sta sts swapfile ' +
+					'sxq tabpagemax tags tbis terse thesaurus titleold toolbariconsize tsr ' +
+					'ttyfast tx ut verbosefile virtualedit wb wfw wildcharm winaltkeys ' +
+					'winminwidth wmnu write ai ambw ari aw backupext beval ' +
+					'biosk brk buflisted cedit cindent clipboard com confirm cpoptions ' +
+					'cscopeverbose cuc def diff display edcompatible endofline errorformat fcl ' +
+					'fdm fex filetype fo foldlevelstart formatexpr ft gfw gtt ' +
+					'guipty hh hkmap ic imc imsearch indentkeys isf isprint ' +
+					'km lbr list lsp makeprg maxmem mh mmp more ' +
+					'mouses mzq nuw opfunc patchexpr pfn popt printfont pumheight ' +
+					'redrawtime rightleftcmd ru sbo scrollbind sections sft shellquote shiftround ' +
+					'showcmd si sm sn spell spl srr stal su ' +
+					'swapsync syn tabstop tagstack tbs textauto tildeop titlestring top ' +
+					'ttimeout ttym uc vb vfile visualbell wc wh wildignore ' +
+					'window winwidth wmw writeany akm anti arshape awa backupskip ' +
+					'bex bioskey browsedir buftype cf cink cmdheight comments consk ' +
+					'cpt cspc cul define diffexpr dy ef eol esckeys ' +
+					'fcs fdn ff fillchars foldclose foldmarker formatlistpat gcr ghr ' +
+					'guicursor guitablabel hi hkmapp icon imcmdline inc indk isfname ' +
+					'joinspaces kmp lcs listchars lw mat maxmempattern mis mmt ' +
+					'mouse mouseshape mzquantum odev osfiletype patchmode ph preserveindent printheader ' +
+					'pvh remap rl ruf sbr scrolljump secure sh shellredir ' +
+					'shiftwidth showfulltag sidescroll smartcase so spellcapcheck splitbelow ss startofline ' +
+					'sua swb synmaxcol tag tal tenc textmode timeout tl ' +
+					'tpm ttimeoutlen ttymouse ul vbs vi vop wcm whichwrap ' +
+					'wildmenu winfixheight wiv wop writebackup al antialias autochdir background ' +
+					'balloondelay bexpr bk bs casemap cfu cinkeys cmdwinheight commentstring ' +
+					'conskey cscopepathcomp csprg cursorcolumn delcombine diffopt ea efm ep ' +
+					'et fdc fdo ffs fk foldcolumn foldmethod formatoptions gd ' +
+					'go guifont guitabtooltip hid hkp iconstring imd include inex ' +
+					'isi js kp linebreak lm lz matchpairs maxmemtot mkspellmem ' +
+					'mod mousef mouset nf oft pa path pheader previewheight ' +
+					'printmbcharset pvw report rlc ruler sc scrolloff sel shcf ' +
+					'shellslash shm showmatch sidescrolloff smartindent softtabstop spellfile splitright ssl ' +
+					'statusline suffixes swf syntax tagbsearch tb term textwidth timeoutlen ' +
+					'tm tr ttm ttyscroll undolevels vdir viewdir wa wd ' +
+					'wi wildmode winfixwidth wiw wrap writedelay aleph ar autoindent ' +
+					'backspace ballooneval bg bkc bsdir cb ch cino cmp ' +
+					'compatible copyindent cscopeprg csqf cursorline dex digraph ead ei ' +
+					'equalalways eventignore fde fdt fileencoding fkmap foldenable foldminlines formatprg ' +
+					'gdefault gp guifontset helpfile hidden hl ignorecase imdisable includeexpr ' +
+					'inf isident key langmap lines lmap ma matchtime mco ' +
+					'ml modeline mousefocus mousetime nrformats ofu para pdev pi ' +
+					'previewwindow printmbfont qe restorescreen ro rulerformat scb scrollopt selection ' +
+					'shell shelltemp shortmess showmode siso smarttab sol spelllang spr ' +
+					'ssop stl suffixesadd switchbuf ta taglength tbi termbidi tf ' +
+					'title to ts tty ttytype updatecount ve viewoptions wak ' +
+					'weirdinvert wig wildoptions winheight wm wrapmargin ws allowrevins arab ' +
+					'autoread backup balloonexpr bh bl bsk ccv charconvert cinoptions ' +
+					'cms complete cot cscopequickfix cst cwh dg dip eadirection ' +
+					'ek equalprg ex fdi fen fileencodings flp foldexpr foldnestmax ' +
+					'fp gfm grepformat guifontwide helpheight highlight hlg im imi ' +
+					'incsearch infercase isk keymap langmenu linespace loadplugins macatsui maxcombine ' +
+					'mef mls modelines mousehide mp nu omnifunc paragraphs penc ' +
+					'pm printdevice printoptions quoteescape revins rs runtimepath scr scs ' +
+					'selectmode shellcmdflag shelltype shortname showtabline sj smc sp spellsuggest ' +
+					'sps st stmp sw sws tabline tagrelative tbidi termencoding ' +
+					'tgst titlelen toolbar tsl ttybuiltin tw updatetime verbose viminfo ' +
+					'warn wfh wildchar wim winminheight wmh wrapscan ww altkeymap ' +
+					'arabic autowrite backupcopy bdir bin bomb bt cd ci ' +
+					'cinw co completefunc cp cscopetag csto debug dict dir ' +
+					'eb enc errorbells expandtab noexpandtab fdl fenc fileformat fml foldignore ' +
+					'foldopen fs gfn grepprg guiheadroom helplang history hls imactivatekey ' +
+					'iminsert inde insertmode iskeyword keymodel laststatus lisp lpl magic ' +
+					'maxfuncdepth menuitems mm modifiable mousem mps number opendevice paste ' +
+					'pex pmbcs printencoding prompt rdt ri';
+
+
+	var vimUserAttrbCmplt =	'augroup buffer command dir environment event expression ' +
+					'file function help highlight mapping menu option something tag ' +
+					'tag_listfiles var';
+
+	var vimLet =	'let unl unlet ';
+	
+	var vimAutoCmd =	'au autocmd do doautocmd doautoa doautoall';
+	
+	var vimMap =	'map cm cmap cno cnoremap im imap ino ' +
+					'inoremap ln lnoremap nm nmap nn nnoremap no noremap ' +
+					'om omap ono onoremap snor snoremap vm vmap vn vnoremap xn xnoremap';
+	
+	var builtins =	'BufRead ModeMsg None BufAdd BufCreate BufDelete ' +
+					'BufEnter BufFilePost BufFilePre BufHidden BufLeave BufNew ' +
+					'BufNewFile BufRead BufReadCmd BufReadPost BufReadPre ' +
+					'BufUnload BufWinEnter BufWinLeave BufWipeout BufWrite ' +
+					'BufWriteCmd BufWritePost BufWritePre Cmd-event CmdwinEnter ' +
+					'CmdwinLeave ColorScheme CursorHold CursorHoldI CursorMoved ' +
+					'CursorMovedI EncodingChanged FileAppendCmd FileAppendPost ' +
+					'FileAppendPre FileChangedRO FileChangedShell FileChangedShellPost ' +
+					'FileEncoding FileReadCmd FileReadPost FileReadPre FileType ' +
+					'FileWriteCmd FileWritePost FileWritePre FilterReadPost ' +
+					'FilterReadPre FilterWritePost FilterWritePre FocusGained ' +
+					'FocusLost FuncUndefined GUIEnter GUIFailed InsertChange ' +
+					'InsertEnter InsertLeave MenuPopup QuickFixCmdPost QuickFixCmdPre ' +
+					'RemoteReply SessionLoadPost ShellCmdPost ShellFilterPost SourceCmd ' +
+					'SourcePre SpellFileMissing StdinReadPost StdinReadPre SwapExists ' +
+					'Syntax TabEnter TabLeave TermChanged TermResponse User ' +
+					'UserGettingBored VimEnter VimLeave VimLeavePre VimResized WinEnter WinLeave ';
+	
+	
+	
+
+	SyntaxHighlighter.regexLib.singleLineVimscriptComments = /^\s*".*$/gm
+	SyntaxHighlighter.regexLib.keyMappings = /(\<|&lt;)\w[-\w\[\]]+(\>|&gt;)/ig
+
+	this.regexList = [
+		{ regex: SyntaxHighlighter.regexLib.singleLineVimscriptComments,	css: 'comments' },		// one line comments
+		{ regex: SyntaxHighlighter.regexLib.keyMappings,	css: 'color3' },		// Vimscript key mappings (e.g. <CR> <C-S-[>)
+		{ regex: SyntaxHighlighter.regexLib.doubleQuotedString,		css: 'string' },			// double quoted strings
+		{ regex: SyntaxHighlighter.regexLib.singleQuotedString,		css: 'string' },			// single quoted strings
+		{ regex: /\s*#.*/gm,										css: 'preprocessor' },		// preprocessor tags like #region and #endregion
+		{ regex: new RegExp(this.getKeywords(options), 'gm'),		css: 'keyword' },			// options
+		{ regex: new RegExp(this.getKeywords(vimMap), 'gm'),		css: 'keyword' },			// options
+		{ regex: new RegExp(this.getKeywords(vimUserAttrbCmplt), 'gm'),		css: 'keyword' },			// options
+		{ regex: new RegExp(this.getKeywords(vimAutoCmd), 'gm'),		css: 'keyword' },			// options
+		{ regex: new RegExp(this.getKeywords(keywords), 'gm'),		css: 'keyword' },			// keywords
+		{ regex: new RegExp(this.getKeywords(vimLet), 'gm'),		css: 'keyword' },			// keywords
+		{ regex: new RegExp(this.getKeywords(builtins), 'gm'),		css: 'color1' }			// keywords
+		];
+	
+	this.forHtmlScript(SyntaxHighlighter.regexLib.scriptScriptTags);
+};
+
+SyntaxHighlighter.brushes.Vimscript.prototype	= new SyntaxHighlighter.Highlighter();
+SyntaxHighlighter.brushes.Vimscript.aliases	= ['vim', 'vimscript'];
+
+
+/**
+ * SyntaxHighlighter
+ * http://alexgorbatchev.com/
+ *
+ * SyntaxHighlighter is donationware. If you are using it, please donate.
+ * http://alexgorbatchev.com/wiki/SyntaxHighlighter:Donate
+ *
+ * @version
+ * 2.1.364 (October 15 2009)
+ * 
+ * @copyright
+ * Copyright (C) 2004-2009 Alex Gorbatchev.
+ *
+ * @license
+ * This file is part of SyntaxHighlighter.
+ * 
+ * SyntaxHighlighter is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * SyntaxHighlighter is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with SyntaxHighlighter.  If not, see <http://www.gnu.org/copyleft/lesser.html>.
+ */
+SyntaxHighlighter.brushes.Ruby = function()
+{
+	// Contributed by Erik Peterson.
+	
+	var keywords =	'alias and BEGIN begin break case class def define_method defined do each else elsif ' +
+					'END end ensure false for if in module new next nil not or raise redo rescue retry return ' +
+					'self super then throw true undef unless until when while yield';
+
+	var builtins =	'Array Bignum Binding Class Continuation Dir Exception FalseClass File::Stat File Fixnum Fload ' +
+					'Hash Integer IO MatchData Method Module NilClass Numeric Object Proc Range Regexp String Struct::TMS Symbol ' +
+					'ThreadGroup Thread Time TrueClass';
+
+	this.regexList = [
+		{ regex: SyntaxHighlighter.regexLib.singleLinePerlComments,	css: 'comments' },		// one line comments
+		{ regex: SyntaxHighlighter.regexLib.doubleQuotedString,		css: 'string' },		// double quoted strings
+		{ regex: SyntaxHighlighter.regexLib.singleQuotedString,		css: 'string' },		// single quoted strings
+		{ regex: /\b[A-Z0-9_]+\b/g,									css: 'constants' },		// constants
+		{ regex: /:[a-z][A-Za-z0-9_]*/g,							css: 'color2' },		// symbols
+		{ regex: /(\$|@@|@)\w+/g,									css: 'variable bold' },	// $global, @instance, and @@class variables
+		{ regex: new RegExp(this.getKeywords(keywords), 'gm'),		css: 'keyword' },		// keywords
+		{ regex: new RegExp(this.getKeywords(builtins), 'gm'),		css: 'color1' }			// builtins
+		];
+
+	this.forHtmlScript(SyntaxHighlighter.regexLib.aspScriptTags);
+};
+
+SyntaxHighlighter.brushes.Ruby.prototype	= new SyntaxHighlighter.Highlighter();
+SyntaxHighlighter.brushes.Ruby.aliases		= ['ruby', 'rails', 'ror', 'rb'];
+
+
+SyntaxHighlighter.defaults['gutter'] = false;
+SyntaxHighlighter.defaults['toolbar'] = false;
+SyntaxHighlighter.all();
+
+$(document).ready(function() {
+  $('body').addClass("scripted");
+
+  // Hide static flattr buttons, and reveal dyamic buttons
+  $(".static_flattr").hide();
+  $(".dynamic_flattr").show();
+
+  $("img.placeholder").click(function() {
+    var episode_number = this.id.match(/(episode_\d+)_placeholder/)[1];
+    var metadata = window[episode_number];
+    $(this).replaceWith("<video height='" + this.height + "' width='" + this.width + "' poster='" + this.src + "' controls autoplay><source src='" + metadata.mov + "' type='video/mp4'/><source src='" + metadata.ogg + "' type='video/ogg'/></video>");
+  });
+
+  $('h3:first').addClass('first');
+
+  $.getScript("http://disqus.com/forums/vimcasts/embed.js");
+});

@@ -1,0 +1,582 @@
+{
+  "translation_methods":
+  [
+    {
+      "name": "tb_dictionary",
+      "request": {
+        "hostname": "clients1.google.com",
+        "port": "80",
+        "path": "tbproxy/dictionary",
+        "parameters": {
+          "sourceid": "navclient",
+          "ie": "UTF-8",
+          "oe": "UTF-8",
+          "text": "{{WORD}}",
+          "langpair": "{{SOURCE_LANGUAGE}}|{{TARGET_LANGUAGE}}",
+          "sig": "{{SIGNATURE}}",
+          "hl": "{{HUMAN_LANGUAGE}}"
+        }
+      },
+      "response": "type_plain",
+      "backoff": {
+        "firstblock": "600000",
+        "multiplier": "4",
+        "failures": "3",
+        "maxblock": "86400000"
+      }
+    },
+    {
+      "name": "suggest",
+      "request": {
+        "hostname": "clients1.google.com",
+        "port": "80",
+        "path": "complete/search",
+        "parameters": {
+          "q": "{{WORD}}",
+          "tl": "{{TARGET_LANGUAGE}}",
+          "ds": "dt",
+          "complete": "f",
+          "sl": "{{SOURCE_LANGUAGE}}"
+        }
+      },
+      "response": "type_suggest",
+      "backoff": {
+        "firstblock": "600000",
+        "multiplier": "4",
+        "failures": "3",
+        "maxblock": "86400000"
+      }
+    },
+    {
+      "name": "translate",
+      "request": {
+        "hostname": "clients1.google.com",
+        "port": "80",
+        "path": "translate_a/st",
+        "parameters": {
+          "sl": "{{SOURCE_LANGUAGE}}",
+          "tl": "{{TARGET_LANGUAGE}}",
+          "q": "{{WORD}}",
+          "client": "tbff",
+          "v": "2.0",
+          "tt": "d"
+        }
+      },
+      "cjk-request": {
+        "hostname": "clients1.google.com",
+        "port": "80",
+        "path": "translate_a/t",
+        "parameters": {
+          "sl": "{{SOURCE_LANGUAGE}}",
+          "tl": "{{TARGET_LANGUAGE}}",
+          "q": "{{WORD_BEFORE}}<b id=0>{{WORD}}</b>{{WORD_AFTER}}",
+          "client": "tbff",
+          "v": "2.0",
+          "hover": "1",
+          "format": "html"
+        }
+      },
+      "response": "type_rosetta",
+      "backoff": {
+        "firstblock": "600000",
+        "multiplier": "4",
+        "failures": "3",
+        "maxblock": "86400000"
+      }
+    },
+    {
+      "name": "selection",
+      "request": {
+        "hostname": "clients1.google.com",
+        "port": "80",
+        "path": "translate_a/t",
+        "parameters": {
+          "tl": "{{TARGET_LANGUAGE}}",
+          "q": "{{WORD}}",
+          "client": "tbff",
+          "v": "1.0",
+          "format": "html"
+        }
+      },
+      "cjk-request": {
+        "hostname": "clients1.google.com",
+        "port": "80",
+        "path": "translate_a/t",
+        "parameters": {
+          "tl": "{{TARGET_LANGUAGE}}",
+          "q": "{{WORD_BEFORE}}<b id=0>{{WORD}}</b>{{WORD_AFTER}}",
+          "client": "tbff",
+          "v": "1.0",
+          "format": "html"
+        }
+      },
+      "response": "type_rosetta",
+      "backoff": {
+        "firstblock": "600000",
+        "multiplier": "4",
+        "failures": "3",
+        "maxblock": "86400000"
+      }
+    },
+    {
+      "name": "unknown_source",
+      "request": {
+        "hostname": "clients1.google.com",
+        "port": "80",
+        "path": "translate_a/st",
+        "parameters": {
+          "tl": "{{TARGET_LANGUAGE}}",
+          "q": "{{WORD}}",
+          "client": "tbff",
+          "v": "2.0"
+        }
+      },
+      "response": "type_rosetta",
+      "backoff": {
+        "firstblock": "600000",
+        "multiplier": "4",
+        "failures": "3",
+        "maxblock": "86400000"
+      }
+    },
+    {
+      "name": "local",
+      "request": {
+        "hostname": "google.com",
+        "port": "80",
+        "path": "tools/toolbar/intl/{{TARGET_LANGUAGE}}/googledict.dat",
+        "parameters": {
+        }
+      }
+    }
+  ],
+  "default_methods":
+  [
+    "translate"
+  ],
+  "language_pairs":
+  [
+    {
+      "from": "hy",
+      "to":   "*",
+      "methods": [ ]
+    },
+    {
+      "from": "az",
+      "to":   "*",
+      "methods": [ ]
+    },
+    {
+      "from": "eu",
+      "to":   "*",
+      "methods": [ ]
+    },
+    {
+      "from": "bs",
+      "to":   "*",
+      "methods": [ ]
+    },
+    {
+      "from": "ka",
+      "to":   "*",
+      "methods": [ ]
+    },
+    {
+      "from": "ht",
+      "to":   "*",
+      "methods": [ ]
+    },
+    {
+      "from": "ur",
+      "to":   "*",
+      "methods": [ ]
+    },
+    {
+      "from": "en",
+      "to":   "ar",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "az",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "bg",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "bn",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "bs",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "cs",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "de",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "el",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "es",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "et",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "fa",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "fi",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "fil",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "fr",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "hi",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "hr",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "hu",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "hy",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "id",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "it",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "iw",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "ja",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "ko",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "la",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "lt",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "lv",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "nl",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "pl",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "pt-BR",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "pt-PT",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "ro",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "ru",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "sk",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "sq",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "sr",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "sv",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "th",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "tr",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "uk",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "vi",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "yi",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "zh-CN",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    },
+    {
+      "from": "en",
+      "to":   "zh-TW",
+      "methods":
+      [
+        "local",
+        "tb_dictionary"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+[{extension:"*.*", programs:[]}, {extension:"jpg", programs:[{name:"gthumb", executable:"/usr/bin/gthumb", arguments:""}]}]

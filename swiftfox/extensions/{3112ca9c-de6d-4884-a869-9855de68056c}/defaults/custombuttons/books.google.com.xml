@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<custombuttons xmlns="http://toolbar.google.com/custombuttons/">
+  <button>
+    <title>Google Books</title>
+    <title locale="ar">كتب Google</title>
+    <title locale="bg">Google Книги</title>
+    <title locale="ca">Google Llibres</title>
+    <title locale="cs">Vyhledávání knih Google</title>
+    <title locale="da">Google Bogsøgning</title>
+    <title locale="de">Google Buchsuche</title>
+    <title locale="el">Βιβλία Google</title>
+    <title locale="en-GB">Google Books</title>
+    <title locale="es">Búsqueda de libros de Google</title>
+    <title locale="et">Google’i raamatud</title>
+    <title locale="fi">Google-teoshaku</title>
+    <title locale="fil">Mga libro ng Google</title>
+    <title locale="fr">Google Recherche de Livres</title>
+    <title locale="hi">Google पुस्तकें</title>
+    <title locale="hr">Google knjige</title>
+    <title locale="hu">Google Könyvek</title>
+    <title locale="id">Buku Google</title>
+    <title locale="is">Google Bækur</title>
+    <title locale="it">Google Libri</title>
+    <title locale="iw">ספרים של  Google</title>
+    <title locale="ja">Google ブック</title>
+    <title locale="ko">Google 도서검색</title>
+    <title locale="lt">„Google“ knygos</title>
+    <title locale="lv">Google Grāmatas</title>
+    <title locale="nl">Zoeken naar boeken met Google</title>
+    <title locale="no">Google Boksøk</title>
+    <title locale="pl">Google Books</title>
+    <title locale="pt-BR">Livros do Google</title>
+    <title locale="pt-PT">Livros do Google</title>
+    <title locale="ro">Cărţi Google</title>
+    <title locale="ru">Поиск книг Google</title>
+    <title locale="sk">Knihy Google</title>
+    <title locale="sl">Google Knjige</title>
+    <title locale="sr">Google књиге</title>
+    <title locale="sv">Google Books</title>
+    <title locale="th">Google Books</title>
+    <title locale="tr">Google Kitaplar</title>
+    <title locale="uk">Google Книги</title>
+    <title locale="vi">Google Books</title>
+    <title locale="zh-CN">图书</title>
+    <title locale="zh-TW">Google 圖書</title>
+    <description>Search Google Books</description>
+    <description locale="ar">البحث في كتب Google</description>
+    <description locale="bg">Търсете с Google Книги</description>
+    <description locale="ca">Cerqueu a Google Llibres</description>
+    <description locale="cs">Hledat ve službě Vyhledávání knih Google</description>
+    <description locale="da">Søg i Google Bogsøgning</description>
+    <description locale="de">Google Buchsuche durchsuchen</description>
+    <description locale="el">Αναζήτηση Βιβλίων Google</description>
+    <description locale="en-GB">Search Google Books</description>
+    <description locale="es">Buscar en Google Libros</description>
+    <description locale="et">Google’i raamatuotsing</description>
+    <description locale="fi">Tee Google-teoshaku</description>
+    <description locale="fil">Paghahanap sa Google Books</description>
+    <description locale="fr">Rechercher dans Google Livres</description>
+    <description locale="hi">Google पुस्तक खोजें</description>
+    <description locale="hr">Pretraživanje Google knjiga</description>
+    <description locale="hu">Keresés a Google Könyvkereső segítségével</description>
+    <description locale="id">Mencari di Buku Google</description>
+    <description locale="is">Leita í Google Bókum</description>
+    <description locale="it">Cerca in Google Libri</description>
+    <description locale="iw">חפש ב-Google Books</description>
+    <description locale="ja">Google ブックを検索</description>
+    <description locale="ko">Google 도서검색을 통해 검색합니다.</description>
+    <description locale="lt">Ieškoti tarp „Google“ knygų</description>
+    <description locale="lv">Meklēt Google Grāmatās</description>
+    <description locale="nl">Zoeken naar boeken met Google</description>
+    <description locale="no">Søk med Google Bøker</description>
+    <description locale="pl">Wyszukaj w Google Books</description>
+    <description locale="pt-BR">Pesquisar Livros do Google</description>
+    <description locale="pt-PT">Pesquisar nos Livros do Google</description>
+    <description locale="ro">Căutaţi în Cărţi Google</description>
+    <description locale="ru">Поиск по книгам Google</description>
+    <description locale="sk">Vyhľadať v službe Knihy Google</description>
+    <description locale="sl">Google Knjige – iskanje</description>
+    <description locale="sr">Претражи Google књиге</description>
+    <description locale="sv">Sök i Google Books</description>
+    <description locale="th">ค้นหาโดย Google Books</description>
+    <description locale="tr">Google Kitap Arama</description>
+    <description locale="uk">Пошук у Google Книги</description>
+    <description locale="vi">Tìm kiếm Sách của Google</description>
+    <description locale="zh-CN">搜索 Google 图书</description>
+    <description locale="zh-TW">搜尋「Google 圖書」</description>
+    <site>http://books.google.{domain}/books?hl={locale}{sourceid}</site>
+    <search>http://books.google.{domain}/books?hl={locale}{aq}{sourceid}{rlz}&amp;ie=UTF-8&amp;q={query}</search>
+    <update>http://toolbar.google.com/buttons/defs/books.google.com.xml</update>
+    <version>200807010000</version>
+    <icon type="image/x-icon" mode="base64">
+AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE3LlP8roW7/K6Fu/yuhbv8roW7/K6Fu/yuhbv8roW7/
+K6Fu/yuhbv8AAAAAAAAAAAAAAAAAAAAAAAAAACuhbv9Ny5T/P8GJ/z/HjP8/xYz/PsWL/z7Fi/8+
+xYv/PsWL/z7Fi//S3dz/K6Fu/wAAAADMnV3/oXA3/29NJv8roW7/TcuU/z/AiP9M0pj/StGX/0nP
+lf9FzZL/Q8qQ/0HIjv8/x4z/093d/yuhbv+hcDf/zJ1d/8d5TP+IYTX/K6Fu/03LlP8/vYf/Uded
+/0/Vm/9N05n/StCW/0fOk/9Ey5D/QcmO/9Xf3v8roW7/oXA3/8ydXf/LklL/imM3/yuhbv9Ny5T/
+QLqE/1bco/9U2qD/Uded/07Umv9K0Zb/R86T/0PLkP/Y4eH/K6Fu/6FwN//MnV3/2KBh/5NmQf8r
+oW7/TcuU/0C3hP9c4af/Wd+l/1bbov9S2J7/TtSa/0rRlv9GzZL/2+Tj/yuhbv+hcDf/zJ1d/92l
+Zv+XXET/K6Fu/03LlP8/tYL/Yuas/1/jqf9a36X/Vtyh/1HXnv9Q1Zr/Sc+V/+Dn5v8roW7/oXA3
+/8ydXf/ioWv/mnRJ/yuhbv9Ny5T/QLOB/2fqsf9n67L/Zeiv/13iqP9V2qD/T9Wb/0rRl//k6+r/
+K6Fu/6FwN//MnV3/57By/55/Tf8roW7/TcuU/0Cyf/9r7bX/bfC3/2frsf9f46n/Vtyh/1HXnf9M
+05j/6e7u/yuhbv+hcDf/zJ1d/+y1d/+he1D/K6Fu/yuhbv9AsH//bfC3/2nss/9j567/XuKp/1jd
+pP9S2J7/TdOZ/+7y8f8roW7/oXA3/8ydXf/wuXv/o3dT/yuhbv9Ny5T/QLB//27xuf9q7bT/ZOiv
+/1/jqv9Y3qT/U9ie/03Tmf/y9fX/K6Fu/6FwN/+hcDf/oXA3/6V/Vf8roW7/TcuU/yuhbv8roW7/
+K6Fu/yuhbv8roW7/K6Fu/yuhbv8roW7/9vj4/yuhbv+hcDf/zJ1d//S0f/+lc1X/TcuU/yuhbv//
+//////////////////////////////////////////r7+/8roW7/oXA3/8ydXf+hcDf/oXA3/6Fw
+N/8roW7/K6Fu/yuhbv8roW7/K6Fu/yuhbv8roW7/K6Fu/yuhbv8roW7/AAAAAMydXf+hcDf/////
+////////////////////////////////////////////oXA3/wAAAAAAAAAAAAAAAAAAAAAAAAAA
+oXA3/6FwN/+hcDf/oXA3/6FwN/+hcDf/oXA3/6FwN/+hcDf/oXA3/wAAAAAAAAAAAAAAAAAAAAAA
+AAAA+AEAAPAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB
+AAAADwAAgB8AAA==
+    </icon>
+  </button>
+</custombuttons>

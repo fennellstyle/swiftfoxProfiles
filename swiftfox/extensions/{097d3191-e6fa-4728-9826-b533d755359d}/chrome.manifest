@@ -1,0 +1,64 @@
+
+content         aios                            jar:chrome/aios.jar!/content/                        contentaccessible=yes
+skin            aios            global          jar:chrome/aios.jar!/skin/
+
+locale          aios            en-US           jar:chrome/aios.jar!/locale/en-US/
+locale          aios            ar-SA           jar:chrome/aios.jar!/locale/ar-SA/
+locale          aios            be-BY           jar:chrome/aios.jar!/locale/be-BY/
+locale          aios            cs-CZ           jar:chrome/aios.jar!/locale/cs-CZ/
+locale          aios            da-DK           jar:chrome/aios.jar!/locale/da-DK/
+locale          aios            de-DE           jar:chrome/aios.jar!/locale/de-DE/
+locale          aios            el-GR           jar:chrome/aios.jar!/locale/el-GR/
+locale          aios            en-GB           jar:chrome/aios.jar!/locale/en-GB/
+locale          aios            es-AR           jar:chrome/aios.jar!/locale/es-AR/
+locale          aios            es-ES           jar:chrome/aios.jar!/locale/es-ES/
+locale          aios            et-EE           jar:chrome/aios.jar!/locale/et-EE/
+locale          aios            fi-FI           jar:chrome/aios.jar!/locale/fi-FI/
+locale          aios            fr-FR           jar:chrome/aios.jar!/locale/fr-FR/
+locale          aios            he-IL           jar:chrome/aios.jar!/locale/he-IL/
+locale          aios            hr-HR           jar:chrome/aios.jar!/locale/hr-HR/
+locale          aios            hu-HU           jar:chrome/aios.jar!/locale/hu-HU/
+locale          aios            hy-AM           jar:chrome/aios.jar!/locale/hy-AM/
+locale          aios            it-IT           jar:chrome/aios.jar!/locale/it-IT/
+locale          aios            ja-JP           jar:chrome/aios.jar!/locale/ja-JP/
+locale          aios            ko-KR           jar:chrome/aios.jar!/locale/ko-KR/
+locale          aios            lt-LT           jar:chrome/aios.jar!/locale/lt-LT/
+locale          aios            nb-NO           jar:chrome/aios.jar!/locale/nb-NO/
+locale          aios            nl-NL           jar:chrome/aios.jar!/locale/nl-NL/
+locale          aios            pl-PL           jar:chrome/aios.jar!/locale/pl-PL/
+locale          aios            pt-BR           jar:chrome/aios.jar!/locale/pt-BR/
+locale          aios            pt-PT           jar:chrome/aios.jar!/locale/pt-PT/
+locale          aios            ro-RO           jar:chrome/aios.jar!/locale/ro-RO/
+locale          aios            ru-RU           jar:chrome/aios.jar!/locale/ru-RU/
+locale          aios            sk-SK           jar:chrome/aios.jar!/locale/sk-SK/
+locale          aios            sq-AL           jar:chrome/aios.jar!/locale/sq-AL/
+locale          aios            sr-RS           jar:chrome/aios.jar!/locale/sr-RS/
+locale          aios            sv-SE           jar:chrome/aios.jar!/locale/sv-SE/
+locale          aios            tr-TR           jar:chrome/aios.jar!/locale/tr-TR/
+locale          aios            uk-UA           jar:chrome/aios.jar!/locale/uk-UA/
+locale          aios            vi-VN           jar:chrome/aios.jar!/locale/vi-VN/
+locale          aios            zh-CN           jar:chrome/aios.jar!/locale/zh-CN/
+locale          aios            zh-TW           jar:chrome/aios.jar!/locale/zh-TW/
+
+overlay         chrome://browser/content/browser.xul                            chrome://aios/content/aios.xul
+overlay         chrome://global/content/customizeToolbar.xul                    chrome://aios/content/aios_customize.xul
+
+overlay         chrome://browser/content/bookmarks/bookmarksPanel.xul           chrome://aios/content/bm_hi.xul
+overlay         chrome://browser/content/history/history-panel.xul              chrome://aios/content/bm_hi.xul
+
+overlay         chrome://mozapps/content/extensions/extensions.xul              chrome://aios/content/addons.xul
+overlay         chrome://mozapps/content/xpinstall/xpinstallConfirm.xul         chrome://aios/content/addons_xpinstall.xul
+
+overlay         chrome://mozapps/content/downloads/downloads.xul                chrome://aios/content/downloads.xul
+overlay         chrome://global/content/alerts/alert.xul                        chrome://aios/content/downloads_alert.xul
+
+overlay         chrome://browser/content/web-panels.xul                         chrome://aios/content/multipanel.xul
+overlay         chrome://global/content/config.xul                              chrome://aios/content/aboutconfig.xul
+
+overlay         chrome://global/content/viewSource.xul                          chrome://aios/content/viewsource.xul
+overlay         chrome://browser/content/pageinfo/pageInfo.xul                  chrome://aios/content/pageinfo.xul
+
+overlay         chrome://global/content/console.xul                             chrome://aios/content/console.xul
+overlay         chrome://console2/content/console2.xul                          chrome://aios/content/console.xul
+
+overlay         chrome://browser/content/preferences/main.xul                   chrome://aios/content/prefs/overlay_main.xul

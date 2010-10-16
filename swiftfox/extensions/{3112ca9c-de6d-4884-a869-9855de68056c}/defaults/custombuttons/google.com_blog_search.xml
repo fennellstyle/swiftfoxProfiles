@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<custombuttons xmlns="http://toolbar.google.com/custombuttons/">
+  <button>
+    <title>Google Blog Search</title>
+    <title locale="ar">بحث المدونات فيGoogle</title>
+    <title locale="bg">Google търсене в блогове</title>
+    <title locale="ca">Cerca de blocs de Google</title>
+    <title locale="cs">Hledání v blozích Google</title>
+    <title locale="da">Google Blog-søgning</title>
+    <title locale="de">Google Blogsuche</title>
+    <title locale="el">Αναζήτηση Ιστολογίου Google</title>
+    <title locale="en-GB">Google Blog Search</title>
+    <title locale="es">Búsqueda de blogs de Google</title>
+    <title locale="et">Google’i blogiotsing</title>
+    <title locale="fi">Google-blogihaku</title>
+    <title locale="fil">Paghahanap sa Google Blog</title>
+    <title locale="fr">Recherche de blogs Google</title>
+    <title locale="hi">Google Blog खोज</title>
+    <title locale="hr">Google pretraživanje blogova</title>
+    <title locale="hu">Keresés Google blogokban</title>
+    <title locale="id">Pencarian Blog Google</title>
+    <title locale="is">Google Bloggleit</title>
+    <title locale="it">Google Blog Search</title>
+    <title locale="iw">Google Blog Search</title>
+    <title locale="ja">Google Blog 検索</title>
+    <title locale="ko">Google 블로그 검색</title>
+    <title locale="lt">„Google Blog Search“</title>
+    <title locale="lv">Google emuāra meklēšana</title>
+    <title locale="nl">Zoeken in blogs met Google</title>
+    <title locale="no">Google-bloggsøk</title>
+    <title locale="pl">Wyszukiwarka blogów Google</title>
+    <title locale="pt-BR">Pesquisa de Blogs Google</title>
+    <title locale="pt-PT">Pesquisa de blogues do Google</title>
+    <title locale="ro">Căutaţi în Google Blog</title>
+    <title locale="ru">Поиск по блогам Google</title>
+    <title locale="sk">Vyhľadávanie v blogoch Google</title>
+    <title locale="sl">Google Blog Search</title>
+    <title locale="sr">Google претрага блогова</title>
+    <title locale="sv">Google Bloggsök</title>
+    <title locale="th">Google Blog Search</title>
+    <title locale="tr">Google Blog Arama</title>
+    <title locale="uk">Пошук у блоґах Google</title>
+    <title locale="vi">Tìm kiếm Blog của Google</title>
+    <title locale="zh-CN">Google 博客搜索</title>
+    <title locale="zh-TW">Google 網誌搜尋</title>
+    <description>Find blogs on your favorite topics</description>
+    <description locale="ar">البحث عن مدونات حول مواضيعك المفضلة</description>
+    <description locale="bg">Търсете блогове на любимите си теми</description>
+    <description locale="ca">Trobeu els blocs dels vostres temes favorits</description>
+    <description locale="cs">Najděte blogy na vaše oblíbená témata</description>
+    <description locale="da">Find blogs i dine favorit emner</description>
+    <description locale="de">Machen Sie Blogs zu Ihren Lieblingsthemen ausfindig.</description>
+    <description locale="el">Βρείτε ιστολόγια για τα αγαπημένα σας θέματα</description>
+    <description locale="en-GB">Find blogs on your favourite topics</description>
+    <description locale="es">Busca blogs sobre tus temas favoritos</description>
+    <description locale="et">Leia oma lemmikteemalisi blogisid</description>
+    <description locale="fi">Hae suosikkiaiheisia blogeja.</description>
+    <description locale="fil">Hanapin ang mga blog tungkol sa iyong mga paboritong paksa</description>
+    <description locale="fr">Recherchez des blogs sur vos sujets favoris</description>
+    <description locale="hi">अपने पसंदीदा विषयों पर ब्लॉग्स ढूंढ़ें</description>
+    <description locale="hr">Pronađite blogove s Vašim omiljenim temama</description>
+    <description locale="hu">Keressen blogokat az önt érdeklő témákban</description>
+    <description locale="id">Cari blog tentang topik favorit Anda</description>
+    <description locale="is">Finndu bloggsíður um áhugamálin þín</description>
+    <description locale="it">Trova i blog relativi ai tuoi argomenti preferiti</description>
+    <description locale="iw">חפש בלוגים בנושאים האהובים עליך</description>
+    <description locale="ja">気になる話題をブログで検索</description>
+    <description locale="ko">좋아하는 주제에 대해 블로그를 검색합니다.</description>
+    <description locale="lt">Rasti archyvų, susijusių su mėgstamomis temomis</description>
+    <description locale="lv">Atrodiet jūs interesējošos emuārus</description>
+    <description locale="nl">Zoeken naar blogs over uw favoriete onderwerpen</description>
+    <description locale="no">Finn nettlogger som omhandler dine favorittemner</description>
+    <description locale="pl">Znajdź blogi na Twój ulubiony temat</description>
+    <description locale="pt-BR">Encontre blogs sobre os assuntos que lhe interessam</description>
+    <description locale="pt-PT">Localizar blogues sobre os tópicos favoritos</description>
+    <description locale="ro">Găsiţi bloguri despre subiectele dvs. preferate</description>
+    <description locale="ru">Найти блоги по избранным темам</description>
+    <description locale="sk">Nájdite blogy o svojich obľúbených témach</description>
+    <description locale="sl">Najdite spletne dnevnike s temami, ki so vam všeč</description>
+    <description locale="sr">Пронађите блогове на своје омиљене теме</description>
+    <description locale="sv">Sök efter bloggar om dina favoritämnen</description>
+    <description locale="th">หาบล็อกเกี่ยวกับหัวข้อเรื่องที่คุณชื่นชอบ</description>
+    <description locale="tr">İlgilendiğiniz konulardaki blogları bulun</description>
+    <description locale="uk">Знайти блоги на улюблені теми</description>
+    <description locale="vi">Tìm blog về những chủ đề bạn ưa thích</description>
+    <description locale="zh-CN">查找与您喜爱的主题有关的博客</description>
+    <description locale="zh-TW">查尋跟您最喜愛的主題相關的網誌</description>
+    <site>http://blogsearch.google.{domain}/?hl={locale}{sourceid}</site>
+    <search>http://blogsearch.google.{domain}/blogsearch?hl={locale}{aq}{sourceid}{rlz}&amp;ie=UTF-8&amp;q={query}</search>
+    <update>http://toolbar.google.com/buttons/defs/google.com_blog_search.xml</update>
+    <version>200807010000</version>
+    <icon type="image/x-icon" mode="base64">
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAHVQTFRF/7cA7MOk/+BS19fXqnY5qXY57lQe86SNw5h+u62k7Ojkw5h/
+/38AqKio4HdT0c/E/+HB/+BT/+LC7cOlQTUseHh44ODg29bG7lQd/99S9Idl7lMdx8fH4+Pj5OTk
+/7gAj4+PwMDAKysrYWFhoaGh/////////RSm8QAAACd0Uk5T////////////////////////////
+//////////////////////8Ag1aX2QAAAHNJREFUeNpcze0SQzAQheFNIkGpUrT1EVukuf9LxMjI
+Ns/Pd87MgYWy1sLy9VxYL2dog2B+l5cJgnZh3jVZ4sOBlYz9LeonR0kXglWAkizmO3YIEX0RyOEo
+/lYAx3e0Bz2d9Ii3hyrAEOmQK7BU/Ok3AQYARI0fFHay6AYAAAAASUVORK5CYII=
+    </icon>
+  </button>
+</custombuttons>

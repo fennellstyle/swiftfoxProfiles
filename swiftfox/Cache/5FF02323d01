@@ -1,0 +1,1102 @@
+/* -------------------------------------------------------------- 
+  
+   reset.css
+   * Resets default browser CSS.
+   
+   Based on work by Eric Meyer:
+   * meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/
+   
+-------------------------------------------------------------- */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, code,
+del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+	}
+:focus { outline: 0; }
+
+body { 
+	line-height: 1.5; 
+	background: #fff; 
+	margin:1.5em 0; 
+	}
+
+/* Tables still need 'cellspacing="0"' in the markup. */
+table { border-collapse: separate; border-spacing: 0; }
+caption, th, td { text-align: left; font-weight: normal; }
+
+/* Remove possible quote marks (") from <q>, <blockquote>. */
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+
+a img { border: none; }
+strong { font-weight: bold; }
+
+
+
+
+/**
+ * SyntaxHighlighter
+ * http://alexgorbatchev.com/
+ *
+ * SyntaxHighlighter is donationware. If you are using it, please donate.
+ * http://alexgorbatchev.com/wiki/SyntaxHighlighter:Donate
+ *
+ * @version
+ * 2.1.364 (October 15 2009)
+ * 
+ * @copyright
+ * Copyright (C) 2004-2009 Alex Gorbatchev.
+ *
+ * @license
+ * This file is part of SyntaxHighlighter.
+ * 
+ * SyntaxHighlighter is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * SyntaxHighlighter is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with SyntaxHighlighter.  If not, see <http://www.gnu.org/copyleft/lesser.html>.
+ */
+.syntaxhighlighter,
+.syntaxhighlighter div,
+.syntaxhighlighter code,
+.syntaxhighlighter table,
+.syntaxhighlighter table td,
+.syntaxhighlighter table tr,
+.syntaxhighlighter table tbody
+{
+	margin: 0 !important;
+	padding: 0 !important;
+	border: 0 !important;
+	outline: 0 !important;
+	background: none !important;
+	text-align: left !important;
+	float: none !important;
+	vertical-align: baseline !important;
+	position: static !important;
+	left: auto !important;
+	top: auto !important;
+	right: auto !important;
+	bottom: auto !important;
+	height: auto !important;
+	width: auto !important;
+	line-height: 1.1em !important;
+	font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace !important;
+	font-weight: normal !important;
+	font-style: normal !important;
+	font-size: 1em !important;
+	min-height: inherit !important; /* For IE8, FF & WebKit */
+	min-height: auto !important; /* For IE7 */
+}
+
+.syntaxhighlighter
+{
+	width: 99% !important; /* 99% fixes IE8 horizontal scrollbar */
+	margin: 1em 0 1em 0 !important;
+	padding: 1px !important; /* adds a little border on top and bottom */
+	position: relative !important;
+}
+
+.syntaxhighlighter .bold 
+{
+	font-weight: bold !important;
+}
+
+.syntaxhighlighter .italic 
+{
+	font-style: italic !important;
+}
+
+.syntaxhighlighter .line
+{
+}
+
+.syntaxhighlighter .no-wrap .line .content
+{
+	white-space: pre !important;
+}
+
+.syntaxhighlighter .line table 
+{
+	border-collapse: collapse !important;
+}
+
+.syntaxhighlighter .line td
+{
+	vertical-align: top !important;
+}
+
+.syntaxhighlighter .line .number
+{
+	width: 3em !important;
+}
+
+.syntaxhighlighter .line .number code
+{
+	width: 2.7em !important;
+	padding-right: .3em !important;
+	text-align: right !important;
+	display: block !important;
+}
+
+.syntaxhighlighter .line .content
+{
+	padding-left: .5em !important;
+}
+
+.syntaxhighlighter .line .spaces
+{
+}
+
+/* Disable border and margin on the lines when no gutter option is set */
+.syntaxhighlighter.nogutter .line .content
+{
+	border-left: none !important;
+}
+
+.syntaxhighlighter .bar
+{
+	display: none !important;
+}
+
+.syntaxhighlighter .bar.show 
+{
+	display: block !important;
+}
+
+.syntaxhighlighter.collapsed .bar
+{
+	display: block !important;
+}
+
+/* Adjust some properties when collapsed */
+
+.syntaxhighlighter.collapsed .lines
+{
+	display: none !important;
+}
+
+.syntaxhighlighter .lines.no-wrap
+{
+	overflow: auto !important;
+	overflow-y: hidden !important;
+}
+
+/* Styles for the toolbar */
+
+.syntaxhighlighter .toolbar
+{
+	position: absolute !important;
+	right: 0px !important;
+	top: 0px !important;
+	font-size: 1px !important;
+	padding: 8px 8px 8px 0 !important; /* in px because images don't scale with ems */
+}
+
+.syntaxhighlighter.collapsed .toolbar
+{
+	font-size: 80% !important;
+	padding: .2em 0 .5em .5em !important;
+	position: static !important;
+}
+
+.syntaxhighlighter .toolbar a.item,
+.syntaxhighlighter .toolbar .item
+{
+	display: block !important;
+	float: left !important;
+	margin-left: 8px !important;
+	background-repeat: no-repeat !important;
+	overflow: hidden !important;
+	text-indent: -5000px !important;
+}
+
+.syntaxhighlighter.collapsed .toolbar .item
+{
+	display: none !important;
+}
+
+.syntaxhighlighter.collapsed .toolbar .item.expandSource
+{
+	background-image: url(magnifier.png) !important;
+	display: inline !important;
+	text-indent: 0 !important;
+	width: auto !important;
+	float: none !important;
+	height: 16px !important;
+	padding-left: 20px !important;
+}
+
+.syntaxhighlighter .toolbar .item.viewSource
+{
+	background-image: url(page_white_code.png) !important;
+}
+
+.syntaxhighlighter .toolbar .item.printSource
+{
+	background-image: url(printer.png) !important;
+}
+
+.syntaxhighlighter .toolbar .item.copyToClipboard
+{
+	text-indent: 0 !important;
+	background: none !important;
+	overflow: visible !important;
+}
+
+.syntaxhighlighter .toolbar .item.about
+{
+	background-image: url(help.png) !important;
+}
+
+/** 
+ * Print view.
+ * Colors are based on the default theme without background.
+ */
+
+.syntaxhighlighter.printing,
+.syntaxhighlighter.printing .line.alt1 .content,
+.syntaxhighlighter.printing .line.alt2 .content,
+.syntaxhighlighter.printing .line.highlighted .number,
+.syntaxhighlighter.printing .line.highlighted.alt1 .content,
+.syntaxhighlighter.printing .line.highlighted.alt2 .content,
+{
+	background: none !important;
+}
+
+/* Gutter line numbers */
+.syntaxhighlighter.printing .line .number
+{
+	color: #bbb !important;
+}
+
+/* Add border to the lines */
+.syntaxhighlighter.printing .line .content
+{
+	color: #000 !important;
+}
+
+/* Toolbar when visible */
+.syntaxhighlighter.printing .toolbar
+{
+	display: none !important;
+}
+
+.syntaxhighlighter.printing a
+{
+	text-decoration: none !important;
+}
+
+.syntaxhighlighter.printing .plain,
+.syntaxhighlighter.printing .plain a
+{ 
+	color: #000 !important;
+}
+
+.syntaxhighlighter.printing .comments,
+.syntaxhighlighter.printing .comments a
+{ 
+	color: #008200 !important;
+}
+
+.syntaxhighlighter.printing .string,
+.syntaxhighlighter.printing .string a
+{
+	color: blue !important; 
+}
+
+.syntaxhighlighter.printing .keyword
+{ 
+	color: #069 !important; 
+	font-weight: bold !important; 
+}
+
+.syntaxhighlighter.printing .preprocessor 
+{ 
+	color: gray !important; 
+}
+
+.syntaxhighlighter.printing .variable 
+{ 
+	color: #a70 !important; 
+}
+
+.syntaxhighlighter.printing .value
+{ 
+	color: #090 !important; 
+}
+
+.syntaxhighlighter.printing .functions
+{ 
+	color: #ff1493 !important; 
+}
+
+.syntaxhighlighter.printing .constants
+{ 
+	color: #0066CC !important; 
+}
+
+.syntaxhighlighter.printing .script
+{
+	font-weight: bold !important;
+}
+
+.syntaxhighlighter.printing .color1,
+.syntaxhighlighter.printing .color1 a
+{ 
+	color: #808080 !important; 
+}
+
+.syntaxhighlighter.printing .color2,
+.syntaxhighlighter.printing .color2 a
+{ 
+	color: #ff1493 !important; 
+}
+
+.syntaxhighlighter.printing .color3,
+.syntaxhighlighter.printing .color3 a
+{ 
+	color: red !important; 
+}
+
+
+/**
+ * SyntaxHighlighter
+ * http://alexgorbatchev.com/
+ *
+ * SyntaxHighlighter is donationware. If you are using it, please donate.
+ * http://alexgorbatchev.com/wiki/SyntaxHighlighter:Donate
+ *
+ * @version
+ * 2.1.364 (October 15 2009)
+ * 
+ * @copyright
+ * Copyright (C) 2004-2009 Alex Gorbatchev.
+ *
+ * @license
+ * This file is part of SyntaxHighlighter.
+ * 
+ * SyntaxHighlighter is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * SyntaxHighlighter is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with SyntaxHighlighter.  If not, see <http://www.gnu.org/copyleft/lesser.html>.
+ */
+/**
+ * Blackboard SyntaxHighlighter theme based on theme from TextMate
+ * 
+ */
+
+/************************************
+ * Interface elements.
+ ************************************/
+
+.syntaxhighlighter
+{
+	background-color: #0D1021 !important;
+}
+
+/* Gutter line numbers */
+.syntaxhighlighter .line .number
+{
+	color: #888888 !important;
+	background-color: #323232 !important;
+}
+
+/* Add border to the lines */
+.syntaxhighlighter .line .content
+{
+	border-left: 3px solid #323232 !important;
+	color: #FFFFFF !important;
+}
+
+.syntaxhighlighter.printing .line .content 
+{
+	border: 0 !important;
+}
+
+/* First line */
+.syntaxhighlighter .line.alt1
+{
+	background-color: #0D1021 !important;
+}
+
+/* Second line */
+.syntaxhighlighter .line.alt2
+{
+	background-color: #0D1021 !important;
+}
+
+/* Highlighed line number */
+.syntaxhighlighter .line.highlighted .number
+{
+	background-color: #435A5F !important;
+	color: #fff !important;
+}
+
+/* Highlighed line */
+.syntaxhighlighter .line.highlighted.alt1,
+.syntaxhighlighter .line.highlighted.alt2
+{
+	background-color: #435A5F !important;
+}
+
+.syntaxhighlighter .toolbar
+{
+	background-color: #0D1021 !important;
+}
+
+.syntaxhighlighter .toolbar a
+{
+	color: #646763 !important;
+}
+
+.syntaxhighlighter .toolbar a:hover
+{
+	color: #E0E8FF !important;
+}
+
+/************************************
+ * Actual syntax highlighter colors.
+ ************************************/
+.syntaxhighlighter .plain,
+.syntaxhighlighter .plain a
+{ 
+	color: #FFFFFF !important;
+}
+
+.syntaxhighlighter .comments,
+.syntaxhighlighter .comments a
+{ 
+	color: #AEAEAE !important;
+}
+
+.syntaxhighlighter .string,
+.syntaxhighlighter .string a
+{
+	color: #61CE3C !important; 
+}
+
+.syntaxhighlighter .keyword
+{ 
+	color: #FBDE2D !important; 
+}
+
+.syntaxhighlighter .preprocessor 
+{ 
+	color: #435A5F !important; 
+}
+
+.syntaxhighlighter .variable 
+{ 
+	color: #FFAA3E !important; 
+}
+
+.syntaxhighlighter .value
+{ 
+	color: #D8FA3C !important; 
+}
+
+.syntaxhighlighter .functions
+{ 
+	color: #FFAA3E !important; 
+}
+
+.syntaxhighlighter .constants
+{ 
+	color: #D8FA3C !important; 
+}
+
+.syntaxhighlighter .script
+{ 
+	background-color: #435A5F !important;
+}
+
+.syntaxhighlighter .color1,
+.syntaxhighlighter .color1 a
+{ 
+	color: #8DA6CE !important; 
+}
+
+.syntaxhighlighter .color2,
+.syntaxhighlighter .color2 a
+{ 
+	color: #D8FA3C !important; 
+}
+
+.syntaxhighlighter .color3,
+.syntaxhighlighter .color3 a
+{ 
+	color: #FF6400 !important; 
+}
+
+
+
+body.proof {
+  background: #fff url('/images/guides/grid-15x160.png') repeat top left; }
+
+body {
+  width: 800px;
+  margin: 0; }
+  body header {
+    float: left;
+    width: 240px; }
+  body nav {
+    float: left;
+    width: 560px; }
+  body article {
+    float: left;
+    width: 800px; }
+
+header h1 {
+  text-indent: -9999px; }
+  header h1 a {
+    display: block;
+    height: 123px;
+    margin-bottom: 57px;
+    background: transparent url('/images/components.png') no-repeat 0px 0px; }
+    header h1 a:hover {
+      background-color: transparent; }
+
+article section#archive span.episode_number {
+  float: left;
+  width: 40px;
+  margin-left: -56px;
+  text-align: right;
+  padding-right: 16px;
+  color: #999; }
+article section {
+  float: left;
+  margin-left: 160px;
+  margin-bottom: 60px;
+  position: relative; }
+  article section div.flattr_button {
+    position: absolute;
+    left: -160px;
+    top: 0px;
+    width: 144px;
+    margin-right: 16px;
+    text-align: right;
+    top: 60px; }
+    article section div.flattr_button .dynamic_flattr {
+      display: none; }
+  article section div.episode_number {
+    position: absolute;
+    left: -160px;
+    top: 0px;
+    width: 144px;
+    margin-right: 16px;
+    text-align: right;
+    color: #999;
+    font-size: 24px; }
+  article section time {
+    position: absolute;
+    left: -160px;
+    top: 0px;
+    width: 144px;
+    margin-right: 16px;
+    text-align: right;
+    top: 25px; }
+  article section p {
+    margin-right: 160px; }
+article section.blogpost time {
+  top: 0px; }
+article section.blogpost h2, article section.episode h2 {
+  margin-right: 160px; }
+
+h3.archive {
+  font-size: 20px;
+  margin-top: 30px; }
+
+h3.first {
+  margin-top: 0px; }
+
+a.archive {
+  display: block;
+  text-decoration: none; }
+  a.archive:link {
+    color: #640e00; }
+  a.archive:visited {
+    color: #525252; }
+  a.archive:hover {
+    color: #640e00;
+    text-decoration: underline; }
+    a.archive:hover span {
+      color: #640e00; }
+  a.archive span {
+    color: #999999;
+    font-size: 13px; }
+
+img.placeholder {
+  cursor: pointer; }
+
+
+
+html body {
+  font-family: Helvetica, Arial, "MS Trebuchet", sans-serif;
+  font-size: 15px;
+  color: #272727;
+  -webkit-text-size-adjust: none; }
+
+body article {
+  position: relative;
+  line-height: 30px;
+  font-size: 15px; }
+  body article time {
+    color: #999999;
+    font-size: 12px; }
+  body article h2 {
+    font-size: 24px;
+    margin-bottom: 15px; }
+    body article h2 a {
+      text-decoration: none; }
+      body article h2 a:link {
+        color: #640e00; }
+      body article h2 a:visited {
+        color: #525252; }
+      body article h2 a:hover {
+        color: #640e00;
+        text-decoration: underline; }
+
+em {
+  font-style: italic;
+  color: #000000; }
+
+strong {
+  font-weight: bold;
+  color: #000000; }
+
+p {
+  font-size: 15px;
+  line-height: 22.5px;
+  margin-bottom: 15px; }
+
+p code {
+  font-family: Monaco, courier, typewriter;
+  font-size: 12px; }
+
+pre {
+  font-family: Monaco, courier, typewriter;
+  font-size: 12px;
+  color: #fcb701;
+  background-color: rgba(0, 0, 0, 0.88);
+  line-height: 15px;
+  padding: 15px 16px;
+  margin: 15px 0;
+  width: 608px;
+  overflow: auto; }
+  pre::selection {
+    background: #283a76; }
+  pre::-moz-selection {
+    background: #283a76; }
+  pre code {
+    font-family: Monaco, courier, typewriter;
+    font-size: 12px;
+    color: #fcb701; }
+    pre code::selection {
+      background: #283a76; }
+    pre code::-moz-selection {
+      background: #283a76; }
+
+.gist pre {
+  color: #000000; }
+
+blockquote {
+  font-style: italic;
+  padding: 15px 16px; }
+
+ul {
+  list-style-type: square;
+  list-style-position: outside;
+  line-height: 22.5px;
+  margin-bottom: 15px; }
+
+p a, ul a, table a {
+  text-decoration: none; }
+  p a:link,   ul a:link,   table a:link {
+    color: #640e00; }
+  p a:visited,   ul a:visited,   table a:visited {
+    color: #525252; }
+  p a:hover,   ul a:hover,   table a:hover {
+    color: #640e00;
+    text-decoration: underline; }
+p code, ul code, table code {
+  font-family: Monaco, courier, typewriter;
+  font-size: 12px; }
+  p code a,   ul code a,   table code a {
+    text-decoration: none; }
+    p code a:link,     ul code a:link,     table code a:link {
+      color: #640e00; }
+    p code a:visited,     ul code a:visited,     table code a:visited {
+      color: #525252; }
+    p code a:hover,     ul code a:hover,     table code a:hover {
+      color: #640e00;
+      text-decoration: underline; }
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 15px; }
+
+table {
+  width: 480px;
+  margin-bottom: 30px; }
+  table a {
+    text-decoration: none; }
+    table a:link {
+      color: #640e00; }
+    table a:visited {
+      color: #525252; }
+    table a:hover {
+      color: #640e00;
+      text-decoration: underline; }
+  table th, table td {
+    padding: 0 8px; }
+  table th {
+    border-bottom: 1px solid #999999;
+    font-weight: bold; }
+  table th.topspacer {
+    padding-top: 15px; }
+  table td {
+    padding-top: 15px;
+    line-height: 22.5px; }
+  table td.large {
+    padding-left: 16px;
+    font-size: 20px; }
+  table td.format {
+    padding-bottom: 15px; }
+
+
+nav {
+  margin-top: 10px; }
+  nav ul {
+    float: left;
+    width: 100%;
+    list-style-type: none; }
+    nav ul li a, nav ul li span {
+      height: 30px;
+      background: transparent url('/images/components.png') no-repeat 0px -250px;
+      text-indent: -9999px;
+      float: right;
+      width: 160px;
+      margin-left: 400px; }
+    nav ul li#nav--episodes a {
+      background-position: 0 -250px; }
+      nav ul li#nav--episodes a:hover {
+        background-position: -320px -250px; }
+    nav ul li#nav--episodes span {
+      background-position: -160px -250px; }
+    nav ul li#nav--episodes-archive a {
+      background-position: 0 -280px; }
+      nav ul li#nav--episodes-archive a:hover {
+        background-position: -320px -280px; }
+    nav ul li#nav--episodes-archive span {
+      background-position: -160px -280px; }
+    nav ul li#nav--about a {
+      background-position: 0 -310px; }
+      nav ul li#nav--about a:hover {
+        background-position: -320px -310px; }
+    nav ul li#nav--about span {
+      background-position: -160px -310px; }
+    nav ul li#nav--feeds a {
+      background-position: 0 -340px; }
+      nav ul li#nav--feeds a:hover {
+        background-position: -320px -340px; }
+    nav ul li#nav--feeds span {
+      background-position: -160px -340px; }
+    nav ul li#nav-- a {
+      background-position: 0 -370px; }
+      nav ul li#nav-- a:hover {
+        background-position: -320px -370px; }
+    nav ul li#nav-- span {
+      background-position: -160px -370px; }
+
+
+div#subnav {
+  float: left;
+  width: 478px;
+  margin-left: 160px;
+  margin-bottom: 60px; }
+  div#subnav div#pages {
+    float: left;
+    width: 478px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #999999; }
+    div#subnav div#pages .next_page, div#subnav div#pages .prev_page {
+      background: transparent url('/images/components.png') no-repeat  0px 0px; }
+    div#subnav div#pages .next_page {
+      overflow: hidden;
+      text-indent: 9999px;
+      float: right;
+      width: 160px;
+      text-align: right; }
+    div#subnav div#pages a.next_page {
+      background-position: -160px -398px; }
+      div#subnav div#pages a.next_page:hover {
+        background-position: -160px -428px; }
+    div#subnav div#pages span.next_page {
+      background-position: -160px -458px; }
+    div#subnav div#pages .prev_page {
+      text-indent: -9999px;
+      float: left;
+      width: 160px;
+      text-align: left; }
+    div#subnav div#pages a.prev_page {
+      background-position: 0px -398px; }
+      div#subnav div#pages a.prev_page:hover {
+        background-position: 0px -428px; }
+    div#subnav div#pages span.prev_page {
+      background-position: 0px -458px; }
+
+
+div.downloads {
+  float: left;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #999999;
+  margin-top: 14px;
+  margin-bottom: 44px;
+  margin-right: 160px;
+  width: 478px; }
+  div.downloads h3 {
+    float: left;
+    width: 238px;
+    background: transparent url('/images/components.png') no-repeat 0px 6px;
+    background-position: 0px -144px;
+    text-indent: -9999px;
+    line-height: 50px;
+    margin-bottom: 0; }
+  div.downloads p {
+    position: relative;
+    line-height: 30px;
+    float: right;
+    width: 240px;
+    margin-right: 0;
+    margin-bottom: 0; }
+    div.downloads p.ogg {
+      top: 4px; }
+    div.downloads p.quicktime {
+      top: -3px; }
+    div.downloads p span.stats {
+      float: left;
+      width: 50px;
+      text-align: right;
+      font-size: 11px; }
+    div.downloads p a {
+      float: left;
+      width: 80px;
+      text-decoration: none;
+      text-indent: -9999px;
+      background: transparent url('/images/components.png') no-repeat 0 0; }
+    div.downloads p.quicktime a {
+      background-position: 0px -217px; }
+      div.downloads p.quicktime a:hover {
+        background-position: -160px -217px; }
+    div.downloads p.ogg a {
+      background-position: 0px -187px; }
+      div.downloads p.ogg a:hover {
+        background-position: -160px -187px; }
+
+img.placeholder, video {
+  display: none;
+  margin-bottom: -10px; }
+
+section#feature img.placeholder, section#feature video {
+  display: none;
+  margin-bottom: 20px; }
+
+body.scripted div.downloads {
+  margin-bottom: -1px; }
+body.scripted img.placeholder, body.scripted video {
+  display: block; }
+body.scripted section#feature img.placeholder, body.scripted section#feature video {
+  display: block; }
+
+
+#tipjar_header {
+  float: left;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #999999;
+  margin-top: 14px;
+  margin-bottom: 44px;
+  margin-right: 160px;
+  width: 478px;
+  margin-bottom: -1px; }
+  #tipjar_header h3 {
+    float: left;
+    width: 238px;
+    background: transparent url('/images/components.png') no-repeat 0px 6px;
+    background-position: 0px -144px;
+    text-indent: -9999px;
+    line-height: 50px;
+    margin-bottom: 0;
+    background: transparent url('/images/components.png') no-repeat 0px 6px;
+    background-position: 0px -504px; }
+  #tipjar_header p {
+    position: relative;
+    line-height: 58px;
+    float: right;
+    width: 240px;
+    margin-right: 0;
+    margin-bottom: 0; }
+
+#donate_button form {
+  height: 60px; }
+  #donate_button form input {
+    font-size: 9px;
+    position: relative;
+    right: -130px;
+    top: 17px;
+    width: 92px; }
+
+p#caption {
+  background: transparent url('/images/tipjar/caption.png') no-repeat 0px 6px;
+  text-indent: -9999px;
+  line-height: 60px;
+  position: relative;
+  top: -372px; }
+
+#tipjar_small {
+  float: left;
+  width: 120px; }
+  #tipjar_small strong {
+    border-top: 1px solid #999999;
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+    width: 118px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-indent: -99999px;
+    background: #fff url('/images/components.png') -62px -579px; }
+  #tipjar_small:hover strong {
+    background: #fff url('/images/components.png') -222px -579px; }
+  #tipjar_small img#tipjar_image {
+    border-top: 1px solid #999999;
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+    width: 118px;
+    display: block;
+    text-align: center; }
+  #tipjar_small #paypal_button {
+    float: left;
+    width: 120px;
+    border-top: 1px solid #999999;
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+    width: 118px;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #999999; }
+    #tipjar_small #paypal_button input {
+      margin-top: 10px; }
+
+
+div#comments {
+  float: left;
+  width: 478px;
+  margin-left: 160px;
+  margin-bottom: 60px; }
+  div#comments a {
+    color: #640e00; }
+    div#comments a.dsq-brlink {
+      display: block;
+      font-size: 11px; }
+
+p.draft_warning {
+  float: left;
+  width: 446px;
+  border: 1px solid #272727;
+  color: #fcb701;
+  background-color: #272727;
+  padding: 15px 16px;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-bottom: 60px; }
+
+
+.syntaxhighlighter, .syntaxhighlighter div, .syntaxhighlighter code, .syntaxhighlighter table, .syntaxhighlighter table td, .syntaxhighlighter table tr, .syntaxhighlighter table tbody {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  outline: 0 !important;
+  background: none !important;
+  text-align: left !important;
+  float: none !important;
+  vertical-align: baseline !important;
+  position: static !important;
+  left: auto !important;
+  top: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  height: auto !important;
+  width: auto !important;
+  line-height: 15px !important;
+  font-family: Monaco, "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-size: 12px !important;
+  min-height: inherit !important / For IE8, FF & WebKit;
+  min-height: auto !important / For IE7 */;
+  -webkit-text-size-adjust: none; }
+  .syntaxhighlighter::selection,   .syntaxhighlighter div::selection,   .syntaxhighlighter code::selection,   .syntaxhighlighter table::selection,   .syntaxhighlighter table td::selection,   .syntaxhighlighter table tr::selection,   .syntaxhighlighter table tbody::selection {
+    background-color: #283a76 !important; }
+  .syntaxhighlighter::-moz-selection,   .syntaxhighlighter div::-moz-selection,   .syntaxhighlighter code::-moz-selection,   .syntaxhighlighter table::-moz-selection,   .syntaxhighlighter table td::-moz-selection,   .syntaxhighlighter table tr::-moz-selection,   .syntaxhighlighter table tbody::-moz-selection {
+    background-color: #283a76 !important; }
+
+.syntaxhighlighter {
+  padding: 15px 16px !important;
+  margin: 15px 0 !important;
+  width: 608px !important;
+  background-color: #0d1021 !important; }
+
+.syntaxhighlighter .line .content {
+  padding-left: 0 !important; }
+
+#sponsors_feature, #sponsors_index {
+  width: 120px; }
+  #sponsors_feature h2,   #sponsors_index h2 {
+    text-indent: -99999px;
+    background: #fff url('/images/components.png') -369px -579px;
+    margin-bottom: 0px; }
+  #sponsors_feature a.advert,   #sponsors_index a.advert {
+    float: left;
+    width: 120px;
+    margin-bottom: 20px; }
+
+#sponsors_index {
+  position: absolute;
+  top: -2px;
+  right: 0; }
+  #sponsors_index h2 {
+    background: #fff url('/images/components.png') -362px -579px; }
+
+#sponsors_feature {
+  position: absolute;
+  top: 136px;
+  left: 20px; }

@@ -1,0 +1,164 @@
+overlay chrome://browser/content/browser.xul chrome://dwhelper/content/dwhelper.xul
+content dwhelper    jar:chrome/dwhelper.jar!/content/
+skin    dwhelper classic/1.0 jar:chrome/dwhelper.jar!/skin/classic/
+locale  dwhelper en-US jar:chrome/dwhelper.jar!/locale/en-US/
+locale  dwhelper fr jar:chrome/dwhelper.jar!/locale/fr/
+locale  dwhelper nl jar:chrome/dwhelper.jar!/locale/nl/
+locale  dwhelper de jar:chrome/dwhelper.jar!/locale/de/
+locale  dwhelper es-ES jar:chrome/dwhelper.jar!/locale/es-ES/
+locale  dwhelper it-IT jar:chrome/dwhelper.jar!/locale/it-IT/
+locale  dwhelper sk-SK jar:chrome/dwhelper.jar!/locale/sk-SK/
+locale  dwhelper zh-CN jar:chrome/dwhelper.jar!/locale/zh-CN/
+locale  dwhelper pl-PL jar:chrome/dwhelper.jar!/locale/pl-PL/
+locale  dwhelper pt-PT jar:chrome/dwhelper.jar!/locale/pt-PT/
+locale  dwhelper tr-TR jar:chrome/dwhelper.jar!/locale/tr-TR/
+locale  dwhelper ja-JP jar:chrome/dwhelper.jar!/locale/ja-JP/
+locale  dwhelper fi-FI jar:chrome/dwhelper.jar!/locale/fi-FI/
+locale  dwhelper zh-TW jar:chrome/dwhelper.jar!/locale/zh-TW/
+locale  dwhelper ko-KR jar:chrome/dwhelper.jar!/locale/ko-KR/
+locale  dwhelper vi jar:chrome/dwhelper.jar!/locale/vi/
+locale  dwhelper bg-BG jar:chrome/dwhelper.jar!/locale/bg-BG/
+locale  dwhelper pt-BR jar:chrome/dwhelper.jar!/locale/pt-BR/
+locale  dwhelper ru-RU jar:chrome/dwhelper.jar!/locale/ru-RU/
+locale  dwhelper cs-CZ jar:chrome/dwhelper.jar!/locale/cs-CZ/
+locale  dwhelper da-DK jar:chrome/dwhelper.jar!/locale/da-DK/
+locale  dwhelper sl-SI jar:chrome/dwhelper.jar!/locale/sl-SI/
+locale  dwhelper ar jar:chrome/dwhelper.jar!/locale/ar/
+locale  dwhelper si-LK jar:chrome/dwhelper.jar!/locale/si-LK/
+locale  dwhelper ro jar:chrome/dwhelper.jar!/locale/ro/
+style   chrome://global/content/customizeToolbar.xul    chrome://dwhelper/skin/classic/dwhelper.css
+overlay chrome://songbird/content/xul/layoutWithBrowserOverlay.xul chrome://dwhelper/content/dwhelper.xul
+style   chrome://songbird/content/xul/layoutWithBrowserOverlay.xul    chrome://dwhelper/skin/classic/dwhelper.css
+overlay chrome://navigator/content/navigator.xul chrome://dwhelper/content/dwhelper.xul
+style chrome://navigator/content/navigator.xul chrome://dwhelper/skin/classic/dwhelper.css
+
+interfaces components/dhIYTInfo.xpt
+interfaces components/dhIProbe.xpt
+interfaces components/dhIPreProcessor.xpt
+interfaces components/dhIProbeMouseListener.xpt
+interfaces components/dhIMediaListMgr.xpt
+interfaces components/dhITwitter.xpt
+interfaces components/dhIYoutubeTool.xpt
+interfaces components/dhIYTHQChecker.xpt
+interfaces components/dhIUtilService.xpt
+interfaces components/dhIDownloadListener.xpt
+interfaces components/dhIYTHQCheckerListener.xpt
+interfaces components/dhIDownloadMgr.xpt
+interfaces components/dhISmartNamer.xpt
+interfaces components/dhIConversionListener.xpt
+interfaces components/dhIConvertMgr.xpt
+interfaces components/dhIMP3Tunes.xpt
+interfaces components/dhIDOMHook.xpt
+interfaces components/dhIYTLinkFinder.xpt
+interfaces components/dhIProcessor.xpt
+interfaces components/dhIContextItem.xpt
+interfaces components/dhICore.xpt
+
+component {dbd8dc72-2cdf-44ad-bf9a-5dc7a3fc3036} components/dhUtilService.js
+contract @downloadhelper.net/util-service;1 {dbd8dc72-2cdf-44ad-bf9a-5dc7a3fc3036}
+category profile-after-change @downloadhelper.net/util-service;1 @downloadhelper.net/util-service;1
+
+component {e4e95e7f-12f1-4b21-8155-82eb22b88c86} components/dhCore.js
+contract @downloadhelper.net/core;1 {e4e95e7f-12f1-4b21-8155-82eb22b88c86}
+category profile-after-change @downloadhelper.net/core;1 @downloadhelper.net/core;1
+
+component {b60070dc-d471-4007-ab63-b30626e5ab5c} components/dhLicenseHandler.js
+contract @downloadhelper.net/license-handler;1 {b60070dc-d471-4007-ab63-b30626e5ab5c}
+category profile-after-change @downloadhelper.net/license-handler;1 @downloadhelper.net/license-handler;1
+
+component {2b554319-e7fb-420e-8f12-1bf88aa2848d} components/dhConvConfHandler.js
+contract @downloadhelper.net/convconf-handler;1 {2b554319-e7fb-420e-8f12-1bf88aa2848d}
+category profile-after-change @downloadhelper.net/convconf-handler;1 @downloadhelper.net/convconf-handler;1
+
+component {cbcb1770-ec4c-404c-9a3f-b8e1c49859d0} components/dhSafeModeHandler.js
+contract @downloadhelper.net/safe-mode-handler;1 {cbcb1770-ec4c-404c-9a3f-b8e1c49859d0}
+category profile-after-change @downloadhelper.net/safe-mode-handler;1 @downloadhelper.net/safe-mode-handler;1
+
+component {506124c4-0076-48d2-bfee-14bb3187560e} components/dhYoutubeProbe.js
+contract @downloadhelper.net/youtube-probe;1 {506124c4-0076-48d2-bfee-14bb3187560e}
+category profile-after-change @downloadhelper.net/youtube-probe;1 @downloadhelper.net/youtube-probe;1
+
+component {7f3707a8-34b9-488d-a861-ffcb0a3e0c29} components/dhMedialinkProbe.js
+contract @downloadhelper.net/medialink-probe;1 {7f3707a8-34b9-488d-a861-ffcb0a3e0c29}
+category profile-after-change @downloadhelper.net/medialink-probe;1 @downloadhelper.net/medialink-probe;1
+
+component {29eb6720-7684-4b04-bc58-c18f554c6d55} components/dhNetworkProbe.js
+contract @downloadhelper.net/network-probe;1 {29eb6720-7684-4b04-bc58-c18f554c6d55}
+category profile-after-change @downloadhelper.net/network-probe;1 @downloadhelper.net/network-probe;1
+
+component {1f5c8528-c5b5-4b03-be0d-c8948028d9e6} components/dhDownloadProcessor.js
+contract @downloadhelper.net/download-processor;1 {1f5c8528-c5b5-4b03-be0d-c8948028d9e6}
+category profile-after-change @downloadhelper.net/download-processor;1 @downloadhelper.net/download-processor;1
+
+component {38e2b849-ecf0-438b-b3a3-845d33f29b0c} components/dhQuickDownloadProcessor.js
+contract @downloadhelper.net/quick-download-processor;1 {38e2b849-ecf0-438b-b3a3-845d33f29b0c}
+category profile-after-change @downloadhelper.net/quick-download-processor;1 @downloadhelper.net/quick-download-processor;1
+
+component {f9f662a6-77d4-437e-8f53-4fcc39fddf47} components/dhDownloadConvertProcessor.js
+contract @downloadhelper.net/download-convert-processor;1 {f9f662a6-77d4-437e-8f53-4fcc39fddf47}
+category profile-after-change @downloadhelper.net/download-convert-processor;1 @downloadhelper.net/download-convert-processor;1
+
+component {3b6dfafc-a55a-4e3b-8e2c-34584c33d676} components/dhSecretHelperProcessor.js
+contract @downloadhelper.net/secrethelper-intro-processor;1 {3b6dfafc-a55a-4e3b-8e2c-34584c33d676}
+category profile-after-change @downloadhelper.net/secrethelper-intro-processor;1 @downloadhelper.net/secrethelper-intro-processor;1
+
+component {e7933021-dbbb-493f-8b68-e0b74c2c1fea} components/dhTwitterProcessor.js
+contract @downloadhelper.net/twitter-processor;1 {e7933021-dbbb-493f-8b68-e0b74c2c1fea}
+category profile-after-change @downloadhelper.net/twitter-processor;1 @downloadhelper.net/twitter-processor;1
+
+component {6d2d4306-a218-4be4-bdc4-61630dd7df7e} components/dhFlashgotDownloadProcessor.js
+contract @downloadhelper.net/flashgot-download-processor;1 {6d2d4306-a218-4be4-bdc4-61630dd7df7e}
+category profile-after-change @downloadhelper.net/flashgot-download-processor;1 @downloadhelper.net/flashgot-download-processor;1
+
+component {93e81622-ce06-410e-bc10-4f3dd7617399} components/dhCopyUrlProcessor.js
+contract @downloadhelper.net/copyurl-processor;1 {93e81622-ce06-410e-bc10-4f3dd7617399}
+category profile-after-change @downloadhelper.net/copyurl-processor;1 @downloadhelper.net/copyurl-processor;1
+
+component {c0b558fd-d32a-4b7f-ae48-5ef095134292} components/dhDumpProcessor.js
+contract @downloadhelper.net/dump-processor;1 {c0b558fd-d32a-4b7f-ae48-5ef095134292}
+category profile-after-change @downloadhelper.net/dump-processor;1 @downloadhelper.net/dump-processor;1
+
+component {0c392af1-68a0-4a66-b7ca-8ce72a01f2ad} components/dhAddToBlackListProcessor.js
+contract @downloadhelper.net/add-to-blacklist-processor;1 {0c392af1-68a0-4a66-b7ca-8ce72a01f2ad}
+category profile-after-change @downloadhelper.net/add-to-blacklist-processor;1 @downloadhelper.net/add-to-blacklist-processor;1
+
+component {afc4a7aa-be25-4acb-bd64-999ece9b403c} components/dhMP3TunesMobileProcessor.js
+contract @downloadhelper.net/mp3tunes-mobile-processor;1 {afc4a7aa-be25-4acb-bd64-999ece9b403c}
+category profile-after-change @downloadhelper.net/mp3tunes-mobile-processor;1 @downloadhelper.net/mp3tunes-mobile-processor;1
+
+component {021d8a4d-5978-4632-b69a-9351bc827f01} components/dhMP3TunesLockerProcessor.js
+contract @downloadhelper.net/mp3tunes-locker-processor;1 {021d8a4d-5978-4632-b69a-9351bc827f01}
+category profile-after-change @downloadhelper.net/mp3tunes-locker-processor;1 @downloadhelper.net/mp3tunes-locker-processor;1
+
+component {5f4589e7-114b-4a4b-a63e-06ca7f22439d} components/dhConvertMgr.js
+contract @downloadhelper.net/convert-manager-component {5f4589e7-114b-4a4b-a63e-06ca7f22439d}
+category profile-after-change @downloadhelper.net/convert-manager-component @downloadhelper.net/convert-manager-component
+
+component {7e757f8b-0a62-4e65-9339-4b4fd1cb9bcc} components/dhDOMHook.js
+contract @downloadhelper.net/dom-hook;1 {7e757f8b-0a62-4e65-9339-4b4fd1cb9bcc}
+category profile-after-change @downloadhelper.net/dom-hook;1 @downloadhelper.net/dom-hook;1
+
+component {55f8f6d3-9ac7-4046-b1bb-7c732e27d2d6} components/dhMediaListMgr.js
+contract @downloadhelper.net/media-list-manager {55f8f6d3-9ac7-4046-b1bb-7c732e27d2d6}
+category profile-after-change @downloadhelper.net/media-list-manager @downloadhelper.net/media-list-manager
+
+component {59dd53ca-8989-4e95-bc7a-996e8592886e} components/dhMP3Tunes.js
+contract @downloadhelper.net/mp3tunes-manager;1 {59dd53ca-8989-4e95-bc7a-996e8592886e}
+category profile-after-change @downloadhelper.net/mp3tunes-manager;1 @downloadhelper.net/mp3tunes-manager;1
+
+component {7d087a1b-d9f1-4698-92ea-b9a1b514ebde} components/dhSmartNamer.js
+contract @downloadhelper.net/smart-namer;1 {7d087a1b-d9f1-4698-92ea-b9a1b514ebde}
+category profile-after-change @downloadhelper.net/smart-namer;1 @downloadhelper.net/smart-namer;1
+
+component {fc78d3e8-91f0-4ccd-a830-aefd00595f43} components/dhYoutubeLinksContextItem.js
+contract @downloadhelper.net/youtube-links-context-item;1 {fc78d3e8-91f0-4ccd-a830-aefd00595f43}
+category profile-after-change @downloadhelper.net/youtube-links-context-item;1 @downloadhelper.net/youtube-links-context-item;1
+
+component {7f4790d6-e31f-4e1d-a044-983ffbdf1705} components/dhYTInfo.js
+contract @downloadhelper.net/youtube-info;1 {7f4790d6-e31f-4e1d-a044-983ffbdf1705}
+category profile-after-change @downloadhelper.net/youtube-info;1 @downloadhelper.net/youtube-info;1
+
+component {dc9206a8-fe97-4214-b9a7-e07e584c6710} components/dhDownloadMgr.js
+contract @downloadhelper.net/download-manager;1 {dc9206a8-fe97-4214-b9a7-e07e584c6710}
+category profile-after-change @downloadhelper.net/download-manager;1 @downloadhelper.net/download-manager;1
+

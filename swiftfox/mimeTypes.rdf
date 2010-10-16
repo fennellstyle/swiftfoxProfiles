@@ -1,0 +1,368 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:mimetype:externalApplication:image/pjpeg"
+                   NC:path="/usr/bin/gthumb"
+                   NC:prettyName="gthumb" />
+  <RDF:Description RDF:about="urn:mimetype:externalApplication:video/x-ms-wmv"
+                   NC:path="/usr/bin/vlc"
+                   NC:prettyName="vlc" />
+  <RDF:Description RDF:about="urn:schemes">
+    <NC:Protocol-Schemes RDF:resource="urn:schemes:root"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:handler:image/pjpeg"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="false"
+                   NC:useSystemDefault="false"
+                   NC:handleInternal="false">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:image/pjpeg"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:audio/mpeg"
+                   NC:value="audio/mpeg"
+                   NC:editable="true"
+                   NC:description="MPEG Audio">
+    <NC:fileExtensions>mp3</NC:fileExtensions>
+    <NC:fileExtensions>mpga</NC:fileExtensions>
+    <NC:fileExtensions>mpega</NC:fileExtensions>
+    <NC:fileExtensions>mp2</NC:fileExtensions>
+    <NC:fileExtensions>m4a</NC:fileExtensions>
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:audio/mpeg"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:handler:web:http://compose.mail.yahoo.com/?To=%s"
+                   NC:prettyName="Yahoo! Mail"
+                   NC:uriTemplate="http://compose.mail.yahoo.com/?To=%s" />
+  <RDF:Description RDF:about="urn:mimetype:application/vnd.oasis.opendocument.text"
+                   NC:value="application/vnd.oasis.opendocument.text"
+                   NC:editable="true"
+                   NC:fileExtensions="odt"
+                   NC:description="OpenDocument Text Document">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:application/vnd.oasis.opendocument.text"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:video/x-ms-wmv"
+                   NC:fileExtensions="wmv"
+                   NC:description=""
+                   NC:value="video/x-ms-wmv"
+                   NC:editable="true">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:video/x-ms-wmv"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:scheme:webcal"
+                   NC:value="webcal">
+    <NC:handlerProp RDF:resource="urn:scheme:handler:webcal"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:schemes:root">
+    <RDF:li RDF:resource="urn:scheme:webcal"/>
+    <RDF:li RDF:resource="urn:scheme:mailto"/>
+    <RDF:li RDF:resource="urn:scheme:irc"/>
+    <RDF:li RDF:resource="urn:scheme:ircs"/>
+    <RDF:li RDF:resource="urn:scheme:file"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mimetype:application/x-bittorrent"
+                   NC:fileExtensions="torrent"
+                   NC:description=""
+                   NC:value="application/x-bittorrent"
+                   NC:editable="true">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:application/x-bittorrent"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:externalApplication:image/jpeg"
+                   NC:path="C:\Program Files\QuickTime\PictureViewer.exe"
+                   NC:prettyName="PictureViewer.exe" />
+  <RDF:Description RDF:about="urn:mimetype:message/rfc822"
+                   NC:fileExtensions="eml"
+                   NC:description="RFC-822 data"
+                   NC:value="message/rfc822"
+                   NC:editable="true">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:message/rfc822"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:externalApplication:application/x-gzip"
+                   NC:prettyName=""
+                   NC:path="" />
+  <RDF:Description RDF:about="urn:mimetype:handler:application/pdf"
+                   NC:alwaysAsk="true"
+                   NC:useSystemDefault="true"
+                   NC:saveToDisk="false">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:application/pdf"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:scheme:externalApplication:file"
+                   NC:prettyName="vlc"
+                   NC:path="/usr/bin/vlc" />
+  <RDF:Description RDF:about="urn:root"
+                   NC:en-US_defaultHandlersVersion="3" />
+  <RDF:Description RDF:about="urn:mimetype:application/vnd.ms-cab-compressed"
+                   NC:value="application/vnd.ms-cab-compressed"
+                   NC:editable="true"
+                   NC:fileExtensions="cab"
+                   NC:description="WinRAR archive">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:application/vnd.ms-cab-compressed"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:application/vnd.ms-powerpoint"
+                   NC:fileExtensions="pps"
+                   NC:description=""
+                   NC:value="application/vnd.ms-powerpoint"
+                   NC:editable="true">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:application/vnd.ms-powerpoint"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetypes">
+    <NC:MIME-types RDF:resource="urn:mimetypes:root"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:externalApplication:application/x-msdownload"
+                   NC:prettyName=""
+                   NC:path="" />
+  <RDF:Description RDF:about="urn:scheme:handler:mailto"
+                   NC:useSystemDefault="true"
+                   NC:alwaysAsk="false">
+    <NC:possibleApplication RDF:resource="urn:handler:web:http://compose.mail.yahoo.com/?To=%s"/>
+    <NC:possibleApplication RDF:resource="urn:handler:web:https://mail.google.com/mail/?extsrc=mailto&amp;url=%s"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:handler:application/x-msdownload"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="true">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:application/x-msdownload"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:scheme:handler:webcal"
+                   NC:alwaysAsk="true">
+    <NC:possibleApplication RDF:resource="urn:handler:web:http://30boxes.com/external/widget?refer=ff&amp;url=%s"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:application/x-msdownload"
+                   NC:value="application/x-msdownload"
+                   NC:editable="true"
+                   NC:fileExtensions="exe"
+                   NC:description="Application">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:application/x-msdownload"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:externalApplication:message/rfc822"
+                   NC:path="C:\Program Files\FLV Player\flvplayer.exe"
+                   NC:prettyName="flvplayer.exe" />
+  <RDF:Description RDF:about="urn:mimetype:externalApplication:application/x-bittorrent"
+                   NC:path="C:\Program Files\FlashGet\flashget.exe"
+                   NC:prettyName="flashget.exe" />
+  <RDF:Description RDF:about="urn:mimetype:externalApplication:application/vnd.ms-cab-compressed"
+                   NC:prettyName=""
+                   NC:path="" />
+  <RDF:Description RDF:about="urn:scheme:ircs"
+                   NC:value="ircs">
+    <NC:handlerProp RDF:resource="urn:scheme:handler:ircs"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:handler:application/vnd.ms-powerpoint"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="false"
+                   NC:useSystemDefault="false"
+                   NC:handleInternal="false">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:application/vnd.ms-powerpoint"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:handler:application/x-bittorrent"
+                   NC:handleInternal="false"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="true"
+                   NC:useSystemDefault="false">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:application/x-bittorrent"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:handler:application/zip"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="true"
+                   NC:useSystemDefault="false">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:application/zip"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:handler:video/x-ms-wmv"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="false"
+                   NC:useSystemDefault="false"
+                   NC:handleInternal="false">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:video/x-ms-wmv"/>
+    <NC:possibleApplication RDF:resource="urn:handler:local:/usr/lib/swiftfox"/>
+    <NC:possibleApplication RDF:resource="urn:handler:local:/usr/bin/vlc"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:handler:audio/mpeg"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="true">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:audio/mpeg"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:handler:message/rfc822"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="false"
+                   NC:useSystemDefault="false"
+                   NC:handleInternal="false">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:message/rfc822"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:scheme:handler:ircs"
+                   NC:alwaysAsk="true">
+    <NC:possibleApplication RDF:resource="urn:handler:web:https://www.mibbit.com/?url=%s"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:handler:application/vnd.ms-cab-compressed"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="true">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:application/vnd.ms-cab-compressed"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:handler:application/vnd.oasis.opendocument.text"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="true">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:application/vnd.oasis.opendocument.text"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:text/plain"
+                   NC:value="text/plain"
+                   NC:editable="true"
+                   NC:description="">
+    <NC:fileExtensions>txt</NC:fileExtensions>
+    <NC:fileExtensions>asc</NC:fileExtensions>
+    <NC:fileExtensions>text</NC:fileExtensions>
+    <NC:fileExtensions>pot</NC:fileExtensions>
+    <NC:fileExtensions>brf</NC:fileExtensions>
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:text/plain"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:externalApplication:audio/x-mpegurl"
+                   NC:path="C:\Program Files\VideoLAN\VLC\vlc.exe"
+                   NC:prettyName="vlc.exe" />
+  <RDF:Description RDF:about="urn:mimetype:audio/x-mpegurl"
+                   NC:value="audio/x-mpegurl"
+                   NC:editable="true"
+                   NC:fileExtensions="m3u"
+                   NC:description="M3U file">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:audio/x-mpegurl"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:handler:audio/x-mpegurl"
+                   NC:alwaysAsk="false"
+                   NC:saveToDisk="false"
+                   NC:useSystemDefault="false"
+                   NC:handleInternal="false">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:audio/x-mpegurl"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:externalApplication:application/vnd.ms-powerpoint"
+                   NC:path="C:\Program Files\Real Alternative\Media Player Classic\mplayerc.exe"
+                   NC:prettyName="mplayerc.exe" />
+  <RDF:Description RDF:about="urn:mimetype:handler:image/jpeg"
+                   NC:handleInternal="false"
+                   NC:alwaysAsk="true"
+                   NC:useSystemDefault="true"
+                   NC:saveToDisk="false">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:image/jpeg"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:handler:web:http://30boxes.com/external/widget?refer=ff&amp;url=%s"
+                   NC:prettyName="30 Boxes"
+                   NC:uriTemplate="http://30boxes.com/external/widget?refer=ff&amp;url=%s" />
+  <RDF:Description RDF:about="urn:scheme:irc"
+                   NC:value="irc">
+    <NC:handlerProp RDF:resource="urn:scheme:handler:irc"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:handler:application/x-gzip"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="true">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:application/x-gzip"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:scheme:mailto"
+                   NC:value="mailto">
+    <NC:handlerProp RDF:resource="urn:scheme:handler:mailto"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:handler:web:https://www.mibbit.com/?url=%s"
+                   NC:prettyName="Mibbit"
+                   NC:uriTemplate="https://www.mibbit.com/?url=%s" />
+  <RDF:Description RDF:about="urn:mimetype:image/pjpeg"
+                   NC:description="JPEG Image"
+                   NC:value="image/pjpeg"
+                   NC:editable="true">
+    <NC:fileExtensions>jpg</NC:fileExtensions>
+    <NC:fileExtensions>jpeg</NC:fileExtensions>
+    <NC:fileExtensions>jfif</NC:fileExtensions>
+    <NC:fileExtensions>pjpeg</NC:fileExtensions>
+    <NC:fileExtensions>pjp</NC:fileExtensions>
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:image/pjpeg"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:externalApplication:application/zip"
+                   NC:prettyName=""
+                   NC:path="" />
+  <RDF:Description RDF:about="urn:scheme:handler:irc"
+                   NC:alwaysAsk="true">
+    <NC:possibleApplication RDF:resource="urn:handler:web:https://www.mibbit.com/?url=%s"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:handler:local:/usr/bin/vlc"
+                   NC:prettyName="vlc"
+                   NC:path="/usr/bin/vlc" />
+  <RDF:Seq RDF:about="urn:mimetypes:root">
+    <RDF:li RDF:resource="urn:mimetype:application/x-gzip"/>
+    <RDF:li RDF:resource="urn:mimetype:application/zip"/>
+    <RDF:li RDF:resource="urn:mimetype:application/x-msdownload"/>
+    <RDF:li RDF:resource="urn:mimetype:application/x-bittorrent"/>
+    <RDF:li RDF:resource="urn:mimetype:audio/x-mpegurl"/>
+    <RDF:li RDF:resource="urn:mimetype:image/jpeg"/>
+    <RDF:li RDF:resource="urn:mimetype:message/rfc822"/>
+    <RDF:li RDF:resource="urn:mimetype:video/x-ms-wmv"/>
+    <RDF:li RDF:resource="urn:mimetype:application/vnd.ms-powerpoint"/>
+    <RDF:li RDF:resource="urn:mimetype:application/vnd.ms-cab-compressed"/>
+    <RDF:li RDF:resource="urn:mimetype:image/pjpeg"/>
+    <RDF:li RDF:resource="urn:mimetype:text/plain"/>
+    <RDF:li RDF:resource="urn:mimetype:application/pdf"/>
+    <RDF:li RDF:resource="urn:mimetype:application/vnd.oasis.opendocument.text"/>
+    <RDF:li RDF:resource="urn:mimetype:application/vnd.oasis.opendocument.graphics"/>
+    <RDF:li RDF:resource="urn:mimetype:audio/mpeg"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:handler:web:https://mail.google.com/mail/?extsrc=mailto&amp;url=%s"
+                   NC:prettyName="Gmail"
+                   NC:uriTemplate="https://mail.google.com/mail/?extsrc=mailto&amp;url=%s" />
+  <RDF:Description RDF:about="urn:handler:local:/usr/bin/nautilus"
+                   NC:prettyName="nautilus"
+                   NC:path="/usr/bin/nautilus" />
+  <RDF:Description RDF:about="urn:mimetype:handler:application/vnd.oasis.opendocument.graphics"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="true">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:application/vnd.oasis.opendocument.graphics"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:handler:local:/usr/lib/swiftfox"
+                   NC:prettyName="swiftfox"
+                   NC:path="/usr/lib/swiftfox" />
+  <RDF:Description RDF:about="urn:mimetype:application/zip"
+                   NC:fileExtensions="zip"
+                   NC:description="WinRAR ZIP archive"
+                   NC:value="application/zip"
+                   NC:editable="true">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:application/zip"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:image/jpeg"
+                   NC:description="JPEG Image"
+                   NC:value="image/jpeg"
+                   NC:editable="true">
+    <NC:fileExtensions>jpg</NC:fileExtensions>
+    <NC:fileExtensions>jpeg</NC:fileExtensions>
+    <NC:fileExtensions>jfif</NC:fileExtensions>
+    <NC:fileExtensions>pjpeg</NC:fileExtensions>
+    <NC:fileExtensions>pjp</NC:fileExtensions>
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:image/jpeg"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:handler:text/plain"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="true">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:text/plain"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:application/vnd.oasis.opendocument.graphics"
+                   NC:value="application/vnd.oasis.opendocument.graphics"
+                   NC:editable="true"
+                   NC:fileExtensions="odg"
+                   NC:description="OpenDocument Drawing">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:application/vnd.oasis.opendocument.graphics"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:handler:local:/usr/bin/evince"
+                   NC:prettyName="evince"
+                   NC:path="/usr/bin/evince" />
+  <RDF:Description RDF:about="urn:mimetype:application/pdf"
+                   NC:fileExtensions="pdf"
+                   NC:description=""
+                   NC:value="application/pdf"
+                   NC:editable="true">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:application/pdf"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:scheme:handler:file"
+                   NC:alwaysAsk="true">
+    <NC:possibleApplication RDF:resource="urn:handler:local:/usr/bin/vlc"/>
+    <NC:possibleApplication RDF:resource="urn:handler:local:/usr/bin/nautilus"/>
+    <NC:possibleApplication RDF:resource="urn:handler:local:/usr/bin/evince"/>
+    <NC:externalApplication RDF:resource="urn:scheme:externalApplication:file"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:application/x-gzip"
+                   NC:value="application/x-gzip"
+                   NC:editable="true"
+                   NC:fileExtensions="gz"
+                   NC:description="WinRAR archive">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:application/x-gzip"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:scheme:file"
+                   NC:value="file">
+    <NC:handlerProp RDF:resource="urn:scheme:handler:file"/>
+  </RDF:Description>
+</RDF:RDF>

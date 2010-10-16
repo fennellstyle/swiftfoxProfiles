@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<custombuttons xmlns="http://toolbar.google.com/custombuttons/">
+  <button>
+    <title>Google Scholar</title>
+    <title locale="ar">الباحث العلمي</title>
+    <title locale="bg">Наука</title>
+    <title locale="ca">Acadèmic</title>
+    <title locale="cs">Scholar</title>
+    <title locale="da">Scholar</title>
+    <title locale="de">Scholar</title>
+    <title locale="el">Μελετητής</title>
+    <title locale="en-GB">Scholar</title>
+    <title locale="es">Académico</title>
+    <title locale="et">Scholar</title>
+    <title locale="fi">Scholar</title>
+    <title locale="fil">Scholar</title>
+    <title locale="fr">Scholar</title>
+    <title locale="hi">Scholar</title>
+    <title locale="hr">Znalac</title>
+    <title locale="hu">Tudós</title>
+    <title locale="id">Cendekia</title>
+    <title locale="is">Fræðasetur</title>
+    <title locale="it">Scholar</title>
+    <title locale="iw">Scholar</title>
+    <title locale="ja">Scholar</title>
+    <title locale="ko">학술검색</title>
+    <title locale="lt">Mokslininkas</title>
+    <title locale="lv">Scholar</title>
+    <title locale="nl">Wetenschap</title>
+    <title locale="no">Scholar</title>
+    <title locale="pl">Scholar</title>
+    <title locale="pt-BR">Acadêmico</title>
+    <title locale="pt-PT">Académico</title>
+    <title locale="ro">Academic</title>
+    <title locale="ru">Академия</title>
+    <title locale="sk">Študovňa</title>
+    <title locale="sl">Učenjak</title>
+    <title locale="sr">Академик</title>
+    <title locale="sv">Scholar</title>
+    <title locale="th">Scholar</title>
+    <title locale="tr">Akademik</title>
+    <title locale="uk">Академія</title>
+    <title locale="vi">Scholar</title>
+    <title locale="zh-CN">学术搜索</title>
+    <title locale="zh-TW">學術搜尋</title>
+    <description>Google Scholar Search</description>
+    <description locale="ar">البحث داخل الباحث العلمي منGoogle</description>
+    <description locale="bg">Търсене с Googlar Наука</description>
+    <description locale="ca">Cerca de Google acadèmic</description>
+    <description locale="cs">Vyhledávání v Google Scholar</description>
+    <description locale="da">Google Scholar-søgning:</description>
+    <description locale="de">Google Scholar-Suche</description>
+    <description locale="el">Αναζήτηση Google Scholar</description>
+    <description locale="en-GB">Google Scholar Search</description>
+    <description locale="es">Búsqueda en Google Académico</description>
+    <description locale="et">Google Scholari otsing</description>
+    <description locale="fi">Google Scholar -haku</description>
+    <description locale="fil">Paghahanap sa Google Scholar</description>
+    <description locale="fr">Recherche Google Scholar</description>
+    <description locale="hi">Google Scholar खोज</description>
+    <description locale="hr">Google znalac-pretraživanje</description>
+    <description locale="hu">Keresés a Google Tudósban</description>
+    <description locale="id">Pencarian Google Cendekia</description>
+    <description locale="is">Google Fræðasetursleit</description>
+    <description locale="it">Google Scholar Search</description>
+    <description locale="iw">חיפוש Google Scholar</description>
+    <description locale="ja">Google Scholar 検索</description>
+    <description locale="ko">Google 학술검색</description>
+    <description locale="lt">„Google Scholar“ paieška</description>
+    <description locale="lv">Google Scholar meklēšana</description>
+    <description locale="nl">Zoeken in Google Wetenschap</description>
+    <description locale="no">Google Scholar-søk</description>
+    <description locale="pl">Google Scholar Search</description>
+    <description locale="pt-BR">Pesquisa do Google Acadêmico</description>
+    <description locale="pt-PT">Pesquisa do Google Académico</description>
+    <description locale="ro">Căutare Google Academic</description>
+    <description locale="ru">Академический поиск Google</description>
+    <description locale="sk">Vyhľadávanie Google v službe Študovňa</description>
+    <description locale="sl">Google Učenjak – iskanje</description>
+    <description locale="sr">Google академик претрага</description>
+    <description locale="sv">Google Scholar Search</description>
+    <description locale="th">Google Scholar Search</description>
+    <description locale="tr">Google Akademik Arama</description>
+    <description locale="uk">Пошук в Академії Google</description>
+    <description locale="vi">Tìm kiếm Google Scholar</description>
+    <description locale="zh-CN">Google 学术搜索</description>
+    <description locale="zh-TW">Google 學術搜尋</description>
+    <site>http://scholar.google.{domain}/schhp?hl={locale}{sourceid}</site>
+    <search>http://scholar.google.{domain}/scholar?hl={locale}{aq}{sourceid}{rlz}&amp;ie=UTF-8&amp;q={query}</search>
+    <update>http://toolbar.google.com/buttons/defs/google.com_scholar.xml</update>
+    <version>200807010000</version>
+    <icon type="image/x-icon" mode="base64">
+AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAA
+AAAAAAD/////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////4yMjP9OV1r/PktM/7W1tf//////////////////////////////
+//////////////////////////////////8hJCj/ZL72/1Oezf9ra2v/////////////////////
+////////////////////////////////////////////SkpK/1Oi1f9Dhqz/lJSU////////////
+/////97e3v/39/f//////////////////////////////////////4yMjP9Lkrz/MmqM/+fn5///
+/////////56Zl/+QQTD/bktF/8bHxv////////////////////////////////+cnJz/Q4a0/ylV
+a//Nzc3/kIyM/3dHPv/eXDn//2xC//9sQv+tTDH/hGRb/5eXl/+1tbX/3t7e////////////ra2t
+/0OGrP9LboT/lC8h/95UMf/3XDn//2xC//9sQv//bEL//2xC//dgOf/GRDH/czAh/5SUlP//////
+/////97e3v9Afpj/X3mH/3ssGP/nUDH/91g5/7VMMf+cQCn/nDsp/61IKf/3WDH/71Ax/0oYEP/n
+5+f////////////39/f/GDhS/21vcv8wHxf/nDMh/5wzIf/eTDH//1Q5//9UOf/nTDH/pTch/4wr
+GP9EJh//////////////////jIyM/zFJWv9SLCn/zkQx//9UOf//VDn//1Q5//9UOf//VDn//1Q5
+//9UOf//VDn/pTMh/0w3Mf+xsLH//v7+/z4fF//GQCn/xkxC/71QSv+cREL/pURC/3swMf9rJBj/
+vUAp//9UOf//VDn//1Q5//9UOf//UDn/ShgQ/zAzMP/v7+//jIyM/2ZBN/+MKyH/70wx//9UOf//
+VDn/xkAp/85EMf//VDn//1Q5/95IMf97KBj/Nh8Y/4SGhP/n5+f/////////////////xsbG/1dV
+Uv9wJx//xkAp//9QOf/GOyn/cyQY/1IzMP9zc3P/xsbG////////////////////////////////
+////////////5+fn/4SEhP82LCn/e3t7/97e3v//////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAA==
+    </icon>
+  </button>
+</custombuttons>

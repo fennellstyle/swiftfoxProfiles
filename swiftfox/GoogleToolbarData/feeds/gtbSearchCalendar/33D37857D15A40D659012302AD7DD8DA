@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:gCal='http://schemas.google.com/gCal/2005'><id>http://www.google.com/calendar/feeds/default/private/basic</id><updated>2010-10-15T19:24:49.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='text'>Sean Fennell</title><subtitle type='text'>Sean Fennell</subtitle><link rel='alternate' type='text/html' href='http://www.google.com/calendar/embed?src=fennellstyle@gmail.com'/><link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://www.google.com/calendar/feeds/default/private/basic'/><link rel='http://schemas.google.com/g/2005#batch' type='application/atom+xml' href='http://www.google.com/calendar/feeds/default/private/basic/batch'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/default/private/basic?max-results=10&amp;toolbar=true&amp;singleevents=true&amp;futureevents=true&amp;sortorder=ascending&amp;orderby=starttime'/><link rel='next' type='application/atom+xml' href='http://www.google.com/calendar/feeds/default/private/basic?start-index=11&amp;max-results=10&amp;toolbar=true&amp;singleevents=true&amp;futureevents=true&amp;sortorder=ascending&amp;orderby=starttime'/><author><name>Sean Fennell</name><email>fennellstyle@gmail.com</email></author><generator version='1.0' uri='http://www.google.com/calendar'>Google Calendar</generator><openSearch:totalResults>848</openSearch:totalResults><openSearch:startIndex>1</openSearch:startIndex><openSearch:itemsPerPage>10</openSearch:itemsPerPage><gCal:timezone value='America/Los_Angeles'/><gCal:timesCleaned value='0'/><entry><id>http://www.google.com/calendar/feeds/default/private/basic/_8d9lcgrfdpr6asjkc5gj4c9g75gjechi6tij4chkcdi3gcb670p3ie1lcdi6cdj46hhg_20101021T020000Z</id><published>0001-12-31T00:00:00.000Z</published><updated>2010-07-30T04:53:23.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>Wed Oct 20 7pm Garbage</title><summary type='html'>When: Wed Oct 20, 2010 7pm to 8pm&amp;nbsp;
+PDT&lt;br&gt;
+
+
+&lt;br&gt;Event Status: confirmed</summary><content type='html'>When: Wed Oct 20, 2010 7pm to 8pm 
+PDT&lt;br /&gt;
+
+
+&lt;br /&gt;Event Status: confirmed</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=XzhkOWxjZ3JmZHByNmFzamtjNWdqNGM5Zzc1Z2plY2hpNnRpajRjaGtjZGkzZ2NiNjcwcDNpZTFsY2RpNmNkajQ2aGhnXzIwMTAxMDIxVDAyMDAwMFogZmVubmVsbHN0eWxlQG0' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/default/private/basic/_8d9lcgrfdpr6asjkc5gj4c9g75gjechi6tij4chkcdi3gcb670p3ie1lcdi6cdj46hhg_20101021T020000Z'/><author><name>Sean Fennell</name><email>fennellstyle@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/default/private/basic/pclsa00j71obh6qshc5pihga28</id><published>2010-10-15T19:24:49.000Z</published><updated>2010-10-15T19:24:49.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>Sun Oct 24 10am Megamind family screening</title><summary type='html'>When: Sun Oct 24, 2010 10am to 12pm&amp;nbsp;
+PDT&lt;br&gt;
+&lt;br&gt;Who: Sean Fennell
+&lt;br&gt;Where: Burbank amc 16
+&lt;br&gt;Event Status: tentative</summary><content type='html'>When: Sun Oct 24, 2010 10am to 12pm 
+PDT&lt;br /&gt;
+&lt;br /&gt;Who: Sean Fennell
+&lt;br /&gt;Where: Burbank amc 16
+&lt;br /&gt;Event Status: tentative</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=cGNsc2EwMGo3MW9iaDZxc2hjNXBpaGdhMjggZmVubmVsbHN0eWxlQG0' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/default/private/basic/pclsa00j71obh6qshc5pihga28'/><author><name>Sean Fennell</name><email>fennellstyle@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/default/private/basic/_8d9lcgrfdpr6asjkc5gj4c9g75gjechi6tij4chkcdi3gcb670p3ie1lcdi6cdj46hhg_20101028T020000Z</id><published>0001-12-31T00:00:00.000Z</published><updated>2010-07-30T04:53:23.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>Wed Oct 27 7pm Garbage</title><summary type='html'>When: Wed Oct 27, 2010 7pm to 8pm&amp;nbsp;
+PDT&lt;br&gt;
+
+
+&lt;br&gt;Event Status: confirmed</summary><content type='html'>When: Wed Oct 27, 2010 7pm to 8pm 
+PDT&lt;br /&gt;
+
+
+&lt;br /&gt;Event Status: confirmed</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=XzhkOWxjZ3JmZHByNmFzamtjNWdqNGM5Zzc1Z2plY2hpNnRpajRjaGtjZGkzZ2NiNjcwcDNpZTFsY2RpNmNkajQ2aGhnXzIwMTAxMDI4VDAyMDAwMFogZmVubmVsbHN0eWxlQG0' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/default/private/basic/_8d9lcgrfdpr6asjkc5gj4c9g75gjechi6tij4chkcdi3gcb670p3ie1lcdi6cdj46hhg_20101028T020000Z'/><author><name>Sean Fennell</name><email>fennellstyle@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/default/private/basic/_8d9lcgrfdpr6asjkc5gj4c9g75gjechi6tij4chkcdi3gcb670p3ie1lcdi6cdj46hhg_20101104T020000Z</id><published>0001-12-31T00:00:00.000Z</published><updated>2010-07-30T04:53:23.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>Wed Nov 3 7pm Garbage</title><summary type='html'>When: Wed Nov 3, 2010 7pm to 8pm&amp;nbsp;
+PDT&lt;br&gt;
+
+
+&lt;br&gt;Event Status: confirmed</summary><content type='html'>When: Wed Nov 3, 2010 7pm to 8pm 
+PDT&lt;br /&gt;
+
+
+&lt;br /&gt;Event Status: confirmed</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=XzhkOWxjZ3JmZHByNmFzamtjNWdqNGM5Zzc1Z2plY2hpNnRpajRjaGtjZGkzZ2NiNjcwcDNpZTFsY2RpNmNkajQ2aGhnXzIwMTAxMTA0VDAyMDAwMFogZmVubmVsbHN0eWxlQG0' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/default/private/basic/_8d9lcgrfdpr6asjkc5gj4c9g75gjechi6tij4chkcdi3gcb670p3ie1lcdi6cdj46hhg_20101104T020000Z'/><author><name>Sean Fennell</name><email>fennellstyle@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/default/private/basic/_8d9lcgrfdpr6asjkc5gj4c9g75gjechi6tij4chkcdi3gcb670p3ie1lcdi6cdj46hhg_20101111T030000Z</id><published>0001-12-31T00:00:00.000Z</published><updated>2010-07-30T04:53:23.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>Wed Nov 10 7pm Garbage</title><summary type='html'>When: Wed Nov 10, 2010 7pm to 8pm&amp;nbsp;
+PST&lt;br&gt;
+
+
+&lt;br&gt;Event Status: confirmed</summary><content type='html'>When: Wed Nov 10, 2010 7pm to 8pm 
+PST&lt;br /&gt;
+
+
+&lt;br /&gt;Event Status: confirmed</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=XzhkOWxjZ3JmZHByNmFzamtjNWdqNGM5Zzc1Z2plY2hpNnRpajRjaGtjZGkzZ2NiNjcwcDNpZTFsY2RpNmNkajQ2aGhnXzIwMTAxMTExVDAzMDAwMFogZmVubmVsbHN0eWxlQG0' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/default/private/basic/_8d9lcgrfdpr6asjkc5gj4c9g75gjechi6tij4chkcdi3gcb670p3ie1lcdi6cdj46hhg_20101111T030000Z'/><author><name>Sean Fennell</name><email>fennellstyle@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/default/private/basic/_8d9lcgrfdpr6asjkc9h62cpnc8rj8d3460qjidb3cgrjeohic5i6cc9gcgoj2phk6spg</id><published>1900-01-01T12:00:00.000Z</published><updated>2010-06-25T09:01:33.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>Thu Nov 11 8:30pm Deposit paycheck</title><summary type='html'>When: Thu Nov 11, 2010 8:30pm to 9pm&amp;nbsp;
+PST&lt;br&gt;
+
+
+&lt;br&gt;Event Status: confirmed</summary><content type='html'>When: Thu Nov 11, 2010 8:30pm to 9pm 
+PST&lt;br /&gt;
+
+
+&lt;br /&gt;Event Status: confirmed</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=XzhkOWxjZ3JmZHByNmFzamtjOWg2MmNwbmM4cmo4ZDM0NjBxamlkYjNjZ3JqZW9oaWM1aTZjYzlnY2dvajJwaGs2c3BnIGZlbm5lbGxzdHlsZUBt' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/default/private/basic/_8d9lcgrfdpr6asjkc9h62cpnc8rj8d3460qjidb3cgrjeohic5i6cc9gcgoj2phk6spg'/><author><name>Sean Fennell</name><email>fennellstyle@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/default/private/basic/_8d9lcgrfdpr6asjkc5gj4c9g75gjechi6tij4chkcdi3gcb670p3ie1lcdi6cdj46hhg_20101118T030000Z</id><published>0001-12-31T00:00:00.000Z</published><updated>2010-07-30T04:53:23.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>Wed Nov 17 7pm Garbage</title><summary type='html'>When: Wed Nov 17, 2010 7pm to 8pm&amp;nbsp;
+PST&lt;br&gt;
+
+
+&lt;br&gt;Event Status: confirmed</summary><content type='html'>When: Wed Nov 17, 2010 7pm to 8pm 
+PST&lt;br /&gt;
+
+
+&lt;br /&gt;Event Status: confirmed</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=XzhkOWxjZ3JmZHByNmFzamtjNWdqNGM5Zzc1Z2plY2hpNnRpajRjaGtjZGkzZ2NiNjcwcDNpZTFsY2RpNmNkajQ2aGhnXzIwMTAxMTE4VDAzMDAwMFogZmVubmVsbHN0eWxlQG0' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/default/private/basic/_8d9lcgrfdpr6asjkc5gj4c9g75gjechi6tij4chkcdi3gcb670p3ie1lcdi6cdj46hhg_20101118T030000Z'/><author><name>Sean Fennell</name><email>fennellstyle@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/default/private/basic/_8d9lcgrfdpr6asjk6pim2cr26grj6e1gchi3goj1cgq3cc9j6kr3idr661j34d1gc9gg</id><published>1900-01-01T12:00:00.000Z</published><updated>2010-06-25T09:01:33.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>Wed Nov 17 8pm Garbage</title><summary type='html'>When: Wed Nov 17, 2010 8pm to 9pm&amp;nbsp;
+PST&lt;br&gt;
+
+
+&lt;br&gt;Event Status: confirmed</summary><content type='html'>When: Wed Nov 17, 2010 8pm to 9pm 
+PST&lt;br /&gt;
+
+
+&lt;br /&gt;Event Status: confirmed</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=XzhkOWxjZ3JmZHByNmFzams2cGltMmNyMjZncmo2ZTFnY2hpM2dvajFjZ3EzY2M5ajZrcjNpZHI2NjFqMzRkMWdjOWdnIGZlbm5lbGxzdHlsZUBt' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/default/private/basic/_8d9lcgrfdpr6asjk6pim2cr26grj6e1gchi3goj1cgq3cc9j6kr3idr661j34d1gc9gg'/><author><name>Sean Fennell</name><email>fennellstyle@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/default/private/basic/_8d9lcgrfdpr6asjk6lij0pb36srm6c1ocgr66oho61hj2pb6ccojge9jc9h66ohocorg</id><published>1900-01-01T12:00:00.000Z</published><updated>2010-06-25T09:01:32.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>Thu Nov 18 8:30pm Deposit paycheck</title><summary type='html'>When: Thu Nov 18, 2010 8:30pm to 9pm&amp;nbsp;
+PST&lt;br&gt;
+
+
+&lt;br&gt;Event Status: confirmed</summary><content type='html'>When: Thu Nov 18, 2010 8:30pm to 9pm 
+PST&lt;br /&gt;
+
+
+&lt;br /&gt;Event Status: confirmed</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=XzhkOWxjZ3JmZHByNmFzams2bGlqMHBiMzZzcm02YzFvY2dyNjZvaG82MWhqMnBiNmNjb2pnZTlqYzloNjZvaG9jb3JnIGZlbm5lbGxzdHlsZUBt' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/default/private/basic/_8d9lcgrfdpr6asjk6lij0pb36srm6c1ocgr66oho61hj2pb6ccojge9jc9h66ohocorg'/><author><name>Sean Fennell</name><email>fennellstyle@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/default/private/basic/_8d9lcgrfdpr6asjkc5gj4c9g75gjechi6tij4chkcdi3gcb670p3ie1lcdi6cdj46hhg_20101125T030000Z</id><published>0001-12-31T00:00:00.000Z</published><updated>2010-07-30T04:53:23.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>Wed Nov 24 7pm Garbage</title><summary type='html'>When: Wed Nov 24, 2010 7pm to 8pm&amp;nbsp;
+PST&lt;br&gt;
+
+
+&lt;br&gt;Event Status: confirmed</summary><content type='html'>When: Wed Nov 24, 2010 7pm to 8pm 
+PST&lt;br /&gt;
+
+
+&lt;br /&gt;Event Status: confirmed</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=XzhkOWxjZ3JmZHByNmFzamtjNWdqNGM5Zzc1Z2plY2hpNnRpajRjaGtjZGkzZ2NiNjcwcDNpZTFsY2RpNmNkajQ2aGhnXzIwMTAxMTI1VDAzMDAwMFogZmVubmVsbHN0eWxlQG0' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/default/private/basic/_8d9lcgrfdpr6asjkc5gj4c9g75gjechi6tij4chkcdi3gcb670p3ie1lcdi6cdj46hhg_20101125T030000Z'/><author><name>Sean Fennell</name><email>fennellstyle@gmail.com</email></author></entry></feed>

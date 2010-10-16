@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{3112ca9c-de6d-4884-a869-9855de68056c}</em:id>
+    <em:version>7.1.20100830L</em:version>
+
+    <!-- For Up-To-Date Documentation of this Format Please See:
+         http://www.mozilla.org/projects/firefox/extensions/packaging/extensions.html
+         -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>2.0</em:minVersion>
+        <em:maxVersion>3.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+<em:targetPlatform>Linux</em:targetPlatform>
+<em:targetPlatform>linux-gnu</em:targetPlatform>
+
+    <em:name>Google Toolbar for Firefox</em:name>
+    <em:description>Take the power of Google with you anywhere on the Web!</em:description>
+    <em:creator>Google Inc.</em:creator>
+    <em:homepageURL>http://www.google.com/</em:homepageURL>
+    <em:updateURL><![CDATA[https://tools.google.com/firefox/update?guid=%ITEM_ID%&version=%ITEM_VERSION%&application=%APP_ID%&appversion=%APP_VERSION%&dist=google]]></em:updateURL>
+    <em:iconURL>chrome://google-toolbar/skin/icon.png</em:iconURL>
+    <em:optionsURL>chrome://google-toolbar/content/options.xul</em:optionsURL>
+    <em:aboutURL>chrome://google-toolbar/content/about.xul</em:aboutURL>
+
+    <em:file>
+      <Description about="urn:mozilla:extension:file:google-toolbar.jar">
+        <em:package>content/</em:package>
+        <em:locale>locale/ar/</em:locale>
+        <em:locale>locale/bg/</em:locale>
+        <em:locale>locale/ca/</em:locale>
+        <em:locale>locale/cs-CZ/</em:locale>
+        <em:locale>locale/da-DK/</em:locale>
+        <em:locale>locale/de-DE/</em:locale>
+        <em:locale>locale/el/</em:locale>
+        <em:locale>locale/en-GB/</em:locale>
+        <em:locale>locale/en-US/</em:locale>
+        <em:locale>locale/es-ES/</em:locale>
+        <em:locale>locale/fi-FI/</em:locale>
+        <em:locale>locale/fr-FR/</em:locale>
+        <em:locale>locale/he-IL/</em:locale>
+        <em:locale>locale/hu-HU/</em:locale>
+        <em:locale>locale/it-IT/</em:locale>
+        <em:locale>locale/ja-JP/</em:locale>
+        <em:locale>locale/ko-KR/</em:locale>
+        <em:locale>locale/lt/</em:locale>
+        <em:locale>locale/nb-NO/</em:locale>
+        <em:locale>locale/nl-NL/</em:locale>
+        <em:locale>locale/pl-PL/</em:locale>
+        <em:locale>locale/pt-BR/</em:locale>
+        <em:locale>locale/pt-PT/</em:locale>
+        <em:locale>locale/ro/</em:locale>
+        <em:locale>locale/ru-RU/</em:locale>
+        <em:locale>locale/sk-SK/</em:locale>
+        <em:locale>locale/sl/</em:locale>
+        <em:locale>locale/sv-SE/</em:locale>
+        <em:locale>locale/tr-TR/</em:locale>
+        <em:locale>locale/uk/</em:locale>
+        <em:locale>locale/zh-CN/</em:locale>
+        <em:locale>locale/zh-TW/</em:locale>
+        <em:skin>skin/</em:skin>
+      </Description>
+    </em:file>
+  </Description>
+</RDF>
+

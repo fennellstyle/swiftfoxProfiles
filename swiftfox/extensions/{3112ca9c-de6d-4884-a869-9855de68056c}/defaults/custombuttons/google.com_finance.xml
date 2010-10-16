@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<custombuttons xmlns="http://toolbar.google.com/custombuttons/">
+  <button>
+    <title>Google Finance</title>
+    <title locale="ar">تمويل Google</title>
+    <title locale="bg">Google Finance</title>
+    <title locale="ca">Google Finance</title>
+    <title locale="cs">Finance Google</title>
+    <title locale="da">Google Økonomi</title>
+    <title locale="de">GoogleFinanzen</title>
+    <title locale="el">Google Finance</title>
+    <title locale="en-GB">Google Finance</title>
+    <title locale="es">Google Finanzas</title>
+    <title locale="et">Google'i rahandus</title>
+    <title locale="fi">Google Finance</title>
+    <title locale="fil">Google Finance</title>
+    <title locale="fr">Google Finance</title>
+    <title locale="hi">Google Finance</title>
+    <title locale="hr">Google financije</title>
+    <title locale="hu">Google pénzügyek</title>
+    <title locale="id">Google Finance</title>
+    <title locale="is">Google fjármál</title>
+    <title locale="it">Google Finanza</title>
+    <title locale="iw">Google Finance</title>
+    <title locale="ja">Google Finance</title>
+    <title locale="ko">Google 금융</title>
+    <title locale="lt">„Google“ finansai</title>
+    <title locale="lv">Google Finanses</title>
+    <title locale="nl">Google Economie</title>
+    <title locale="no">Google Finance</title>
+    <title locale="pl">Google Finance</title>
+    <title locale="pt-BR">Google Finanças</title>
+    <title locale="pt-PT">Google Finance</title>
+    <title locale="ro">Google Finanţe</title>
+    <title locale="ru">Google-Финансы</title>
+    <title locale="sk">Financie Google</title>
+    <title locale="sl">Google Finance</title>
+    <title locale="sr">Google финансије</title>
+    <title locale="sv">Google Ekonomi</title>
+    <title locale="th">Google Finance</title>
+    <title locale="tr">Google Finance</title>
+    <title locale="uk">Google - Фінанси</title>
+    <title locale="vi">Tài chính của Google</title>
+    <title locale="zh-CN">Google 金融</title>
+    <title locale="zh-TW">Google 金融</title>
+    <description>Get stock quotes and related news from Google</description>
+    <description locale="ar">الحصول على أسعار الأسهم وأخبار متعلقة من Google</description>
+    <description locale="bg">Изтеглете котировки на акции и свързаните с тях новини от Google</description>
+    <description locale="ca">Rebeu informació sobre la cotització d’accions i altres notícies relacionades amb Google</description>
+    <description locale="cs">Získejte ceny akcií a související zprávy od Google</description>
+    <description locale="da">Hent aktiekurser og relaterede nyheder fra Google</description>
+    <description locale="de">Börsenkurse und Nachrichten zu verwandten Themen in Google abrufen</description>
+    <description locale="el">Ενημέρωση για τις τιμές μετοχών και σχετικές πληροφορίες από το Google</description>
+    <description locale="en-GB">Get stock quotes and related news from Google</description>
+    <description locale="es">Obtén cotizaciones de acciones y noticias relacionadas de Google.</description>
+    <description locale="et">Google'i kaudu saate hankida börsinoteeringuid ja sellega seotud uudiseid.</description>
+    <description locale="fi">Osakekurssit ja talousuutiset Googlelta</description>
+    <description locale="fil">Kumuha ng mga stock quote at kaugnay na mga balita mula sa Google</description>
+    <description locale="fr">Consultez le cours des valeurs et d'autres actualités boursières.</description>
+    <description locale="hi">Google से स्टॉक भाव एवं संबंधित समाचार प्राप्त करें ।</description>
+    <description locale="hr">Od Googlea možete primati cijene dionica i slične vijesti</description>
+    <description locale="hu">Részvényárfolyamok és kapcsolódó hírek a Google-tól</description>
+    <description locale="id">Dapatkan informasi harga saham dan berita terkait dari Google</description>
+    <description locale="is">Fáðu upplýsingar um gengi hlutabréfa og tengdar fréttir frá Google</description>
+    <description locale="it">Visualizza quotazioni di borsa e notizie correlate da Google</description>
+    <description locale="iw">קבל מחירי מניות וחדשות קשורות מ-Google</description>
+    <description locale="ja">株価情報および関連ニュースを Google から入手</description>
+    <description locale="ko">Google에서 주가지수 및 관련 뉴스 보기</description>
+    <description locale="lt">Gauti iš „Google“ akcijų kursus ir kitas susijusias naujienas</description>
+    <description locale="lv">Iegūt no Google akciju kursus un ar tiem saistītās ziņas</description>
+    <description locale="nl">Aandelenkoersen en bijbehorend nieuws ontvangen van Google</description>
+    <description locale="no">Motta aksjekurser og beslektede nyheter fra Google</description>
+    <description locale="pl">Otrzymuj notowania giełdowe i związane z nimi wiadomości od Google</description>
+    <description locale="pt-BR">Obter cotação de ações e notícias relacionadas no Google</description>
+    <description locale="pt-PT">Obter cotações da bolsa e notícias relacionadas a partir do Google</description>
+    <description locale="ro">Obţineţi cotaţii bursiere şi ştiri înrudite de la Google</description>
+    <description locale="ru">Получайте от Google котировки акций и биржевые новости</description>
+    <description locale="sk">Získať kurzy akcií a súvisiace novinky zo servera Google</description>
+    <description locale="sl">Google pozna borzne tečaje in gospodarske novice</description>
+    <description locale="sr">Примајте берзанске квоте и новости са берзе од Google-а</description>
+    <description locale="sv">Få börskurser och relaterade nyheter från Google</description>
+    <description locale="th">รับทราบราคาหุ้นและข่าวสารที่เกี่ยวข้องจาก Google</description>
+    <description locale="tr">Borsa bilgilerini ve ilgili haberleri Google’dan alın</description>
+    <description locale="uk">Отримуйте від Google котування акцій та біржові новини</description>
+    <description locale="vi">Nhận trích dẫn chứng khoán và tin tức liên quan từ Google</description>
+    <description locale="zh-CN">从 Google 获取股票报价及相关讯息</description>
+    <description locale="zh-TW">從 Google 取得股票報價與相關新聞</description>
+    <site>http://finance.google.{domain}/finance?hl={locale}{sourceid}</site>
+    <search>http://finance.google.{domain}/finance?hl={locale}{aq}{sourceid}{rlz}&amp;ie=UTF-8&amp;q={query}</search>
+    <update>http://toolbar.google.com/buttons/defs/google.com_finance.xml</update>
+    <version>200807010000</version>
+    <icon type="image/x-icon" mode="base64">
+AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAA
+AAAAAAD8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/
+/Pz8//z8/P/8/Pz/iHRk/4h0ZP+IdGT/h3Ji/4dyYv+CbVz/gm1c/4JtXP9/alj/f2pY/35oV/9+
+aFf/fmhX/3liT/95Yk//eWJP/4t4af87shf/e9he/4DbZP+b44X/gNtk/5vjhf+b44X/m+OF/5vj
+hf+b44X/m+OF/5vjhf+b44X/m+OF/3liT/+Oe2z/oMt9/zuyF/+A22T/gNtk/4DbZP+A22T/gNtk
+/4DbZP+A22T/gNtk/4DbZP+A22T/gNtk/5vjhf95Yk//kX5w/+3p1f+AxWD/S7wp/4DbZP+A22T/
+gNtk/4DbZP+A22T/gNtk/4DbZP+A22T/gNtk/3vYXv+b44X/eWJP/5SBdP/x7d7/8e3e/3fFW/87
+shf/UL8v/2XLRv972F7/gNtk/4DbZP+A22T/gNtk/4DbZP+A22T/m+OF/35oV/+WhHj//Pz8//Ty
+5v/49+//8vrv/73ksf97yWP/VsI1/4DbZP+A22T/gNtk/4DbZP+A22T/gNtk/5vjhf9+aFf/mYd7
+//z8/P/08ub/+vnz//z8/P/8/Pz/5fTg/0C2Hf+A22T/gNtk/4DbZP+A22T/gNtk/4DbZP+b44X/
+fmhX/5yKfv/8/Pz/9PLm//r58//8/Pz//Pz8//z8/P9IsyP/gNtk/4DbZP+A22T/gNtk/4DbZP+A
+22T/m+OF/35oV/+ejIH//Pz8//Lv4P/39ez//Pz8//z8/P/8/Pz/e8lj/1C/L/911Vj/gNtk/4Db
+ZP+A22T/gNtk/5vjhf9+aFf/oI6E//r58//x7d7/9PLm//r58//8/Pz//Pz8//L67/+i2ZL/U7k0
+/0izI/9w0lL/gNtk/4DbZP+A22T/fmhX/6GQhv/6+fP/7enV//Ht3v/39ez/+vnz//r58//8/Pz/
+/Pz8//r58/+43qX/QLYd/4DbZP+A22T/uuur/35oV/+kk4n/+vnz/+nkzf/t6dX/8e3e//Ty5v/3
+9ez/9/Xs//f17P/39ez/8O3d/1y6Ov9rz0z/gNtk/6Lljf+CbVz/pJOJ//z8/P/08ub/9/Xs//Ty
+5v/39ez/9/Xs//f17P/39ez/9PLm//Dt3f/J37L/SLMj/0u8Kf9ly0b/f2pY/6STif+kk4n/oI6E
+/6COhP+ejIH/nIp+/5mHe/+WhHj/lIF0/5F+cP+Oe2z/jnts/4dyYv+HcmL/gm1c/4JtXP/8/Pz/
+/Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8
+/Pz/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAA==
+    </icon>
+  </button>
+</custombuttons>

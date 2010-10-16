@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<custombuttons xmlns="http://toolbar.google.com/custombuttons/">
+  <button>
+    <title>Button Gallery</title>
+    <title locale="ar">معرض الأزرار</title>
+    <title locale="bg">Галерия с бутони</title>
+    <title locale="ca">Galeria de botons</title>
+    <title locale="cs">Galerie tlačítek</title>
+    <title locale="da">Knapgalleri</title>
+    <title locale="de">Schaltflächengalerie</title>
+    <title locale="el">Γκαλερί κουμπιών</title>
+    <title locale="en-GB">Button Gallery</title>
+    <title locale="es">Galería de botones</title>
+    <title locale="et">Nupugalerii</title>
+    <title locale="fi">Painikekokoelma</title>
+    <title locale="fil">Gallery ng mga Pindutan</title>
+    <title locale="fr">Galerie des boutons</title>
+    <title locale="hi">बटन गैलरी</title>
+    <title locale="hr">Galerija gumba</title>
+    <title locale="hu">Gombgaléria</title>
+    <title locale="id">Galeri Tombol</title>
+    <title locale="is">Hnappasafn</title>
+    <title locale="it">Galleria pulsanti</title>
+    <title locale="iw">גלריית לחצנים</title>
+    <title locale="ja">ボタン ギャラリー</title>
+    <title locale="ko">버튼 갤러리</title>
+    <title locale="lt">Mygtukų galerija</title>
+    <title locale="lv">Pogu galerija</title>
+    <title locale="nl">Knoppenlijstj</title>
+    <title locale="no">Knappegalleri</title>
+    <title locale="pl">Galeria przycisków</title>
+    <title locale="pt-BR">Galeria de botões</title>
+    <title locale="pt-PT">Galeria de botões</title>
+    <title locale="ro">Galerie butoane</title>
+    <title locale="ru">Галерея кнопок</title>
+    <title locale="sk">Galéria tlačidiel</title>
+    <title locale="sl">Galerija gumbov</title>
+    <title locale="sr">Галерија дугмади</title>
+    <title locale="sv">Knappgalleri</title>
+    <title locale="th">แกลเลอรีปุ่ม</title>
+    <title locale="tr">Düğme Galerisi</title>
+    <title locale="uk">Галерея кнопок</title>
+    <title locale="vi">Thư viện Nút</title>
+    <title locale="zh-CN">按钮库</title>
+    <title locale="zh-TW">按鈕庫</title>
+    <description>Add buttons and gadgets to your Google Toolbar!</description>
+    <description locale="ar">إضافة أزرار إلى شريط الأدوات الخاص بك!</description>
+    <description locale="bg">Добавете бутони в лентата си с инструменти!</description>
+    <description locale="ca">Afegiu botons a la barra d’eines</description>
+    <description locale="cs">Přidejte tlačítka na lištu Google Toolbar!</description>
+    <description locale="da">Føj knapper til din Toolbar!</description>
+    <description locale="de">Fügen Sie Schaltflächen zu Ihrer Toolbar hinzu!</description>
+    <description locale="el">Προσθέστε κουμπιά στο Toolbar!</description>
+    <description locale="en-GB">Add buttons to your Toolbar!</description>
+    <description locale="es">Añadir botones a tu barra Google</description>
+    <description locale="et">Lisage oma Google’i tööriistaribale nuppe.</description>
+    <description locale="fi">Lisää painikkeita Google-työkalupalkkiisi!</description>
+    <description locale="fil">Magdagdag ng mga pindutan sa iyong Toolbar!</description>
+    <description locale="fr">Ajouter des boutons à la barre d'outils Google</description>
+    <description locale="hi">अपने Toolbar में बटन जोड़ें!</description>
+    <description locale="hr">Dodajte gumbe na svoju alatnu traku!</description>
+    <description locale="hu">Hozzáadhat gombokat az Eszköztárhoz</description>
+    <description locale="id">Tambahkan tombol ke Bilah Alat Anda!</description>
+    <description locale="is">Bæta hnöppum við Tækjastikuna</description>
+    <description locale="it">Aggiungi pulsanti alla tua Toolbar</description>
+    <description locale="iw">הוסף לחצנים לסרגל הכלים!</description>
+    <description locale="ja">ツールバーにボタンを追加</description>
+    <description locale="ko">툴바에 다른 버튼도 추가해 보세요!</description>
+    <description locale="lt">Pridėti mygtukų įrankių juostoje!</description>
+    <description locale="lv">Pievienot pogas savai Google Rīkjoslai!</description>
+    <description locale="nl">Knoppen toevoegen aan uw Toolbar!</description>
+    <description locale="no">Legg til knapper på verktøylinjen.</description>
+    <description locale="pl">Dodaj przyciski do paska narzędzi Toolbar!</description>
+    <description locale="pt-BR">Adicione botões à sua barra de ferramentas!</description>
+    <description locale="pt-PT">Adicione botões à Barra de ferramentas!</description>
+    <description locale="ro">Adăugaţi butoane la propria Bară de instrumente!</description>
+    <description locale="ru">Добавьте кнопки на свою панель инструментов Google!</description>
+    <description locale="sk">Pridajte tlačidlá na panel s nástrojmi!</description>
+    <description locale="sl">Dodajte gumbe v orodno vrstico!</description>
+    <description locale="sr">Додајте дугмад на свој Toolbar!</description>
+    <description locale="sv">Lägg till knappar i Verktygsfält.</description>
+    <description locale="th">เพิ่มปุ่มใน Toolbar ของคุณ!</description>
+    <description locale="tr">Araç Çubuğunuza düğme ekleyin!</description>
+    <description locale="uk">Додайте кнопки до своєї панелі інструментів!</description>
+    <description locale="vi">Thêm nút vào Thanh công cụ của bạn!</description>
+    <description locale="zh-CN">向工具栏添加按钮！</description>
+    <description locale="zh-TW">新增按鈕至工具列！</description>
+    <site>http://toolbar.google.{domain}/buttons/gallery?hl={locale}{sourceid}</site>
+    <search>http://toolbar.google.{domain}/buttons/gallery?hl={locale}{aq}{sourceid}{rlz}&amp;ie=UTF-8&amp;q={query}</search>    
+    <feed refresh-interval="86400" whole-dropdown="true">http://toolbar.google.{domain}/buttons/feeds/topbuttons/?hl={locale}&amp;sd={domain}{sourceid}</feed>
+    <feed-description>New buttons available for your Toolbar!</feed-description>
+    <feed-description locale="ar">أزرار جديدة متاحة لشريط الأدوات الخاص بك!</feed-description>
+    <feed-description locale="bg">Има нови бутони за лентата ви с инструменти!</feed-description>
+    <feed-description locale="ca">Hi ha botons nous per a la barra d’eines!</feed-description>
+    <feed-description locale="cs">Pro vaši lištu Google Toolbar jsou dostupná nová tlačítka!</feed-description>
+    <feed-description locale="da">Nye knapper er tilgængelige til din Toolbar!</feed-description>
+    <feed-description locale="de">Es sind neue Schaltflächen für Ihre Toolbar verfügbar!</feed-description>
+    <feed-description locale="el">Υπάρχουν νέα κουμπιά για το Toolbar!</feed-description>
+    <feed-description locale="en-GB">New buttons available for your Toolbar!</feed-description>
+    <feed-description locale="es">Nuevos botones disponibles para tu barra Google</feed-description>
+    <feed-description locale="et">Teie tööriistariba jaoks on saadaval uusi nuppe!</feed-description>
+    <feed-description locale="fi">Uusia painikkeita Google-työkalupalkkiin!</feed-description>
+    <feed-description locale="fil">May mga bagong pindutan na magagamit para sa iyong Toolbar!</feed-description>
+    <feed-description locale="fr">Découvrir les nouveaux boutons de la barre d’outils Google</feed-description>
+    <feed-description locale="hi">आपके Toolbar के लिए नए बटन उपलब्ध हैं!</feed-description>
+    <feed-description locale="hr">Dostupni su novi gumbi za alatnu traku!</feed-description>
+    <feed-description locale="hu">Új gombok állnak rendelkezésre az Eszköztárhoz!</feed-description>
+    <feed-description locale="id">Tombol baru untuk Bilah Alat Anda telah tersedia!</feed-description>
+    <feed-description locale="is">Nýir hnappar á Google Tækjastikuna!</feed-description>
+    <feed-description locale="it">Nuovi pulsanti disponibili per la tua Toolbar!</feed-description>
+    <feed-description locale="iw">קיימים לחצנים חדשים עבור סרגל הכלים שלך!</feed-description>
+    <feed-description locale="ja">ツールバーに新しいボタンを追加できます。</feed-description>
+    <feed-description locale="ko">새로운 툴바 버튼을 소개합니다!</feed-description>
+    <feed-description locale="lt">Įrankių juostai yra naujų mygtukų!</feed-description>
+    <feed-description locale="lv">Pieejamas jaunas pogas jūsu rīkjoslā!</feed-description>
+    <feed-description locale="nl">Er zijn nieuwe knoppen beschikbaar voor uw Toolbar!</feed-description>
+    <feed-description locale="no">Nye knapper er tilgjengelig for verktøylinjen.</feed-description>
+    <feed-description locale="pl">Dostępne są nowe przyciski dla programu Toolbar!</feed-description>
+    <feed-description locale="pt-BR">Novos botões para sua barra de ferramentas!</feed-description>
+    <feed-description locale="pt-PT">Novos botões disponíveis para a Barra de ferramentas!</feed-description>
+    <feed-description locale="ro">Butoane noi disponibile pentru propria Bară de instrumente!</feed-description>
+    <feed-description locale="ru">Есть новые кнопки для панели инструментов!</feed-description>
+    <feed-description locale="sk">K dispozícii sú nové tlačidlá pre panel s nástrojmi!</feed-description>
+    <feed-description locale="sl">Na voljo so novi gumbi za orodno vrstico!</feed-description>
+    <feed-description locale="sr">На располагању је новa дугмад за Google Toolbar!</feed-description>
+    <feed-description locale="sv">Det finns nya knappar för Verktygsfält!</feed-description>
+    <feed-description locale="th">มีปุ่มใหม่สำหรับ Toolbar ของคุณ!</feed-description>
+    <feed-description locale="tr">Araç Çubuğunuz için yeni düğmeler kullanımınıza sunulmuştur!</feed-description>
+    <feed-description locale="uk">З'явились нові кнопки для панелі інструментів!</feed-description>
+    <feed-description locale="vi">Các nút mới sẵn có dành cho Thanh công cụ của bạn!</feed-description>
+    <feed-description locale="zh-CN">工具栏新增按钮！</feed-description>
+    <feed-description locale="zh-TW">工具列有新按鈕！</feed-description>
+    <gadget width="470" height="312" whole-dropdown="true">
+      http://toolbar.google.com/tbredir?r=cb_module
+    </gadget>
+    <update>http://toolbar.google.com/buttons/defs/topbuttons.xml</update>
+    <version>200809160000</version>
+    <icon mode="base64">
+AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJJmQZaSZkH/kmZB/5JmQf+SZkH/kmZBlgAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACSZkH/x7GP/7mZbf+2lGn/vqeF/5JmQf8A
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkmZB/7+hdf+wgUn/rHxE/7aU
+af+SZkH/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJJmQf/Dp3r/s4dP
+/7CBSf+5mW3/kmZB/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACSZkH/
+x6t//7eOVf+zh0//vZxx/5JmQf8AAAAAAAAAAAAAAAAAAAAAAAAAAJJmQZaSZkH/kmZB/5JmQf+S
+ZkH/kmZB/8iqe/+7lFv/t45V/7ybbP+SZkH/kmZB/5JmQf+SZkH/kmZB/5JmQZaSZkH/49iy/9vI
+mf/Yw5X/1b+R/9C0hP/HpW7/v5ph/7uUW/+6lF7/vJts/72ccf+5mW3/tpRp/76nhf+SZkH/kmZB
+/+XWqf/awon/1ruD/9K2fv/PsHf/yqdu/8SgZv+/mmH/u5Rb/7eOVf+zh0//sIFJ/6x8RP+2lGn/
+kmZB/5JmQf/r4bz/5dWn/+PRpP/fy5//28SX/9a7i//Pr3v/xaJq/7+aYf+7lFv/t45V/7OHT/+w
+gUn/uZlt/5JmQf+SZkH/8u3X//DozP/v5sr/7OLH/+jcvP/gz6j/2L+S/9CygP/Kqnb/yKt8/8es
+gP/EqHz/v6F1/8exj/+SZkH/kmZBlpJmQf+SZkH/kmZB/5JmQf+SZkH/6d2+/9/Mo//YvpD/1buQ
+/5JmQf+SZkH/kmZB/5JmQf+SZkH/kmZBlgAAAAAAAAAAAAAAAAAAAAAAAAAAkmZB/+3jyf/k063/
+28WZ/9nFm/+SZkH/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJJmQf/v
+5sz/59iz/9/Lnv/byZ7/kmZB/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AACSZkH/8OnO/+rduP/j0aX/386j/5JmQf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAkmZB//Pv2v/v58v/6+C+/+fevv+SZkH/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAJJmQZaSZkH/kmZB/5JmQf+SZkH/kmZBlgAAAAAAAAAAAAAAAAAAAAAA
+AAAA+B8AAPgfAAD4HwAA+B8AAPgfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4HwAA+B8AAPgf
+AAD4HwAA+B8AAA==
+    </icon>
+  </button>
+</custombuttons>

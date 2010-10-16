@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<custombuttons xmlns="http://toolbar.google.com/custombuttons/">
+  <button>
+    <title>Picasa Web Albums</title>
+    <title locale="ar">ألبومات الويب بيكاسا</title>
+    <title locale="bg">Picasa Уеб Албуми</title>
+    <title locale="ca">Àlbums web de Picasa</title>
+    <title locale="cs">Webová alba programu Picasa</title>
+    <title locale="da">Picasa Webalbum</title>
+    <title locale="de">Picasa-Webalben</title>
+    <title locale="el">Λευκώματα ιστού Picasa</title>
+    <title locale="en-GB">Picasa Web Albums</title>
+    <title locale="es">Álbumes web de Picasa</title>
+    <title locale="et">Picasa Web Albums</title>
+    <title locale="fi">Picasa-verkkoalbumit</title>
+    <title locale="fil">Picasa Web Albums</title>
+    <title locale="fr">Picasa Albums Web</title>
+    <title locale="hi">Picasa वेब एल्बम</title>
+    <title locale="hr">Picasa web albumi</title>
+    <title locale="hu">Picasa Webalbumok</title>
+    <title locale="id">Album Web Picasa</title>
+    <title locale="is">Picasa netalbúm</title>
+    <title locale="it">Picasa Web Album</title>
+    <title locale="iw">אלבומי Google</title>
+    <title locale="ja">Picasa ウェブ アルバム</title>
+    <title locale="ko">Picasa 웹앨범</title>
+    <title locale="lt">Internetiniai „Picasa“ albumai</title>
+    <title locale="lv">Picasa tīmekļa albumi</title>
+    <title locale="nl">Picasa Webalbums</title>
+    <title locale="no">Picasa Nettalbum</title>
+    <title locale="pl">Picasa Web Albums</title>
+    <title locale="pt-BR">Álbuns na Web do Picasa</title>
+    <title locale="pt-PT">Álbuns Web Picasa</title>
+    <title locale="ro">Picasa Web Albums</title>
+    <title locale="ru">Веб-альбомы Picasa</title>
+    <title locale="sk">Webové albumy programu Picasa</title>
+    <title locale="sl">Spletni albumi Picasa</title>
+    <title locale="sr">Picasa веб албуми</title>
+    <title locale="sv">Picasa webbalbum</title>
+    <title locale="th">Picasa Web Albums</title>
+    <title locale="tr">Picasa Web Albümleri</title>
+    <title locale="uk">Веб-альбоми Picasa</title>
+    <title locale="vi">Anbom Web Picasa</title>
+    <title locale="zh-CN">Picasa 网络相册</title>
+    <title locale="zh-TW">Picasa 網路相簿</title>
+    <description>Search Picasa Web Albums</description>
+    <description locale="ar">ابحث في ألبومات الويب بيكاسا</description>
+    <description locale="bg">Търсене в Picasa Уеб Албуми</description>
+    <description locale="ca">Cerqueu a Àlbums web de Picasa</description>
+    <description locale="cs">Prohledávání webových alb programu Picasa</description>
+    <description locale="da">Søg i Picasa Webalbum</description>
+    <description locale="de">In Picasa-Webalben suchen</description>
+    <description locale="el">Αναζήτηση στα Λευκώματα ιστού Picasa</description>
+    <description locale="en-GB">Search Picasa Web Albums</description>
+    <description locale="es">Buscar en Álbumes web de Picasa</description>
+    <description locale="et">Otsige Picasa Web Albums'ist</description>
+    <description locale="fi">Hae Picasa-verkkoalbumeista</description>
+    <description locale="fil">Maghanap sa Picasa Web Albums</description>
+    <description locale="fr">Rechercher dans Picasa Albums Web</description>
+    <description locale="hi">Picasa वेब एल्बम खोजें</description>
+    <description locale="hr">Pretraži Picasa web albume</description>
+    <description locale="hu">Picasa Webalbumok keresése</description>
+    <description locale="id">Telusuri Album Web Picasa</description>
+    <description locale="is">Leita í Picasa netalbúmum</description>
+    <description locale="it">Cerca in Picasa Web Album.</description>
+    <description locale="iw">חפש באלבומי Google</description>
+    <description locale="ja">Picasa ウェブ アルバムを検索</description>
+    <description locale="ko">Picasa 웹앨범 검색</description>
+    <description locale="lt">Ieškoti internetinių „Picasa“ albumų</description>
+    <description locale="lv">Meklēt Picasa tīmekļa albumus</description>
+    <description locale="nl">Zoeken in Picasa-webalbums</description>
+    <description locale="no">Søk i Picasa Nettalbum</description>
+    <description locale="pl">Szukaj w usłudze Picasa Web Albums</description>
+    <description locale="pt-BR">Pesquisar Álbuns na Web do Picasa</description>
+    <description locale="pt-PT">Pesquisar Álbuns Web Picasa</description>
+    <description locale="ro">Căutaţi în Picasa Web Albums</description>
+    <description locale="ru">Поиск в Веб-альбомах Picasa</description>
+    <description locale="sk">Vyhľadať vo webových albumoch programu Picasa</description>
+    <description locale="sl">Iskanje po spletnih albumih Picasa</description>
+    <description locale="sr">Претражи Picasa веб албуме</description>
+    <description locale="sv">Sök i Picasa webbalbum</description>
+    <description locale="th">ค้นหา Picasa Web Albums</description>
+    <description locale="tr">Picasa Web Albümleri'nde Ara</description>
+    <description locale="uk">Шукати веб-альбоми Picasa</description>
+    <description locale="vi">Tìm kiếm trên Anbom Web Picasa</description>
+    <description locale="zh-CN">搜索 Picasa 网络相册</description>
+    <description locale="zh-TW">搜尋「Picasa 網路相簿」</description>
+    <site>http://picasaweb.google.{domain}/?hl={locale}{sourceid}</site>
+    <search>http://picasaweb.google.{domain}/lh/searchbrowse?hl={locale}{aq}{sourceid}{rlz}&amp;ie=UTF-8&amp;psc=G&amp;filter=1&amp;q={query}</search>
+    <update>http://toolbar.google.com/buttons/defs/photos.google.com.xml</update>
+    <version>200807010000</version>    
+    <icon mode="base64">
+AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF5+kBBefpCAaoiZ73KOnv9efpBA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXn6QIF5+kI91kaDvscLK//b5+f/e
+5en/Xn6QvwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABefpAgXn6Qn3mVo//F0tj/+/z8////
+/////////////4mirv9efpBAAAAAAAAAAAAAAAAAAAAAAAAAAABefpCviaKu/9Td4v/7/Pz/////
+////////////39Hb/7qhs//T2t//Xn6QvwAAAAAAAAAAAAAAAAAAAAAAAAAAeZWj////////////
+///////////YzNX/royk/6p8nP+qfJz/zbvI/4mirv9efpAgAAAAAAAAAABefpCvXn6Qv15+kP/O
+2N7/+fb4/9O/zf+rhJ//rH2d/7B+of+wfqH/sH6h/6uJof/T3eH/Xn6QnwAAAAAAAAAAhp6s////
+///19/j/kKaz/8+9yv+qfJz/sH6h/7B+of+wfqH/tYKm/8mQuP/kptL/7drn/3mVo/9efpAgAAAA
+AIaerP///////////6+/yP/Q1tz/p4Kc/7B+of+wfqH/sH6h/86TvP//t+n//7fp/+Gw0//E0df/
+Xn6QnwAAAACGnqz/2O7U/7Hdqf+n1KL/cpKa/8mxwv+xf6L/sH6h/7B+of/wrNz/+bTk/+iq1f/k
+w9r/+fv7/3OQn/8AAAAAhp6s/7Hdqf9j4Er/Y+BK/2Gvbf+8ws3/46bR/+al0//Xm8X/5K3U/+fN
+3//69/n/9Pf4/7DByv9kg5TvAAAAAIaerP+v1aH/Yt1H/2PgSv9j2k7/cpSZ/+TD2v/ksdX/6dPj
+//r3+f/m7O7/nLG8/2SEld9efpBgXn6QEAAAAACGnqz/q8mU/1zIMv9j4Er/WcEr/1+sav+/yNH/
+6u7w/6S2wP+HoK3/ZYSVz15+kGAAAAAAAAAAAAAAAAAAAAAAhp6s/6vJlP9Vsx3/X9I8/1OsFv9T
+phr/XYGI/12BiP+Fopj/fJal/15+kBAAAAAAAAAAAAAAAAAAAAAAAAAAAIaerP+ryZT/VZ8e/1Wf
+Hv9Vnx7/VZ8e/1WfHv9Vnx7/qsmU/4aerP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACGnqz//v7+
+//39/f/9/f3//f39//39/f/9/f3//f39//7+/v+Gnqz/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+aYeX74aerP+Gnqv/hp6r/4aeq/+Gnqv/hp6r/4aeq/+Gnqv/aYeX7wAAAAAAAAAAAAAAAAAAAAAA
+AAAA/wcAAPwHAADwAwAA4AMAAOABAACAAQAAgAAAAIAAAACAAAAAgAAAAIAAAACABwAAgA8AAIAf
+AACAHwAAgB8AAA==
+    </icon>
+  </button>
+</custombuttons>

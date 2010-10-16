@@ -1,0 +1,21 @@
+skin	communicator	littlefox	jar:chrome/littlefox.jar!/communicator/
+skin	global		littlefox	jar:chrome/littlefox.jar!/global/
+skin	browser		littlefox	jar:chrome/littlefox.jar!/browser/
+skin	inspector	littlefox	jar:chrome/littlefox.jar!/inspector/
+skin	downloadmgr	littlefox	jar:chrome/littlefox.jar!/downloadmgr/
+skin	mozapps		littlefox	jar:chrome/littlefox.jar!/mozapps/
+skin	help		littlefox	jar:chrome/littlefox.jar!/help/
+skin	downbar		littlefox	jar:chrome/littlefox.jar!/downbar/
+skin	offline		littlefox	jar:chrome/littlefox.jar!/offline/
+skin	quicknote	littlefox	jar:chrome/littlefox.jar!/quicknote/
+skin	tabprefs	littlefox	jar:chrome/littlefox.jar!/tabprefs/
+skin	reporter	littlefox	jar:chrome/littlefox.jar!/reporter/
+skin	tabsidebar	littlefox	jar:chrome/littlefox.jar!/tabsidebar/
+skin	HideCaption	littlefox	jar:chrome/littlefox.jar!/hidecaption/
+skin	dataman		littlefox	jar:chrome/littlefox.jar!/dataman/
+skin	os		littlefox	jar:chrome/littlefox.jar!/os/linux/	os=Linux
+skin	os		littlefox	jar:chrome/littlefox.jar!/os/darwin/	os=Darwin
+skin	os		littlefox	jar:chrome/littlefox.jar!/os/winnt/	os=WINNT
+skin	local		littlefox	jar:chrome/littlefox.jar!/ff3/
+skin	local		littlefox	jar:chrome/littlefox.jar!/ff2/		appversion<2.9
+skin	local		littlefox	jar:chrome/littlefox.jar!/ff4/		appversion>3.6.99

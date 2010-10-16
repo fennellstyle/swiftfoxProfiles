@@ -1,0 +1,83 @@
+overlay	chrome://browser/content/browser.xul	chrome://google-toolbar/content/google-toolbar.xul
+overlay	chrome://browser/content/browser.xul	chrome://google-toolbar/content/sw-overlay.xul
+overlay	chrome://global/content/customizeToolbar.xul	chrome://google-toolbar/content/customize-overlay.xul
+overlay	chrome://mozapps/content/extensions/extensions.xul	chrome://google-toolbar/content/extensions-overlay.xul
+overlay	chrome://mozapps/content/extensions/extensions.xul	chrome://google-toolbar/content/extensions-uninstall-overlay.xul
+overlay	chrome://browser/content/sanitize.xul	chrome://google-toolbar/content/sanitize-overlay.xul
+content	google-toolbar	jar:chrome/google-toolbar.jar!/content/
+content	google-toolbar-lib	lib/
+content	google-toolbar-default-prefs	 defaults/preferences/
+content google-toolbar-langid  jar:chrome/google-toolbar.jar!/langid/
+
+
+skin	google-toolbar	classic/1.0	jar:chrome/google-toolbar.jar!/skin/
+style	chrome://global/content/customizeToolbar.xul	chrome://google-toolbar/skin/google-toolbar-customize.css
+style	chrome://global/content/customizeToolbar.xul	chrome://google-toolbar/skin/google-toolbar.css
+
+locale	google-toolbar	en-US	jar:chrome/google-toolbar.jar!/locale/en-US/
+
+locale	google-toolbar	ar	jar:chrome/google-toolbar.jar!/locale/ar/
+
+locale	google-toolbar	bg	jar:chrome/google-toolbar.jar!/locale/bg/
+
+locale	google-toolbar	ca	jar:chrome/google-toolbar.jar!/locale/ca/
+
+locale	google-toolbar	cs-CZ	jar:chrome/google-toolbar.jar!/locale/cs-CZ/
+
+locale	google-toolbar	da-DK	jar:chrome/google-toolbar.jar!/locale/da-DK/
+
+locale	google-toolbar	de-DE	jar:chrome/google-toolbar.jar!/locale/de-DE/
+
+locale	google-toolbar	el	jar:chrome/google-toolbar.jar!/locale/el/
+
+locale	google-toolbar	en-GB	jar:chrome/google-toolbar.jar!/locale/en-GB/
+
+locale	google-toolbar	es-AR	jar:chrome/google-toolbar.jar!/locale/es-ES/
+
+locale	google-toolbar	es-ES	jar:chrome/google-toolbar.jar!/locale/es-ES/
+
+locale	google-toolbar	fi-FI	jar:chrome/google-toolbar.jar!/locale/fi-FI/
+
+locale	google-toolbar	fr-FR	jar:chrome/google-toolbar.jar!/locale/fr-FR/
+
+locale	google-toolbar	he-IL	jar:chrome/google-toolbar.jar!/locale/he-IL/
+
+locale	google-toolbar	hu-HU	jar:chrome/google-toolbar.jar!/locale/hu-HU/
+
+locale	google-toolbar	it-IT	jar:chrome/google-toolbar.jar!/locale/it-IT/
+
+locale	google-toolbar	ja-JP	jar:chrome/google-toolbar.jar!/locale/ja-JP/
+
+locale	google-toolbar	ja-JPM	jar:chrome/google-toolbar.jar!/locale/ja-JP/
+
+locale	google-toolbar	ko-KR	jar:chrome/google-toolbar.jar!/locale/ko-KR/
+
+locale	google-toolbar	lt	jar:chrome/google-toolbar.jar!/locale/lt/
+
+locale	google-toolbar	nb-NO	jar:chrome/google-toolbar.jar!/locale/nb-NO/
+
+locale	google-toolbar	nl-NL	jar:chrome/google-toolbar.jar!/locale/nl-NL/
+
+locale	google-toolbar	pl-PL	jar:chrome/google-toolbar.jar!/locale/pl-PL/
+
+locale	google-toolbar	pt-BR	jar:chrome/google-toolbar.jar!/locale/pt-BR/
+
+locale	google-toolbar	pt-PT	jar:chrome/google-toolbar.jar!/locale/pt-PT/
+
+locale	google-toolbar	ro	jar:chrome/google-toolbar.jar!/locale/ro/
+
+locale	google-toolbar	ru-RU	jar:chrome/google-toolbar.jar!/locale/ru-RU/
+
+locale	google-toolbar	sk-SK	jar:chrome/google-toolbar.jar!/locale/sk-SK/
+
+locale	google-toolbar	sl	jar:chrome/google-toolbar.jar!/locale/sl/
+
+locale	google-toolbar	sv-SE	jar:chrome/google-toolbar.jar!/locale/sv-SE/
+
+locale	google-toolbar	tr-TR	jar:chrome/google-toolbar.jar!/locale/tr-TR/
+
+locale	google-toolbar	uk	jar:chrome/google-toolbar.jar!/locale/uk/
+
+locale	google-toolbar	zh-CN	jar:chrome/google-toolbar.jar!/locale/zh-CN/
+
+locale	google-toolbar	zh-TW	jar:chrome/google-toolbar.jar!/locale/zh-TW/

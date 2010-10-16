@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+     
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{0538E3E3-7E9B-4d49-8831-A227C80A7AD3}</em:id>
+    <em:version>2.0.2</em:version>
+    
+    <!-- Firefox -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>3.0</em:minVersion>
+        <em:maxVersion>4.0b8pre</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    
+    <!-- Seamonkey -->
+    <em:targetApplication>
+      <Description>
+      <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+        <em:minVersion>2.1a1</em:minVersion>
+        <em:maxVersion>2.1b1</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    
+    <!-- Front End MetaData -->
+    <em:name>Forecastfox Weather</em:name>
+    <em:description>Display international weather forecasts from AccuWeather.com in an easily readable format.</em:description>
+    <em:creator>Jon Stritar</em:creator>
+    <em:contributor>Jon Stritar</em:contributor>
+    <em:contributor>Richard Klein</em:contributor>
+    <em:translator>www.BabelZilla.org</em:translator>
+    <em:homepageURL>http://getforecastfox.com/</em:homepageURL>
+    <em:iconURL>chrome://forecastfox/skin/images/logo32.png</em:iconURL>
+    <em:optionsURL>chrome://forecastfox/content/options.xul</em:optionsURL>
+    <!-- <em:updateURL>https://static.getforecastfox.com/extension/firefox/update.rdf</em:updateURL> -->
+    <em:type>2</em:type>
+  </Description>
+</RDF>

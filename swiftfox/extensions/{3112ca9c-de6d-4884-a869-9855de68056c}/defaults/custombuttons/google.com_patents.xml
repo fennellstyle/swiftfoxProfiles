@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<custombuttons xmlns="http://toolbar.google.com/custombuttons/">
+  <button>
+    <title>Google Patents</title>
+    <title locale="ar">براءات اختراع Google</title>
+    <title locale="bg">Google Patents</title>
+    <title locale="ca">Google Patents</title>
+    <title locale="cs">Patenty Google</title>
+    <title locale="da">Google Patents</title>
+    <title locale="de">Google Patents</title>
+    <title locale="el">Google Patents</title>
+    <title locale="en-GB">Google Patents</title>
+    <title locale="es">Google Patents</title>
+    <title locale="et">Google Patents</title>
+    <title locale="fi">Google Patents</title>
+    <title locale="fil">Google Patents</title>
+    <title locale="fr">Google Recherche de brevets</title>
+    <title locale="hi">Google पेटेंट</title>
+    <title locale="hr">Google Patents</title>
+    <title locale="hu">Google Patents</title>
+    <title locale="id">Google Patent</title>
+    <title locale="is">Google Einkaleyfaleit</title>
+    <title locale="it">Google Patents</title>
+    <title locale="iw">Google Patents</title>
+    <title locale="ja">Google 特許</title>
+    <title locale="ko">Google Patents</title>
+    <title locale="lt">„Google“ patentai</title>
+    <title locale="lv">Google Patents</title>
+    <title locale="nl">Google Patenten</title>
+    <title locale="no">Google Patenter</title>
+    <title locale="pl">Google Patents</title>
+    <title locale="pt-BR">Patentes do Google</title>
+    <title locale="pt-PT">Google Patents</title>
+    <title locale="ro">Google Patents</title>
+    <title locale="ru">Google Patents</title>
+    <title locale="sk">Google Patents</title>
+    <title locale="sl">Google Patents</title>
+    <title locale="sr">Google патенти</title>
+    <title locale="sv">Google Patents</title>
+    <title locale="th">Google Patents</title>
+    <title locale="tr">Google Patentleri</title>
+    <title locale="uk">Google Patents</title>
+    <title locale="vi">Google Patents</title>
+    <title locale="zh-CN">Google Patents</title>
+    <title locale="zh-TW">Google 專利</title>
+    <description>Search Google Patents</description>
+    <description locale="ar">البحث عن براءات اختراع Google</description>
+    <description locale="bg">Търсете с Google Patents</description>
+    <description locale="ca">Cerca a Google Patents</description>
+    <description locale="cs">Hledat ve službě Patenty Google</description>
+    <description locale="da">Søg i Google Patents</description>
+    <description locale="de">Google Patents durchsuchen</description>
+    <description locale="el">Αναζήτηση ευρεσιτεχνιών της Google</description>
+    <description locale="en-GB">Search Google Patents</description>
+    <description locale="es">Permite buscar patentes con Google Patents</description>
+    <description locale="et">Google’i patentide otsing</description>
+    <description locale="fi">Tee Google Patents -haku</description>
+    <description locale="fil">Search Google Patents</description>
+    <description locale="fr">Google Recherche de brevets</description>
+    <description locale="hi">Google पेटेंट खोज</description>
+    <description locale="hr">Pretraživanje Google Patents</description>
+    <description locale="hu">Keresés a Google Patent segítségével</description>
+    <description locale="id">Cari Google Patent</description>
+    <description locale="is">Leita í Google Einkaleyfum</description>
+    <description locale="it">Cerca in Google Patents</description>
+    <description locale="iw">חפש ב-Google Patents</description>
+    <description locale="ja">Google 特許を検索</description>
+    <description locale="ko">Google Patents를 검색합니다.</description>
+    <description locale="lt">Ieškoti „Google“ patentuose</description>
+    <description locale="lv">Meklēt Google Patentos</description>
+    <description locale="nl">Patenten van Google doorzoeken</description>
+    <description locale="no">Søk med Google Patenter</description>
+    <description locale="pl">Wyszukaj w Google Patents</description>
+    <description locale="pt-BR">Pesquisar patentes do Google</description>
+    <description locale="pt-PT">Pesquisar no Google Patents</description>
+    <description locale="ro">Căutaţi în Google Patents</description>
+    <description locale="ru">Поиск по Google Patents</description>
+    <description locale="sk">Vyhľadávanie v službe Google Patents</description>
+    <description locale="sl">Iskanje v Google Patents</description>
+    <description locale="sr">Претражи Google патенте</description>
+    <description locale="sv">Sök i Google Patents</description>
+    <description locale="th">ค้นหาโดย Google Patents</description>
+    <description locale="tr">Google Patent Arama</description>
+    <description locale="uk">Пошук Google Patents</description>
+    <description locale="vi">Tìm kiếm Google Patents</description>
+    <description locale="zh-CN">搜索 Google Patents</description>
+    <description locale="zh-TW">搜尋 Google 專利</description>
+    <site>http://www.google.com/ptshp?hl={locale}{sourceid}</site>
+    <search>http://www.google.com/patents?hl={locale}{aq}{sourceid}{rlz}&amp;ie=UTF-8&amp;q={query}</search>
+    <update>http://toolbar.google.com/buttons/defs/google.com_patents.xml</update>
+    <version>200807010000</version>    
+    <icon type="image/x-icon" mode="base64">
+AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF5+kBBefpC/Xn6Q/15+kP9efpC/Xn6QEAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABefpDPX32N/zxGTP8sNjz/XXuM/15+kM8A
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABefpBAXn6Q/4WPlf9mZmb/YmJi/3yG
+i/9efpD/Xn6QQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXn6QQF5+kP+Cio7/b29v
+/2BgYP9+hor/Xn6Q/15+kEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF5+kFBefpD/
+eK7D/3OgsP9nlqf/cae8/15+kP9efpBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABe
+fpCAXn6Q/0jD8v9mwOD/ZsDg/4vZ9/9efpD/Xn6QgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAXn6Qn0+Iov89wPH/DpvN/xCbzf9szvT/VISc/15+kJ8AAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAXn6QEF5+kO9XnL7/mN73/0u/5f9Cstb/ddb2/3Knwf9efpDvXn6QEAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAF5+kJ9ag5f/oN/0/6Pr//9zzer/bcbi/5vo//+C3/f/WYOX/15+kJ8A
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABefpD/YarB/8Tw//920/X/Z8Dg/3LG5f9vyuv/qen//1mm
+wf9efpDvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXn6Q/1zE4/+b5P//gM3r/6DZ8P/F7f//W7bW
+/8nw//+Cy+P/Xn6Q/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF5+kP94w9z/qOb//5rX8P/C3Oj/
+x93o/7Xd6///////ksjc/15+kP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABefpDflq26/8Pu//++
+6///2vP///r9////////zvD//3Okuv9efpDfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXn6QgF5+
+kP/a5er/0/L///H6////////+f3//53U6v9efpD/Xn6QgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAABefpDPaIaX/6S2wf/U3uP/19/j/4Wtwf9efpD/Xn6QzwAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAF5+kIBefpDvXn6Q/15+kP9efpDvXn6QgAAAAAAAAAAAAAAAAAAAAAAA
+AAAA+B8AAPgfAADwDwAA8A8AAPAPAADwDwAA8A8AAOAHAADgBwAA4AcAAOAHAADgBwAA4AcAAOAH
+AADwDwAA+B8AAA==
+    </icon>
+  </button>
+</custombuttons>

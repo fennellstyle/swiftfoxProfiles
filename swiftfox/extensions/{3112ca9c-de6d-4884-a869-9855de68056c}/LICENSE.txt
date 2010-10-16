@@ -1,0 +1,133 @@
+TERMS AND CONDITIONS
+Thank you for trying out the Google Toolbar software! By using this 
+software, including any third party software made available in conjunction 
+with this software, ("Google Toolbar") you agree to be bound by the 
+following terms and conditions (the "Terms and Conditions").
+
+Non-commercial Use Only 
+Google Toolbar is made available to you for your non-commercial use only. 
+This means that you may use it at work or at home, to search for anything 
+you want. But you first need to obtain Google's permission if you want to 
+sell the Google Toolbar or any information, services, or software 
+associated with or derived from it, or if you want to modify, copy (except 
+as provided below), license, or create derivative works from the Google 
+Toolbar.
+
+In that case, please send an email to toolbar-feedback@google.com. 
+Furthermore, you may not use Google Toolbar in any manner that could 
+damage, disable, overburden, or impair Google's search services (e.g., you 
+may not use the Google Toolbar in an automated manner), nor may you use 
+Google Toolbar in any manner that could interfere with any other party's 
+use and enjoyment of Google's search services. 
+
+You may make copies of the Google Toolbar and distribute such copies to 
+others within your employer's organization provided that any such 
+recipient has had an opportunity to review and agree to be bound by these 
+Terms and Conditions.   If others within your organization do not have 
+this opportunity to review and agree and you would still like to 
+distribute copies to them, you may do so provided that you have the legal 
+right to bind your organization (and others within your organization) to 
+these Terms and Conditions.  If you do not have this right and the 
+recipients do not have an opportunity to review and agree to these Terms 
+and Conditions, please do not distribute the Google Toolbar to them.  If 
+you have any questions regarding the terms of distribution, please send an 
+email to toolbar-feedback@google.com.
+
+If you have comments on Google Toolbar or ideas on how to improve it, 
+please email toolbar-feedback@google.com. Please note that by doing so, 
+you also grant Google and third parties permission to use and incorporate 
+your ideas or comments into Google Toolbar (or third party software) 
+without further compensation. 
+
+Intellectual Property
+You acknowledge that Google or third parties own all rights, title and 
+interest in and to the Google Toolbar, portions thereof, or software 
+provided through or in conjunction with the Google Toolbar, including 
+without limitation all Intellectual Property Rights. "Intellectual 
+Property Rights" means any and all rights existing from time to time under 
+patent law, copyright law, trade secret law, trademark law, unfair 
+competition law, and any and all other proprietary rights, and any and all 
+applications, renewals, extensions and restorations thereof, now or 
+hereafter in force and effect worldwide. You agree not to modify, adapt, 
+translate, prepare derivative works from, decompile, reverse engineer, 
+disassemble or otherwise attempt to derive source code from Google 
+Toolbar. You also agree to not remove, obscure, or alter Google's or any 
+third party's copyright notice, trademarks, or other proprietary rights 
+notices affixed to or contained within or accessed in conjunction with or 
+through the Google Toolbar. 
+
+Disclaimer of Warranties 
+Google and any third party who makes its software available in conjunction 
+with or through the Google Toolbar disclaim any responsibility for any 
+harm resulting from your use of the Google Toolbar and/or any third party 
+software accessed in conjunction with or through the Google Toolbar. 
+
+THE GOOGLE TOOLBAR AND ANY THIRD PARTY SOFTWARE MADE AVAILABLE IN 
+CONJUNCTION WITH OR THROUGH THE GOOGLE TOOLBAR ARE PROVIDED "AS IS," WITH 
+NO WARRANTIES WHATSOEVER. GOOGLE AND SUCH THIRD PARTIES EXPRESSLY DISCLAIM 
+TO THE FULLEST EXTENT PERMITTED BY LAW ALL EXPRESS, IMPLIED, AND STATUTORY 
+WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE WARRANTIES OF 
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT OF 
+PROPRIETARY RIGHTS. GOOGLE AND ANY THIRD PARTY WHO MAKES ITS SOFTWARE 
+AVAILABLE IN CONJUNCTION WITH OR THROUGH THE GOOGLE TOOLBAR DISCLAIM ANY 
+WARRANTIES REGARDING THE SECURITY, RELIABILITY, TIMELINESS, AND 
+PERFORMANCE OF GOOGLE TOOLBAR AND SUCH THIRD PARTY SOFTWARE. 
+
+YOU UNDERSTAND AND AGREE THAT YOU DOWNLOAD AND/OR USE THE GOOGLE TOOLBAR 
+AND ALL THIRD PARTY SOFTWARE MADE AVAILABLE IN CONJUNCTION WITH OR THROUGH 
+THE GOOGLE TOOLBAR AT YOUR OWN DISCRETION AND RISK AND THAT YOU WILL BE 
+SOLELY RESPONSIBLE FOR ANY DAMAGES TO YOUR COMPUTER SYSTEM OR LOSS OF DATA 
+THAT RESULTS FROM THE DOWNLOAD OR USE OF GOOGLE TOOLBAR AND SUCH THIRD 
+PARTY SOFTWARE. SOME STATES OR OTHER JURISDICTIONS DO NOT ALLOW THE 
+EXCLUSION OF IMPLIED WARRANTIES, SO THE ABOVE EXCLUSIONS MAY NOT APPLY TO 
+YOU. YOU MAY ALSO HAVE OTHER RIGHTS THAT VARY FROM STATE TO STATE AND 
+JURISDICTION TO JURISDICTION. 
+
+Limitation of Liability 
+UNDER NO CIRCUMSTANCES SHALL GOOGLE OR ANY THIRD PARTY WHO MAKES ITS 
+SOFTWARE AVAILABLE IN CONJUNCTION WITH OR THROUGH THE GOOGLE TOOLBAR BE 
+LIABLE TO ANY USER ON ACCOUNT OF THAT USER'S USE OR MISUSE OF GOOGLE 
+TOOLBAR OR SUCH THIRD PARTY SOFTWARE. SUCH LIMITATION OF LIABILITY SHALL 
+APPLY TO PREVENT RECOVERY OF DIRECT, INDIRECT, INCIDENTAL, CONSEQUENTIAL, 
+SPECIAL, EXEMPLARY, AND PUNITIVE DAMAGES WHETHER SUCH CLAIM IS BASED ON 
+WARRANTY, CONTRACT, TORT (INCLUDING NEGLIGENCE), OR OTHERWISE, (EVEN IF 
+GOOGLE AND/OR A THIRD PARTY SOFTWARE PROVIDER HAVE BEEN ADVISED OF THE 
+POSSIBILITY OF SUCH DAMAGES). SUCH LIMITATION OF LIABILITY SHALL APPLY 
+WHETHER THE DAMAGES ARISE FROM USE OR MISUSE OF AND RELIANCE ON THE GOOGLE 
+TOOLBAR AND ALL THIRD PARTY SOFTWARE MADE AVAILABLE IN CONJUNCTION WITH OR 
+THROUGH THE GOOGLE TOOLBAR, FROM INABILITY TO USE GOOGLE TOOLBAR AND ALL 
+THIRD PARTY SOFTWARE MADE AVAILABLE IN CONJUNCTION WITH OR THROUGH THE 
+GOOGLE TOOLBAR, OR FROM THE INTERRUPTION, SUSPENSION, OR TERMINATION OF 
+GOOGLE TOOLBAR AND ALL THIRD PARTY SOFTWARE MADE AVAILABLE IN CONJUNCTION 
+WITH OR THROUGH THE GOOGLE TOOLBAR (INCLUDING SUCH DAMAGES INCURRED BY 
+THIRD PARTIES). SUCH LIMITATION SHALL APPLY NOTWITHSTANDING A FAILURE OF 
+ESSENTIAL PURPOSE OF ANY LIMITED REMEDY AND TO THE FULLEST EXTENT 
+PERMITTED BY LAW. 
+
+SOME STATES OR OTHER JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR 
+LIMITATION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE 
+ABOVE LIMITATIONS AND EXCLUSIONS MAY NOT APPLY TO YOU. 
+
+Google's Search Service 
+Google Toolbar is designed to be used in conjunction with Google's search 
+services. Accordingly, your use of Google Toolbar is also defined by 
+Google's Terms of Service and Privacy Policy. 
+
+Miscellaneous Provisions
+These Terms and Conditions will be governed by and construed in accordance 
+with the laws of the State of California, without giving effect to the 
+conflict of laws provisions of California or your actual state or country 
+of residence. If for any reason a court of competent jurisdiction finds 
+any provision or portion of these Terms and Conditions to be 
+unenforceable, the remainder of these Terms and Conditions will continue 
+in full force and effect. 
+
+These Terms and Conditions constitute the entire agreement between the 
+parties with respect to the subject matter hereof and supersede and 
+replace all prior or contemporaneous understandings or agreements, written 
+or oral, regarding such subject matter. Any waiver of any provision of 
+these Terms and Conditions will be effective only if in writing and signed 
+by Google and/or a third party who make its software available in 
+conjunction with or through the Google Toolbar. 
+
+December 2003

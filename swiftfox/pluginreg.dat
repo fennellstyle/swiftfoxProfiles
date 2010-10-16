@@ -1,0 +1,182 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version:0.11:$
+
+[PLUGINS]
+npwrapper.libflashplayer.so:$
+/var/lib/flashplugin-installer/npwrapper.libflashplayer.so:$
+:$
+1285522926000:1:5:$
+Shockwave Flash 10.1 r85:$
+Shockwave Flash:$
+2
+0:application/x-shockwave-flash:Shockwave Flash:swf:$
+1:application/futuresplash:FutureSplash Player:spl:$
+libvlcplugin.so:$
+/usr/lib/mozilla/plugins/libvlcplugin.so:$
+:$
+1282224405000:1:5:$
+Version 1.0.6 Goldeneye, copyright 1996-2007 The VideoLAN Team<br><a href="http://www.videolan.org/">http://www.videolan.org/</a>:$
+VLC Multimedia Plug-in:$
+36
+0:audio/mpeg:MPEG audio:mp2,mp3,mpga,mpega:$
+1:audio/x-mpeg:MPEG audio:mp2,mp3,mpga,mpega:$
+2:video/mpeg:MPEG video:mpg,mpeg,mpe:$
+3:video/x-mpeg:MPEG video:mpg,mpeg,mpe:$
+4:video/mpeg-system:MPEG video:mpg,mpeg,mpe,vob:$
+5:video/x-mpeg-system:MPEG video:mpg,mpeg,mpe,vob:$
+6:audio/x-mpegurl:MPEG audio:m3u:$
+7:video/mp4:MPEG-4 video:mp4,mpg4:$
+8:audio/mp4:MPEG-4 audio:mp4,mpg4:$
+9:audio/x-m4a:MPEG-4 audio:m4a:$
+10:application/mpeg4-iod:MPEG-4 video:mp4,mpg4:$
+11:application/mpeg4-muxcodetable:MPEG-4 video:mp4,mpg4:$
+12:video/x-msvideo:AVI video:avi:$
+13:video/quicktime:QuickTime video:mov,qt:$
+14:application/x-ogg:Ogg stream:ogg:$
+15:application/ogg:Ogg stream:ogg:$
+16:application/x-vlc-plugin:VLC plug-in:vlc:$
+17:video/x-ms-asf-plugin:Windows Media Video:asf,asx:$
+18:video/x-ms-asf:Windows Media Video:asf,asx:$
+19:application/x-mplayer2:Windows Media::$
+20:video/x-ms-wmv:Windows Media:wmv:$
+21:video/x-ms-wvx:Windows Media Video:wvx:$
+22:audio/x-ms-wma:Windows Media Audio:wma:$
+23:application/x-google-vlc-plugin:Google VLC plug-in::$
+24:audio/wav:WAV audio:wav:$
+25:audio/x-wav:WAV audio:wav:$
+26:audio/3gpp:3GPP audio:3gp,3gpp:$
+27:video/3gpp:3GPP video:3gp,3gpp:$
+28:audio/3gpp2:3GPP2 audio:3g2,3gpp2:$
+29:video/3gpp2:3GPP2 video:3g2,3gpp2:$
+30:video/divx:DivX video:divx:$
+31:video/flv:FLV video:flv:$
+32:video/x-flv:FLV video:flv:$
+33:video/x-matroska:Matroska video:mkv:$
+34:audio/x-matroska:Matroska audio:mka:$
+35:application/xspf+xml:Playlist xspf:xspf:$
+librhythmbox-itms-detection-plugin.so:$
+/usr/lib/mozilla/plugins/librhythmbox-itms-detection-plugin.so:$
+:$
+1277465636000:1:5:$
+This plug-in detects the presence of iTunes when opening iTunes Store URLs in a web page with Firefox.:$
+iTunes Application Detector:$
+1
+0:application/itunes-plugin:::$
+libtotem-narrowspace-plugin.so:$
+/usr/lib/mozilla/plugins/libtotem-narrowspace-plugin.so:$
+:$
+1274282974000:1:5:$
+The <a href="http://www.gnome.org/projects/totem/">Totem</a> 2.30.2 plugin handles video and audio streams.:$
+QuickTime Plug-in 7.6.6:$
+5
+0:video/quicktime:QuickTime video:mov:$
+1:video/mp4:MPEG-4 video:mp4:$
+2:image/x-macpaint:MacPaint Bitmap image:pntg:$
+3:image/x-quicktime:Macintosh Quickdraw/PICT drawing:pict, pict1, pict2:$
+4:video/x-m4v:MPEG-4 video:m4v:$
+libtotem-mully-plugin.so:$
+/usr/lib/mozilla/plugins/libtotem-mully-plugin.so:$
+:$
+1274282974000:1:5:$
+DivX Web Player version 1.4.0.233:$
+DivX® Web Player:$
+1
+0:video/divx:AVI video:divx:$
+libtotem-gmp-plugin.so:$
+/usr/lib/mozilla/plugins/libtotem-gmp-plugin.so:$
+:$
+1274282974000:1:5:$
+The <a href="http://www.gnome.org/projects/totem/">Totem</a> 2.30.2 plugin handles video and audio streams.:$
+Windows Media Player Plug-in 10 (compatible; Totem):$
+13
+0:application/x-mplayer2:AVI video:avi, wma, wmv:$
+1:video/x-ms-asf-plugin:ASF video:asf, wmv:$
+2:video/x-msvideo:AVI video:asf, wmv:$
+3:video/x-ms-asf:ASF video:asf:$
+4:video/x-ms-wmv:Windows Media video:wmv:$
+5:video/x-wmv:Windows Media video:wmv:$
+6:video/x-ms-wvx:Windows Media video:wmv:$
+7:video/x-ms-wm:Windows Media video:wmv:$
+8:video/x-ms-wmp:Windows Media video:wmv:$
+9:application/x-ms-wms:Windows Media video:wms:$
+10:application/x-ms-wmp:Windows Media video:wmp:$
+11:application/asx:Microsoft ASX playlist:asx:$
+12:audio/x-ms-wma:Windows Media audio:wma:$
+libtotem-cone-plugin.so:$
+/usr/lib/mozilla/plugins/libtotem-cone-plugin.so:$
+:$
+1274282974000:1:5:$
+The <a href="http://www.gnome.org/projects/totem/">Totem</a> 2.30.2 plugin handles video and audio streams.:$
+VLC Multimedia Plugin (compatible Totem 2.30.2):$
+19
+0:application/x-vlc-plugin:VLC Multimedia Plugin::$
+1:application/vlc:VLC Multimedia Plugin::$
+2:video/x-google-vlc-plugin:VLC Multimedia Plugin::$
+3:application/x-ogg:Ogg multimedia file:ogg:$
+4:application/ogg:Ogg multimedia file:ogg:$
+5:audio/ogg:Ogg Audio:oga:$
+6:audio/x-ogg:Ogg Audio:ogg:$
+7:video/ogg:Ogg Video:ogv:$
+8:video/x-ogg:Ogg Video:ogg:$
+9:application/annodex:Annodex exchange format:anx:$
+10:audio/annodex:Annodex Audio:axa:$
+11:video/annodex:Annodex Video:axv:$
+12:video/mpeg:MPEG video:mpg, mpeg, mpe:$
+13:audio/wav:WAV audio:wav:$
+14:audio/x-wav:WAV audio:wav:$
+15:audio/mpeg:MP3 audio:mp3:$
+16:application/x-nsv-vp3-mp3:NullSoft video:nsv:$
+17:video/flv:Flash video:flv:$
+18:application/x-totem-plugin:Totem Multimedia plugin::$
+libnpjp2.so:$
+/usr/lib/jvm/java-6-sun-1.6.0.20/jre/lib/amd64/libnpjp2.so:$
+:$
+1271107803000:1:5:$
+The next generation <a href="http://java.sun.com">Java</a> plug-in for Mozilla browsers.:$
+Java(TM) Plug-in 1.6.0_20:$
+34
+0:application/x-java-vm:Java&#153 Plug-in::$
+1:application/x-java-applet:Java&#153 Plug-in Applet::$
+2:application/x-java-applet;version=1.1:Java&#153 Plug-in::$
+3:application/x-java-applet;version=1.1.1:Java&#153 Plug-in::$
+4:application/x-java-applet;version=1.1.2:Java&#153 Plug-in::$
+5:application/x-java-applet;version=1.1.3:Java&#153 Plug-in::$
+6:application/x-java-applet;version=1.2:Java&#153 Plug-in::$
+7:application/x-java-applet;version=1.2.1:Java&#153 Plug-in::$
+8:application/x-java-applet;version=1.2.2:Java&#153 Plug-in::$
+9:application/x-java-applet;version=1.3:Java&#153 Plug-in::$
+10:application/x-java-applet;version=1.3.1:Java&#153 Plug-in::$
+11:application/x-java-applet;version=1.4:Java&#153 Plug-in::$
+12:application/x-java-applet;version=1.4.1:Java&#153 Plug-in::$
+13:application/x-java-applet;version=1.4.2:Java&#153 Plug-in::$
+14:application/x-java-applet;version=1.5:Java&#153 Plug-in::$
+15:application/x-java-applet;version=1.6:Java&#153 Plug-in::$
+16:application/x-java-applet;jpi-version=1.6.0_20:Java&#153 Plug-in::$
+17:application/x-java-bean:Java&#153 Plug-in JavaBeans::$
+18:application/x-java-bean;version=1.1:Java&#153 Plug-in::$
+19:application/x-java-bean;version=1.1.1:Java&#153 Plug-in::$
+20:application/x-java-bean;version=1.1.2:Java&#153 Plug-in::$
+21:application/x-java-bean;version=1.1.3:Java&#153 Plug-in::$
+22:application/x-java-bean;version=1.2:Java&#153 Plug-in::$
+23:application/x-java-bean;version=1.2.1:Java&#153 Plug-in::$
+24:application/x-java-bean;version=1.2.2:Java&#153 Plug-in::$
+25:application/x-java-bean;version=1.3:Java&#153 Plug-in::$
+26:application/x-java-bean;version=1.3.1:Java&#153 Plug-in::$
+27:application/x-java-bean;version=1.4:Java&#153 Plug-in::$
+28:application/x-java-bean;version=1.4.1:Java&#153 Plug-in::$
+29:application/x-java-bean;version=1.4.2:Java&#153 Plug-in::$
+30:application/x-java-bean;version=1.5:Java&#153 Plug-in::$
+31:application/x-java-bean;version=1.6:Java&#153 Plug-in::$
+32:application/x-java-bean;jpi-version=1.6.0_20:Java&#153 Plug-in::$
+33:application/x-java-vm-npruntime:::$
+libflashplayer.so:$
+/home/sean/.mozilla/plugins/libflashplayer.so:$
+:$
+1270618166000:1:5:$
+Shockwave Flash 10.0 r42:$
+Shockwave Flash:$
+2
+0:application/x-shockwave-flash:Shockwave Flash:swf:$
+1:application/futuresplash:FutureSplash Player:spl:$
