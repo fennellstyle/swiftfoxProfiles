@@ -4,7 +4,6 @@ cd ~
 git clone http://github.com/fennellstyle/swiftfoxProfiles.git ~/.mozilla/firefox/
 cd ~/.mozilla/firefox
 #  add the actual profiles
-git submodule init
-git submodule update
+git submodule update --init
 
 
